@@ -2,11 +2,10 @@
 
 [![Checks](https://github.com/calebhaines/lemma-lottery/actions/workflows/checks.yml/badge.svg)](https://github.com/calebhaines/lemma-lottery/actions/workflows/checks.yml)
 
-*Spin for a theorem. Bring your own proof.*
+*A little mathematical serendipity for AI agents.*
 
-Lemma Lottery is a tiny, offline source of **inspiration for theorem-proving AI
-agents**. When your agent needs its next mathematical rabbit hole, it serves a
-classic theorem as JSON. The proof is the agent's homework.
+Lemma Lottery is a tiny, offline **mathematical inspiration tool for AI agents**.
+It offers random encounters with classic mathematical results, served as JSON.
 
 The bundled finite database has **640 curated theorem entries: exactly 20 for
 each of arXiv's 32 mathematics subjects**. Requires Python 3.10 or newer, with
@@ -77,19 +76,9 @@ Errors print a JSON object to stderr, leave stdout empty, and exit nonzero:
 Exit codes: `0` success, `2` invalid query/unknown subject/unknown theorem, `1`
 invalid or unreadable database. Errors do not print Python tracebacks.
 
-## Give your agent a nudge
+## Python interfaces
 
-Use a random theorem as a proof target, a reminder of a useful tool, or the
-starting point for a new line of reasoning. Choose a subject when the agent has
-a particular mathematical itch; leave it open when serendipity is the plan.
-
-Give the agent the file path and this instruction:
-
-> Run `python /absolute/path/lemma-lottery.pyz random` to get one theorem as
-> JSON. Use `subjects` to discover categories, and add `--subject math.XX` to
-> restrict a random query. Parse stdout on success; parse stderr on failure.
-
-For a Python agent:
+Example CLI call from Python:
 
 ```python
 import json
@@ -120,7 +109,6 @@ subject uniformly, then a theorem uniformly; since every subject has 20 entries,
 this is uniform across all 640 category-specific entries. Repeated results are
 possible because each query is independent. Results shared by multiple subjects
 have a distinct entry and ID in each subject.
-The lottery has no memory; your agent is welcome to develop one.
 
 ## Dataset
 

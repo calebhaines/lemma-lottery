@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "lemma-lottery"
 version = "1.0.0"
-description = "Inspiration for theorem-proving AI agents. Spin for a theorem; bring your own proof."
+description = "A mathematical inspiration tool for AI agents. A little local serendipity."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
