@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.IT.open.01",
+    "subject": "math.IT",
+    "name": "Binary deletion-channel capacity",
+    "statement": "A binary input string is transmitted through a channel that independently deletes each bit with probability δ∈(0,1), without revealing the deletion positions. Determine its Shannon capacity C(δ) in bits per input bit.",
+    "importance": "A basic synchronization-error channel whose capacity has resisted an exact formula.",
+    "status": "open",
+    "status_note": "Rigorous upper and lower bounds and endpoint asymptotics are known; an exact capacity formula for arbitrary deletion probability is open.",
+    "references": [
+      {
+        "title": "Cheraghchi and Ribeiro: An Overview of Capacity Results for Synchronization Channels",
+        "url": "https://arxiv.org/abs/1910.07199"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.open.02",
+    "subject": "math.IT",
+    "name": "Gaussian interference-channel capacity",
+    "statement": "Determine the full capacity region of the two-user real Gaussian interference channel Y₁=h₁₁X₁+h₁₂X₂+Z₁, Y₂=h₂₁X₁+h₂₂X₂+Z₂, with independent unit Gaussian noises, independent messages, arbitrary real gains, and average input-power constraints.",
+    "importance": "A foundational model for communication when simultaneous transmissions interfere.",
+    "status": "open",
+    "status_note": "Strong-interference and other special regimes are solved; constant-gap approximations do not determine the exact region in general.",
+    "references": [
+      {
+        "title": "Etkin, Tse and Wang: Gaussian Interference Channel Capacity to Within One Bit",
+        "url": "https://arxiv.org/abs/cs/0702045"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.open.03",
+    "subject": "math.IT",
+    "name": "Gaussian relay-channel capacity",
+    "statement": "Determine the Shannon capacity of the full-duplex real Gaussian relay channel Y_R=h_SR X_S+Z_R, Y_D=h_SD X_S+h_RD X_R+Z_D, with independent unit Gaussian noises, separate average source and relay power constraints, and strictly causal relay encoding.",
+    "importance": "A central network-information-theory question about the benefit of a helper node.",
+    "status": "open",
+    "status_note": "Degraded and other special relay channels have exact formulas; general independent-noise Gaussian channels still have gaps between achievable rates and converse bounds.",
+    "references": [
+      {
+        "title": "Relay channel",
+        "url": "https://en.wikipedia.org/wiki/Relay_channel"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.open.04",
+    "subject": "math.IT",
+    "name": "Shannon capacity of the seven-cycle",
+    "statement": "Determine Θ(C₇)=sup over m≥1 of α(C₇ strong-power m)^(1/m), where α is the independence number and the strong graph product models repeated zero-error use of a confusability graph.",
+    "importance": "The first odd cycle after the solved pentagon is a flagship zero-error communication problem.",
+    "status": "open",
+    "status_note": "The Lovász number provides an upper bound; the exact value for C₇ remains unresolved.",
+    "references": [
+      {
+        "title": "Shannon capacity of a graph",
+        "url": "https://en.wikipedia.org/wiki/Shannon_capacity_of_a_graph"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.open.05",
+    "subject": "math.IT",
+    "name": "Four-variable entropy-region problem",
+    "statement": "Characterize the closed cone of all limits of entropy vectors (H(X_A)) indexed by nonempty subsets A of {1,2,3,4}, for four finite-valued jointly distributed random variables, allowing arbitrary alphabet sizes.",
+    "importance": "Would give a complete foundation for entropy inequalities and network-coding converses.",
+    "status": "open",
+    "status_note": "Shannon inequalities are insufficient and infinitely many non-Shannon inequalities are known; a complete characterization of the almost-entropic cone is open.",
+    "references": [
+      {
+        "title": "Information inequality",
+        "url": "https://en.wikipedia.org/wiki/Information_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.open.06",
+    "subject": "math.IT",
+    "name": "Noninteractive simulation from a binary symmetric source",
+    "statement": "Fix ρ∈(0,1). From n independent pairs of unbiased bits with correlation ρ, which prescribed joint laws on two binary outputs can two separated parties approximate in total variation using local randomized functions of their own n bits, without communication or shared randomness?",
+    "importance": "A core question about converting correlation into useful distributed information.",
+    "status": "open",
+    "status_note": "Maximal-correlation and hypercontractive constraints give obstructions; they do not provide a complete general characterization.",
+    "references": [
+      {
+        "title": "Ghazi, Kamath and Sudan: Decidability of Non-Interactive Simulation of Joint Distributions",
+        "url": "https://arxiv.org/abs/1607.04322"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.open.07",
+    "subject": "math.IT",
+    "name": "Computability of graph Shannon capacity",
+    "statement": "Is there an algorithm that, given a finite graph G and a positive rational ε, outputs a rational number within ε of its Shannon capacity Θ(G)=sup_m α(G strong-power m)^(1/m)?",
+    "importance": "Asks whether the basic zero-error capacity invariant is effectively approximable at all.",
+    "status": "open",
+    "status_note": "Finite powers yield improving lower bounds; no general procedure with certified arbitrarily small two-sided error is known.",
+    "references": [
+      {
+        "title": "Shannon capacity of a graph: computability",
+        "url": "https://en.wikipedia.org/wiki/Shannon_capacity_of_a_graph"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.open.08",
+    "subject": "math.IT",
+    "name": "General two-way channel capacity",
+    "statement": "For an arbitrary finite-alphabet memoryless channel P(y₁,y₂|x₁,x₂), characterize all pairs of reliably achievable communication rates when each terminal sends its own independent message and chooses each input from that message and its past received outputs.",
+    "importance": "Shannon’s original interactive-communication model remains fundamental to network capacity.",
+    "status": "open",
+    "status_note": "Nonadaptive achievable regions and outer bounds coincide for special channels; unrestricted adaptation has no general single-letter capacity characterization.",
+    "references": [
+      {
+        "title": "Capacity of Two-Way Channels with Symmetry Properties",
+        "url": "https://arxiv.org/abs/1807.03422"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.open.09",
+    "subject": "math.IT",
+    "name": "Gaussian broadcast capacity with feedback",
+    "statement": "Determine the full capacity region for Y₁=X+Z₁ and Y₂=X+Z₂, where independent Gaussian noises have arbitrary positive variances, the transmitter has an average power constraint, and both past output sequences are fed back noiselessly to it.",
+    "importance": "Tests how interaction changes the limits of broadcasting independent messages.",
+    "status": "open",
+    "status_note": "Capacity without feedback and several linear-feedback results are known; these do not settle unrestricted feedback capacity.",
+    "references": [
+      {
+        "title": "Posterior Matching for Gaussian Broadcast Channels with Feedback",
+        "url": "https://arxiv.org/abs/1404.2520"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.open.10",
+    "subject": "math.IT",
+    "name": "Quantum capacity of the qubit depolarizing channel",
+    "statement": "Determine the unassisted quantum capacity Q(p) of the channel D_p(ρ)=(1−p)ρ+pI₂/2 for p∈(0,1), allowing arbitrary block codes and entangled inputs across channel uses.",
+    "importance": "A canonical unresolved capacity question about protecting quantum information from noise.",
+    "status": "open",
+    "status_note": "Zero-capacity regimes and coding lower bounds are known; a single-use coherent-information formula does not give the exact capacity in all regimes.",
+    "references": [
+      {
+        "title": "The superadditivity effects of quantum capacity decrease with the dimension for qudit depolarizing channels",
+        "url": "https://arxiv.org/abs/2301.10132"
+      },
+      {
+        "title": "A certified lower bound on the quantum-capacity threshold of the depolarizing channel (2026)",
+        "url": "https://arxiv.org/abs/2608.15870"
+      }
+    ]
+  }
+]

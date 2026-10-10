@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.MP.open.01",
+    "subject": "math.MP",
+    "name": "Yang–Mills existence and mass gap",
+    "statement": "For each compact simple gauge group, construct a nontrivial quantum Yang–Mills theory on R^4 satisfying the standard rigorous axioms and prove that its Hamiltonian has a strictly positive mass gap above the vacuum.",
+    "importance": "It would place a fundamental theory of particle interactions on a rigorous mathematical foundation.",
+    "status": "open",
+    "status_note": "The Clay problem concerns continuum four-dimensional quantum Yang–Mills theory; lattice and lower-dimensional results do not settle it.",
+    "references": [
+      {
+        "title": "Yang–Mills and Mass Gap, Clay Mathematics Institute",
+        "url": "https://www.claymath.org/millennium/yang-mills-the-maths-gap/"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.open.02",
+    "subject": "math.MP",
+    "name": "Three-dimensional Navier–Stokes regularity",
+    "statement": "For every smooth divergence-free initial velocity on R^3 with finite energy and sufficient decay, does the incompressible Navier–Stokes equation with positive viscosity and no external force have a smooth solution for all positive times?",
+    "importance": "It asks whether the standard equations of viscous fluids can create singularities from smooth data.",
+    "status": "open",
+    "status_note": "Global weak solutions exist; smooth global existence in two dimensions does not settle the three-dimensional problem.",
+    "references": [
+      {
+        "title": "Navier–Stokes existence and smoothness",
+        "url": "https://www.claymath.org/millennium/navier-stokes-equation/"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.open.03",
+    "subject": "math.MP",
+    "name": "Weak cosmic censorship for asymptotically flat vacuum gravity",
+    "statement": "For generic smooth asymptotically flat initial data for the Einstein vacuum equations, is future null infinity complete, so singularities formed by gravitational collapse are not visible to distant observers?",
+    "importance": "It tests whether classical gravitational evolution preserves predictability for external observers.",
+    "status": "open",
+    "status_note": "Genericity and suitable asymptotic conditions are essential; exceptional naked singularities and results in symmetric matter models do not settle the general vacuum question.",
+    "references": [
+      {
+        "title": "Cosmic censorship hypothesis",
+        "url": "https://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.open.04",
+    "subject": "math.MP",
+    "name": "Strong cosmic censorship for asymptotically flat vacuum gravity",
+    "statement": "For generic smooth asymptotically flat vacuum initial data, is the maximal globally hyperbolic spacetime development inextendible as a Lorentzian manifold with a C^2 metric?",
+    "importance": "It asks whether generic Einstein evolution has a unique maximal future governed by the initial data.",
+    "status": "open",
+    "status_note": "The extension regularity is part of the conjecture; other matter models, a positive cosmological constant, and weaker regularity can yield different formulations and answers.",
+    "references": [
+      {
+        "title": "Cosmic censorship hypothesis",
+        "url": "https://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.open.05",
+    "subject": "math.MP",
+    "name": "Nonlinear stability of all subextremal Kerr black holes",
+    "statement": "Do sufficiently small smooth asymptotically flat vacuum perturbations of every Kerr exterior with |a| less than M remain globally regular outside the black hole and settle toward another Kerr exterior?",
+    "importance": "It would justify rotating black holes as stable endpoints of gravitational evolution.",
+    "status": "open",
+    "status_note": "Nonlinear stability is established for slowly rotating regimes; the full subextremal rotation range is open. Extremal |a| = M is excluded.",
+    "references": [
+      {
+        "title": "Stability of Kerr black holes",
+        "url": "https://en.wikipedia.org/wiki/Kerr_metric"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.open.06",
+    "subject": "math.MP",
+    "name": "Conformal scaling limit of the three-dimensional critical Ising model",
+    "statement": "Prove existence, universality, and conformal invariance of a nontrivial continuum scaling limit of the nearest-neighbor ferromagnetic Ising model on Z^3 at its critical temperature.",
+    "importance": "It would rigorously explain the universal continuum theory of a major three-dimensional phase transition.",
+    "status": "open",
+    "status_note": "Two-dimensional critical Ising theory is understood much more fully; numerical conformal-bootstrap predictions and partial three-dimensional results do not constitute this theorem.",
+    "references": [
+      {
+        "title": "Ising model",
+        "url": "https://en.wikipedia.org/wiki/Ising_model"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.open.07",
+    "subject": "math.MP",
+    "name": "Area law for gapped quantum systems in two dimensions",
+    "statement": "Must the entanglement entropy of a simply connected region be bounded by a constant times its boundary size in the unique ground state of every two-dimensional finite-range local quantum Hamiltonian with bounded local dimension, uniformly bounded interaction strength, and a uniform spectral gap?",
+    "importance": "It would explain why low-energy quantum matter can often be represented efficiently by tensor networks.",
+    "status": "open",
+    "status_note": "One-dimensional area laws are proved; the general interacting two-dimensional statement with a uniform gap and unique ground state remains open.",
+    "references": [
+      {
+        "title": "Area laws for the entanglement entropy – a review",
+        "url": "https://arxiv.org/abs/0808.3773"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.open.08",
+    "subject": "math.MP",
+    "name": "Bose–Einstein condensation in an interacting continuum gas",
+    "statement": "Prove Bose–Einstein condensation, expressed by off-diagonal long-range order, at sufficiently low positive temperature for a homogeneous three-dimensional continuum Bose gas with a nonzero repulsive finite-range two-body interaction in the thermodynamic limit.",
+    "importance": "It asks for a rigorous foundation of a central quantum phase of interacting matter.",
+    "status": "open",
+    "status_note": "The ideal gas, some lattice or mean-field models, and trapped scaling limits are understood; they do not establish this interacting homogeneous thermodynamic-limit statement.",
+    "references": [
+      {
+        "title": "The Mathematics of the Bose Gas and its Condensation",
+        "url": "https://doi.org/10.1007/b137508"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.open.09",
+    "subject": "math.MP",
+    "name": "Delocalization in the three-dimensional Anderson model",
+    "statement": "For the nearest-neighbor Anderson Hamiltonian on Z^3 with sufficiently weak independent identically distributed bounded random on-site potential, prove an interval of absolutely continuous spectrum in the interior of the unperturbed band.",
+    "importance": "It would rigorously establish the metallic side of the disorder-driven localization transition.",
+    "status": "open",
+    "status_note": "Localization is proved in several regimes; absolutely continuous spectrum on tree graphs does not settle the cubic-lattice problem.",
+    "references": [
+      {
+        "title": "Anderson localization",
+        "url": "https://en.wikipedia.org/wiki/Anderson_localization"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.open.10",
+    "subject": "math.MP",
+    "name": "Confinement in continuum four-dimensional Yang–Mills theory",
+    "statement": "For four-dimensional pure SU(3) quantum Yang–Mills theory, rigorously establish confinement through a positive asymptotic string tension, meaning an area law for sufficiently large fundamental Wilson loops after suitable renormalization.",
+    "importance": "It would explain mathematically why isolated color charges are not observed.",
+    "status": "open",
+    "status_note": "The continuum theory must first be constructed; strong-coupling lattice results and a mass gap alone do not prove continuum confinement.",
+    "references": [
+      {
+        "title": "Color confinement",
+        "url": "https://en.wikipedia.org/wiki/Color_confinement"
+      }
+    ]
+  }
+]

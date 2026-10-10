@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.GR.open.01",
+    "subject": "math.GR",
+    "name": "Soficity of all groups",
+    "statement": "Is every countable discrete group sofic, meaning it admits arbitrarily accurate finite permutation approximations that are asymptotically multiplicative and free on each prescribed finite subset?",
+    "importance": "Would establish a common finite approximation principle behind major conjectures about group rings and dynamics.",
+    "status": "open",
+    "status_note": "Amenable, residually finite, and many other groups are known to be sofic; no general construction is known.",
+    "references": [
+      {
+        "title": "Sofic group",
+        "url": "https://en.wikipedia.org/wiki/Sofic_group"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.open.02",
+    "subject": "math.GR",
+    "name": "Residual finiteness of hyperbolic groups",
+    "statement": "Is every word-hyperbolic group residually finite, so that each nonidentity element survives in some finite quotient?",
+    "importance": "Would resolve how much finite algebra can detect the geometry of negatively curved groups.",
+    "status": "open",
+    "status_note": "Many hyperbolic groups are virtually special and hence residually finite; arbitrary word-hyperbolic groups are not covered.",
+    "references": [
+      {
+        "title": "Hyperbolic group",
+        "url": "https://en.wikipedia.org/wiki/Hyperbolic_group"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.open.03",
+    "subject": "math.GR",
+    "name": "Finitely presented infinite torsion group problem",
+    "statement": "Does there exist an infinite finitely presented group in which every element has finite order?",
+    "importance": "Asks whether finite defining data can support an infinite group consisting entirely of torsion.",
+    "status": "open",
+    "status_note": "Infinite finitely generated torsion groups are known; the finite-presentation requirement is the unresolved part.",
+    "references": [
+      {
+        "title": "Burnside problem",
+        "url": "https://en.wikipedia.org/wiki/Burnside_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.open.04",
+    "subject": "math.GR",
+    "name": "Burnside problem at exponent five",
+    "statement": "Is the free Burnside group B(2,5)=⟨x,y | w^5=1 for every word w in x,y⟩ finite?",
+    "importance": "Represents a basic unresolved small-exponent case of a foundational finiteness problem.",
+    "status": "open",
+    "status_note": "Negative solutions for sufficiently large exponents and the solved restricted Burnside problem do not settle this particular free group.",
+    "references": [
+      {
+        "title": "Burnside problem",
+        "url": "https://en.wikipedia.org/wiki/Burnside_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.open.05",
+    "subject": "math.GR",
+    "name": "Amenability of Thompson’s group F",
+    "statement": "Is Thompson’s group F, consisting of dyadic piecewise-linear orientation-preserving homeomorphisms of [0,1] with slopes powers of two, amenable?",
+    "importance": "Would clarify the boundary between finite-like averaging and nonamenable behavior in a fundamental transformation group.",
+    "status": "open",
+    "status_note": "F has no nonabelian free subgroup; this alone does not establish amenability, which remains open.",
+    "references": [
+      {
+        "title": "Groups with classifiable actions on the line",
+        "url": "https://arxiv.org/abs/2605.13406"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.open.06",
+    "subject": "math.GR",
+    "name": "Andrews–Curtis conjecture",
+    "statement": "Can every balanced finite presentation of the trivial group be changed to the standard trivial presentation by inverting a relator, multiplying one relator by another, conjugating a relator, and permuting relators?",
+    "importance": "Links manipulation of finite presentations with deep questions in low-dimensional topology.",
+    "status": "open",
+    "status_note": "Many candidate counterexamples remain unresolved; the unrestricted classical conjecture has neither a proof nor an accepted counterexample.",
+    "references": [
+      {
+        "title": "Andrews–Curtis conjecture",
+        "url": "https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.open.07",
+    "subject": "math.GR",
+    "name": "Wiegold product-replacement conjecture",
+    "statement": "For every finite nonabelian simple group G and k≥3, is the graph of generating k-tuples connected under elementary Nielsen moves replacing one entry by its product with another entry or its inverse, together with inversions and permutations?",
+    "importance": "Would explain connectivity and reliability of finite-group generation procedures.",
+    "status": "open",
+    "status_note": "Verified for many families of finite simple groups; this is the finite-simple product-replacement conjecture, not Wiegold’s different normal-generation question.",
+    "references": [
+      {
+        "title": "Cohen and Vigdorovich, On the Maximal Size of Irredundant Generating Sets in Lie Groups and Algebraic Groups",
+        "url": "https://arxiv.org/abs/2603.09640"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.open.08",
+    "subject": "math.GR",
+    "name": "Kaplansky zero-divisor conjecture for group algebras",
+    "statement": "For every torsion-free group G and field k, is k[G] a ring without nonzero zero divisors?",
+    "importance": "Would connect a purely group-theoretic torsion condition to a basic algebraic property of group rings.",
+    "status": "open",
+    "status_note": "Known for many group classes. Counterexamples to Kaplansky’s unit conjecture do not resolve this distinct question.",
+    "references": [
+      {
+        "title": "Kaplansky’s conjectures",
+        "url": "https://en.wikipedia.org/wiki/Kaplansky%27s_conjectures"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.open.09",
+    "subject": "math.GR",
+    "name": "Gottschalk surjunctivity conjecture",
+    "statement": "For every group G and finite alphabet A, is every injective continuous G-equivariant map A^G → A^G surjective, with the product topology and shift action?",
+    "importance": "Asks whether finite local rules on a group obey a global injectivity-implies-surjectivity law.",
+    "status": "open",
+    "status_note": "Proved for sofic groups; the question for arbitrary groups remains open.",
+    "references": [
+      {
+        "title": "Surjunctive group",
+        "url": "https://en.wikipedia.org/wiki/Surjunctive_group"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.open.10",
+    "subject": "math.GR",
+    "name": "Kervaire normal-generation conjecture",
+    "statement": "For every nontrivial group G, must the free product G * Z have normal rank at least two, so that no single element normally generates the entire free product?",
+    "importance": "Asks whether adjoining one free generator can ever allow a single relation to collapse a nontrivial group completely.",
+    "status": "open",
+    "status_note": "The torsion-free case is proved, as are other important classes. The question for arbitrary nontrivial groups remains open.",
+    "references": [
+      {
+        "title": "Fisher and Lodha, A note on normal generation and the first ℓ²-Betti number",
+        "url": "https://arxiv.org/abs/2608.25988"
+      }
+    ]
+  }
+]

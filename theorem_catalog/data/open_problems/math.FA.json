@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.FA.open.01",
+    "subject": "math.FA",
+    "name": "Invariant subspace problem on Hilbert space",
+    "statement": "Does every bounded linear operator on a separable infinite-dimensional complex Hilbert space have a closed invariant subspace other than {0} and the whole space?",
+    "importance": "It is a foundational question about the internal structure of bounded operators.",
+    "status": "open",
+    "status_note": "Counterexamples on general Banach spaces do not answer the Hilbert-space problem; many special operator classes are known to have invariant subspaces.",
+    "references": [
+      {
+        "title": "Invariant subspace problem",
+        "url": "https://en.wikipedia.org/wiki/Invariant_subspace_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.open.02",
+    "subject": "math.FA",
+    "name": "Separable quotient problem",
+    "statement": "Does every infinite-dimensional Banach space have an infinite-dimensional separable Banach quotient by a closed linear subspace?",
+    "importance": "It asks whether every Banach space has a manageable infinite-dimensional linear image.",
+    "status": "open",
+    "status_note": "The assertion is known for large classes, including dual and reflexive spaces, but not for all Banach spaces.",
+    "references": [
+      {
+        "title": "On the separable quotient problem for Banach spaces",
+        "url": "https://arxiv.org/abs/1709.09646"
+      },
+      {
+        "title": "The Separable Quotient Problem and the Lotz Property in Banach Spaces",
+        "url": "https://arxiv.org/abs/2610.00584"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.open.03",
+    "subject": "math.FA",
+    "name": "Mazur’s rotations problem",
+    "statement": "Must a separable real Banach space whose surjective linear isometries act transitively on its unit sphere be linearly isometric to a Hilbert space?",
+    "importance": "It asks whether maximal norm symmetry forces the geometry of an inner product.",
+    "status": "open",
+    "status_note": "Separability and exact transitivity are essential; almost transitivity has non-Hilbert examples.",
+    "references": [
+      {
+        "title": "On Mazur rotations problem and its multidimensional versions",
+        "url": "https://arxiv.org/abs/2012.08344"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.open.04",
+    "subject": "math.FA",
+    "name": "Exact real Grothendieck constant",
+    "statement": "Determine the least K such that, for every real matrix (aᵢⱼ) and real Hilbert-space unit vectors uᵢ,vⱼ, |Σaᵢⱼ⟨uᵢ,vⱼ⟩| ≤ K max_{εᵢ,ηⱼ∈{−1,1}} |Σaᵢⱼεᵢηⱼ|.",
+    "importance": "The constant is central to tensor norms, operator theory, and semidefinite approximation algorithms.",
+    "status": "open",
+    "status_note": "Grothendieck’s inequality gives a finite constant; known upper and lower bounds do not determine the exact real value.",
+    "references": [
+      {
+        "title": "Braverman et al., The Grothendieck constant is strictly smaller than Krivine’s bound",
+        "url": "https://arxiv.org/abs/1103.6161"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.open.05",
+    "subject": "math.FA",
+    "name": "Exact complex Grothendieck constant",
+    "statement": "Determine the least K for the complex Grothendieck inequality: for every complex matrix (aᵢⱼ) and complex Hilbert-space unit vectors uᵢ,vⱼ, |Σaᵢⱼ⟨uᵢ,vⱼ⟩| ≤ K max_{|sᵢ|=|tⱼ|=1} |Σaᵢⱼsᵢtⱼ|.",
+    "importance": "This distinct complex constant governs complex tensor norms and sharp operator inequalities.",
+    "status": "open",
+    "status_note": "Its exact value is unknown; current upper and lower bounds, including recent improvements, remain distinct.",
+    "references": [
+      {
+        "title": "Sharper Bounds for the Complex Grothendieck Constant",
+        "url": "https://arxiv.org/abs/2609.25462"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.open.06",
+    "subject": "math.FA",
+    "name": "Symmetric Mahler conjecture",
+    "statement": "For every origin-symmetric convex body K⊂ℝⁿ with n≥4, is vol(K) vol(K°) ≥ 4ⁿ/n!, where K°={y:⟨x,y⟩≤1 for all x∈K}?",
+    "importance": "It predicts the sharp uncertainty between the size of a norm’s unit ball and that of its dual norm.",
+    "status": "open",
+    "status_note": "The low-dimensional cases and several special classes are proved; the general dimension-four-and-higher assertion remains open.",
+    "references": [
+      {
+        "title": "Mahler’s conjecture",
+        "url": "https://en.wikipedia.org/wiki/Mahler%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.open.07",
+    "subject": "math.FA",
+    "name": "Four-dimensional Fourier restriction conjecture",
+    "statement": "For every q>8/3, is there C_q such that ‖∫_{S³} e^{ix·ω} g(ω)dσ(ω)‖_{L^q(ℝ⁴)} ≤ C_q ‖g‖_{L∞(S³)} for every bounded measurable g?",
+    "importance": "It predicts the sharp integrability gain created by Fourier extension from a curved hypersurface.",
+    "status": "open",
+    "status_note": "The exponent 8/3 is dictated by necessary examples. Existing restriction estimates do not cover the full proposed range.",
+    "references": [
+      {
+        "title": "Tao, Recent progress on the restriction conjecture",
+        "url": "https://arxiv.org/abs/math/0311181"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.open.08",
+    "subject": "math.FA",
+    "name": "Three-dimensional Bochner–Riesz conjecture",
+    "statement": "For every 1<p<∞ and δ>max{3|1/p−1/2|−1/2,0}, is the Fourier multiplier (1−|ξ|²)_+^δ bounded on Lᵖ(ℝ³)?",
+    "importance": "It asks for the sharp convergence theory of multidimensional Fourier summation.",
+    "status": "open",
+    "status_note": "The proposed range is suggested by necessary conditions. Some exponent ranges are established, but the full three-dimensional assertion remains open.",
+    "references": [
+      {
+        "title": "Bochner–Riesz conjecture",
+        "url": "https://en.wikipedia.org/wiki/Bochner%E2%80%93Riesz_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.open.09",
+    "subject": "math.FA",
+    "name": "Sharp Beurling–Ahlfors operator norm",
+    "statement": "For 1<p<∞, is the norm of the Beurling–Ahlfors transform on Lᵖ(ℂ) exactly max{p,p/(p−1)}−1?",
+    "importance": "It is a leading sharp-norm problem for singular integral operators with consequences for quasiconformal analysis.",
+    "status": "open",
+    "status_note": "The conjectured lower bound and the Hilbert-space case are known; the matching upper bound outside p=2 is open.",
+    "references": [
+      {
+        "title": "Bañuelos and Janakiraman, Lp-bounds for the Beurling–Ahlfors transform",
+        "url": "https://doi.org/10.1090/S0002-9947-08-04537-6"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.open.10",
+    "subject": "math.FA",
+    "name": "Existence of boundedly distortable Banach spaces",
+    "statement": "Does there exist an infinite-dimensional Banach space X that is λ₀-distortable for some λ₀>1 but fails to be λ-distortable for at least one λ>λ₀? Here λ-distortable means an equivalent norm forces, in every infinite-dimensional subspace, a ratio greater than λ between the new norms of two original-norm unit vectors.",
+    "importance": "It asks whether distortion of infinite-dimensional Banach geometry can be nontrivial yet uniformly limited.",
+    "status": "open",
+    "status_note": "Nondistortable and arbitrarily distortable spaces are known; the intermediate bounded-distortion phenomenon is unresolved.",
+    "references": [
+      {
+        "title": "Asymptotic ℓp spaces and bounded distortions",
+        "url": "https://arxiv.org/abs/math/9209214"
+      }
+    ]
+  }
+]

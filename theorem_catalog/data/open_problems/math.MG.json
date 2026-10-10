@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.MG.open.01",
+    "subject": "math.MG",
+    "name": "Symmetric Mahler conjecture",
+    "statement": "For every origin-symmetric convex body K in R^n, is vol(K) vol(K°) at least 4^n/n!, where K° is the polar body?",
+    "importance": "It predicts the sharp lower limit on the simultaneous size of a convex body and its dual.",
+    "status": "open",
+    "status_note": "The conjecture is proved in dimensions at most three and for many special classes; the general case in higher dimensions is open.",
+    "references": [
+      {
+        "title": "Mahler’s conjecture",
+        "url": "https://en.wikipedia.org/wiki/Mahler%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.open.02",
+    "subject": "math.MG",
+    "name": "Nonsymmetric Mahler conjecture",
+    "statement": "For every convex body K in R^n containing the origin in its interior, is vol(K) vol(K°) at least (n+1)^(n+1)/(n!)^2, the value attained by a suitably centered simplex?",
+    "importance": "It predicts the universal sharp lower volume-product bound without symmetry assumptions.",
+    "status": "open",
+    "status_note": "Planar and various restricted cases are known; the assertion for arbitrary convex bodies in all dimensions remains open. The polar is taken about the stated interior origin.",
+    "references": [
+      {
+        "title": "Mahler’s conjecture",
+        "url": "https://en.wikipedia.org/wiki/Mahler%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.open.03",
+    "subject": "math.MG",
+    "name": "Sharp order in Erdős’ distinct-distances problem",
+    "statement": "Is there a universal c greater than zero such that every set of N at least two points in the Euclidean plane determines at least c N/sqrt(log N) distinct nonzero distances?",
+    "importance": "It seeks the exact asymptotic extremal law for one of the foundational problems of combinatorial metric geometry.",
+    "status": "open",
+    "status_note": "Square-grid examples give order N/sqrt(log N); Guth–Katz proved a lower bound of order N/log N, leaving a logarithmic gap.",
+    "references": [
+      {
+        "title": "On the Erdos distinct distance problem in the plane",
+        "url": "https://arxiv.org/abs/1011.4105"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.open.04",
+    "subject": "math.MG",
+    "name": "Hadwiger covering conjecture",
+    "statement": "Can every convex body in R^n be covered by at most 2^n translates of smaller positive homothetic copies of itself?",
+    "importance": "It is a basic sharp question about illuminating and covering convex bodies.",
+    "status": "open",
+    "status_note": "The smaller homotheties have scale strictly below one; the conjecture remains open in general, including dimension three.",
+    "references": [
+      {
+        "title": "Illumination problem",
+        "url": "https://en.wikipedia.org/wiki/Illumination_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.open.05",
+    "subject": "math.MG",
+    "name": "Optimal sphere-packing density in four dimensions",
+    "statement": "Is the D_4 lattice packing densest among all packings of congruent Euclidean balls in R^4?",
+    "importance": "It is the next fundamental sphere-packing case after dimensions two and three.",
+    "status": "open",
+    "status_note": "The D_4 packing is optimal among lattice packings and the kissing number in dimension four is known; neither result proves global packing optimality.",
+    "references": [
+      {
+        "title": "Sphere packing",
+        "url": "https://en.wikipedia.org/wiki/Sphere_packing"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.open.06",
+    "subject": "math.MG",
+    "name": "Exact kissing number in five dimensions",
+    "statement": "What is the largest number of nonoverlapping unit balls in R^5 that can all touch one fixed unit ball?",
+    "importance": "It asks for the next unresolved local extremal configuration in Euclidean sphere geometry.",
+    "status": "open",
+    "status_note": "The four-, eight-, and twenty-four-dimensional kissing numbers are known; the exact five-dimensional value remains unresolved.",
+    "references": [
+      {
+        "title": "Kissing number problem",
+        "url": "https://en.wikipedia.org/wiki/Kissing_number_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.open.07",
+    "subject": "math.MG",
+    "name": "Equilateral-set conjecture for normed spaces",
+    "statement": "Does every n-dimensional real normed space contain n+1 points whose pairwise distances are all equal?",
+    "importance": "It asks whether every norm supports an analogue of a Euclidean regular simplex of full dimension.",
+    "status": "open",
+    "status_note": "Low-dimensional and special-norm cases are known; a general theorem for arbitrary finite-dimensional norms is still lacking.",
+    "references": [
+      {
+        "title": "Combinatorial distance geometry in normed spaces",
+        "url": "https://arxiv.org/abs/1702.00066"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.open.08",
+    "subject": "math.MG",
+    "name": "Hadwiger–Nelson problem",
+    "statement": "What is the least number of colors needed to color every point of the Euclidean plane so that points at distance one always receive different colors?",
+    "importance": "It is a canonical meeting point of metric geometry, infinite graph coloring, and extremal combinatorics.",
+    "status": "open",
+    "status_note": "The chromatic number is at least five and at most seven; the unrestricted question is distinct from measurable-coloring variants.",
+    "references": [
+      {
+        "title": "Hadwiger–Nelson problem",
+        "url": "https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.open.09",
+    "subject": "math.MG",
+    "name": "Borsuk’s partition problem in four dimensions",
+    "statement": "Can every bounded subset of R^4 with positive diameter be partitioned into five subsets each having strictly smaller diameter?",
+    "importance": "It asks whether the classical diameter-partition principle survives in the first unresolved Euclidean dimension.",
+    "status": "open",
+    "status_note": "Borsuk’s conjecture holds in dimensions at most three and is false in sufficiently high dimensions; its four-dimensional case remains open.",
+    "references": [
+      {
+        "title": "Borsuk’s conjecture",
+        "url": "https://en.wikipedia.org/wiki/Borsuk%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.open.10",
+    "subject": "math.MG",
+    "name": "Gromov’s filling-volume conjecture",
+    "statement": "For n at least two, is the least volume of a compact Riemannian (n+1)-manifold filling the unit round S^n, without shortening any distance between boundary points, equal to the volume of a unit round hemisphere?",
+    "importance": "It predicts a sharp metric-volume inequality whose extremizer is spherical geometry.",
+    "status": "open",
+    "status_note": "The boundary metric and non-shortening requirement are essential; the general higher-dimensional filling problem remains open.",
+    "references": [
+      {
+        "title": "Filling Riemannian manifolds",
+        "url": "https://doi.org/10.4310/jdg/1214509283"
+      }
+    ]
+  }
+]

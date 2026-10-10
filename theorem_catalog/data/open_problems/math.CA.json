@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.CA.open.01",
+    "subject": "math.CA",
+    "name": "Hilbert’s sixteenth problem for limit cycles",
+    "statement": "For each fixed degree d, is there a finite bound H(d) on the number of isolated periodic orbits of every real planar polynomial vector field of degree at most d?",
+    "importance": "It asks for a uniform understanding of oscillations in polynomial ordinary differential equations.",
+    "status": "open",
+    "status_note": "Finiteness for each individual polynomial vector field is known; a bound uniform over all coefficients, even at degree two, remains open.",
+    "references": [
+      {
+        "title": "Hilbert’s sixteenth problem",
+        "url": "https://en.wikipedia.org/wiki/Hilbert%27s_sixteenth_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.open.02",
+    "subject": "math.CA",
+    "name": "Riemann hypothesis",
+    "statement": "Does every nontrivial zero of the analytically continued Riemann zeta function have real part 1/2?",
+    "importance": "It controls the sharp size of fluctuations in the distribution of prime numbers and the zeta function.",
+    "status": "open",
+    "status_note": "Many zeros and zero-free regions are known, but no proof covers every nontrivial zero.",
+    "references": [
+      {
+        "title": "Clay Mathematics Institute, Riemann Hypothesis",
+        "url": "https://www.claymath.org/millennium/riemann-hypothesis/"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.open.03",
+    "subject": "math.CA",
+    "name": "Lindelöf hypothesis",
+    "statement": "For every ε>0, is ζ(1/2+it) = O_ε((1+|t|)^ε) as |t|→∞?",
+    "importance": "It predicts nearly minimal growth of the zeta function on its critical line and drives sharp analytic number-theory estimates.",
+    "status": "open",
+    "status_note": "The Riemann hypothesis would imply it; unconditional subconvex bounds still fall short of every positive exponent.",
+    "references": [
+      {
+        "title": "Lindelöf hypothesis",
+        "url": "https://en.wikipedia.org/wiki/Lindel%C3%B6f_hypothesis"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.open.04",
+    "subject": "math.CA",
+    "name": "Irrationality of Euler’s constant",
+    "statement": "Is the Euler–Mascheroni constant γ = lim_{n→∞}(Σ_{k=1}^n 1/k − log n) irrational?",
+    "importance": "This fundamental constant occurs throughout asymptotic analysis, special functions, and probability.",
+    "status": "open",
+    "status_note": "Neither irrationality nor rationality has been proved; numerical digit computations do not decide either.",
+    "references": [
+      {
+        "title": "Euler’s constant",
+        "url": "https://en.wikipedia.org/wiki/Euler%27s_constant"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.open.05",
+    "subject": "math.CA",
+    "name": "Irrationality of Catalan’s constant",
+    "statement": "Is Catalan’s constant G = Σ_{n=0}∞ (−1)^n/(2n+1)² irrational?",
+    "importance": "It is a central special value of the Dirichlet beta function and appears in classical integrals and lattice models.",
+    "status": "open",
+    "status_note": "Despite fast series and arithmetic estimates, irrationality of this particular beta value remains unproved.",
+    "references": [
+      {
+        "title": "Catalan’s constant",
+        "url": "https://en.wikipedia.org/wiki/Catalan%27s_constant"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.open.06",
+    "subject": "math.CA",
+    "name": "Irrationality of ζ(5)",
+    "statement": "Is the real number ζ(5) = Σ_{n=1}∞ n^(−5) irrational?",
+    "importance": "It is a basic unresolved arithmetic property of an influential special-function value.",
+    "status": "open",
+    "status_note": "Apéry proved ζ(3) irrational, and infinitely many odd zeta values are irrational; those results do not identify ζ(5) individually.",
+    "references": [
+      {
+        "title": "Rivoal, La fonction zêta de Riemann prend une infinité de valeurs irrationnelles aux entiers impairs",
+        "url": "https://arxiv.org/abs/math/0008051"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.open.07",
+    "subject": "math.CA",
+    "name": "Four exponentials conjecture",
+    "statement": "If x₁,x₂ are complex numbers linearly independent over ℚ and y₁,y₂ are complex numbers linearly independent over ℚ, must at least one of exp(xᵢyⱼ), 1≤i,j≤2, be transcendental?",
+    "importance": "It is a central proposed restriction on algebraic relations among complex exponential values.",
+    "status": "open",
+    "status_note": "The six exponentials theorem proves the analogous assertion for a 2-by-3 array; the 2-by-2 case remains open.",
+    "references": [
+      {
+        "title": "Four exponentials conjecture",
+        "url": "https://en.wikipedia.org/wiki/Four_exponentials_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.open.08",
+    "subject": "math.CA",
+    "name": "Erdős similarity conjecture",
+    "statement": "For every infinite set A⊂ℝ, does there exist a Lebesgue-measurable set E⊂ℝ of positive measure containing no affine copy a+bA with b≠0?",
+    "importance": "It asks which infinite patterns are forced inside arbitrary sets of positive measure.",
+    "status": "open",
+    "status_note": "Many patterns are known to be avoidable, but sufficiently fast-decaying sequences remain a major unresolved case.",
+    "references": [
+      {
+        "title": "Erdős similarity problem via bi-Lipschitz embedding",
+        "url": "https://arxiv.org/abs/2312.01319"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.open.09",
+    "subject": "math.CA",
+    "name": "Mahler’s three-halves problem",
+    "statement": "Does there exist a real ξ>0 such that the fractional part {ξ(3/2)^n} is less than 1/2 for every integer n≥0?",
+    "importance": "This simple exponential-iteration question exposes deep limits of knowledge about fractional parts and multiplicative dynamics.",
+    "status": "open",
+    "status_note": "Such a ξ is called a Z-number. Neither existence nor nonexistence has been proved.",
+    "references": [
+      {
+        "title": "Mahler’s 3/2 problem",
+        "url": "https://en.wikipedia.org/wiki/Mahler%27s_3/2_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.open.10",
+    "subject": "math.CA",
+    "name": "Sharp Beurling–Ahlfors norm conjecture",
+    "statement": "For 1<p<∞, does the Beurling–Ahlfors singular integral on Lᵖ(ℂ) have operator norm p*−1, where p*=max(p,p/(p−1))?",
+    "importance": "The sharp constant connects singular-integral analysis, quasiconformal mappings, and martingale inequalities.",
+    "status": "open",
+    "status_note": "The proposed value is a known lower bound and the p=2 case is proved; matching upper bounds for general p remain open.",
+    "references": [
+      {
+        "title": "Bañuelos and Janakiraman, Lp-bounds for the Beurling–Ahlfors transform",
+        "url": "https://doi.org/10.1090/S0002-9947-08-04537-6"
+      }
+    ]
+  }
+]

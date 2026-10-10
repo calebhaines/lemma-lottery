@@ -17,29 +17,38 @@ def parser() -> argparse.ArgumentParser:
     shared.add_argument(
         "--pretty", action="store_true", default=argparse.SUPPRESS, help="Indent JSON output"
     )
+    shared.add_argument(
+        "--kind",
+        choices=("theorem", "problem"),
+        default=argparse.SUPPRESS,
+        help="Choose the theorem or open problem database (default: theorem)",
+    )
     root = JsonArgumentParser(
-        description="Get a theorem locally as JSON. No server, network, or dependencies needed.",
+        description=(
+            "Get a theorem or open problem locally as JSON. "
+            "No server, network, or dependencies needed."
+        ),
         parents=[shared],
     )
     commands = root.add_subparsers(dest="command")
-    random = commands.add_parser("random", parents=[shared], help="Get a random theorem")
+    random = commands.add_parser("random", parents=[shared], help="Get a random entry")
     random.add_argument("--subject", help="Exact arXiv code, for example math.NT")
     commands.add_parser("subjects", parents=[shared], help="List all 32 subject codes and labels")
-    listing = commands.add_parser("list", parents=[shared], help="Browse theorem entries")
+    listing = commands.add_parser("list", parents=[shared], help="Browse entries")
     listing.add_argument("--subject", help="Filter by exact arXiv code")
     listing.add_argument("--limit", type=int, default=20, help="Page size: 1..100 (default: 20)")
     listing.add_argument("--offset", type=int, default=0, help="Nonnegative starting index")
-    get = commands.add_parser("get", parents=[shared], help="Get a theorem by stable ID")
-    get.add_argument("id", help="For example math.NT.01")
+    get = commands.add_parser("get", parents=[shared], help="Get an entry by stable ID")
+    get.add_argument("id", help="For example math.NT.01 or math.NT.open.01 with --kind problem")
     commands.add_parser("info", parents=[shared], help="Database metadata and curation policy")
-    commands.add_parser("validate", parents=[shared], help="Validate all 640 database entries")
+    commands.add_parser("validate", parents=[shared], help="Validate the selected database")
     return root
 
 
 def main(argv: list[str] | None = None) -> int:
     try:
         args = parser().parse_args(argv)
-        catalog = Catalog()
+        catalog = Catalog(kind=getattr(args, "kind", "theorem"))
         command = args.command or "random"
         if command == "random":
             result = catalog.random(getattr(args, "subject", None))

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.SP.open.01",
+    "subject": "math.SP",
+    "name": "Quantum unique ergodicity on negatively curved surfaces",
+    "statement": "For every connected compact smooth Riemannian surface of strictly negative curvature, must the microlocal measures of every sequence of L²-normalized Laplace eigenfunctions with eigenvalues tending to infinity converge to normalized Liouville measure on its unit cotangent bundle?",
+    "importance": "It asks whether classical chaos eliminates all exceptional high-energy quantum concentration.",
+    "status": "open",
+    "status_note": "Quantum ergodicity gives a density-one subsequence. Arithmetic QUE theorems with Hecke eigenfunction hypotheses do not settle the general full-sequence question.",
+    "references": [
+      {
+        "title": "Nonnenmacher, Anatomy of quantum chaotic eigenstates",
+        "url": "https://arxiv.org/abs/1005.5598"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.open.02",
+    "subject": "math.SP",
+    "name": "Bohigas–Giannoni–Schmit spectral statistics",
+    "statement": "For the Dirichlet Laplacian on a Bunimovich stadium billiard, within a fixed reflection-symmetry sector and after unfolding by Weyl’s law, do high-energy local eigenvalue correlations converge to those of the Gaussian orthogonal ensemble?",
+    "importance": "It is the central proposed link between classical chaotic dynamics and random-matrix spectral statistics.",
+    "status": "open",
+    "status_note": "The system is time-reversal invariant, hence the orthogonal ensemble is the predicted class. Numerical evidence is strong; no general rigorous derivation for this chaotic billiard is known.",
+    "references": [
+      {
+        "title": "Bohigas, Giannoni and Schmit, Characterization of chaotic quantum spectra and universality of level fluctuation laws",
+        "url": "https://doi.org/10.1103/PhysRevLett.52.1"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.open.03",
+    "subject": "math.SP",
+    "name": "Berry’s local random-wave conjecture",
+    "statement": "On a connected compact smooth negatively curved surface, does a density-one sequence of real Laplace eigenfunctions −Δφ=λφ, sampled at a uniformly random point and orthonormal frame in geodesic coordinates scaled by 1/√λ and normalized to unit variance, converge in local distribution to the isotropic monochromatic Gaussian field with covariance J₀(|x−y|)?",
+    "importance": "It predicts the microscopic statistics of chaotic eigenfunctions, including nodal patterns and correlations.",
+    "status": "open",
+    "status_note": "Macroscopic quantum ergodicity and random-model calculations do not establish this Gaussian local limit for deterministic eigenfunctions.",
+    "references": [
+      {
+        "title": "Nonnenmacher, Anatomy of quantum chaotic eigenstates",
+        "url": "https://arxiv.org/abs/1005.5598"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.open.04",
+    "subject": "math.SP",
+    "name": "Pólya’s eigenvalue conjecture for planar domains",
+    "statement": "For every bounded Lipschitz planar domain Ω, do its ordered Dirichlet Laplace eigenvalues satisfy λ_k ≥ 4πk/area(Ω) for every k≥1?",
+    "importance": "It predicts that the leading Weyl-law term already gives an exact bound at every spectral scale.",
+    "status": "open",
+    "status_note": "Tiling domains, disks and several other classes are proved. The assertion for arbitrary planar domains remains open.",
+    "references": [
+      {
+        "title": "Filonov, Levitin, Polterovich and Sher, Pólya’s conjecture for Euclidean balls",
+        "url": "https://arxiv.org/abs/2203.07696"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.open.05",
+    "subject": "math.SP",
+    "name": "Ivrii’s billiard conjecture",
+    "statement": "In every bounded Euclidean domain of dimension n≥2 with C∞ boundary, does the set of periodic billiard trajectories have Liouville measure zero in billiard phase space?",
+    "importance": "It would establish the standard second term of Weyl’s eigenvalue asymptotics without an extra dynamical hypothesis.",
+    "status": "open",
+    "status_note": "Many geometries and periodic-orbit periods have been handled, but the universal smooth-domain assertion remains unproved.",
+    "references": [
+      {
+        "title": "Ivrii, 100 years of Weyl’s law",
+        "url": "https://doi.org/10.1007/s13373-016-0089-y"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.open.06",
+    "subject": "math.SP",
+    "name": "Schiffer’s overdetermined eigenvalue conjecture",
+    "statement": "If a bounded simply connected C∞ domain Ω⊂ℝ² admits a nonconstant solution Δu+λu=0 with λ>0, u constant on ∂Ω and ∂νu=0 on ∂Ω, must Ω be a disk?",
+    "importance": "It links overdetermined spectral data to geometric rigidity and the Pompeiu problem.",
+    "status": "open",
+    "status_note": "The disk has such solutions. Results for special domain classes do not settle arbitrary smooth simply connected planar domains.",
+    "references": [
+      {
+        "title": "The Pompeiu Problem — survey",
+        "url": "https://doi.org/10.1080/00029890.1993.11990432"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.open.07",
+    "subject": "math.SP",
+    "name": "Weak-disorder Anderson delocalization on ℤ³",
+    "statement": "For H_λ=−Δ+λV on ℓ²(ℤ³), with independent uniform[−1,1] site potentials, does every sufficiently small λ>0 produce almost surely a nonempty interval of absolutely continuous spectrum inside the free spectral band?",
+    "importance": "It asks for a rigorous metallic phase in the standard three-dimensional random Schrödinger model.",
+    "status": "open",
+    "status_note": "Localization at strong disorder and near spectral edges is established. Delocalization results on trees or special random models do not settle the cubic lattice.",
+    "references": [
+      {
+        "title": "Aizenman and Warzel, Random Operators: Disorder Effects on Quantum Spectra and Dynamics",
+        "url": "https://doi.org/10.1090/gsm/168"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.open.08",
+    "subject": "math.SP",
+    "name": "Sharp upper bound in Yau’s smooth nodal-set conjecture",
+    "statement": "For every connected compact C∞ Riemannian n-manifold without boundary with n≥3, is there C depending only on the metric such that every nonzero Laplace eigenfunction −Δφ=λφ satisfies H^(n−1)({φ=0}) ≤ C√λ?",
+    "importance": "It predicts the sharp geometric complexity of smooth-metric eigenfunctions at high energy.",
+    "status": "open",
+    "status_note": "The matching lower bound and the analytic-metric case are known; polynomial upper bounds for smooth metrics do not give the sharp square-root estimate.",
+    "references": [
+      {
+        "title": "Logunov, Nodal sets of Laplace eigenfunctions: proof of Nadirashvili’s conjecture and of the lower bound in Yau’s conjecture",
+        "url": "https://arxiv.org/abs/1605.02589"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.open.09",
+    "subject": "math.SP",
+    "name": "Spectral determination of smooth convex planar drums",
+    "statement": "If two bounded strictly convex planar domains with C∞ boundaries have identical Dirichlet Laplace spectra, must they be congruent?",
+    "importance": "It asks whether the vibration frequencies determine the shape of a geometrically natural drum.",
+    "status": "open",
+    "status_note": "Noncongruent isospectral planar domains are known in broader classes. Local rigidity and symmetric or analytic special cases do not settle all smooth strictly convex domains.",
+    "references": [
+      {
+        "title": "Can one hear the shape of a drum?",
+        "url": "https://en.wikipedia.org/wiki/Can_one_hear_the_shape_of_a_drum%3F"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.open.10",
+    "subject": "math.SP",
+    "name": "Sharp three-dimensional Lieb–Thirring constant",
+    "statement": "Determine the optimal constant L in Σ_j |E_j(−Δ+V)| ≤ L∫_{ℝ³} V_−(x)^(5/2)dx for real potentials with V_−∈L^(5/2)(ℝ³), where E_j are the negative eigenvalues counted with multiplicity.",
+    "importance": "The sharp constant governs quantitative bounds on quantum bound states and kinetic energy.",
+    "status": "open",
+    "status_note": "Finiteness and bounds are established. This asks for the exact constant at exponent γ=1 in dimension three and does not assume a conjectured extremizer that may fail in other regimes.",
+    "references": [
+      {
+        "title": "Frank, The Lieb–Thirring inequalities: Recent results and open problems",
+        "url": "https://arxiv.org/abs/2007.09326"
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.RA.open.01",
+    "subject": "math.RA",
+    "name": "Finitistic dimension conjecture",
+    "statement": "For every finite-dimensional algebra A over a field, is the supremum of pd_A(M) over finitely generated A-modules M of finite projective dimension finite?",
+    "importance": "Would impose a universal finite bound on the resolvable part of a module category.",
+    "status": "open",
+    "status_note": "This is the little finitistic dimension conjecture; the version allowing arbitrary modules is a different question.",
+    "references": [
+      {
+        "title": "Xi, On the Finitistic Dimension Conjecture",
+        "url": "https://doi.org/10.1142/9789812701671_0025"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.open.02",
+    "subject": "math.RA",
+    "name": "Köthe conjecture",
+    "statement": "In every associative ring, is the sum of any two nil left ideals again nil?",
+    "importance": "Controls how nilpotence behaves under addition and has many equivalent ring-theoretic formulations.",
+    "status": "open",
+    "status_note": "A nil ideal need not be nilpotent. The conjecture remains open for arbitrary associative rings.",
+    "references": [
+      {
+        "title": "Köthe conjecture",
+        "url": "https://en.wikipedia.org/wiki/K%C3%B6the_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.open.03",
+    "subject": "math.RA",
+    "name": "Jacobson radical intersection conjecture",
+    "statement": "For every ring R that is both left and right Noetherian, is the intersection of all positive powers of its Jacobson radical J(R) equal to zero?",
+    "importance": "Extends the separation behavior of commutative Noetherian rings to noncommutative rings.",
+    "status": "open",
+    "status_note": "The two-sided Noetherian hypothesis is explicit; many special classes satisfy the conjecture, while the unrestricted one-sided setting is not asserted.",
+    "references": [
+      {
+        "title": "Jacobson conjecture",
+        "url": "https://en.wikipedia.org/wiki/Jacobson_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.open.04",
+    "subject": "math.RA",
+    "name": "Dixmier conjecture for the first Weyl algebra",
+    "statement": "For a characteristic-zero field k, is every k-algebra endomorphism of the first Weyl algebra A_1(k) an automorphism?",
+    "importance": "Asks whether algebraic quantization retains the rigidity predicted by the Jacobian conjecture.",
+    "status": "open",
+    "status_note": "Only the first Weyl algebra is asked about. The all-dimensions formulation is not listed, given its relationship to the all-dimensions Jacobian conjecture and reported 2026 Jacobian counterexamples.",
+    "references": [
+      {
+        "title": "Dixmier conjecture",
+        "url": "https://en.wikipedia.org/wiki/Dixmier_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.open.05",
+    "subject": "math.RA",
+    "name": "Kaplansky zero-divisor conjecture",
+    "statement": "For every torsion-free group G and field k, does the group algebra k[G] have no nonzero zero divisors?",
+    "importance": "Tests whether torsion is the only source of zero divisors in group algebras.",
+    "status": "open",
+    "status_note": "Proved for many classes of groups. The distinct unit conjecture has counterexamples and is not asserted here.",
+    "references": [
+      {
+        "title": "Kaplansky’s conjectures",
+        "url": "https://en.wikipedia.org/wiki/Kaplansky%27s_conjectures"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.open.06",
+    "subject": "math.RA",
+    "name": "Kaplansky idempotent conjecture",
+    "statement": "For every torsion-free group G and field k, are 0 and 1 the only idempotents in k[G]?",
+    "importance": "Would rule out hidden decompositions of group algebras and their associated projective structures.",
+    "status": "open",
+    "status_note": "Known for broad classes of groups; the arbitrary torsion-free case remains open.",
+    "references": [
+      {
+        "title": "Kaplansky’s conjectures",
+        "url": "https://en.wikipedia.org/wiki/Kaplansky%27s_conjectures"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.open.07",
+    "subject": "math.RA",
+    "name": "Nakayama conjecture on dominant dimension",
+    "statement": "If a finite-dimensional algebra A has infinite dominant dimension, meaning every term of a minimal injective resolution of the left regular module A is projective, must A be self-injective?",
+    "importance": "Would connect an infinite homological approximation property to a rigid structural conclusion.",
+    "status": "open",
+    "status_note": "The unrestricted finite-dimensional-algebra case is open; many representation-finite and other special cases are known.",
+    "references": [
+      {
+        "title": "Enomoto and Marczinzik, On the homological conjectures for Artin algebras",
+        "url": "https://arxiv.org/abs/2609.19172"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.open.08",
+    "subject": "math.RA",
+    "name": "Cartan determinant conjecture",
+    "statement": "If a finite-dimensional algebra A over an algebraically closed field has finite global dimension, must the determinant of its Cartan matrix be 1?",
+    "importance": "Predicts an exact integral numerical constraint on finite projective resolutions.",
+    "status": "open",
+    "status_note": "The determinant is known to be a unit, hence ±1, under these hypotheses; the conjecture requires the positive sign.",
+    "references": [
+      {
+        "title": "Cartan Determinants in algebraic geometry (classical conjecture and its dg analogue)",
+        "url": "https://arxiv.org/abs/2609.29598"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.open.09",
+    "subject": "math.RA",
+    "name": "Auslander–Reiten conjecture for finite-dimensional algebras",
+    "statement": "For a finite-dimensional algebra A and a finitely generated left A-module M, does Ext_A^i(M,M ⊕ A)=0 for every i>0 imply that M is projective?",
+    "importance": "Would characterize projective modules by the vanishing of their self-extensions and dual extensions.",
+    "status": "open",
+    "status_note": "Open for arbitrary finite-dimensional algebras; the analogous commutative-local formulation is separately listed in commutative algebra.",
+    "references": [
+      {
+        "title": "Enomoto and Marczinzik, On the homological conjectures for Artin algebras",
+        "url": "https://arxiv.org/abs/2609.19172"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.open.10",
+    "subject": "math.RA",
+    "name": "Han’s Hochschild-homology conjecture",
+    "statement": "For a finite-dimensional algebra A over a field, does HH_n(A)=0 for all sufficiently large n imply that A has finite global dimension?",
+    "importance": "Would make Hochschild homology a detector of the singularity of an algebra.",
+    "status": "open",
+    "status_note": "This is the homology conjecture. The analogous claim using Hochschild cohomology is false in general.",
+    "references": [
+      {
+        "title": "da Costa Cruz, A Survey on Han’s Conjecture",
+        "url": "https://arxiv.org/abs/2301.07511"
+      }
+    ]
+  }
+]

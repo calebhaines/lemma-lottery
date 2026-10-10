@@ -1,0 +1,160 @@
+[
+  {
+    "id": "math.QA.open.01",
+    "subject": "math.QA",
+    "name": "Kaplansky’s sixth conjecture",
+    "statement": "If H is a finite-dimensional semisimple Hopf algebra over an algebraically closed field of characteristic zero, must dim(V) divide dim(H) for every simple H-module V?",
+    "importance": "Extends a central divisibility theorem of finite-group representation theory to quantum symmetry.",
+    "status": "open",
+    "status_note": "Known for many classes of semisimple Hopf algebras; the general case remains open.",
+    "references": [
+      {
+        "title": "Dai and Dong, On Kaplansky’s sixth conjecture",
+        "url": "https://arxiv.org/abs/1409.2545"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.open.02",
+    "subject": "math.QA",
+    "name": "Bijectivity of antipodes for Noetherian Hopf algebras",
+    "statement": "Must the antipode of every Hopf algebra over a field that is both left and right Noetherian be bijective?",
+    "importance": "Would establish a basic structural symmetry of Noetherian quantum groups.",
+    "status": "open",
+    "status_note": "Injectivity and several bijectivity cases are known; in particular residual finite dimensionality gives bijectivity. That extra hypothesis is not assumed here.",
+    "references": [
+      {
+        "title": "Skryabin, Flatness of Noetherian Hopf algebras over coideal subalgebras",
+        "url": "https://arxiv.org/abs/2001.02848"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.open.03",
+    "subject": "math.QA",
+    "name": "Faithful flatness over Noetherian Hopf subalgebras",
+    "statement": "If H is a left and right Noetherian Hopf algebra over a field and K ⊆ H is a left and right Noetherian Hopf subalgebra, must H be faithfully flat as both a left and a right K-module?",
+    "importance": "Would make quotient and descent constructions for Noetherian quantum groups behave uniformly.",
+    "status": "open",
+    "status_note": "Known with additional hypotheses such as residual finite dimensionality; those hypotheses are not part of this question.",
+    "references": [
+      {
+        "title": "Skryabin, Flatness of Noetherian Hopf algebras over coideal subalgebras",
+        "url": "https://arxiv.org/abs/2001.02848"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.open.04",
+    "subject": "math.QA",
+    "name": "Finite-dimensional Nichols algebras over nonabelian finite groups",
+    "statement": "For finite nonabelian groups G and finite-dimensional Yetter–Drinfeld modules V over C[G], which pairs (G,V) have a finite-dimensional Nichols algebra B(V)?",
+    "importance": "This classification controls the building blocks of finite-dimensional pointed quantum groups.",
+    "status": "open",
+    "status_note": "Diagonal-type Nichols algebras and many families are classified; a classification across nonabelian finite groups is not known.",
+    "references": [
+      {
+        "title": "Nichols algebra",
+        "url": "https://en.wikipedia.org/wiki/Nichols_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.open.05",
+    "subject": "math.QA",
+    "name": "Property F conjecture",
+    "statement": "For every weakly integral braided fusion category over C, do all braid-group actions on Hom(Y,X^{⊗n}) arising from its braiding have finite image?",
+    "importance": "Predicts when quantum braid operations generate finite rather than dense families of transformations.",
+    "status": "open",
+    "status_note": "Proved for many explicit categories and weakly group-theoretical braided categories; the full weakly integral class remains open.",
+    "references": [
+      {
+        "title": "Naidu and Rowell, A finiteness property for braided fusion categories",
+        "url": "https://arxiv.org/abs/0903.4157"
+      },
+      {
+        "title": "Li and Ruan, Generalized property F for weakly group-theoretical modular fusion categories",
+        "url": "https://arxiv.org/abs/2610.05177"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.open.06",
+    "subject": "math.QA",
+    "name": "Unitary modular category realization by vertex operator algebras",
+    "statement": "Does every unitary modular tensor category occur, up to braided equivalence, as the representation category of a unitary rational C_2-cofinite vertex operator algebra of CFT type?",
+    "importance": "Would connect abstract quantum algebraic data to chiral conformal field theory constructions.",
+    "status": "open",
+    "status_note": "Many examples are known, but there is no realization theorem for every unitary modular category.",
+    "references": [
+      {
+        "title": "Wang and Wang, In and around Abelian anyon models",
+        "url": "https://arxiv.org/abs/2004.12048"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.open.07",
+    "subject": "math.QA",
+    "name": "Weakly integral fusion categories are weakly group-theoretical",
+    "statement": "Is every fusion category over C with integer Frobenius–Perron dimension Morita equivalent to a category obtained from Vec by successive finite-group extensions?",
+    "importance": "Would explain weakly integral quantum symmetries in terms of finite-group constructions.",
+    "status": "open",
+    "status_note": "This asks for weakly group-theoretical structure, not the stronger and false claim that every such category is group-theoretical.",
+    "references": [
+      {
+        "title": "Etingof, Nikshych and Ostrik, Weakly group-theoretical and solvable fusion categories",
+        "url": "https://arxiv.org/abs/0809.3031"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.open.08",
+    "subject": "math.QA",
+    "name": "Deligne–Drinfeld freeness conjecture",
+    "statement": "Is the graded Grothendieck–Teichmüller Lie algebra grt_1 over Q the degree-completion of a free Lie algebra on one generator in each odd degree 3,5,7,...?",
+    "importance": "Would determine the universal algebra governing associators and deformation quantization symmetries.",
+    "status": "open",
+    "status_note": "A free motivic Lie subalgebra is known; the conjecture requires that no further generators or relations occur in grt_1.",
+    "references": [
+      {
+        "title": "Naef and Willwacher, Numerical computation of linearized KV and the Deligne–Drinfeld and Broadhurst–Kreimer conjectures",
+        "url": "https://arxiv.org/abs/2508.08081"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.open.09",
+    "subject": "math.QA",
+    "name": "Grothendieck–Teichmüller and double-shuffle equality",
+    "statement": "Is grt_1 equal to the normalized regularized double-shuffle Lie algebra dmr_0 over Q under their natural inclusion in the completed free Lie algebra on two generators?",
+    "importance": "Asks whether associator relations and multiple-zeta double-shuffle relations encode the same infinitesimal quantum symmetry.",
+    "status": "open",
+    "status_note": "The inclusion grt_1 ⊆ dmr_0 is established; equality is stronger and remains open.",
+    "references": [
+      {
+        "title": "Furusho, Double shuffle relation for associators",
+        "url": "https://arxiv.org/abs/0808.0319"
+      },
+      {
+        "title": "Naef and Willwacher, Numerical computation of linearized KV and the Deligne–Drinfeld and Broadhurst–Kreimer conjectures",
+        "url": "https://arxiv.org/abs/2508.08081"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.open.10",
+    "subject": "math.QA",
+    "name": "Colored Jones volume conjecture",
+    "statement": "For every hyperbolic knot K, with J_N normalized to equal one on the unknot, does lim_{N→infinity} (2π/N) log|J_N(K;exp(2πi/N))| equal the hyperbolic volume of S^3 minus K?",
+    "importance": "Would recover geometric volume from quantum-group knot invariants in a semiclassical limit.",
+    "status": "open",
+    "status_note": "Proved for some knots and related families; the statement for every hyperbolic knot remains open.",
+    "references": [
+      {
+        "title": "Volume conjecture",
+        "url": "https://en.wikipedia.org/wiki/Volume_conjecture"
+      }
+    ]
+  }
+]

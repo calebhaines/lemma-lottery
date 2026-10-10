@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.PR.open.01",
+    "subject": "math.PR",
+    "name": "Planar self-avoiding walk scaling limit",
+    "statement": "For a simply connected planar domain with two marked boundary points, consider lattice self-avoiding paths between those points weighted by μ^(−length), where μ is the lattice connective constant. As the mesh tends to zero, do the unparameterized paths converge to chordal SLE_(8/3)?",
+    "importance": "A central universality prediction for polymers and conformally invariant random curves.",
+    "status": "open",
+    "status_note": "The existence and conformal invariance of the lattice scaling limit are open; identifying a limit under those assumptions is not an existence proof.",
+    "references": [
+      {
+        "title": "Slade: The Self-Avoiding Walk: A Brief Survey",
+        "url": "https://www.math.ubc.ca/~slade/spa_proceedings.pdf"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.open.02",
+    "subject": "math.PR",
+    "name": "Conformal invariance of square-lattice critical percolation",
+    "statement": "For independent bond percolation on the square lattice at p=1/2, prove that crossing probabilities in scaled Jordan domains converge to Cardy’s conformally invariant formula, and that the associated exploration interfaces converge to SLE_6.",
+    "importance": "Would establish the central planar-percolation universality prediction beyond the special solved lattice.",
+    "status": "open",
+    "status_note": "Critical site percolation on the triangular lattice is understood; that theorem does not cover square-lattice bond percolation.",
+    "references": [
+      {
+        "title": "Smirnov: Critical percolation in the plane: conformal invariance, Cardy’s formula, scaling limits",
+        "url": "https://doi.org/10.1016/S0764-4442(01)01991-7"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.open.03",
+    "subject": "math.PR",
+    "name": "KPZ exponents for planar first-passage percolation",
+    "statement": "For nearest-neighbor first-passage percolation on Z² with independent exponential mean-one edge times, prove the predicted passage-time fluctuation exponent χ=1/3 and geodesic transversal-wandering exponent ξ=2/3, in a rigorous formulation of these scaling exponents.",
+    "importance": "A flagship universality prediction for random growth and optimization in disordered media.",
+    "status": "open",
+    "status_note": "Exactly solvable directed last-passage models have these exponents; ordinary undirected first-passage percolation remains unresolved.",
+    "references": [
+      {
+        "title": "Auffinger, Damron and Hanson: 50 years of first-passage percolation",
+        "url": "https://arxiv.org/abs/1511.03262"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.open.04",
+    "subject": "math.PR",
+    "name": "Strict convexity of the first-passage limit shape",
+    "statement": "For nearest-neighbor first-passage percolation on Z² with independent exponential mean-one edge times, is its deterministic asymptotic limit shape strictly convex, so that its boundary contains no nontrivial line segment?",
+    "importance": "A basic geometric question underlying the structure of random geodesics.",
+    "status": "open",
+    "status_note": "The shape theorem is proved; strict convexity does not follow from existence of a deterministic convex limit shape.",
+    "references": [
+      {
+        "title": "Auffinger, Damron and Hanson: 50 years of first-passage percolation",
+        "url": "https://arxiv.org/abs/1511.03262"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.open.05",
+    "subject": "math.PR",
+    "name": "Three-dimensional self-avoiding walk exponent",
+    "statement": "For a uniformly chosen n-step nearest-neighbor self-avoiding walk on Z³ starting at the origin, prove that its mean squared endpoint distance is n^(2ν+o(1)), and determine the exponent ν.",
+    "importance": "The basic size exponent of three-dimensional polymers is a major quantitative universality question.",
+    "status": "open",
+    "status_note": "Numerical estimates near ν=0.588 are not rigorous values; high-dimensional mean-field results do not determine the three-dimensional exponent.",
+    "references": [
+      {
+        "title": "Slade: The Self-Avoiding Walk: A Brief Survey",
+        "url": "https://www.math.ubc.ca/~slade/spa_proceedings.pdf"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.open.06",
+    "subject": "math.PR",
+    "name": "Three-dimensional Brownian intersection exponent",
+    "statement": "Let two independent Brownian motions in R³ start at distinct fixed points of the unit sphere and each stop on first reaching the sphere of radius R. Determine the exponent ξ₃ governing the probability that their stopped paths are disjoint, R^(−ξ₃+o(1)), as R→∞.",
+    "importance": "An exact exponent would explain fine geometry of three-dimensional random paths.",
+    "status": "open",
+    "status_note": "Existence and estimates for the exponent are known; the exact planar exponent does not determine its three-dimensional value.",
+    "references": [
+      {
+        "title": "An explicit lower bound for the growth exponent of three-dimensional loop-erased random walk (2026)",
+        "url": "https://arxiv.org/abs/2609.18643"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.open.07",
+    "subject": "math.PR",
+    "name": "Low-temperature spin-glass phase in three dimensions",
+    "statement": "For the nearest-neighbor Edwards–Anderson Ising model on periodic boxes Λ_L in Z³ with independent centered Gaussian couplings and zero external field, prove that some finite inverse temperature β has liminf as L→∞ of E_J〈q_L²〉_(β,J)>0. Here q_L=|Λ_L|^(-1)∑_x σ_xτ_x is the overlap of two independent Gibbs configurations with the same couplings.",
+    "importance": "A central probability question about ordering in finite-dimensional disordered systems.",
+    "status": "open",
+    "status_note": "Mean-field spin-glass theory and numerical evidence do not prove a spin-glass phase for the three-dimensional short-range model.",
+    "references": [
+      {
+        "title": "Edwards–Anderson model and spin-glass phase",
+        "url": "https://en.wikipedia.org/wiki/Spin_glass"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.open.08",
+    "subject": "math.PR",
+    "name": "Temperature chaos in the pure SK model",
+    "statement": "In the zero-field Sherrington–Kirkpatrick model with the same Gaussian couplings, sample independent configurations at distinct inverse temperatures β₁,β₂>1. Does their normalized spin overlap tend to 0 in probability under the joint Gibbs law as the number of spins tends to infinity?",
+    "importance": "Tests whether a small temperature change reorganizes a disordered equilibrium state completely.",
+    "status": "open",
+    "status_note": "Temperature-chaos theorems for generic mixed-spin models do not settle the pure two-spin SK case.",
+    "references": [
+      {
+        "title": "Panchenko: Chaos in temperature in generic 2p-spin models",
+        "url": "https://arxiv.org/abs/1502.03801"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.open.09",
+    "subject": "math.PR",
+    "name": "Two-dimensional Anderson localization at arbitrary disorder",
+    "statement": "For Hψ(x)=∑_(|y−x|=1)ψ(y)+λV_xψ(x) on ℓ²(Z²), with independent V_x uniform on [−1,1], prove that for every λ>0 the spectrum is almost surely pure point with exponentially decaying eigenfunctions.",
+    "importance": "A fundamental probability problem about whether arbitrarily weak planar disorder prevents wave propagation.",
+    "status": "open",
+    "status_note": "Localization at strong disorder and near spectral edges is known; the full weak-disorder two-dimensional assertion remains open. Results on trees and hyperbolic lattices concern different geometry.",
+    "references": [
+      {
+        "title": "Becker and Oltman: Disorder on the hyperbolic square lattice I: Anderson delocalization and absolutely continuous spectrum (2026), introduction",
+        "url": "https://arxiv.org/abs/2609.20798"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.open.10",
+    "subject": "math.PR",
+    "name": "Exact dimension of three-dimensional loop-erased walk",
+    "statement": "Determine the exact growth exponent, equivalently the predicted fractal dimension, of the scaling limit of nearest-neighbor loop-erased random walk in R³. In the lattice formulation, ask for the exponent β₃ in the expected number of loop-erased steps before leaving a ball of radius R, R^(β₃+o(1)).",
+    "importance": "A basic quantitative question about random paths and uniform spanning trees in three dimensions.",
+    "status": "open",
+    "status_note": "Scaling-limit and exponent-existence results do not give the exact three-dimensional exponent; the planar value 5/4 is not applicable.",
+    "references": [
+      {
+        "title": "Loop-erased random walk",
+        "url": "https://en.wikipedia.org/wiki/Loop-erased_random_walk"
+      },
+      {
+        "title": "An explicit lower bound for the growth exponent of three-dimensional loop-erased random walk (2026)",
+        "url": "https://arxiv.org/abs/2609.18643"
+      }
+    ]
+  }
+]

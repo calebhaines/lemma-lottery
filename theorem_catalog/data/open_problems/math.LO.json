@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.LO.open.01",
+    "subject": "math.LO",
+    "name": "Vaught conjecture",
+    "statement": "Is it provable in ZFC that every first-order theory in a countable language has either at most countably many countable models up to isomorphism or exactly continuum many?",
+    "importance": "A foundational model-classification problem linking logic and descriptive set theory.",
+    "status": "open",
+    "status_note": "The continuum hypothesis implies the displayed dichotomy; whether ZFC proves it remains open. This is not presented as a known independent statement.",
+    "references": [
+      {
+        "title": "Open Problems in Mathematical Logic: Vaught conjecture",
+        "url": "https://www.openlogicproblems.com/problems/1"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.open.02",
+    "subject": "math.LO",
+    "name": "Martin conjecture: Borel dichotomy",
+    "statement": "For every Borel function f:2^N→2^N respecting Turing equivalence, is there a Turing cone on which f is constant up to Turing equivalence, or a cone on which x is Turing reducible to f(x) for every x? A cone consists of all reals computing one fixed real.",
+    "importance": "Predicts a canonical form for definable operations on degrees of computability.",
+    "status": "open",
+    "status_note": "This is the first part of the Borel version, formulated in ZFC; uniform and order-preserving special cases are known.",
+    "references": [
+      {
+        "title": "Open Problems in Mathematical Logic: Martin conjecture: Borel dichotomy",
+        "url": "https://www.openlogicproblems.com/problems/2"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.open.03",
+    "subject": "math.LO",
+    "name": "Reverse-mathematical strength of Fraïssé’s theorem",
+    "statement": "Does the subsystem ATR₀ of second-order arithmetic prove that countable linear orders are well-quasi-ordered by embeddability, meaning that every infinite sequence L₀,L₁,… has i<j with L_i embedding into L_j?",
+    "importance": "A major test of the exact axioms needed for infinite structural theorems.",
+    "status": "open",
+    "status_note": "Fraïssé’s assertion itself is Laver’s proved theorem; the open question concerns its proof strength. It implies ATR₀ over RCA₀ and follows from Π¹₁-comprehension.",
+    "references": [
+      {
+        "title": "Open Problems in Mathematical Logic: Reverse-mathematical strength of Fraïssé’s theorem",
+        "url": "https://www.openlogicproblems.com/problems/3"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.open.04",
+    "subject": "math.LO",
+    "name": "Tarski’s exponential-function problem",
+    "statement": "Is the first-order theory of (R,+,×,<,0,1,exp), with the usual real exponential function, decidable: does an algorithm determine the truth of every sentence in this language?",
+    "importance": "Asks whether effective real algebraic reasoning extends to exponentiation.",
+    "status": "open",
+    "status_note": "O-minimality and model completeness are known; decidability is conditional on an appropriate Schanuel conjecture and remains unproved unconditionally.",
+    "references": [
+      {
+        "title": "Tarski’s exponential-function problem",
+        "url": "https://en.wikipedia.org/wiki/Tarski%27s_exponential_function_problem"
+      },
+      {
+        "title": "Berarducci and Gallinaro: On the elementary theory of the real exponential field (2026)",
+        "url": "https://arxiv.org/abs/2603.08365"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.open.05",
+    "subject": "math.LO",
+    "name": "Kolmogorov–Loveland versus Martin–Löf randomness",
+    "statement": "Does every infinite binary sequence on which no computable nonmonotonic betting strategy can gain unbounded capital satisfy every Martin–Löf randomness test? Such a test is a uniformly effectively open sequence U_n with fair-coin measure at most 2^(-n).",
+    "importance": "One of the central unresolved equivalence questions in algorithmic randomness.",
+    "status": "open",
+    "status_note": "Martin–Löf randomness implies Kolmogorov–Loveland randomness; the converse is open.",
+    "references": [
+      {
+        "title": "Open Problems in Mathematical Logic: Kolmogorov–Loveland versus Martin–Löf randomness",
+        "url": "https://www.openlogicproblems.com/problems/7"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.open.06",
+    "subject": "math.LO",
+    "name": "Π¹₁-conservativity of Ramsey’s theorem for pairs",
+    "statement": "Does adding Ramsey’s theorem for pairs and two colors to RCA₀+BΣ⁰₂ prove no new Π¹₁ sentences beyond RCA₀+BΣ⁰₂? Ramsey’s theorem states that every two-coloring of unordered pairs of natural numbers has an infinite homogeneous set.",
+    "importance": "A central question about the logical strength of elementary infinite combinatorics.",
+    "status": "open",
+    "status_note": "Related conservativity statements with stronger induction or weaker sentence classes are proved; this precise version remains open.",
+    "references": [
+      {
+        "title": "Open Problems in Mathematical Logic: Π¹₁-conservativity of Ramsey’s theorem for pairs",
+        "url": "https://www.openlogicproblems.com/problems/8"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.open.07",
+    "subject": "math.LO",
+    "name": "Weiss’s amenable-action question",
+    "statement": "Does every Borel action of a countable amenable group on a standard Borel space have a hyperfinite orbit equivalence relation, that is, an increasing union of Borel equivalence relations with finite classes?",
+    "importance": "Connects measurable group dynamics with the structure of definable equivalence relations.",
+    "status": "open",
+    "status_note": "Many classes of amenable groups are covered; measure-theoretic hyperfiniteness does not settle the everywhere-Borel assertion.",
+    "references": [
+      {
+        "title": "Open Problems in Mathematical Logic: Weiss’s amenable-action question",
+        "url": "https://www.openlogicproblems.com/problems/12"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.open.08",
+    "subject": "math.LO",
+    "name": "Stable fields conjecture",
+    "statement": "Is every infinite field whose first-order theory in the language of rings is stable separably closed, meaning it has no proper finite separable algebraic extension?",
+    "importance": "A key proposed classification of fields by model-theoretic tameness.",
+    "status": "open",
+    "status_note": "The assertion is known for large stable fields; ω-stable and superstable fields satisfy stronger conclusions.",
+    "references": [
+      {
+        "title": "Open Problems in Mathematical Logic: Stable fields conjecture",
+        "url": "https://www.openlogicproblems.com/problems/13"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.open.09",
+    "subject": "math.LO",
+    "name": "Cherlin–Zilber algebraicity conjecture",
+    "statement": "Is every infinite simple group of finite Morley rank isomorphic to the group of points of an algebraic group over an algebraically closed field?",
+    "importance": "A proposed extension of algebraic-group classification into abstract model theory.",
+    "status": "open",
+    "status_note": "Small Morley-rank and even-type cases are proved; the general finite-rank assertion remains open.",
+    "references": [
+      {
+        "title": "Open Problems in Mathematical Logic: Cherlin–Zilber algebraicity conjecture",
+        "url": "https://www.openlogicproblems.com/problems/14"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.open.10",
+    "subject": "math.LO",
+    "name": "Superpolynomial lower bounds for Frege proofs",
+    "statement": "Are Frege propositional proof systems not polynomially bounded: for every polynomial p, is there a tautology of length n whose shortest Frege proof has length greater than p(n)?",
+    "importance": "A central lower-bound problem in proof complexity and efficient formal reasoning.",
+    "status": "open",
+    "status_note": "Lower bounds for restricted propositional systems do not establish superpolynomial lower bounds for general Frege systems.",
+    "references": [
+      {
+        "title": "Open Problems in Mathematical Logic: Superpolynomial lower bounds for Frege proofs",
+        "url": "https://www.openlogicproblems.com/problems/23"
+      }
+    ]
+  }
+]

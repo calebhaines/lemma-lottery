@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.DG.open.01",
+    "subject": "math.DG",
+    "name": "Hopf’s Euler-characteristic conjecture",
+    "statement": "Must every closed even-dimensional Riemannian manifold with strictly positive sectional curvature have positive Euler characteristic?",
+    "importance": "It asks for a fundamental topological consequence of positive sectional curvature.",
+    "status": "open",
+    "status_note": "The assertion is known in low dimensions and under additional symmetry assumptions, but not in all even dimensions.",
+    "references": [
+      {
+        "title": "Hopf conjecture",
+        "url": "https://en.wikipedia.org/wiki/Hopf_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.open.02",
+    "subject": "math.DG",
+    "name": "Hopf’s product conjecture",
+    "statement": "Can S^2 × S^2 carry any Riemannian metric with strictly positive sectional curvature?",
+    "importance": "This basic product is a decisive test of the scarcity of positively curved manifolds.",
+    "status": "open",
+    "status_note": "The conjectured answer is no; nonnegative sectional curvature is easy to obtain, and stronger curvature conditions are different questions.",
+    "references": [
+      {
+        "title": "Hopf conjecture",
+        "url": "https://en.wikipedia.org/wiki/Hopf_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.open.03",
+    "subject": "math.DG",
+    "name": "Bott’s rational ellipticity conjecture",
+    "statement": "Is every closed simply connected Riemannian manifold with nonnegative sectional curvature rationally elliptic, meaning its total rational homotopy is finite-dimensional?",
+    "importance": "It predicts a strong restriction on the homotopy complexity permitted by nonnegative curvature.",
+    "status": "open",
+    "status_note": "The simply connected and closed hypotheses are part of the statement; many symmetric examples satisfy it, but the general case is open.",
+    "references": [
+      {
+        "title": "Torus orbifolds, slice-maximal torus actions and rational ellipticity",
+        "url": "https://arxiv.org/abs/1404.3903"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.open.04",
+    "subject": "math.DG",
+    "name": "Markus conjecture",
+    "statement": "Is every compact connected affine manifold whose flat torsion-free affine connection admits a parallel volume form geodesically complete?",
+    "importance": "It seeks a geometric characterization of completeness using volume preservation.",
+    "status": "open",
+    "status_note": "Completeness implies the existence of a parallel volume form in the compact setting; the reverse implication is open in general and known in several special cases.",
+    "references": [
+      {
+        "title": "Affine manifolds and the Markus conjecture",
+        "url": "https://en.wikipedia.org/wiki/Affine_manifold"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.open.05",
+    "subject": "math.DG",
+    "name": "Goldberg conjecture in negative scalar curvature",
+    "statement": "Must every compact Einstein almost-Kähler manifold with negative scalar curvature have an integrable almost-complex structure, and hence be Kähler?",
+    "importance": "It asks whether an Einstein metric forces an almost-Kähler structure to become complex geometry.",
+    "status": "open",
+    "status_note": "The compact nonnegative-scalar-curvature case is proved; noncompact counterexamples do not settle this remaining compact case.",
+    "references": [
+      {
+        "title": "On some compact Einstein almost Kähler manifolds",
+        "url": "https://doi.org/10.2969/jmsj/03940677"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.open.06",
+    "subject": "math.DG",
+    "name": "Chern’s minimal-hypersurface conjecture",
+    "statement": "For each n, is the set of constant values of |A|^2 attained by closed minimal hypersurfaces in the unit sphere S^(n+1) discrete, where A is the second fundamental form?",
+    "importance": "It predicts a gap structure for the curvature of minimal hypersurfaces.",
+    "status": "open",
+    "status_note": "The hypersurface is required to have constant scalar curvature, equivalently constant |A|^2; initial gap results do not settle discreteness of the full set.",
+    "references": [
+      {
+        "title": "Chern conjecture and isoparametric hypersurfaces",
+        "url": "https://arxiv.org/abs/1008.3683"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.open.07",
+    "subject": "math.DG",
+    "name": "Bartnik splitting conjecture",
+    "statement": "Must a spatially compact globally hyperbolic spacetime that is timelike geodesically complete and satisfies Ric(v,v) at least zero for every timelike vector v be isometric to a static product (R × Σ, −dt^2 + h)?",
+    "importance": "It tests whether a nonsingular cosmology satisfying the timelike convergence condition must be static.",
+    "status": "open",
+    "status_note": "The Lorentzian splitting theorem applies when a complete timelike line exists; producing such a line under these hypotheses is the unresolved step.",
+    "references": [
+      {
+        "title": "Achronal limits, Lorentzian spheres, and splitting",
+        "url": "https://arxiv.org/abs/1211.2460"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.open.08",
+    "subject": "math.DG",
+    "name": "Gromov’s macroscopic-dimension conjecture",
+    "statement": "For every closed n-dimensional manifold with a positive-scalar-curvature metric, does its universal cover have macroscopic dimension at most n−2, meaning it admits a uniformly cobounded map to an (n−2)-dimensional simplicial complex?",
+    "importance": "It connects scalar curvature with the large-scale topology of universal covers.",
+    "status": "open",
+    "status_note": "Many group and spin cases are established; the unrestricted statement for closed positive-scalar-curvature manifolds remains open.",
+    "references": [
+      {
+        "title": "Positive Scalar Curvature, Macroscopic Dimension, and Inessential Manifolds",
+        "url": "https://doi.org/10.1142/9789811273230_0007"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.open.09",
+    "subject": "math.DG",
+    "name": "Willmore minimization in genus two",
+    "statement": "Determine the exact infimum of the Willmore energy integral H^2 dA over smooth closed embedded genus-two surfaces in R^3, and classify all minimizers up to conformal transformations.",
+    "importance": "It is the next fundamental surface-energy problem after the sphere and torus cases.",
+    "status": "open",
+    "status_note": "Existence and bounds are known; the genus-one minimum is 2π^2 by Marques–Neves, while the exact genus-two minimum is unresolved.",
+    "references": [
+      {
+        "title": "Willmore conjecture and higher-genus minimization",
+        "url": "https://en.wikipedia.org/wiki/Willmore_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.open.10",
+    "subject": "math.DG",
+    "name": "General Penrose inequality",
+    "statement": "For asymptotically flat three-dimensional initial data with a complete exterior up to the horizon for Einstein’s equations satisfying the dominant energy condition and having a connected outermost future apparent horizon, must the ADM mass m be at least sqrt(A_min/(16π)), where A_min is the infimum of the areas of smooth closed surfaces enclosing that horizon?",
+    "importance": "It relates black-hole horizon geometry to total mass and tests cosmic censorship quantitatively.",
+    "status": "open",
+    "status_note": "The time-symmetric Riemannian case is proved; the general case with nonzero second fundamental form is open. Using the apparent-horizon area itself rather than the least-area enclosure gives a false variant.",
+    "references": [
+      {
+        "title": "Penrose inequality",
+        "url": "https://en.wikipedia.org/wiki/Penrose_inequality"
+      },
+      {
+        "title": "The Penrose inequality and apparent horizons",
+        "url": "https://arxiv.org/abs/gr-qc/0408066"
+      }
+    ]
+  }
+]

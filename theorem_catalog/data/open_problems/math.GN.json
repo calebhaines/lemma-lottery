@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.GN.open.01",
+    "subject": "math.GN",
+    "name": "Hilbert–Smith conjecture",
+    "statement": "Must every locally compact group admitting a faithful continuous action on a connected finite-dimensional topological manifold be a Lie group?",
+    "importance": "It asks whether manifold topology excludes genuinely non-Lie continuous symmetries.",
+    "status": "open",
+    "status_note": "The conjecture is proved in dimensions at most three and for several more regular action classes; arbitrary continuous actions in higher dimensions remain open.",
+    "references": [
+      {
+        "title": "Hilbert–Smith conjecture",
+        "url": "https://en.wikipedia.org/wiki/Hilbert%E2%80%93Smith_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.open.02",
+    "subject": "math.GN",
+    "name": "Bing–Borsuk conjecture",
+    "statement": "Is every finite-dimensional locally compact homogeneous separable metric absolute neighborhood retract a topological manifold?",
+    "importance": "It seeks a characterization of manifolds using local homotopy regularity and the ability to move any point to any other.",
+    "status": "open",
+    "status_note": "The low-dimensional cases are known; homogeneity without the ANR hypothesis does not suffice.",
+    "references": [
+      {
+        "title": "Bing–Borsuk conjecture",
+        "url": "https://en.wikipedia.org/wiki/Bing%E2%80%93Borsuk_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.open.03",
+    "subject": "math.GN",
+    "name": "Busemann manifold conjecture",
+    "statement": "Is every finite-dimensional Busemann G-space a topological manifold? Here a G-space is a proper geodesic metric space with local geodesic extension and unique local continuation in Busemann’s sense.",
+    "importance": "It asks whether natural intrinsic geodesic axioms already force manifold topology.",
+    "status": "open",
+    "status_note": "The conjecture is known in dimensions at most four. A 2026 result establishes the disjoint disks property in dimensions at least five, leaving the resolution obstruction.",
+    "references": [
+      {
+        "title": "The disjoint disks property for Busemann G-spaces",
+        "url": "https://arxiv.org/abs/2609.21357"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.open.04",
+    "subject": "math.GN",
+    "name": "Michael-space problem in ZFC",
+    "statement": "Can ZFC alone establish the existence of a regular Lindelöf space X for which X × (R minus Q), with the usual topology on the irrationals, is not Lindelöf?",
+    "importance": "It is a central test of when the Lindelöf property survives products.",
+    "status": "open",
+    "status_note": "Examples exist under additional set-theoretic assumptions; existence without such assumptions remains open.",
+    "references": [
+      {
+        "title": "Michael Spaces and Ultrafilters",
+        "url": "https://arxiv.org/abs/2310.02749"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.open.05",
+    "subject": "math.GN",
+    "name": "Efimov-space existence problem in ZFC",
+    "statement": "Can ZFC alone establish the existence of an infinite compact Hausdorff space containing neither a nontrivial convergent sequence nor a subspace homeomorphic to the Stone–Čech compactification βN?",
+    "importance": "It asks whether infinite compact spaces must exhibit one of two fundamental types of infinite behavior.",
+    "status": "open",
+    "status_note": "Efimov spaces are known under additional set-theoretic assumptions; the unresolved question is their existence from ZFC alone.",
+    "references": [
+      {
+        "title": "The coinitialities of Efimov spaces",
+        "url": "https://doi.org/10.1090/conm/533/10511"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.open.06",
+    "subject": "math.GN",
+    "name": "D-space problem for regular Lindelöf spaces",
+    "statement": "Is every regular Hausdorff Lindelöf space a D-space: for each assignment of an open neighborhood U_x to every point x, is there a closed discrete set D such that the sets U_x for x in D cover the space?",
+    "importance": "It asks whether countable-cover compactness forces discrete selection of prescribed neighborhoods.",
+    "status": "open",
+    "status_note": "Known nonregular counterexamples do not settle the regular Hausdorff case; Menger spaces and many classical classes are D-spaces.",
+    "references": [
+      {
+        "title": "On D-spaces and Covering Properties",
+        "url": "https://arxiv.org/abs/2504.12277"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.open.07",
+    "subject": "math.GN",
+    "name": "D-space problem for paracompact spaces",
+    "statement": "Is every paracompact Hausdorff space a D-space, meaning every open-neighborhood assignment has a covering subfamily indexed by a closed discrete set?",
+    "importance": "It asks whether locally finite refinements always yield a much more constrained discrete neighborhood selection.",
+    "status": "open",
+    "status_note": "Paracompactness is not known to imply the D-property in full generality; metric spaces and many special paracompact classes satisfy it.",
+    "references": [
+      {
+        "title": "On D-spaces and Covering Properties",
+        "url": "https://arxiv.org/abs/2504.12277"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.open.08",
+    "subject": "math.GN",
+    "name": "Plane fixed-point problem",
+    "statement": "Does every nonseparating plane continuum have the fixed-point property for all its continuous self-maps, where a continuum is a nonempty compact connected subset of R^2 and nonseparating means its complement is connected?",
+    "importance": "It extends the Brouwer fixed-point theorem to arbitrary connected planar sets without holes.",
+    "status": "open",
+    "status_note": "The problem is open without local connectedness or other extra hypotheses; results about extensions to plane homeomorphisms are weaker statements.",
+    "references": [
+      {
+        "title": "Fixed-point property and the plane fixed-point problem",
+        "url": "https://en.wikipedia.org/wiki/Fixed-point_property"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.open.09",
+    "subject": "math.GN",
+    "name": "Small-diagonal compact-space problem",
+    "statement": "Must a compact Hausdorff space X be metrizable if, for every uncountable set A contained in X × X minus the diagonal, some open neighborhood U of the diagonal has A minus U uncountable?",
+    "importance": "It asks whether a weak diagonal-separation condition characterizes metric compact spaces.",
+    "status": "open",
+    "status_note": "The displayed condition is the small-diagonal property; it is weaker than having a G_δ diagonal, whose compact metrization theorem is known.",
+    "references": [
+      {
+        "title": "Elementary chains and compact spaces with a small diagonal",
+        "url": "https://arxiv.org/abs/1109.1736"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.open.10",
+    "subject": "math.GN",
+    "name": "Homogeneous tree-like continuum problem",
+    "statement": "Is every nondegenerate homogeneous tree-like metric continuum homeomorphic to the pseudo-arc, where tree-like means admitting continuous surjections to finite trees whose fibers all have diameter less than any prescribed positive ε?",
+    "importance": "It seeks a classification of homogeneous continua with the shape of a point.",
+    "status": "open",
+    "status_note": "The homogeneous chainable case is known; the broader tree-like case remains open.",
+    "references": [
+      {
+        "title": "Pseudo-arc and homogeneous tree-like continua",
+        "url": "https://en.wikipedia.org/wiki/Pseudo-arc"
+      }
+    ]
+  }
+]

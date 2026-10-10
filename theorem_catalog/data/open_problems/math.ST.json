@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.ST.open.01",
+    "subject": "math.ST",
+    "name": "Planted clique conjecture",
+    "statement": "For every fixed ε∈(0,1/2), can no randomized polynomial-time test distinguish G(n,1/2) from the same graph with a uniformly chosen clique of size floor(n^(1/2−ε)) planted, with success probability bounded above 1/2 by a fixed positive constant?",
+    "importance": "A foundational statistical hardness assumption used to explain computational barriers in inference.",
+    "status": "open",
+    "status_note": "The impossibility for all polynomial-time algorithms is conjectural; lower bounds for restricted algorithm classes and conditional reductions are not unconditional hardness proofs.",
+    "references": [
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §2.1.1",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.open.02",
+    "subject": "math.ST",
+    "name": "Computational threshold for sparse PCA",
+    "statement": "For n independent N(0,I_d+θvvᵀ) samples, where v is an unknown unit vector with k nonzero coordinates of equal absolute value, determine the sharp signal/sample threshold for polynomial-time testing against N(0,I_d), as n,d,k grow.",
+    "importance": "A canonical question about whether statistical efficiency can coexist with computational efficiency.",
+    "status": "open",
+    "status_note": "Information-theoretic thresholds, efficient algorithms, and conditional hardness bounds are known in substantial regimes; a complete sharp polynomial-time threshold is open.",
+    "references": [
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §2.1.1 and §2.5",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.open.03",
+    "subject": "math.ST",
+    "name": "Tensor PCA computational barrier",
+    "statement": "Let T=λu⊗u⊗u+W, where u is uniform on the unit sphere in R^d and W has independent N(0,1) entries. For every fixed ε∈(0,1/4), is detection of the planted signal at λ=d^(3/4−ε) impossible in randomized polynomial time with nonvanishing advantage?",
+    "importance": "A basic higher-order inference model exhibiting a predicted gap between information and computation.",
+    "status": "open",
+    "status_note": "At this normalization the information threshold is of order √d, while known efficient procedures need substantially stronger signals; restricted-model hardness does not prove the full conjecture.",
+    "references": [
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §2.1.1; see also §6.3",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.open.04",
+    "subject": "math.ST",
+    "name": "Efficient weak recovery in multi-community block models",
+    "statement": "In the sparse symmetric stochastic block model with q≥5 equal communities, edge probabilities a/n within communities and b/n across communities, what is the exact (a,b) threshold for polynomial-time recovery with accuracy exceeding 1/q by a fixed amount, up to label permutation?",
+    "importance": "A central test case for understanding computational limits in network clustering.",
+    "status": "open",
+    "status_note": "The two-community case and many parameter regimes are understood; information-theoretic recovery below the Kesten–Stigum threshold does not automatically yield an efficient algorithm.",
+    "references": [
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §2.1.1",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.open.05",
+    "subject": "math.ST",
+    "name": "Planted dense subgraph recovery threshold",
+    "statement": "In G(n,q) with a uniformly selected k-vertex set having its internal edge probability increased to p>q, determine the sharp parameter regimes where a polynomial-time estimator recovers a 1−o(1) fraction of the planted vertices.",
+    "importance": "Distinguishes the computational demands of finding a hidden structure from merely detecting its presence.",
+    "status": "open",
+    "status_note": "Detection and recovery can have different thresholds; conditional hardness results and existing algorithms leave recovery gaps.",
+    "references": [
+      {
+        "title": "Bresler, Brennan and Huleihel: Detection-Recovery and Detection-Refutation Gaps via Reductions from Planted Clique",
+        "url": "https://proceedings.mlr.press/v195/bresler23a.html"
+      },
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §2",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.open.06",
+    "subject": "math.ST",
+    "name": "Sharp optimality of AMP for sparse spiked matrices",
+    "statement": "For a rank-one spiked Gaussian Wigner model Y=√(λ/n)xxᵀ+W, fix ρ∈(0,1) and take independent x_i equal to 0 with probability 1−ρ and to ±1/√ρ with probability ρ/2 each. Determine whether approximate message passing attains the smallest λ permitting nonzero asymptotic correlation with x among all polynomial-time estimators. W has independent unit-variance Gaussian off-diagonal entries and variance-two diagonal entries.",
+    "importance": "Asks whether a leading statistical algorithm is optimal at the level of constants rather than only rates.",
+    "status": "open",
+    "status_note": "The sparse prior and constant-level comparison are essential; dense Gaussian-prior models do not provide the unresolved computational gap in this question.",
+    "references": [
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §2.5",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.open.07",
+    "subject": "math.ST",
+    "name": "Minimax cubic-moment estimation in proportional regression",
+    "statement": "Fix B>0 and known σ²>0. In y=Xβ+ε with independent X_ij∼N(0,1/n), ε∼N(0,σ²I_n), and p/n→κ∈(0,∞), determine the asymptotic minimax squared-error risk for f(β)=p^(-1)∑_j β_j³ over ||β||∞≤B, and construct an estimator attaining it.",
+    "importance": "Targets low-dimensional inference even when the high-dimensional coefficient vector cannot be estimated consistently.",
+    "status": "open",
+    "status_note": "This concerns a bounded parameter class in the proportional regime; classical fixed-p efficiency and risk formulas for estimating the entire coefficient vector do not settle it.",
+    "references": [
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §4.4",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.open.08",
+    "subject": "math.ST",
+    "name": "Noisy LASSO universality for Fourier designs",
+    "statement": "Let X be n randomly selected rows of a p×p unitary Fourier matrix with independent random column signs, n/p→δ∈(0,1). In y=Xβ+ε with independent circular complex Gaussian noise of fixed variance, complex coefficients with a bounded empirical law converging as p→∞, and fixed λ>0, does p^(-1)||β_hat−β||² for β_hat minimizing (1/2)||y−Xβ||²+λ||β||₁ converge to the corresponding risk for a Haar design with identical singular values?",
+    "importance": "Would justify importing sharp random-design predictions into structured sensing experiments.",
+    "status": "open",
+    "status_note": "The same row normalization, signal law, noise variance, and penalty are used in the comparison. Noiseless results and strongly convex-estimator universality do not establish this noisy undersampled LASSO assertion.",
+    "references": [
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §4.5.3",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.open.09",
+    "subject": "math.ST",
+    "name": "Risk universality for coded-diffraction phase retrieval",
+    "statement": "Fix L≥4 and τ>0. Let x be uniform on the complex sphere ||x||²=p, F the p×p unitary Fourier matrix, and D₁,…,D_L independent diagonal masks with independent uniform unit-complex entries. From y_l=|FD_l x|² form M=L^(-1)∑_l D_l*F*diag(min(y_l,τ))FD_l. For a unit principal eigenvector v_max(M), determine the p→∞ limit of |〈v_max(M),x〉|²/p and whether it equals the limit from the same clipped spectral construction with √L times an Lp×p Haar-distributed isometry.",
+    "importance": "Connects mathematical risk predictions to structured imaging measurements.",
+    "status": "open",
+    "status_note": "This fixes the mask law, measurement ratio L, signal law, and clipped spectral preprocessing. Empirical universality and Gaussian sensing calculations do not prove the structured-design limit.",
+    "references": [
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §4.5.3",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.open.10",
+    "subject": "math.ST",
+    "name": "High-dimensional entangled Gaussian mean estimation",
+    "statement": "For independent X_i∼N(μ,Σ_i) in R^d, suppose at least m of the unknown covariances equal I_d and all remaining Σ_i≽I_d, with the informative indices hidden. Determine the sharp minimax squared-error rate for μ and whether a polynomial-time estimator attains it as n,d,m vary.",
+    "importance": "Models inference when sample quality varies and the most informative observations are unknown.",
+    "status": "open",
+    "status_note": "Scalar and several structured high-dimensional cases are understood; arbitrary sample-specific covariance profiles create unresolved statistical and computational questions.",
+    "references": [
+      {
+        "title": "High-Dimensional Statistics: Reflections on Progress and Open Problems (2026), §3.4.3",
+        "url": "https://arxiv.org/abs/2605.05076"
+      }
+    ]
+  }
+]

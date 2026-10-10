@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.NA.open.01",
+    "subject": "math.NA",
+    "name": "Strongly polynomial linear programming",
+    "statement": "Is there an algorithm for arbitrary rational linear programs whose number of arithmetic operations is bounded by a polynomial in the numbers of variables and constraints alone, while all intermediate numbers have encoding length polynomial in the input encoding length?",
+    "importance": "It would separate the intrinsic combinatorial complexity of linear programming from the size of its coefficients.",
+    "status": "open",
+    "status_note": "Weakly polynomial algorithms are known, as are strongly polynomial algorithms for special matrix classes. General strongly polynomial linear programming remains open.",
+    "references": [
+      {
+        "title": "Smale, Mathematical problems for the next century, Problem 9",
+        "url": "https://doi.org/10.1007/BF03025291"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.open.02",
+    "subject": "math.NA",
+    "name": "Smale’s seventh problem",
+    "statement": "Can one construct, with a number of arithmetic operations polynomial in N, N distinct points on the unit sphere S² whose logarithmic energy Σ_{i<j} log(1/|xᵢ−xⱼ|) is within C log N of its global minimum, with an absolute constant C?",
+    "importance": "It connects numerical point placement, potential theory, and the conditioning of polynomial root computation.",
+    "status": "open",
+    "status_note": "Coarser energy estimates and explicit configurations are known; the required logarithmic error together with polynomial computational cost is the open target.",
+    "references": [
+      {
+        "title": "Smale, Mathematical problems for the next century, Problem 7",
+        "url": "https://doi.org/10.1007/BF03025291"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.open.03",
+    "subject": "math.NA",
+    "name": "Quadratic exponent for matrix multiplication",
+    "statement": "Is the arithmetic exponent ω of multiplying two n × n matrices equal to 2; equivalently, for every ε > 0 is there an O(n^(2+ε))-operation algorithm over a field of characteristic zero?",
+    "importance": "Matrix multiplication sets the complexity scale for many dense numerical linear-algebra algorithms.",
+    "status": "open",
+    "status_note": "Subcubic algorithms are known; ω = 2 is not proved. This asks about arithmetic complexity rather than a numerical-stability guarantee.",
+    "references": [
+      {
+        "title": "Alman et al., More Asymmetry Yields Faster Matrix Multiplication",
+        "url": "https://arxiv.org/abs/2404.16349"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.open.04",
+    "subject": "math.NA",
+    "name": "Forsythe conjecture for longer restarted conjugate gradients",
+    "statement": "For a real symmetric positive-definite matrix A, restart exact conjugate gradients every s steps, with 3 ≤ s < degree(minimal polynomial of A) and initial residual of grade at least s+1. Must the even and odd subsequences of normalized residuals each converge to a single vector?",
+    "importance": "It would explain the persistent two-cycle behavior and slow asymptotic convergence of restarted iterative solvers.",
+    "status": "open",
+    "status_note": "The one-step case is classical; the 2026 workshop update records proofs claimed for s = 2. The entry deliberately asks about s ≥ 3.",
+    "references": [
+      {
+        "title": "Amsel et al., Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop (status update August 2026)",
+        "url": "https://arxiv.org/abs/2602.05394"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.open.05",
+    "subject": "math.NA",
+    "name": "Deterministic pseudospectral shattering",
+    "statement": "For ‖A‖₂ ≤ 1 and 0 < δ < 1, can a deterministic algorithm using O(n³ polylog(n/δ)) arithmetic operations find ‖E‖₂ ≤ δ such that A+E has simple spectrum and κ(V)/min_{i≠j}|λᵢ−λⱼ| ≤ (n/δ)^C, for an absolute C and an eigenvector matrix V with normalized columns?",
+    "importance": "It would remove randomness from provably efficient general-matrix diagonalization.",
+    "status": "open",
+    "status_note": "Random perturbations provide polynomial conditioning bounds. Efficient deterministic perturbations with comparable bounds remain open.",
+    "references": [
+      {
+        "title": "Amsel et al., Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop (status update August 2026)",
+        "url": "https://arxiv.org/abs/2602.05394"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.open.06",
+    "subject": "math.NA",
+    "name": "Optimal bit complexity of sparse linear-system solution",
+    "statement": "For an invertible n × n rational matrix A with m nonzero entries, can high-accuracy solutions of Ax=b be computed in Õ(nm) bit operations, up to the necessary polynomial dependence on the maximum bit length of an individual input entry, log(1/ε), and log κ(A)?",
+    "importance": "This asks whether the sparse Krylov complexity available in exact arithmetic survives finite precision.",
+    "status": "open",
+    "status_note": "Exact-arithmetic Krylov methods use O(nm) work; known Word-RAM bounds do not in general attain the analogous sparse complexity. Precision and conditioning factors cannot simply be omitted.",
+    "references": [
+      {
+        "title": "Amsel et al., Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop (status update August 2026)",
+        "url": "https://arxiv.org/abs/2602.05394"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.open.07",
+    "subject": "math.NA",
+    "name": "General diagonalization with optimal precision",
+    "statement": "For ‖A‖₂ ≤ 1 and 0 < δ < 1, is there a provably correct randomized algorithm computing a δ-backward-error Schur form or diagonalization in O(n³ polylog(n/δ)) operations while using only O(log(n/δ)) bits of precision?",
+    "importance": "It would bring fast general eigenvalue algorithms to the precision scale expected in practical numerical analysis.",
+    "status": "open",
+    "status_note": "Fast proved algorithms require more precision; low-precision polynomial-time algorithms have larger running-time bounds. The simultaneous time-and-precision target is open.",
+    "references": [
+      {
+        "title": "Amsel et al., Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop (status update August 2026)",
+        "url": "https://arxiv.org/abs/2602.05394"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.open.08",
+    "subject": "math.NA",
+    "name": "Optimal stable bidiagonal singular-vector computation",
+    "statement": "For an n × n bidiagonal matrix B, can any requested k singular triplets (σᵢ,uᵢ,vᵢ), with σᵢ ≥ 0 and unit vectors uᵢ,vᵢ, be computed in O(kn) operations at machine precision ε, with ‖Bvᵢ−σᵢuᵢ‖₂ = O(εn‖B‖₂) and pairwise inner products of left and right singular vectors O(εn)?",
+    "importance": "It targets optimal-cost singular-value algorithms that retain accuracy and orthogonality even for clustered spectra.",
+    "status": "open",
+    "status_note": "The analogous symmetric tridiagonal eigenproblem motivates MRRR; transferring its guarantees to the bidiagonal SVD has unresolved accuracy obstacles.",
+    "references": [
+      {
+        "title": "Amsel et al., Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop (status update August 2026)",
+        "url": "https://arxiv.org/abs/2602.05394"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.open.09",
+    "subject": "math.NA",
+    "name": "Improved polynomial-time tensor-train approximation",
+    "statement": "Given an explicitly stored order-d tensor with d ≥ 3 and prescribed tensor-train ranks, can a polynomial-time algorithm always produce an admissible approximation with squared Frobenius error at most c_d times the optimum, for some c_d < d−1; or is the factor d−1 computationally optimal?",
+    "importance": "Reliable tensor compression is central to high-dimensional numerical computation and quantum-state approximation.",
+    "status": "open",
+    "status_note": "TT-SVD gives the factor d−1 in squared error. The target concerns a uniform multiplicative bound, with exact recovery when the optimum error is zero.",
+    "references": [
+      {
+        "title": "Amsel et al., Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop (status update August 2026)",
+        "url": "https://arxiv.org/abs/2602.05394"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.open.10",
+    "subject": "math.NA",
+    "name": "Optimal matrix-sign approximation by multiplication circuits",
+    "statement": "For 0 < δ < 1, determine the sharp asymptotic minimum of max_{x∈[−1,−δ]∪[δ,1]} |p(x)−sign(x)| over real polynomials whose matrix evaluation p(A) uses at most m matrix multiplications, with additions and scalar multiplications free.",
+    "importance": "The answer would guide fast spectral-projector and matrix-sign algorithms on parallel hardware.",
+    "status": "open",
+    "status_note": "Best approximation at fixed polynomial degree is understood; fixing the number of matrix multiplications gives a different, largely open optimization problem.",
+    "references": [
+      {
+        "title": "Amsel et al., Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop (status update August 2026)",
+        "url": "https://arxiv.org/abs/2602.05394"
+      }
+    ]
+  }
+]

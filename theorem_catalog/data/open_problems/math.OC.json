@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.OC.open.01",
+    "subject": "math.OC",
+    "name": "Strongly polynomial linear programming",
+    "statement": "Is there an algorithm for rational linear programming using a number of arithmetic operations polynomial only in the numbers of variables and constraints, with all intermediate bit lengths polynomial in the input encoding length?",
+    "importance": "It is a central unresolved complexity question for convex optimization.",
+    "status": "open",
+    "status_note": "Polynomial-time algorithms depending on coefficient bit length are established; removing that dependence from the arithmetic operation count is the open target.",
+    "references": [
+      {
+        "title": "Smale, Mathematical problems for the next century, Problem 9",
+        "url": "https://doi.org/10.1007/BF03025291"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.open.02",
+    "subject": "math.OC",
+    "name": "Polynomial Hirsch conjecture",
+    "statement": "Is the diameter of the vertex-edge graph of every d-dimensional polytope with m facets bounded by a polynomial in d and m?",
+    "importance": "It asks whether polyhedral optimization always has short edge paths at the level of combinatorial geometry.",
+    "status": "open",
+    "status_note": "The original linear Hirsch bound is false. This asks about ordinary edge diameter, not the circuit-diameter variant addressed by recent results.",
+    "references": [
+      {
+        "title": "Diameters of Cocircuit Graphs of Oriented Matroids: An Update",
+        "url": "https://arxiv.org/abs/2006.08922"
+      },
+      {
+        "title": "Circuit Diameter of Polyhedra is Strongly Polynomial",
+        "url": "https://arxiv.org/abs/2602.06958"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.open.03",
+    "subject": "math.OC",
+    "name": "Polynomial-time P-matrix linear complementarity",
+    "statement": "Given a rational P-matrix M (all principal minors positive) and rational q, can the unique solution of w=Mz+q, w≥0, z≥0, wᵀz=0 be found in polynomial time?",
+    "importance": "It is a basic unresolved algorithmic problem for equilibrium models and complementarity optimization.",
+    "status": "open",
+    "status_note": "The solution exists uniquely under the P-matrix promise; polynomial algorithms for restricted matrix classes do not settle the general promised problem.",
+    "references": [
+      {
+        "title": "Foniok et al., Pivoting in Linear Complementarity: Two Polynomial-Time Cases",
+        "url": "https://arxiv.org/abs/0807.1249"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.open.04",
+    "subject": "math.OC",
+    "name": "Polynomial-time solution of parity games",
+    "statement": "For a finite directed graph with every vertex having an outgoing edge, vertices assigned to two players, and nonnegative integer priorities, can the winner of the infinite-play game be decided in polynomial time, where the largest priority visited infinitely often determines the winner by its parity?",
+    "importance": "It is a central algorithmic problem for adversarial control, program verification, and infinite-horizon games.",
+    "status": "open",
+    "status_note": "Memoryless winning strategies exist, and quasipolynomial algorithms are known. Polynomial time in the graph size and number of distinct priorities remains open.",
+    "references": [
+      {
+        "title": "Calude et al., Deciding parity games in quasipolynomial time",
+        "url": "https://doi.org/10.1145/3055399.3055409"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.open.05",
+    "subject": "math.OC",
+    "name": "P versus NP for combinatorial optimization",
+    "statement": "Does there exist a deterministic polynomial-time algorithm that, given a Boolean formula in 3-CNF, decides whether some truth assignment satisfies all clauses?",
+    "importance": "Its resolution would determine whether efficiently verifiable solutions can always be found efficiently.",
+    "status": "open",
+    "status_note": "This NP-complete decision problem has a polynomial algorithm exactly when P=NP; neither direction is proved.",
+    "references": [
+      {
+        "title": "Clay Mathematics Institute, P versus NP",
+        "url": "https://www.claymath.org/millennium/p-vs-np/"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.open.06",
+    "subject": "math.OC",
+    "name": "NP certificates for semidefinite feasibility",
+    "statement": "For rational symmetric matrices A₀,…,A_m, does deciding whether some real x satisfies A₀+ΣxᵢAᵢ ⪰ 0 belong to NP in the binary Turing model?",
+    "importance": "It addresses the exact computational foundations of semidefinite optimization.",
+    "status": "open",
+    "status_note": "Approximate feasible optimization with regularity promises has polynomial algorithms. Exact feasibility can require irrational solutions and is not thereby known to have polynomial-size certificates.",
+    "references": [
+      {
+        "title": "Ramana, An exact duality theory for semidefinite programming and its complexity implications",
+        "url": "https://doi.org/10.1007/BF02614433"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.open.07",
+    "subject": "math.OC",
+    "name": "Exact optimum of Witsenhausen’s counterexample",
+    "statement": "Let X∼N(0,25), V∼N(0,1) independently, U=f(X), Y=X+U+V, and Z=X+U−g(Y). Determine the globally optimal measurable strategies f,g and exact infimum of E[0.04U²+Z²] among finite-cost strategies.",
+    "importance": "It is the canonical unsolved nonlinear decentralized control problem and shows why linear Gaussian control intuition can fail.",
+    "status": "open",
+    "status_note": "Nonlinear policies outperform the best linear policies; existence, bounds, and numerical candidates do not characterize the exact global optimum.",
+    "references": [
+      {
+        "title": "Witsenhausen’s counterexample",
+        "url": "https://en.wikipedia.org/wiki/Witsenhausen%27s_counterexample"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.open.08",
+    "subject": "math.OC",
+    "name": "Small-time global boundary control with no-slip walls",
+    "statement": "For the two-dimensional incompressible Navier–Stokes equation in a rectangle, can every smooth compatible divergence-free initial velocity be driven exactly to rest in every prescribed time T>0 using only boundary controls on the two vertical sides, while keeping zero velocity on the horizontal walls and applying no distributed force?",
+    "importance": "It asks whether viscous flows can be stopped arbitrarily quickly through limited boundary access.",
+    "status": "open",
+    "status_note": "Navier-slip variants and results using a small distributed phantom force are known; the force-free problem with uncontrolled no-slip walls is the scope here.",
+    "references": [
+      {
+        "title": "Coron, Marbach and Sueur, Controllability of the Navier–Stokes Equation in a Rectangle with a Little Help of a Distributed Phantom Force",
+        "url": "https://doi.org/10.1007/s40818-019-0073-4"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.open.09",
+    "subject": "math.OC",
+    "name": "Four-thirds integrality-gap conjecture for metric TSP",
+    "statement": "For every finite complete graph with nonnegative metric edge costs, is the minimum traveling-salesman tour cost at most 4/3 times the optimum of the subtour-elimination linear program: x≥0, Σ_{e incident to v}x_e=2 for each vertex, and Σ_{e crossing S}x_e≥2 for every nonempty proper vertex subset S?",
+    "importance": "It asks for the exact strength of the standard linear relaxation for one of the central combinatorial optimization problems.",
+    "status": "open",
+    "status_note": "Examples approach the lower bound 4/3. General upper bounds and improved approximation algorithms still leave a gap; the conjecture concerns this specific relaxation.",
+    "references": [
+      {
+        "title": "Karlin, Klein and Oveis Gharan, A (Slightly) Improved Approximation Algorithm for Metric TSP",
+        "url": "https://arxiv.org/abs/2007.01409"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.open.10",
+    "subject": "math.OC",
+    "name": "Square-root-sum problem in NP",
+    "statement": "Given positive integers a₁,…,a_n and an integer b in binary, does deciding whether Σ√aᵢ ≤ b belong to NP?",
+    "importance": "This arithmetic comparison problem underlies exact certification of Euclidean optimization costs.",
+    "status": "open",
+    "status_note": "The problem is decidable and lies in PSPACE; known algorithms do not establish polynomial-size NP certificates in general.",
+    "references": [
+      {
+        "title": "Allender et al., On the Complexity of Numerical Analysis",
+        "url": "https://doi.org/10.1137/070697926"
+      }
+    ]
+  }
+]

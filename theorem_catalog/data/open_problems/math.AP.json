@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.AP.open.01",
+    "subject": "math.AP",
+    "name": "Three-dimensional Navier–Stokes regularity",
+    "statement": "For every smooth divergence-free initial velocity on ℝ³ with rapid decay and finite energy, does the unforced incompressible Navier–Stokes equation with positive viscosity have a unique smooth solution for all t ≥ 0?",
+    "importance": "This is a central obstacle in the mathematical understanding of viscous fluid motion and a Millennium Prize Problem.",
+    "status": "open",
+    "status_note": "Global finite-energy weak solutions exist, and regularity is known under additional size or integrability assumptions; these do not settle arbitrary smooth data.",
+    "references": [
+      {
+        "title": "Clay Mathematics Institute, Navier–Stokes Equation",
+        "url": "https://www.claymath.org/millennium/navier-stokes-equation/"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.open.02",
+    "subject": "math.AP",
+    "name": "Three-dimensional Euler singularity problem",
+    "statement": "Can a smooth finite-energy divergence-free initial velocity on ℝ³ produce a finite-time singularity in the unforced incompressible Euler equations, or do all such solutions remain smooth?",
+    "importance": "It asks whether ideal-fluid vortex stretching can create singularities from smooth data.",
+    "status": "open",
+    "status_note": "Global regularity is known in two dimensions. Results for lower-regularity data or flows with boundaries do not settle this smooth whole-space question.",
+    "references": [
+      {
+        "title": "Majda and Bertozzi, Vorticity and Incompressible Flow",
+        "url": "https://doi.org/10.1017/CBO9780511613203"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.open.03",
+    "subject": "math.AP",
+    "name": "Inviscid surface quasi-geostrophic regularity",
+    "statement": "For θ₀ ∈ C∞_c(ℝ²), does the solution of ∂ₜθ + u·∇θ = 0, u = ∇⊥(−Δ)^(−1/2)θ, remain smooth for all time, or can a finite-time singularity occur?",
+    "importance": "SQG is a fundamental active-scalar model for atmospheric fronts and a test case for singularity formation.",
+    "status": "open",
+    "status_note": "Weak solutions and several conditional criteria are known. Smooth whole-plane global regularity remains unresolved.",
+    "references": [
+      {
+        "title": "Chae, Constantin and Wu, Inviscid models generalizing the 2D Euler and the surface quasi-geostrophic equations",
+        "url": "https://arxiv.org/abs/1010.1506"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.open.04",
+    "subject": "math.AP",
+    "name": "Supercritical dissipative SQG regularity",
+    "statement": "For θ₀ ∈ C∞_c(ℝ²), does ∂ₜθ + ∇⊥(−Δ)^(−1/2)θ·∇θ + (−Δ)^(1/4)θ = 0 have a smooth solution for all time?",
+    "importance": "It tests whether weak fractional diffusion can prevent nonlinear front formation.",
+    "status": "open",
+    "status_note": "The critical dissipation (−Δ)^(1/2) is globally regular; this entry fixes the genuinely supercritical exponent 1/4.",
+    "references": [
+      {
+        "title": "Caffarelli and Vasseur, Drift diffusion equations with fractional diffusion and the quasi-geostrophic equation",
+        "url": "https://arxiv.org/abs/math/0608447"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.open.05",
+    "subject": "math.AP",
+    "name": "Global regularity of two-dimensional ideal MHD",
+    "statement": "For smooth divergence-free periodic initial velocity u and magnetic field b on T², do the incompressible ideal MHD equations ∂ₜu+u·∇u−b·∇b+∇p=0 and ∂ₜb+u·∇b−b·∇u=0 remain smooth for all time?",
+    "importance": "This asks whether magnetic coupling can cause singularities even in two-dimensional ideal fluids.",
+    "status": "open",
+    "status_note": "Neither viscosity nor magnetic resistivity is present. Regularity results for dissipative or specially structured data do not settle arbitrary smooth periodic data.",
+    "references": [
+      {
+        "title": "Cao and Wu, Global regularity for the 2D MHD equations with mixed partial dissipation and magnetic diffusion",
+        "url": "https://arxiv.org/abs/0901.2908"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.open.06",
+    "subject": "math.AP",
+    "name": "Smooth whole-plane inviscid Boussinesq regularity",
+    "statement": "For smooth compactly supported initial temperature and smooth divergence-free finite-energy initial velocity on ℝ², do ∂ₜu+u·∇u+∇p=θe₂ and ∂ₜθ+u·∇θ=0 remain smooth for all time?",
+    "importance": "The Boussinesq system is a basic model for buoyancy-driven flow and a proxy for three-dimensional vortex stretching.",
+    "status": "open",
+    "status_note": "Singularity constructions with boundaries or less regular data do not settle smooth whole-plane data.",
+    "references": [
+      {
+        "title": "Global smooth solutions of the damped Boussinesq equations with a class of large initial data",
+        "url": "https://arxiv.org/abs/1909.08360"
+      },
+      {
+        "title": "Elgindi and Jeong, Finite-time Singularity Formation for Strong Solutions to the Boussinesq System",
+        "url": "https://arxiv.org/abs/1708.02724"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.open.07",
+    "subject": "math.AP",
+    "name": "Large-data smooth Boltzmann evolution",
+    "statement": "For the spatially periodic three-dimensional Boltzmann equation with hard-sphere collisions, does every smooth strictly positive initial distribution with finite mass, energy and entropy and sufficiently fast velocity decay generate a global classical solution?",
+    "importance": "It would establish a full large-data mathematical theory of dilute-gas evolution.",
+    "status": "open",
+    "status_note": "Renormalized global weak solutions and perturbative classical solutions are known; arbitrary far-from-equilibrium smooth data remain outside that theory.",
+    "references": [
+      {
+        "title": "Villani, A review of mathematical topics in collisional kinetic theory",
+        "url": "https://doi.org/10.1016/S1874-5792(02)80004-0"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.open.08",
+    "subject": "math.AP",
+    "name": "Inhomogeneous Coulomb Landau global regularity",
+    "statement": "Does every smooth positive initial distribution on T³_x × ℝ³_v with finite mass, energy and entropy and suitable velocity decay give a global smooth solution of the spatially inhomogeneous nonrelativistic Landau equation with Coulomb interaction?",
+    "importance": "This is a central regularity problem for kinetic models of plasma collisions.",
+    "status": "open",
+    "status_note": "The spatially homogeneous Coulomb problem has recent global regularity results. Spatial inhomogeneity and arbitrary large data are essential here; known continuation criteria are conditional.",
+    "references": [
+      {
+        "title": "Henderson, Snelson and Tarfulea, Local existence, lower mass bounds, and a new continuation criterion for the Landau equation",
+        "url": "https://arxiv.org/abs/1712.07111"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.open.09",
+    "subject": "math.AP",
+    "name": "De Giorgi conjecture in dimension eight",
+    "statement": "If u ∈ C²(ℝ⁸) solves Δu = u³−u, satisfies |u|<1, and has ∂u/∂x₈ > 0 everywhere, must u depend on only one linear coordinate?",
+    "importance": "It links diffuse-interface PDEs with the geometry and rigidity of minimal hypersurfaces.",
+    "status": "open",
+    "status_note": "The full conjecture is proved in dimensions two and three and under additional asymptotic hypotheses up to dimension eight; counterexamples exist from dimension nine onward.",
+    "references": [
+      {
+        "title": "Phase transitions with bounded index: Parallels to De Giorgi’s conjecture",
+        "url": "https://arxiv.org/abs/2602.03136"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.open.10",
+    "subject": "math.AP",
+    "name": "Nonradial soliton resolution for the critical wave equation",
+    "statement": "For every global solution of ∂ₜ²u−Δu−u⁵=0 on ℝ³ whose Ḣ¹ × L² norm is uniformly bounded, does its evolution as t→∞ split in the energy topology into free radiation and finitely many asymptotically decoupled rescaled, translated traveling stationary solutions?",
+    "importance": "It seeks a complete description of long-time behavior in a fundamental nonlinear dispersive model.",
+    "status": "open",
+    "status_note": "Radial cases have strong resolution theorems. The general nonradial decomposition along all large times is the open scope; decompositions only along selected time sequences are weaker.",
+    "references": [
+      {
+        "title": "Tao, Global behaviour of nonlinear dispersive and wave equations",
+        "url": "https://arxiv.org/abs/math/0608293"
+      }
+    ]
+  }
+]
