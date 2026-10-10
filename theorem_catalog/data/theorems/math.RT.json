@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.RT.01",
+    "subject": "math.RT",
+    "name": "Maschke theorem",
+    "statement": "A representation of a finite group G over a field k is completely reducible whenever the characteristic of k does not divide |G|. Thus every invariant subspace has an invariant complement.",
+    "references": [
+      {
+        "title": "Maschke theorem",
+        "url": "https://en.wikipedia.org/wiki/Maschke%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.02",
+    "subject": "math.RT",
+    "name": "Schur lemma",
+    "statement": "A nonzero intertwining map between irreducible representations is an isomorphism. The endomorphisms commuting with an irreducible representation form a division ring; for a finite-dimensional representation over an algebraically closed field, they are exactly the scalar operators.",
+    "references": [
+      {
+        "title": "Schur lemma",
+        "url": "https://en.wikipedia.org/wiki/Schur%27s_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.03",
+    "subject": "math.RT",
+    "name": "Schur character orthogonality",
+    "statement": "For irreducible complex characters chi and psi of a finite group G, (1/|G|) times the sum of chi(g) times the complex conjugate of psi(g), over g in G, is one if chi=psi and zero otherwise.",
+    "references": [
+      {
+        "title": "Schur character orthogonality",
+        "url": "https://en.wikipedia.org/wiki/Schur_orthogonality_relations"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.04",
+    "subject": "math.RT",
+    "name": "Column orthogonality of characters",
+    "statement": "For elements g,h of a finite group G, the sum over irreducible complex characters chi of chi(g) times the complex conjugate of chi(h) is zero if g and h are not conjugate. If they are conjugate, the sum equals the order of the centralizer of g.",
+    "references": [
+      {
+        "title": "Column orthogonality of characters",
+        "url": "https://en.wikipedia.org/wiki/Character_theory#Orthogonality_relations"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.05",
+    "subject": "math.RT",
+    "name": "Regular representation decomposition",
+    "statement": "The complex regular representation of a finite group G is the direct sum, over its irreducible representations V, of dim(V) copies of V. Consequently, the sum of dim(V)^2 over the irreducibles equals |G|.",
+    "references": [
+      {
+        "title": "Regular representation decomposition",
+        "url": "https://en.wikipedia.org/wiki/Regular_representation#Finite_groups"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.06",
+    "subject": "math.RT",
+    "name": "Frobenius reciprocity",
+    "statement": "For a subgroup H of a finite group G, an H-representation V, and a G-representation W over a field k, Hom_G(Ind_H^G V,W) is naturally isomorphic to Hom_H(V,Res_H^G W).",
+    "references": [
+      {
+        "title": "Frobenius reciprocity",
+        "url": "https://en.wikipedia.org/wiki/Frobenius_reciprocity"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.07",
+    "subject": "math.RT",
+    "name": "Mackey decomposition theorem",
+    "statement": "For subgroups H,K of a finite group G and an H-representation V, Res_K^G Ind_H^G V is the direct sum over representatives g of K backslash G / H of Ind_(K intersect gHg^(-1))^K of the restriction of the conjugate representation gV. In gV, an element ghg^(-1) acts as h acts on V.",
+    "references": [
+      {
+        "title": "Mackey decomposition theorem",
+        "url": "https://en.wikipedia.org/wiki/Induced_representation#Mackey_decomposition"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.08",
+    "subject": "math.RT",
+    "name": "Burnside p^a q^b theorem",
+    "statement": "Every finite group of order p^a q^b, for primes p,q and nonnegative integers a,b, is solvable. Character theory gives a proof by restricting the possible conjugacy classes of a nonabelian simple group.",
+    "references": [
+      {
+        "title": "Burnside p^a q^b theorem",
+        "url": "https://en.wikipedia.org/wiki/Burnside%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.09",
+    "subject": "math.RT",
+    "name": "Peter-Weyl theorem",
+    "statement": "For a compact Hausdorff group G, the matrix coefficients of its finite-dimensional continuous unitary irreducible representations span a dense subspace of C(G) in the uniform norm. They also give an orthogonal Hilbert-space decomposition of L^2(G) with respect to Haar measure.",
+    "references": [
+      {
+        "title": "Peter-Weyl theorem",
+        "url": "https://en.wikipedia.org/wiki/Peter%E2%80%93Weyl_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.10",
+    "subject": "math.RT",
+    "name": "Complete reducibility for compact groups",
+    "statement": "Every finite-dimensional continuous complex representation of a compact group admits an invariant positive-definite Hermitian inner product. It is therefore a direct sum of irreducible representations.",
+    "references": [
+      {
+        "title": "Complete reducibility for compact groups",
+        "url": "https://en.wikipedia.org/wiki/Unitary_representation#Unitarizability"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.11",
+    "subject": "math.RT",
+    "name": "Weyl complete reducibility theorem",
+    "statement": "Every finite-dimensional representation of a complex semisimple Lie algebra is a direct sum of irreducible representations.",
+    "references": [
+      {
+        "title": "Weyl complete reducibility theorem",
+        "url": "https://en.wikipedia.org/wiki/Weyl%27s_theorem_on_complete_reducibility"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.12",
+    "subject": "math.RT",
+    "name": "Highest-weight classification theorem",
+    "statement": "After choosing a Cartan subalgebra and positive roots in a complex semisimple Lie algebra, its finite-dimensional irreducible representations are classified by dominant integral highest weights. Every such weight occurs and determines a unique irreducible representation up to isomorphism.",
+    "references": [
+      {
+        "title": "Highest-weight classification theorem",
+        "url": "https://en.wikipedia.org/wiki/Theorem_of_the_highest_weight"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.13",
+    "subject": "math.RT",
+    "name": "Weyl character formula",
+    "statement": "For the irreducible finite-dimensional representation V_lambda of a complex semisimple Lie algebra with dominant integral highest weight lambda, its formal character is the quotient of the alternating Weyl-group sum of e^(w(lambda+rho)) by the alternating sum of e^(w(rho)). Here rho is half the sum of the positive roots, and each summand has coefficient det(w).",
+    "references": [
+      {
+        "title": "Weyl character formula",
+        "url": "https://en.wikipedia.org/wiki/Weyl_character_formula"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.14",
+    "subject": "math.RT",
+    "name": "Weyl dimension formula",
+    "statement": "For an irreducible representation of a complex semisimple Lie algebra of dominant integral highest weight lambda, its dimension is the product over positive roots alpha of the ratio of the pairings of lambda+rho and rho with the coroot alpha_vee. Here rho is half the sum of the positive roots.",
+    "references": [
+      {
+        "title": "Weyl dimension formula",
+        "url": "https://en.wikipedia.org/wiki/Weyl_character_formula#Weyl_dimension_formula"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.15",
+    "subject": "math.RT",
+    "name": "Borel-Weil theorem",
+    "statement": "Let G be a connected simply connected complex semisimple algebraic group, B a Borel subgroup, and lambda a dominant integral weight for the positive roots determined by B. For the associated line bundle G times_B C_(-lambda) on G/B, the space of global sections is the dual of the irreducible representation of highest weight lambda.",
+    "references": [
+      {
+        "title": "Borel-Weil theorem",
+        "url": "https://en.wikipedia.org/wiki/Borel%E2%80%93Weil_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.16",
+    "subject": "math.RT",
+    "name": "Borel-Weil-Bott theorem",
+    "statement": "Let G be a connected simply connected complex semisimple group, B a Borel subgroup, lambda an integral weight, and rho half the sum of the positive roots determined by B; set L=G times_B C_(-lambda). If lambda+rho lies on a root reflection hyperplane, all cohomology of L vanishes; otherwise only H^length(w)(G/B,L) is nonzero, and it is the dual irreducible representation of highest weight w(lambda+rho)-rho, where w is the unique Weyl element making lambda+rho dominant.",
+    "references": [
+      {
+        "title": "Borel-Weil-Bott theorem",
+        "url": "https://en.wikipedia.org/wiki/Borel%E2%80%93Weil%E2%80%93Bott_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.17",
+    "subject": "math.RT",
+    "name": "Lie triangularization theorem",
+    "statement": "Every representation of a finite-dimensional solvable complex Lie algebra on a nonzero finite-dimensional complex vector space has a common eigenvector. There is a basis in which every representing operator is upper triangular.",
+    "references": [
+      {
+        "title": "Lie triangularization theorem",
+        "url": "https://en.wikipedia.org/wiki/Lie%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.18",
+    "subject": "math.RT",
+    "name": "Engel theorem",
+    "statement": "If a finite-dimensional Lie subalgebra of gl(V), with V a nonzero finite-dimensional complex vector space, consists entirely of nilpotent operators, then some nonzero vector is killed by every operator in the subalgebra. In particular, a finite-dimensional Lie algebra whose adjoint operators are all nilpotent is nilpotent.",
+    "references": [
+      {
+        "title": "Engel theorem",
+        "url": "https://en.wikipedia.org/wiki/Engel%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.19",
+    "subject": "math.RT",
+    "name": "Harish-Chandra isomorphism",
+    "statement": "For a complex semisimple Lie algebra g with Cartan subalgebra h and Weyl group W, the rho-shifted Harish-Chandra homomorphism identifies the center of the universal enveloping algebra U(g) with the invariant polynomial algebra S(h)^W.",
+    "references": [
+      {
+        "title": "Harish-Chandra isomorphism",
+        "url": "https://en.wikipedia.org/wiki/Harish-Chandra_isomorphism"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.20",
+    "subject": "math.RT",
+    "name": "Schur-Weyl duality",
+    "statement": "For a finite-dimensional complex vector space V, the diagonal action of GL(V) and the permutation action of the symmetric group S_d on V tensor-power d commute. The algebras generated by these two actions are mutual commutants in the endomorphism algebra of the tensor power.",
+    "references": [
+      {
+        "title": "Schur-Weyl duality",
+        "url": "https://en.wikipedia.org/wiki/Schur%E2%80%93Weyl_duality"
+      }
+    ]
+  }
+]

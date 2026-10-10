@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.PR.01",
+    "subject": "math.PR",
+    "name": "Markov's inequality",
+    "statement": "If X is a nonnegative random variable and a > 0, then P(X >= a) <= E[X]/a. The bound is meaningful whenever E[X] is finite.",
+    "references": [
+      {
+        "title": "Markov's inequality",
+        "url": "https://en.wikipedia.org/wiki/Markov%27s_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.02",
+    "subject": "math.PR",
+    "name": "Chebyshev's inequality",
+    "statement": "If X has finite mean mu and finite variance sigma^2, then for every a > 0, P(|X - mu| >= a) <= sigma^2/a^2.",
+    "references": [
+      {
+        "title": "Chebyshev's inequality",
+        "url": "https://en.wikipedia.org/wiki/Chebyshev%27s_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.03",
+    "subject": "math.PR",
+    "name": "Borel-Cantelli lemmas",
+    "statement": "For events A_n, if the sum of P(A_n) is finite, then the probability that infinitely many A_n occur is zero. If the A_n are mutually independent and the sum of P(A_n) diverges, then the probability that infinitely many A_n occur is one.",
+    "references": [
+      {
+        "title": "Borel-Cantelli lemmas",
+        "url": "https://en.wikipedia.org/wiki/Borel%E2%80%93Cantelli_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.04",
+    "subject": "math.PR",
+    "name": "Kolmogorov's zero-one law",
+    "statement": "For an independent sequence of random variables X_1, X_2, ..., every event in the tail sigma-algebra, the intersection over n of sigma(X_n, X_{n+1}, ...), has probability either zero or one.",
+    "references": [
+      {
+        "title": "Kolmogorov's zero-one law",
+        "url": "https://en.wikipedia.org/wiki/Kolmogorov%27s_zero%E2%80%93one_law"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.05",
+    "subject": "math.PR",
+    "name": "Weak law of large numbers",
+    "statement": "If X_1, X_2, ... are independent and identically distributed real random variables with E[|X_1|] < infinity and mean mu, then (X_1 + ... + X_n)/n converges in probability to mu.",
+    "references": [
+      {
+        "title": "Weak law of large numbers",
+        "url": "https://en.wikipedia.org/wiki/Law_of_large_numbers"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.06",
+    "subject": "math.PR",
+    "name": "Strong law of large numbers",
+    "statement": "If X_1, X_2, ... are independent and identically distributed real random variables with E[|X_1|] < infinity and mean mu, then (X_1 + ... + X_n)/n converges almost surely to mu.",
+    "references": [
+      {
+        "title": "Strong law of large numbers",
+        "url": "https://en.wikipedia.org/wiki/Law_of_large_numbers"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.07",
+    "subject": "math.PR",
+    "name": "Lindeberg-Levy central limit theorem",
+    "statement": "If X_1, X_2, ... are independent and identically distributed real random variables with mean mu and variance 0 < sigma^2 < infinity, then (X_1 + ... + X_n - n*mu)/(sigma*sqrt(n)) converges in distribution to the standard normal law.",
+    "references": [
+      {
+        "title": "Lindeberg-Levy central limit theorem",
+        "url": "https://en.wikipedia.org/wiki/Central_limit_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.08",
+    "subject": "math.PR",
+    "name": "Lindeberg-Feller central limit theorem",
+    "statement": "Let each row X_{n,1}, ..., X_{n,k_n} be independent, centered, square-integrable real random variables, and set s_n^2 = sum_k E[X_{n,k}^2] > 0. If for every epsilon > 0, sum_k E[X_{n,k}^2 * 1{|X_{n,k}| > epsilon*s_n}]/s_n^2 tends to zero, then sum_k X_{n,k}/s_n converges in distribution to the standard normal law.",
+    "references": [
+      {
+        "title": "Lindeberg-Feller central limit theorem",
+        "url": "https://en.wikipedia.org/wiki/Lindeberg%27s_condition"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.09",
+    "subject": "math.PR",
+    "name": "Levy's continuity theorem",
+    "statement": "A sequence of probability distributions on the real line converges weakly to a probability distribution if and only if its characteristic functions converge pointwise to that distribution's characteristic function. More generally, if the pointwise limit of characteristic functions exists and is continuous at zero, it is a characteristic function and the corresponding distributions converge weakly to its law.",
+    "references": [
+      {
+        "title": "Levy's continuity theorem",
+        "url": "https://en.wikipedia.org/wiki/L%C3%A9vy%27s_continuity_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.10",
+    "subject": "math.PR",
+    "name": "Continuous mapping theorem",
+    "statement": "Let X_n converge in distribution to X in a metric space, and let g be a measurable map into another metric space that is continuous at X with probability one. Then g(X_n) converges in distribution to g(X).",
+    "references": [
+      {
+        "title": "Continuous mapping theorem",
+        "url": "https://en.wikipedia.org/wiki/Continuous_mapping_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.11",
+    "subject": "math.PR",
+    "name": "Slutsky's theorem",
+    "statement": "If real random variables X_n converge in distribution to X and Y_n converge in probability to a constant c, then X_n + Y_n converges in distribution to X + c and X_n*Y_n converges in distribution to c*X. If c is nonzero, X_n/Y_n converges in distribution to X/c, with the ratio assigned any value on {Y_n = 0}.",
+    "references": [
+      {
+        "title": "Slutsky's theorem",
+        "url": "https://en.wikipedia.org/wiki/Slutsky%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.12",
+    "subject": "math.PR",
+    "name": "Kolmogorov extension theorem",
+    "statement": "Suppose probability measures on finite products of standard Borel spaces are consistent under all coordinate projections. There is a unique probability measure on the full product equipped with its product sigma-algebra whose finite-dimensional marginals are the given measures.",
+    "references": [
+      {
+        "title": "Kolmogorov extension theorem",
+        "url": "https://en.wikipedia.org/wiki/Kolmogorov_extension_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.13",
+    "subject": "math.PR",
+    "name": "Radon-Nikodym theorem",
+    "statement": "If mu and nu are sigma-finite positive measures on the same measurable space and nu is absolutely continuous with respect to mu, there is a nonnegative measurable function f such that nu(A) = integral_A f dmu for every measurable A. The function f is unique up to mu-almost-everywhere equality.",
+    "references": [
+      {
+        "title": "Radon-Nikodym theorem",
+        "url": "https://en.wikipedia.org/wiki/Radon%E2%80%93Nikodym_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.14",
+    "subject": "math.PR",
+    "name": "Doob's martingale convergence theorem",
+    "statement": "A discrete-time nonnegative supermartingale converges almost surely to a finite random variable X_infinity. Its limit is integrable and E[X_infinity] <= E[X_0].",
+    "references": [
+      {
+        "title": "Doob's martingale convergence theorem",
+        "url": "https://en.wikipedia.org/wiki/Doob%27s_martingale_convergence_theorems"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.15",
+    "subject": "math.PR",
+    "name": "Doob's maximal inequality",
+    "statement": "For a discrete-time martingale M_0, ..., M_n with E[|M_n|^p] < infinity and p > 1, E[(max_{0 <= k <= n}|M_k|)^p] <= (p/(p - 1))^p * E[|M_n|^p].",
+    "references": [
+      {
+        "title": "Doob's maximal inequality",
+        "url": "https://en.wikipedia.org/wiki/Doob%27s_martingale_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.16",
+    "subject": "math.PR",
+    "name": "Optional stopping theorem for bounded stopping times",
+    "statement": "If (M_n) is an integrable discrete-time martingale and tau is a stopping time bounded by a deterministic finite integer, then E[M_tau] = E[M_0]. More generally, for bounded stopping times sigma <= tau, E[M_tau | F_sigma] = M_sigma almost surely.",
+    "references": [
+      {
+        "title": "Optional stopping theorem for bounded stopping times",
+        "url": "https://en.wikipedia.org/wiki/Optional_stopping_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.17",
+    "subject": "math.PR",
+    "name": "Ito's formula",
+    "statement": "Let X_t = X_0 + integral_0^t b_s ds + integral_0^t a_s dW_s, where W is Brownian motion relative to a filtration, X_0 is measurable with respect to its initial sigma-algebra, and b and a are progressively measurable with integral_0^T (|b_s| + a_s^2) ds finite almost surely for every finite T. For f(t,x) with continuous first derivative in t and continuous first and second derivatives in x, df(t,X_t) = (f_t + b_t*f_x + (a_t^2/2)*f_xx)(t,X_t) dt + a_t*f_x(t,X_t) dW_t.",
+    "references": [
+      {
+        "title": "Ito's formula",
+        "url": "https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.18",
+    "subject": "math.PR",
+    "name": "Girsanov's theorem under Novikov's condition",
+    "statement": "Let W be Brownian motion on [0,T] and theta a progressively measurable process satisfying E[exp((1/2)*integral_0^T theta_s^2 ds)] < infinity. Define Z_T = exp(-integral_0^T theta_s dW_s - (1/2)*integral_0^T theta_s^2 ds) and dQ = Z_T dP; then W_t + integral_0^t theta_s ds is Brownian motion under Q on [0,T].",
+    "references": [
+      {
+        "title": "Girsanov's theorem under Novikov's condition",
+        "url": "https://en.wikipedia.org/wiki/Girsanov_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.19",
+    "subject": "math.PR",
+    "name": "Donsker's invariance principle",
+    "statement": "If X_1, X_2, ... are independent and identically distributed with mean zero and variance one, the process W_n(t) = n^(-1/2)*sum_{i=1}^{floor(nt)} X_i, 0 <= t <= 1, converges in distribution to standard Brownian motion. The convergence holds in the space of right-continuous paths with left limits equipped with the Skorokhod J1 topology.",
+    "references": [
+      {
+        "title": "Donsker's invariance principle",
+        "url": "https://en.wikipedia.org/wiki/Donsker%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.PR.20",
+    "subject": "math.PR",
+    "name": "Glivenko-Cantelli theorem",
+    "statement": "If X_1, X_2, ... are independent and identically distributed real random variables with cumulative distribution function F, and F_n(x) = n^(-1)*sum_{i=1}^n 1{X_i <= x}, then sup_x |F_n(x) - F(x)| converges almost surely to zero.",
+    "references": [
+      {
+        "title": "Glivenko-Cantelli theorem",
+        "url": "https://en.wikipedia.org/wiki/Glivenko%E2%80%93Cantelli_theorem"
+      }
+    ]
+  }
+]

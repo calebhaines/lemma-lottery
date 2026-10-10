@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.CO.01",
+    "subject": "math.CO",
+    "name": "Pigeonhole principle",
+    "statement": "If N objects are assigned to n boxes, where n is a positive integer, at least one box contains at least ⌈N/n⌉ objects. In particular, if N>n, some box contains at least two objects.",
+    "references": [
+      {
+        "title": "Pigeonhole principle",
+        "url": "https://en.wikipedia.org/wiki/Pigeonhole_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.02",
+    "subject": "math.CO",
+    "name": "Inclusion–exclusion principle",
+    "statement": "For finite sets A₁,…,Aₙ, the size of their union is the sum of the sizes of all single sets, minus the sum of all pairwise intersections, plus the sum of all triple intersections, and so on with alternating signs through the n-fold intersection.",
+    "references": [
+      {
+        "title": "Inclusion–exclusion principle",
+        "url": "https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.03",
+    "subject": "math.CO",
+    "name": "Hall’s marriage theorem",
+    "statement": "A finite family of finite sets has a system of distinct representatives if and only if the union of every subfamily has at least as many elements as that subfamily has sets. A system of distinct representatives selects one element from each set with all selected elements different.",
+    "references": [
+      {
+        "title": "Hall’s marriage theorem",
+        "url": "https://en.wikipedia.org/wiki/Hall's_marriage_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.04",
+    "subject": "math.CO",
+    "name": "Kőnig’s matching theorem",
+    "statement": "In every finite bipartite graph, the maximum number of edges in a matching equals the minimum number of vertices in a vertex cover. A matching consists of edges with no common endpoint, and a vertex cover meets every edge.",
+    "references": [
+      {
+        "title": "Kőnig’s matching theorem",
+        "url": "https://en.wikipedia.org/wiki/K%C5%91nig's_theorem_(graph_theory)"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.05",
+    "subject": "math.CO",
+    "name": "Dilworth’s theorem",
+    "statement": "In a finite partially ordered set, the maximum size of an antichain equals the minimum number of chains needed to partition the set. An antichain has no two comparable elements, while every two elements of a chain are comparable.",
+    "references": [
+      {
+        "title": "Dilworth’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Dilworth's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.06",
+    "subject": "math.CO",
+    "name": "Mirsky’s theorem",
+    "statement": "In a finite partially ordered set, the maximum size of a chain equals the minimum number of antichains needed to partition the set. Chains have pairwise comparable elements, and antichains have pairwise incomparable elements.",
+    "references": [
+      {
+        "title": "Mirsky’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Mirsky's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.07",
+    "subject": "math.CO",
+    "name": "Sperner’s theorem",
+    "statement": "If a family of subsets of an n-element set contains no two distinct members with one contained in the other, its size is at most binom(n,⌊n/2⌋). Equality is attained by taking all subsets of size ⌊n/2⌋.",
+    "references": [
+      {
+        "title": "Sperner’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Sperner's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.08",
+    "subject": "math.CO",
+    "name": "Erdős–Ko–Rado theorem",
+    "statement": "Let n ≥ 2k and k ≥ 1. A family of k-element subsets of an n-element set in which every two members intersect has at most binom(n−1,k−1) members.",
+    "references": [
+      {
+        "title": "Erdős–Ko–Rado theorem",
+        "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ko%E2%80%93Rado_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.09",
+    "subject": "math.CO",
+    "name": "Kruskal–Katona theorem",
+    "statement": "Let k ≥ 1 and let F be a nonempty family of k-element subsets of a finite set. Write |F| uniquely as binom(aₖ,k)+binom(aₖ₋₁,k−1)+⋯+binom(aₜ,t), where aₖ>aₖ₋₁>⋯>aₜ≥t≥1; then the family of (k−1)-element subsets contained in members of F has size at least binom(aₖ,k−1)+binom(aₖ₋₁,k−2)+⋯+binom(aₜ,t−1).",
+    "references": [
+      {
+        "title": "Kruskal–Katona theorem",
+        "url": "https://en.wikipedia.org/wiki/Kruskal%E2%80%93Katona_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.10",
+    "subject": "math.CO",
+    "name": "Finite Ramsey theorem",
+    "statement": "For all positive integers r and k, there is an integer N such that every coloring of the edges of the complete graph on N vertices with r colors contains a complete graph on k vertices whose edges all have the same color.",
+    "references": [
+      {
+        "title": "Finite Ramsey theorem",
+        "url": "https://en.wikipedia.org/wiki/Ramsey's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.11",
+    "subject": "math.CO",
+    "name": "Turán’s theorem",
+    "statement": "For positive integers n and r, every simple graph on n vertices containing no complete subgraph on r+1 vertices has at most as many edges as the complete r-partite graph whose part sizes differ by at most one. This balanced r-partite graph attains the bound.",
+    "references": [
+      {
+        "title": "Turán’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Tur%C3%A1n's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.12",
+    "subject": "math.CO",
+    "name": "Erdős–Stone theorem",
+    "statement": "For a fixed finite simple graph H with chromatic number χ(H) ≥ 3, let ex(n,H) be the maximum number of edges in an n-vertex simple graph containing no subgraph isomorphic to H. Then ex(n,H) = (1−1/(χ(H)−1)+o(1))n²/2 as n tends to infinity.",
+    "references": [
+      {
+        "title": "Erdős–Stone theorem",
+        "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Stone_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.13",
+    "subject": "math.CO",
+    "name": "Szemerédi’s theorem",
+    "statement": "If A is a set of positive integers with positive upper density, meaning limsup as N tends to infinity of |A∩{1,…,N}|/N is positive, then A contains an arithmetic progression of every finite length with positive common difference.",
+    "references": [
+      {
+        "title": "Szemerédi’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Szemer%C3%A9di's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.14",
+    "subject": "math.CO",
+    "name": "Van der Waerden’s theorem",
+    "statement": "For all positive integers r and k, there exists N such that every r-coloring of {1,…,N} contains a monochromatic arithmetic progression of length k with positive common difference when k ≥ 2.",
+    "references": [
+      {
+        "title": "Van der Waerden’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Van_der_Waerden's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.15",
+    "subject": "math.CO",
+    "name": "Hales–Jewett theorem",
+    "statement": "For every finite alphabet of size q ≥ 1 and every positive number r of colors, there is N such that every r-coloring of the length-N words contains a monochromatic combinatorial line. Such a line fixes some coordinates and replaces the same nonempty set of remaining coordinates simultaneously by each of the q alphabet symbols.",
+    "references": [
+      {
+        "title": "Hales–Jewett theorem",
+        "url": "https://en.wikipedia.org/wiki/Hales%E2%80%93Jewett_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.16",
+    "subject": "math.CO",
+    "name": "Symmetric Lovász local lemma",
+    "statement": "Let finitely many events each have probability at most p, and suppose each event is independent of the collection of all but at most d other events, where d is a nonnegative integer. If e·p·(d+1) ≤ 1, then the probability that none of the events occurs is positive.",
+    "references": [
+      {
+        "title": "Symmetric Lovász local lemma",
+        "url": "https://en.wikipedia.org/wiki/Lov%C3%A1sz_local_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.17",
+    "subject": "math.CO",
+    "name": "Birkhoff–von Neumann theorem",
+    "statement": "Every n-by-n matrix with nonnegative real entries whose row sums and column sums are all 1 is a convex combination of permutation matrices. Equivalently, the permutation matrices are the extreme points of the set of doubly stochastic matrices.",
+    "references": [
+      {
+        "title": "Birkhoff–von Neumann theorem",
+        "url": "https://en.wikipedia.org/wiki/Doubly_stochastic_matrix"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.18",
+    "subject": "math.CO",
+    "name": "Matrix-tree theorem",
+    "statement": "For a finite connected undirected loopless graph, the number of spanning trees equals any principal cofactor of its Laplacian matrix. The Laplacian has vertex degrees on its diagonal and the negative of the number of edges between distinct vertices off its diagonal.",
+    "references": [
+      {
+        "title": "Matrix-tree theorem",
+        "url": "https://en.wikipedia.org/wiki/Kirchhoff's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.19",
+    "subject": "math.CO",
+    "name": "Cayley’s formula",
+    "statement": "For every integer n ≥ 2, the number of trees on a fixed set of n labeled vertices is n^(n−2).",
+    "references": [
+      {
+        "title": "Cayley’s formula",
+        "url": "https://en.wikipedia.org/wiki/Cayley's_formula"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.20",
+    "subject": "math.CO",
+    "name": "Max-flow min-cut theorem",
+    "statement": "In a finite directed network with nonnegative real edge capacities and distinct source and sink, the maximum value of a feasible source-to-sink flow equals the minimum total capacity of a cut separating the source from the sink.",
+    "references": [
+      {
+        "title": "Max-flow min-cut theorem",
+        "url": "https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem"
+      }
+    ]
+  }
+]

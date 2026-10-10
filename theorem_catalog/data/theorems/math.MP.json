@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.MP.01",
+    "subject": "math.MP",
+    "name": "Noether's first theorem",
+    "statement": "Every differentiable one-parameter variational symmetry of a smooth Lagrangian action gives a current whose divergence vanishes along solutions of the Euler–Lagrange equations. In ordinary mechanics this yields a conserved quantity.",
+    "references": [
+      {
+        "title": "Noether's theorem",
+        "url": "https://en.wikipedia.org/wiki/Noether%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.02",
+    "subject": "math.MP",
+    "name": "Euler–Lagrange theorem",
+    "statement": "For a C² Lagrangian L, a twice continuously differentiable path that is stationary for the action ∫L(t,q,q′) dt under all smooth variations with fixed endpoints satisfies d/dt(∂L/∂q′) = ∂L/∂q. Conversely, a path satisfying these equations is stationary under those variations.",
+    "references": [
+      {
+        "title": "Euler–Lagrange equation",
+        "url": "https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.03",
+    "subject": "math.MP",
+    "name": "Liouville's theorem for Hamiltonian flows",
+    "statement": "A Hamiltonian flow on a 2n-dimensional symplectic manifold preserves the symplectic volume form ωⁿ/n!, wherever the flow is defined.",
+    "references": [
+      {
+        "title": "Liouville's theorem (Hamiltonian)",
+        "url": "https://en.wikipedia.org/wiki/Liouville%27s_theorem_(Hamiltonian)"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.04",
+    "subject": "math.MP",
+    "name": "Darboux's theorem",
+    "statement": "Near every point of a 2n-dimensional symplectic manifold there are local coordinates (q₁,…,qₙ,p₁,…,pₙ) in which the symplectic form is ∑ᵢ dqᵢ ∧ dpᵢ.",
+    "references": [
+      {
+        "title": "Darboux's theorem",
+        "url": "https://en.wikipedia.org/wiki/Darboux%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.05",
+    "subject": "math.MP",
+    "name": "Stone's theorem on unitary groups",
+    "statement": "Every strongly continuous one-parameter unitary group U(t) on a complex Hilbert space has a unique self-adjoint generator A with U(t) = exp(itA). Conversely, every self-adjoint operator generates such a group.",
+    "references": [
+      {
+        "title": "Stone's theorem on one-parameter unitary groups",
+        "url": "https://en.wikipedia.org/wiki/Stone%27s_theorem_on_one-parameter_unitary_groups"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.06",
+    "subject": "math.MP",
+    "name": "Spectral theorem for self-adjoint operators",
+    "statement": "Every self-adjoint operator A on a complex Hilbert space has a unique projection-valued measure E on the real line such that A = ∫λ dE(λ), with its natural square-integrability domain. This representation defines measurable functional calculus for A.",
+    "references": [
+      {
+        "title": "Spectral theorem",
+        "url": "https://en.wikipedia.org/wiki/Spectral_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.07",
+    "subject": "math.MP",
+    "name": "Stone–von Neumann theorem",
+    "statement": "For finitely many canonical position–momentum pairs and a fixed nonzero value of Planck's constant, every regular irreducible unitary representation of the Weyl canonical commutation relations is unitarily equivalent to the Schrödinger representation.",
+    "references": [
+      {
+        "title": "Stone–von Neumann theorem",
+        "url": "https://en.wikipedia.org/wiki/Stone%E2%80%93von_Neumann_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.08",
+    "subject": "math.MP",
+    "name": "Wigner's theorem",
+    "statement": "Every bijection of the rays of a complex Hilbert space of dimension at least two that preserves transition probabilities is induced by a unitary or antiunitary operator.",
+    "references": [
+      {
+        "title": "Wigner's theorem",
+        "url": "https://en.wikipedia.org/wiki/Wigner%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.09",
+    "subject": "math.MP",
+    "name": "Kato–Rellich theorem",
+    "statement": "If A is self-adjoint and B is symmetric on the domain of A with ||Bψ|| ≤ a||Aψ|| + b||ψ|| for constants a < 1 and b ≥ 0, then A + B is self-adjoint on the domain of A.",
+    "references": [
+      {
+        "title": "Perturbation Theory for Linear Operators — Tosio Kato",
+        "url": "https://doi.org/10.1007/978-3-642-66282-9"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.10",
+    "subject": "math.MP",
+    "name": "Friedrichs extension theorem",
+    "statement": "Every densely defined symmetric operator on a Hilbert space that is bounded below has a self-adjoint extension with the same lower bound, called its Friedrichs extension.",
+    "references": [
+      {
+        "title": "Friedrichs extension",
+        "url": "https://en.wikipedia.org/wiki/Friedrichs_extension"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.11",
+    "subject": "math.MP",
+    "name": "Lax–Milgram theorem",
+    "statement": "For a bounded coercive sesquilinear form a on a Hilbert space and a bounded conjugate-linear functional ℓ, there is a unique u satisfying a(u,v) = ℓ(v) for every v. Coercivity means Re a(v,v) ≥ c||v||² for some c > 0.",
+    "references": [
+      {
+        "title": "Lax–Milgram theorem",
+        "url": "https://en.wikipedia.org/wiki/Lax%E2%80%93Milgram_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.12",
+    "subject": "math.MP",
+    "name": "Lumer–Phillips theorem",
+    "statement": "A densely defined closed operator A on a Hilbert space generates a strongly continuous contraction semigroup if and only if Re⟨Ax,x⟩ ≤ 0 on its domain and λI−A is onto for some λ > 0.",
+    "references": [
+      {
+        "title": "Lumer–Phillips theorem",
+        "url": "https://en.wikipedia.org/wiki/Lumer%E2%80%93Phillips_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.13",
+    "subject": "math.MP",
+    "name": "Feynman–Kac formula",
+    "statement": "For H = −Δ/2 + V on Euclidean space with bounded continuous real potential V, its heat semigroup satisfies (e⁻ᵗᴴf)(x) = Eₓ[exp(−∫₀ᵗ V(Bₛ) ds)f(Bₜ)] for bounded continuous f, where B is standard Brownian motion starting at x.",
+    "references": [
+      {
+        "title": "Feynman–Kac formula",
+        "url": "https://en.wikipedia.org/wiki/Feynman%E2%80%93Kac_formula"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.14",
+    "subject": "math.MP",
+    "name": "Weyl's eigenvalue law",
+    "statement": "For the Dirichlet Laplacian on a bounded smooth domain Ω in Euclidean n-space, the number N(λ) of eigenvalues at most λ, counted with multiplicity, satisfies N(λ) ~ ωₙ Vol(Ω) λⁿ⁄²/(2π)ⁿ as λ tends to infinity.",
+    "references": [
+      {
+        "title": "Weyl law",
+        "url": "https://en.wikipedia.org/wiki/Weyl_law"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.15",
+    "subject": "math.MP",
+    "name": "Courant nodal domain theorem",
+    "statement": "On a bounded connected smooth domain, the kth Dirichlet Laplacian eigenfunction in an eigenbasis ordered by nondecreasing eigenvalue has at most k nodal domains, the connected regions on which it is nonzero.",
+    "references": [
+      {
+        "title": "Nodal Decompositions of Graphs — John C. Urschel, Theorem 1.1 (Courant)",
+        "url": "https://math.mit.edu/~urschel/publications/p2018.pdf"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.16",
+    "subject": "math.MP",
+    "name": "Min–max principle",
+    "statement": "For a self-adjoint operator bounded below with compact resolvent, its kth eigenvalue counted with multiplicity equals the infimum, over k-dimensional subspaces of its quadratic-form domain, of the supremum of the Rayleigh quotient on nonzero vectors in the subspace.",
+    "references": [
+      {
+        "title": "Min-max theorem",
+        "url": "https://en.wikipedia.org/wiki/Min-max_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.17",
+    "subject": "math.MP",
+    "name": "Perron–Frobenius theorem",
+    "statement": "A nonzero irreducible matrix with nonnegative real entries has a positive spectral radius that is an algebraically simple eigenvalue, with a strictly positive eigenvector. Every other eigenvalue has modulus at most the spectral radius.",
+    "references": [
+      {
+        "title": "Perron–Frobenius theorem",
+        "url": "https://en.wikipedia.org/wiki/Perron%E2%80%93Frobenius_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.18",
+    "subject": "math.MP",
+    "name": "Lieb–Robinson bound",
+    "statement": "For a quantum spin system on an integer lattice with finite-dimensional on-site spaces and uniformly bounded finite-range interactions, the commutator of initially disjoint local observables under time evolution is bounded by a constant times exp(−μ[d(X,Y)−v|t|]). Here μ and v depend on the interaction, and the prefactor depends on the observables and their finite supports X and Y.",
+    "references": [
+      {
+        "title": "Lieb–Robinson bounds",
+        "url": "https://en.wikipedia.org/wiki/Lieb%E2%80%93Robinson_bounds"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.19",
+    "subject": "math.MP",
+    "name": "Lieb–Thirring inequality",
+    "statement": "For a Schrödinger operator −Δ+V on Euclidean three-space with bounded real potential and negative part V₋ in L², its negative eigenvalues Eⱼ satisfy ∑ⱼ |Eⱼ|¹⁄² ≤ L ∫ V₋(x)² dx for a universal finite constant L.",
+    "references": [
+      {
+        "title": "Lieb–Thirring inequality",
+        "url": "https://en.wikipedia.org/wiki/Lieb%E2%80%93Thirring_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.MP.20",
+    "subject": "math.MP",
+    "name": "Hellmann–Feynman theorem",
+    "statement": "For a differentiable family of finite-dimensional Hermitian matrices A(t) with a differentiable normalized eigenvector ψ(t) and eigenvalue E(t), the derivative is E′(t) = ⟨ψ(t), A′(t)ψ(t)⟩.",
+    "references": [
+      {
+        "title": "Hellmann–Feynman theorem",
+        "url": "https://en.wikipedia.org/wiki/Hellmann%E2%80%93Feynman_theorem"
+      }
+    ]
+  }
+]

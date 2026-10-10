@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.ST.01",
+    "subject": "math.ST",
+    "name": "Fisher-Neyman factorization theorem",
+    "statement": "In a dominated statistical model on a standard Borel sample space, a statistic T with values in a standard Borel space is sufficient for the parameter if and only if the densities can be chosen in the form f_theta(x) = g_theta(T(x))*h(x). Here h is nonnegative and independent of theta, and each g_theta is nonnegative and measurable; equalities hold almost everywhere with respect to the common dominating measure.",
+    "references": [
+      {
+        "title": "Fisher-Neyman factorization theorem",
+        "url": "https://en.wikipedia.org/wiki/Sufficient_statistic"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.02",
+    "subject": "math.ST",
+    "name": "Rao-Blackwell theorem",
+    "statement": "If U is an unbiased estimator of g(theta) with finite variance and T is sufficient for theta, the conditional expectation U_star = E_theta[U | T] can be chosen as a statistic independent of theta. It is unbiased and has variance no greater than that of U for every theta.",
+    "references": [
+      {
+        "title": "Rao-Blackwell theorem",
+        "url": "https://en.wikipedia.org/wiki/Rao%E2%80%93Blackwell_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.03",
+    "subject": "math.ST",
+    "name": "Lehmann-Scheffe theorem",
+    "statement": "If T is a complete sufficient statistic and h(T) is an unbiased estimator of g(theta) with finite variance for every theta, then h(T) is the unique uniformly minimum-variance unbiased estimator of g(theta), up to almost-sure equality under every parameter value.",
+    "references": [
+      {
+        "title": "Lehmann-Scheffe theorem",
+        "url": "https://en.wikipedia.org/wiki/Lehmann%E2%80%93Scheff%C3%A9_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.04",
+    "subject": "math.ST",
+    "name": "Cramer-Rao inequality",
+    "statement": "In a dominated scalar-parameter model whose densities have parameter-independent support, assume differentiation under the integral is valid, the score S_theta = partial_theta log f_theta(X) has mean zero, and its Fisher information I(theta) = E_theta[S_theta^2] is finite and positive. For any finite-variance unbiased estimator U of a differentiable function g(theta) for which differentiation of E_theta[U] is justified, Var_theta(U) >= g'(theta)^2/I(theta).",
+    "references": [
+      {
+        "title": "Cramer-Rao inequality",
+        "url": "https://en.wikipedia.org/wiki/Cram%C3%A9r%E2%80%93Rao_bound"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.05",
+    "subject": "math.ST",
+    "name": "Neyman-Pearson lemma",
+    "statement": "For testing a simple null with density f_0 against a simple alternative with density f_1, a test that rejects where f_1 > c*f_0, accepts where f_1 < c*f_0, and randomizes on equality to have null rejection probability alpha is most powerful among all tests with null rejection probability at most alpha. The densities must be taken with respect to a common dominating measure.",
+    "references": [
+      {
+        "title": "Neyman-Pearson lemma",
+        "url": "https://en.wikipedia.org/wiki/Neyman%E2%80%93Pearson_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.06",
+    "subject": "math.ST",
+    "name": "Karlin-Rubin theorem",
+    "statement": "Suppose a one-parameter family has a sufficient real statistic T and a monotone likelihood ratio in T, meaning f_theta2(t)/f_theta1(t) is nondecreasing in t whenever theta2 > theta1. An upper-threshold test of T, with boundary randomization chosen to have rejection probability alpha at theta_0, is uniformly most powerful of level alpha for testing theta <= theta_0 against theta > theta_0.",
+    "references": [
+      {
+        "title": "Karlin-Rubin theorem",
+        "url": "https://en.wikipedia.org/wiki/Karlin%E2%80%93Rubin_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.07",
+    "subject": "math.ST",
+    "name": "Basu's theorem",
+    "statement": "If T is a complete sufficient statistic for a statistical model and A is ancillary, meaning the distribution of A does not depend on the parameter, then T and A are independent under every parameter value.",
+    "references": [
+      {
+        "title": "Basu's theorem",
+        "url": "https://en.wikipedia.org/wiki/Basu%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.08",
+    "subject": "math.ST",
+    "name": "Cochran's theorem",
+    "statement": "Let Z be an n-dimensional standard normal vector and let P_1, ..., P_k be mutually orthogonal symmetric projection matrices whose sum is the identity matrix. The quadratic forms Z^T P_i Z are independent, and each has a chi-squared distribution with rank(P_i) degrees of freedom.",
+    "references": [
+      {
+        "title": "Cochran's theorem",
+        "url": "https://en.wikipedia.org/wiki/Cochran%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.09",
+    "subject": "math.ST",
+    "name": "Student's theorem",
+    "statement": "For an independent sample X_1, ..., X_n from N(mu, sigma^2), with n >= 2 and sigma^2 > 0, the sample mean X_bar and the sample variance S^2 = sum_i (X_i - X_bar)^2/(n - 1) are independent. Moreover, sqrt(n)*(X_bar - mu)/S has Student's t distribution with n - 1 degrees of freedom.",
+    "references": [
+      {
+        "title": "Student's theorem",
+        "url": "https://en.wikipedia.org/wiki/Student%27s_t-distribution"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.10",
+    "subject": "math.ST",
+    "name": "Gauss-Markov theorem",
+    "statement": "In the linear model Y = X*beta + epsilon, assume the fixed design matrix X has full column rank, E[epsilon] = 0, and Cov(epsilon) = sigma^2*I. The ordinary least-squares estimator (X^T X)^(-1)X^T Y is unbiased, and every other estimator linear in Y and unbiased for all beta has covariance at least as large in the positive-semidefinite order.",
+    "references": [
+      {
+        "title": "Gauss-Markov theorem",
+        "url": "https://en.wikipedia.org/wiki/Gauss%E2%80%93Markov_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.11",
+    "subject": "math.ST",
+    "name": "Wilks's theorem",
+    "statement": "Suppose a d-dimensional model has the local log-likelihood expansion ell_n(theta_0 + h/sqrt(n)) - ell_n(theta_0) = h^T Delta_n - (1/2)*h^T I*h + o_P(1), uniformly for bounded h, where Delta_n converges in distribution to N(0,I) and I is positive definite. If the null parameter set is a smooth submanifold of codimension r through theta_0 and the unrestricted and restricted maximum-likelihood estimators are sqrt(n)-consistent, then twice the difference between the unrestricted and restricted maximized log-likelihoods converges in distribution to chi-squared with r degrees of freedom.",
+    "references": [
+      {
+        "title": "Wilks's theorem",
+        "url": "https://en.wikipedia.org/wiki/Wilks%27_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.12",
+    "subject": "math.ST",
+    "name": "Asymptotic normality of maximum-likelihood estimators",
+    "statement": "Suppose a d-dimensional model has the local expansion ell_n(theta_0 + h/sqrt(n)) - ell_n(theta_0) = h^T Delta_n - (1/2)*h^T I*h + o_P(1), uniformly for bounded h, where Delta_n converges in distribution to N(0,I) and I is positive definite. If an interior maximum-likelihood estimator theta_hat_n exists and sqrt(n)*(theta_hat_n - theta_0) is bounded in probability, then sqrt(n)*(theta_hat_n - theta_0) converges in distribution to N(0,I^(-1)).",
+    "references": [
+      {
+        "title": "Asymptotic normality of maximum-likelihood estimators",
+        "url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.13",
+    "subject": "math.ST",
+    "name": "Wald's consistency theorem, compact-parameter form",
+    "statement": "Let the parameter space be a compact metric space and suppose the normalized log-likelihood converges uniformly in probability to a continuous deterministic function uniquely maximized at the true parameter theta_0. Any measurable maximum-likelihood estimator then converges in probability to theta_0.",
+    "references": [
+      {
+        "title": "M-estimator: consistency",
+        "url": "https://en.wikipedia.org/wiki/M-estimator"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.14",
+    "subject": "math.ST",
+    "name": "Multivariate delta method",
+    "statement": "If sqrt(n)*(theta_hat_n - theta) converges in distribution to N(0,Sigma) and g is differentiable at theta with derivative matrix Dg(theta), then sqrt(n)*(g(theta_hat_n) - g(theta)) converges in distribution to N(0,Dg(theta)*Sigma*Dg(theta)^T).",
+    "references": [
+      {
+        "title": "Multivariate delta method",
+        "url": "https://en.wikipedia.org/wiki/Delta_method"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.15",
+    "subject": "math.ST",
+    "name": "Fisher's z-transformation theorem",
+    "statement": "For independent observations from a nondegenerate bivariate normal distribution with correlation rho satisfying |rho| < 1, let r_n be the sample Pearson correlation. Then sqrt(n)*(arctanh(r_n) - arctanh(rho)) converges in distribution to the standard normal law.",
+    "references": [
+      {
+        "title": "Fisher's z-transformation theorem",
+        "url": "https://en.wikipedia.org/wiki/Fisher_transformation"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.16",
+    "subject": "math.ST",
+    "name": "Dvoretzky-Kiefer-Wolfowitz-Massart inequality",
+    "statement": "For n independent real observations with common cumulative distribution function F, let F_n be their empirical cumulative distribution function. For every epsilon > 0, P(sup_x |F_n(x) - F(x)| > epsilon) <= 2*exp(-2*n*epsilon^2).",
+    "references": [
+      {
+        "title": "Dvoretzky-Kiefer-Wolfowitz-Massart inequality",
+        "url": "https://en.wikipedia.org/wiki/Dvoretzky%E2%80%93Kiefer%E2%80%93Wolfowitz_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.17",
+    "subject": "math.ST",
+    "name": "Berry-Esseen theorem",
+    "statement": "If X_1, X_2, ... are independent and identically distributed with mean mu, variance sigma^2 > 0, and rho = E[|X_1 - mu|^3] < infinity, there is a universal constant C such that sup_x |P((sum_{i=1}^n X_i - n*mu)/(sigma*sqrt(n)) <= x) - Phi(x)| <= C*rho/(sigma^3*sqrt(n)). Here Phi is the standard normal cumulative distribution function.",
+    "references": [
+      {
+        "title": "Berry-Esseen theorem",
+        "url": "https://en.wikipedia.org/wiki/Berry%E2%80%93Esseen_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.18",
+    "subject": "math.ST",
+    "name": "Benjamini-Hochberg false-discovery-rate theorem",
+    "statement": "For m mutually independent p-values whose true-null p-values satisfy P(p_i <= t) <= t for every t in [0,1], order them as p_(1) <= ... <= p_(m). At q in (0,1), reject the first k hypotheses, where k is the largest index satisfying p_(k) <= k*q/m (or reject none if no such index exists); then E[V/max(R,1)] <= q*m_0/m, where V is the number of rejected true nulls, R the total number rejected, and m_0 the number of true nulls.",
+    "references": [
+      {
+        "title": "Benjamini-Hochberg false-discovery-rate theorem",
+        "url": "https://en.wikipedia.org/wiki/False_discovery_rate"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.19",
+    "subject": "math.ST",
+    "name": "Bonferroni family-wise-error theorem",
+    "statement": "For tests with true-null p-values satisfying P(p_i <= t) <= t, reject hypothesis i when p_i <= alpha_i, where each alpha_i is nonnegative and their sum is at most alpha. The probability of at least one false rejection is at most alpha, regardless of dependence among the p-values.",
+    "references": [
+      {
+        "title": "Bonferroni family-wise-error theorem",
+        "url": "https://en.wikipedia.org/wiki/Bonferroni_correction"
+      }
+    ]
+  },
+  {
+    "id": "math.ST.20",
+    "subject": "math.ST",
+    "name": "Pearson's chi-squared limit theorem",
+    "statement": "For a multinomial sample of size n with k fixed categories and specified probabilities p_1, ..., p_k all strictly positive, let N_i be the category counts. Under those probabilities, sum_{i=1}^k (N_i - n*p_i)^2/(n*p_i) converges in distribution to chi-squared with k - 1 degrees of freedom as n tends to infinity, for k >= 2.",
+    "references": [
+      {
+        "title": "Pearson's chi-squared limit theorem",
+        "url": "https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test"
+      }
+    ]
+  }
+]

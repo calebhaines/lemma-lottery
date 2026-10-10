@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.AT.01",
+    "subject": "math.AT",
+    "name": "Seifert-van Kampen theorem",
+    "statement": "If X=U union V, where U and V are open and U, V, and U intersect V are path connected, then the fundamental group of X is the pushout of the fundamental groups of U and V over that of U intersect V. All groups use a base point in the intersection.",
+    "references": [
+      {
+        "title": "Seifert-van Kampen theorem",
+        "url": "https://en.wikipedia.org/wiki/Seifert%E2%80%93van_Kampen_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.02",
+    "subject": "math.AT",
+    "name": "Classification of covering spaces",
+    "statement": "For a path-connected, locally path-connected, semilocally simply connected space X, isomorphism classes of connected covering spaces correspond to conjugacy classes of subgroups of its fundamental group. Choosing base points replaces conjugacy classes by individual subgroups.",
+    "references": [
+      {
+        "title": "Classification of covering spaces",
+        "url": "https://en.wikipedia.org/wiki/Covering_space#Classification"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.03",
+    "subject": "math.AT",
+    "name": "Hurewicz theorem",
+    "statement": "If a CW complex X is (n-1)-connected with n at least two, then H_i(X;Z)=0 for 0<i<n and the Hurewicz map from pi_n(X) to H_n(X;Z) is an isomorphism.",
+    "references": [
+      {
+        "title": "Hurewicz theorem",
+        "url": "https://en.wikipedia.org/wiki/Hurewicz_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.04",
+    "subject": "math.AT",
+    "name": "Whitehead theorem",
+    "statement": "A map between connected CW complexes that induces isomorphisms on all homotopy groups is a homotopy equivalence.",
+    "references": [
+      {
+        "title": "Whitehead theorem",
+        "url": "https://en.wikipedia.org/wiki/Whitehead_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.05",
+    "subject": "math.AT",
+    "name": "Cellular homology theorem",
+    "statement": "The homology of the cellular chain complex of a CW complex X is naturally isomorphic to its singular homology. Its chain group in degree n is the free abelian group on the n-cells.",
+    "references": [
+      {
+        "title": "Cellular homology theorem",
+        "url": "https://en.wikipedia.org/wiki/Cellular_homology"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.06",
+    "subject": "math.AT",
+    "name": "Homotopy invariance of singular homology",
+    "statement": "Homotopic continuous maps induce the same maps on singular homology with any fixed coefficient group. Consequently, a homotopy equivalence induces isomorphisms on all singular homology groups.",
+    "references": [
+      {
+        "title": "Homotopy invariance of singular homology",
+        "url": "https://en.wikipedia.org/wiki/Homology_(mathematics)#Homotopy_invariance"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.07",
+    "subject": "math.AT",
+    "name": "Long exact sequence of a pair",
+    "statement": "For a subspace A of X and an abelian coefficient group G, relative singular homology fits into a natural exact sequence with successive terms H_n(A;G), H_n(X;G), H_n(X,A;G), and H_(n-1)(A;G).",
+    "references": [
+      {
+        "title": "Long exact sequence of a pair",
+        "url": "https://en.wikipedia.org/wiki/Relative_homology"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.08",
+    "subject": "math.AT",
+    "name": "Excision theorem",
+    "statement": "Let Z be a subset of A in a pair (X,A) whose closure in X lies in the interior of A. The inclusion (X minus Z, A minus Z) into (X,A) induces isomorphisms on relative singular homology in all degrees, with any fixed coefficient group.",
+    "references": [
+      {
+        "title": "Excision theorem",
+        "url": "https://en.wikipedia.org/wiki/Excision_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.09",
+    "subject": "math.AT",
+    "name": "Mayer-Vietoris theorem",
+    "statement": "If X is the union of open subspaces U and V, singular homology has a natural long exact sequence with successive terms H_n(U intersect V), H_n(U) direct sum H_n(V), H_n(X), and H_(n-1)(U intersect V), for any fixed coefficient group.",
+    "references": [
+      {
+        "title": "Mayer-Vietoris theorem",
+        "url": "https://en.wikipedia.org/wiki/Mayer%E2%80%93Vietoris_sequence"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.10",
+    "subject": "math.AT",
+    "name": "Universal coefficient theorem for homology",
+    "statement": "For any space X and abelian group G, there is a natural short exact sequence 0 to H_n(X;Z) tensor G to H_n(X;G) to Tor_1^Z(H_(n-1)(X;Z),G) to 0. The sequence splits, but a splitting need not be natural.",
+    "references": [
+      {
+        "title": "Universal coefficient theorem for homology",
+        "url": "https://en.wikipedia.org/wiki/Universal_coefficient_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.11",
+    "subject": "math.AT",
+    "name": "Universal coefficient theorem for cohomology",
+    "statement": "For any space X and abelian group G, there is a natural short exact sequence 0 to Ext_Z^1(H_(n-1)(X;Z),G) to H^n(X;G) to Hom_Z(H_n(X;Z),G) to 0. The sequence splits, but a splitting need not be natural.",
+    "references": [
+      {
+        "title": "Universal coefficient theorem for cohomology",
+        "url": "https://en.wikipedia.org/wiki/Universal_coefficient_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.12",
+    "subject": "math.AT",
+    "name": "Kunneth theorem",
+    "statement": "For spaces X and Y, the cross product gives a natural short exact sequence from the direct sum of H_p(X;Z) tensor H_q(Y;Z) with p+q=n into H_n(X times Y;Z), whose quotient is the direct sum of Tor_1^Z(H_p(X;Z),H_q(Y;Z)) with p+q=n-1. This sequence splits noncanonically.",
+    "references": [
+      {
+        "title": "Kunneth theorem",
+        "url": "https://en.wikipedia.org/wiki/K%C3%BCnneth_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.13",
+    "subject": "math.AT",
+    "name": "Poincare duality",
+    "statement": "If M is a closed connected oriented n-dimensional manifold with fundamental class [M], cap product with [M] gives an isomorphism H^k(M;Z) to H_(n-k)(M;Z) for every k.",
+    "references": [
+      {
+        "title": "Poincare duality",
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_duality"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.14",
+    "subject": "math.AT",
+    "name": "Lefschetz fixed-point theorem",
+    "statement": "Let X be a finite polyhedron and f:X to X continuous. If the alternating sum of the traces of f_* on H_i(X;Q) is nonzero, then f has a fixed point.",
+    "references": [
+      {
+        "title": "Lefschetz fixed-point theorem",
+        "url": "https://en.wikipedia.org/wiki/Lefschetz_fixed-point_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.15",
+    "subject": "math.AT",
+    "name": "Brouwer fixed-point theorem",
+    "statement": "Every continuous map from a closed Euclidean n-dimensional ball to itself has a fixed point.",
+    "references": [
+      {
+        "title": "Brouwer fixed-point theorem",
+        "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.16",
+    "subject": "math.AT",
+    "name": "Hopf degree theorem",
+    "statement": "For every n at least one, two continuous maps from the oriented sphere S^n to itself are homotopic if and only if they have the same integer degree. Every integer occurs as the degree of such a map.",
+    "references": [
+      {
+        "title": "Hopf degree theorem",
+        "url": "https://en.wikipedia.org/wiki/Degree_of_a_continuous_mapping"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.17",
+    "subject": "math.AT",
+    "name": "Freudenthal suspension theorem",
+    "statement": "If a based CW complex X is r-connected with r at least one, suspension induces an isomorphism pi_q(X) to pi_(q+1)(Sigma X) for q at most 2r and a surjection for q=2r+1.",
+    "references": [
+      {
+        "title": "Freudenthal suspension theorem",
+        "url": "https://en.wikipedia.org/wiki/Freudenthal_suspension_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.18",
+    "subject": "math.AT",
+    "name": "Serre spectral sequence",
+    "statement": "For a Serre fibration F to E to B with B a simply connected CW complex and F path connected, there is a first-quadrant homology spectral sequence with E^2_(p,q)=H_p(B;H_q(F;Z)) converging to H_(p+q)(E;Z).",
+    "references": [
+      {
+        "title": "Serre spectral sequence",
+        "url": "https://en.wikipedia.org/wiki/Serre_spectral_sequence"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.19",
+    "subject": "math.AT",
+    "name": "Thom isomorphism theorem",
+    "statement": "For an oriented real vector bundle of rank r over a CW complex B, cup product with its Thom class gives an isomorphism H^k(B;Z) to H^(k+r)(D(E),S(E);Z). Here D(E) and S(E) are its disk and sphere bundles.",
+    "references": [
+      {
+        "title": "Thom isomorphism theorem",
+        "url": "https://en.wikipedia.org/wiki/Thom_isomorphism"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.20",
+    "subject": "math.AT",
+    "name": "Representability of ordinary cohomology",
+    "statement": "For a CW complex X, an abelian group G, and n at least one, H^n(X;G) is naturally in bijection with the homotopy classes of maps from X to an Eilenberg-MacLane space K(G,n). The bijection respects the abelian group structures.",
+    "references": [
+      {
+        "title": "Representability of ordinary cohomology",
+        "url": "https://en.wikipedia.org/wiki/Eilenberg%E2%80%93MacLane_space"
+      }
+    ]
+  }
+]

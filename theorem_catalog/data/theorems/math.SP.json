@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.SP.01",
+    "subject": "math.SP",
+    "name": "Spectral theorem for bounded self-adjoint operators",
+    "statement": "Every bounded self-adjoint operator T on a complex Hilbert space has a unique projection-valued measure E on ℝ, supported in σ(T), such that T = ∫ λ dE(λ). This gives f(T) = ∫ f(λ) dE(λ) for bounded Borel functions f.",
+    "references": [
+      {
+        "title": "Spectral theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Spectral_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.02",
+    "subject": "math.SP",
+    "name": "Spectral theorem for unbounded self-adjoint operators",
+    "statement": "Every densely defined self-adjoint operator T has a unique projection-valued measure E on ℝ with T = ∫ λ dE(λ). Its domain consists exactly of the vectors x for which ∫ λ² d⟨E(λ)x,x⟩ is finite.",
+    "references": [
+      {
+        "title": "Spectral theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Spectral_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.03",
+    "subject": "math.SP",
+    "name": "Compact self-adjoint spectral theorem",
+    "statement": "A compact self-adjoint operator has an orthonormal basis of eigenvectors, with real eigenvalues. Every nonzero eigenvalue has finite multiplicity, and zero is the only possible accumulation point of the nonzero eigenvalues.",
+    "references": [
+      {
+        "title": "Spectral theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Spectral_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.04",
+    "subject": "math.SP",
+    "name": "Holomorphic spectral mapping theorem",
+    "statement": "If T is a bounded operator on a complex Banach space and f is holomorphic on a neighborhood of σ(T), then σ(f(T)) = f(σ(T)), with f(T) defined by the holomorphic functional calculus.",
+    "references": [
+      {
+        "title": "Spectral mapping theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Spectral_mapping_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.05",
+    "subject": "math.SP",
+    "name": "Gelfand spectral-radius formula",
+    "statement": "For an element a of a complex unital Banach algebra, its spectral radius satisfies r(a) = limₙ→∞ ‖aⁿ‖¹/ⁿ = infₙ≥₁ ‖aⁿ‖¹/ⁿ.",
+    "references": [
+      {
+        "title": "Spectral radius — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Spectral_radius"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.06",
+    "subject": "math.SP",
+    "name": "Weyl criterion",
+    "statement": "For a self-adjoint operator T and real λ, λ lies in σ(T) if and only if there are unit vectors xₙ in its domain with ‖(T−λ)xₙ‖ tending to zero. Moreover, λ lies in the essential spectrum if and only if such vectors can be chosen to converge weakly to zero.",
+    "references": [
+      {
+        "title": "Weyl's criterion — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Weyl%27s_criterion"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.07",
+    "subject": "math.SP",
+    "name": "Weyl essential-spectrum theorem",
+    "statement": "If T is self-adjoint and K is a compact bounded self-adjoint operator, T+K on the domain of T has the same essential spectrum as T. Here the essential spectrum is the spectrum after removing isolated eigenvalues of finite multiplicity.",
+    "references": [
+      {
+        "title": "Essential spectrum — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Essential_spectrum"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.08",
+    "subject": "math.SP",
+    "name": "Variational min–max principle",
+    "statement": "Let T be a lower-bounded self-adjoint operator with closed quadratic form q, and suppose it has at least k eigenvalues below the bottom of its essential spectrum. Its kth such eigenvalue, counted with multiplicity, equals inf over k-dimensional subspaces S of the form domain of sup over nonzero x in S of q(x)/‖x‖².",
+    "references": [
+      {
+        "title": "Min-max theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Min-max_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.09",
+    "subject": "math.SP",
+    "name": "Courant–Fischer theorem",
+    "statement": "For a Hermitian matrix A with increasingly ordered eigenvalues λ₁,…,λₙ, λₖ = min over subspaces S with dimension k of max over nonzero x in S of x*Ax/(x*x).",
+    "references": [
+      {
+        "title": "Min-max theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Min-max_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.10",
+    "subject": "math.SP",
+    "name": "Kato–Rellich theorem",
+    "statement": "Let T be self-adjoint and B symmetric with D(T) contained in D(B). If ‖Bx‖ ≤ a‖Tx‖ + b‖x‖ for x in D(T), with 0 ≤ a < 1 and b ≥ 0, then T+B is self-adjoint on D(T).",
+    "references": [
+      {
+        "title": "Kato: Perturbation Theory for Linear Operators",
+        "url": "https://link.springer.com/book/10.1007/978-3-642-66282-9"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.11",
+    "subject": "math.SP",
+    "name": "Friedrichs extension theorem",
+    "statement": "Every densely defined symmetric operator that is bounded below has a self-adjoint extension with the same lower bound. The Friedrichs extension is the canonical extension associated with the closure of its quadratic form.",
+    "references": [
+      {
+        "title": "Friedrichs extension — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Friedrichs_extension"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.12",
+    "subject": "math.SP",
+    "name": "Stone theorem on unitary groups",
+    "statement": "Every strongly continuous one-parameter unitary group U(t) on a Hilbert space has a unique self-adjoint generator A such that U(t) = eⁱᵗᴬ. Conversely, every self-adjoint A generates such a group.",
+    "references": [
+      {
+        "title": "Stone's theorem on one-parameter unitary groups — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stone%27s_theorem_on_one-parameter_unitary_groups"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.13",
+    "subject": "math.SP",
+    "name": "First resolvent identity",
+    "statement": "For a closed operator T and z,w in its resolvent set, define R(z) = (T−zI)⁻¹. Then R(z)−R(w) = (z−w)R(z)R(w), and the two resolvents commute.",
+    "references": [
+      {
+        "title": "Resolvent formalism — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Resolvent_formalism"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.14",
+    "subject": "math.SP",
+    "name": "Riesz spectral projection theorem",
+    "statement": "For a bounded operator T on a complex Banach space and a positively oriented simple closed contour Γ in its resolvent set, P = (1/(2πi))∮Γ(zI−T)⁻¹ dz is a bounded projection commuting with T. Its range and kernel give invariant subspaces corresponding to the spectral parts inside and outside Γ.",
+    "references": [
+      {
+        "title": "Riesz projector — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Riesz_projector"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.15",
+    "subject": "math.SP",
+    "name": "Weyl eigenvalue asymptotic law",
+    "statement": "For the Dirichlet Laplacian on a nonempty bounded smooth domain Ω ⊂ ℝⁿ, let N(λ) count eigenvalues at most λ, with multiplicity. Then N(λ) is asymptotic to |Ω|ωₙλⁿ/²/(2π)ⁿ as λ tends to infinity, where ωₙ is the volume of the unit ball.",
+    "references": [
+      {
+        "title": "Weyl's law — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Weyl%27s_law"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.16",
+    "subject": "math.SP",
+    "name": "Sturm oscillation theorem",
+    "statement": "For the regular Sturm–Liouville problem −(py′)′ + qy = λwy on [a,b], assume p is positive C¹, q and w are real-valued continuous functions, w > 0, and the boundary conditions are separated and self-adjoint. Eigenvalues are simple and increasingly ordered; the kth eigenfunction has exactly k−1 zeros in (a,b).",
+    "references": [
+      {
+        "title": "Sturm–Liouville theory — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sturm%E2%80%93Liouville_theory"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.17",
+    "subject": "math.SP",
+    "name": "Perron–Frobenius theorem for positive matrices",
+    "statement": "A real matrix with all entries strictly positive has a positive spectral-radius eigenvalue that is algebraically simple, with strictly positive right and left eigenvectors. Every other eigenvalue has strictly smaller modulus.",
+    "references": [
+      {
+        "title": "Perron–Frobenius theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Perron%E2%80%93Frobenius_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.18",
+    "subject": "math.SP",
+    "name": "Krein–Rutman theorem",
+    "statement": "If T is a compact positive operator on a Banach lattice and r(T) > 0, then r(T) is an eigenvalue with a nonzero positive eigenvector.",
+    "references": [
+      {
+        "title": "Krein–Rutman theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Krein%E2%80%93Rutman_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.19",
+    "subject": "math.SP",
+    "name": "Analytic perturbation theorem for simple eigenvalues",
+    "statement": "Let T(z) be a norm-holomorphic family of bounded operators near z₀, and let λ₀ be an isolated eigenvalue of T(z₀) of algebraic multiplicity one. Near z₀, this eigenvalue and its rank-one Riesz projection depend holomorphically on z.",
+    "references": [
+      {
+        "title": "Kato: Perturbation Theory for Linear Operators",
+        "url": "https://link.springer.com/book/10.1007/978-3-642-66282-9"
+      }
+    ]
+  },
+  {
+    "id": "math.SP.20",
+    "subject": "math.SP",
+    "name": "Birman–Schwinger principle",
+    "statement": "Let V be a bounded nonnegative compactly supported function on ℝⁿ, H = −Δ−V on H²(ℝⁿ), and E > 0. Then −E is an eigenvalue of H if and only if 1 is an eigenvalue of V¹/²(−Δ+E)⁻¹V¹/², with the same multiplicity.",
+    "references": [
+      {
+        "title": "Birman–Schwinger principle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Birman%E2%80%93Schwinger_principle"
+      }
+    ]
+  }
+]

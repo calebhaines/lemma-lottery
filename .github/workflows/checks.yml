@@ -1,0 +1,39 @@
+name: Checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Python ${{ matrix.python }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Test
+        run: python -m unittest discover -s tests -v
+      - name: Validate the catalog
+        run: python theorem.py validate
+      - name: Build the single-file app
+        run: python scripts/build_zipapp.py
+      - name: Smoke-test the standalone app
+        working-directory: ${{ runner.temp }}
+        run: |
+          python -S "$GITHUB_WORKSPACE/lemma-lottery.pyz" validate
+          python -S "$GITHUB_WORKSPACE/lemma-lottery.pyz" random
+          python -S "$GITHUB_WORKSPACE/lemma-lottery.pyz" random --subject math.NT
+      - name: Upload the single-file app
+        uses: actions/upload-artifact@v4
+        with:
+          name: lemma-lottery-python-${{ matrix.python }}
+          path: lemma-lottery.pyz
+          if-no-files-found: error

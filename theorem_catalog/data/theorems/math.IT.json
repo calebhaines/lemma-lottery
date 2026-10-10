@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.IT.01",
+    "subject": "math.IT",
+    "name": "Kraft–McMillan inequality",
+    "statement": "For a uniquely decodable code over an alphabet of size r ≥ 2 with finite codeword lengths l₁, …, lₘ, the lengths satisfy Σᵢ r^(−lᵢ) ≤ 1. Conversely, every finite list of nonnegative integer lengths satisfying this inequality is realized by a prefix code, with the length-zero case permitted only when there is one source symbol.",
+    "references": [
+      {
+        "title": "Kraft–McMillan inequality",
+        "url": "https://en.wikipedia.org/wiki/Kraft%E2%80%93McMillan_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.02",
+    "subject": "math.IT",
+    "name": "Shannon source coding theorem",
+    "statement": "Let X₁, X₂, … be independent identically distributed random variables on a finite alphabet with entropy H(X), measured in bits. Let Lₙ be the minimum expected length of a binary prefix code for the positive-probability sequences (X₁, …, Xₙ), allowing the empty codeword when there is only one such sequence. Then nH(X) ≤ Lₙ < nH(X) + 1, so the optimal expected number of bits per source symbol converges to H(X).",
+    "references": [
+      {
+        "title": "Shannon's source coding theorem",
+        "url": "https://en.wikipedia.org/wiki/Shannon%27s_source_coding_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.03",
+    "subject": "math.IT",
+    "name": "Shannon noisy-channel coding theorem",
+    "statement": "For a discrete memoryless channel with finite input and output alphabets, its capacity in bits per use is C = maxₚ₍ₓ₎ I(X; Y). Every rate 0 ≤ R < C is achievable by a sequence of block codes whose decoding error probability tends to zero, while no sequence with asymptotic rate strictly greater than C can have error probability tending to zero.",
+    "references": [
+      {
+        "title": "Noisy-channel coding theorem",
+        "url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.04",
+    "subject": "math.IT",
+    "name": "Strong converse for discrete memoryless channels",
+    "statement": "Consider block codes of length n for a fixed discrete memoryless channel with finite alphabets and capacity C, with messages chosen uniformly. If liminfₙ (log₂ Mₙ)/n > C, where Mₙ is the number of messages, then the average decoding error probability tends to one.",
+    "references": [
+      {
+        "title": "Noisy-channel coding theorem: strong converse",
+        "url": "https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.05",
+    "subject": "math.IT",
+    "name": "Shannon–Hartley theorem",
+    "statement": "An ideal band-limited additive white Gaussian noise channel of bandwidth B hertz, average signal power P, and total noise power N within that bandwidth has capacity C = B log₂(1 + P/N) bits per second. The formula assumes B > 0, N > 0, and an average-power constraint.",
+    "references": [
+      {
+        "title": "Shannon–Hartley theorem",
+        "url": "https://en.wikipedia.org/wiki/Shannon%E2%80%93Hartley_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.06",
+    "subject": "math.IT",
+    "name": "Data processing inequality",
+    "statement": "If finite-valued random variables X, Y, Z form a Markov chain X → Y → Z, meaning X and Z are conditionally independent given Y, then I(X; Z) ≤ I(X; Y). Thus processing Y through a channel cannot increase its mutual information with X.",
+    "references": [
+      {
+        "title": "Data processing inequality",
+        "url": "https://en.wikipedia.org/wiki/Data_processing_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.07",
+    "subject": "math.IT",
+    "name": "Gibbs' inequality",
+    "statement": "For probability distributions p and q on a finite set, the relative entropy D(p ∥ q) = Σₓ p(x) log₂(p(x)/q(x)) is nonnegative and equals zero exactly when p = q. Terms with p(x) = 0 are zero, and D(p ∥ q) is infinite if p(x) > 0 but q(x) = 0 for some x.",
+    "references": [
+      {
+        "title": "Gibbs' inequality",
+        "url": "https://en.wikipedia.org/wiki/Gibbs%27_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.08",
+    "subject": "math.IT",
+    "name": "Fano's inequality",
+    "statement": "Let X take values in an alphabet of size m ≥ 2, and let X̂ be an estimate determined by an observation Y and taking values in that same alphabet. If Pₑ = Pr(X̂ ≠ X), then H(X | Y) ≤ h₂(Pₑ) + Pₑ log₂(m − 1), where h₂ is binary entropy and all entropies are in bits.",
+    "references": [
+      {
+        "title": "Fano's inequality",
+        "url": "https://en.wikipedia.org/wiki/Fano%27s_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.09",
+    "subject": "math.IT",
+    "name": "Asymptotic equipartition property",
+    "statement": "If X₁, X₂, … are independent identically distributed random variables on a finite alphabet, then −(1/n) log₂ Pr(X₁, …, Xₙ) converges almost surely to H(X₁), where the probability is evaluated at the realized sequence. Consequently, long typical source sequences have probabilities exponentially close to 2^(−nH(X₁)).",
+    "references": [
+      {
+        "title": "Asymptotic equipartition property",
+        "url": "https://en.wikipedia.org/wiki/Asymptotic_equipartition_property"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.10",
+    "subject": "math.IT",
+    "name": "Slepian–Wolf theorem",
+    "statement": "For independent identically distributed pairs (Xᵢ, Yᵢ) on finite alphabets, X and Y can be encoded separately and reconstructed jointly with block error probability tending to zero. The closure of the achievable rate region, in bits per pair, is exactly Rₓ ≥ H(X | Y), Rᵧ ≥ H(Y | X), and Rₓ + Rᵧ ≥ H(X, Y).",
+    "references": [
+      {
+        "title": "Slepian–Wolf coding",
+        "url": "https://en.wikipedia.org/wiki/Slepian%E2%80%93Wolf_coding"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.11",
+    "subject": "math.IT",
+    "name": "Shannon rate-distortion theorem",
+    "statement": "For an independent identically distributed source X on a finite alphabet, a finite reproduction alphabet, a bounded single-letter distortion d, and a feasible distortion level D, the minimum asymptotic coding rate under expected distortion at most D is R(D) = min I(X; X̂). The minimum ranges over conditional distributions of X̂ given X satisfying E[d(X, X̂)] ≤ D; rates strictly above R(D) are achievable with asymptotic distortion at most D.",
+    "references": [
+      {
+        "title": "Rate-distortion theory",
+        "url": "https://en.wikipedia.org/wiki/Rate%E2%80%93distortion_theory"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.12",
+    "subject": "math.IT",
+    "name": "Huffman coding optimality theorem",
+    "statement": "For a finite source alphabet with assigned symbol probabilities, Huffman’s algorithm constructs a binary prefix code minimizing the expected codeword length among all binary prefix codes for that alphabet. The construction repeatedly merges the two least probable remaining symbols or subtrees.",
+    "references": [
+      {
+        "title": "Huffman coding",
+        "url": "https://en.wikipedia.org/wiki/Huffman_coding"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.13",
+    "subject": "math.IT",
+    "name": "Hamming bound",
+    "statement": "Let q ≥ 2 and let t be an integer with 0 ≤ t ≤ n. If a q-ary code of length n contains M codewords and has minimum Hamming distance at least 2t + 1, then M Σⱼ₌₀ᵗ binomial(n, j)(q − 1)^j ≤ qⁿ, because its radius-t Hamming balls are disjoint.",
+    "references": [
+      {
+        "title": "Hamming bound",
+        "url": "https://en.wikipedia.org/wiki/Hamming_bound"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.14",
+    "subject": "math.IT",
+    "name": "Singleton bound",
+    "statement": "For q ≥ 2, a q-ary code of length n containing M ≥ 2 codewords and having minimum Hamming distance 1 ≤ d ≤ n satisfies M ≤ q^(n − d + 1). In particular, a nonzero linear [n, k, d] code over the finite field with q elements satisfies k ≤ n − d + 1.",
+    "references": [
+      {
+        "title": "Singleton bound",
+        "url": "https://en.wikipedia.org/wiki/Singleton_bound"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.15",
+    "subject": "math.IT",
+    "name": "Gilbert–Varshamov bound",
+    "statement": "For integers q ≥ 2 and 1 ≤ d ≤ n, there exists a q-ary code of length n and minimum Hamming distance at least d containing at least qⁿ / Σⱼ₌₀^(d−1) binomial(n, j)(q − 1)^j codewords. A maximal code under inclusion has this bound because its radius-(d − 1) Hamming balls cover all qⁿ words.",
+    "references": [
+      {
+        "title": "Gilbert–Varshamov bound",
+        "url": "https://en.wikipedia.org/wiki/Gilbert%E2%80%93Varshamov_bound"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.16",
+    "subject": "math.IT",
+    "name": "Reed–Solomon minimum-distance theorem",
+    "statement": "Let q be a prime power and let 1 ≤ k ≤ n ≤ q. Evaluating every polynomial of degree less than k over the field with q elements at n distinct field elements gives a linear [n, k, n − k + 1] code, attaining the Singleton bound.",
+    "references": [
+      {
+        "title": "Reed–Solomon error correction",
+        "url": "https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.17",
+    "subject": "math.IT",
+    "name": "Plotkin bound",
+    "statement": "For a q-ary code of length n, size M, and minimum Hamming distance d with qd > (q − 1)n, the size satisfies M ≤ floor(qd / (qd − (q − 1)n)). The bound follows by comparing the sum of all pairwise distances with the maximum possible contribution of each coordinate.",
+    "references": [
+      {
+        "title": "Plotkin bound",
+        "url": "https://en.wikipedia.org/wiki/Plotkin_bound"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.18",
+    "subject": "math.IT",
+    "name": "Entropy power inequality",
+    "statement": "Let X and Y be independent random vectors in ℝⁿ with densities, finite differential entropies, and finite second moments. Defining entropy power by N(X) = (1/(2πe)) exp(2h(X)/n), with h measured in nats, gives N(X + Y) ≥ N(X) + N(Y).",
+    "references": [
+      {
+        "title": "Entropy power inequality",
+        "url": "https://en.wikipedia.org/wiki/Entropy_power_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.19",
+    "subject": "math.IT",
+    "name": "Nyquist–Shannon sampling theorem",
+    "statement": "Let f be a square-integrable signal whose Fourier transform, using frequency in hertz, vanishes outside [−B, B], where B > 0. Its continuous representative is determined by the samples f(k/(2B)) and is reconstructed by f(t) = Σₖ∈ℤ f(k/(2B)) sinc(2Bt − k), with convergence in the square-integrable norm and sinc(u) = sin(πu)/(πu).",
+    "references": [
+      {
+        "title": "Nyquist–Shannon sampling theorem",
+        "url": "https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.IT.20",
+    "subject": "math.IT",
+    "name": "Shannon perfect-secrecy key-entropy bound",
+    "statement": "Suppose finite-valued message M and key K are independent, a ciphertext C is produced by encryption, and M is recovered exactly from (C, K). If the system has perfect secrecy, meaning M and C are independent, then H(K) ≥ H(M).",
+    "references": [
+      {
+        "title": "One-time pad: perfect secrecy",
+        "url": "https://en.wikipedia.org/wiki/One-time_pad#Perfect_secrecy"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lemma-lottery"
+version = "1.0.0"
+description = "Inspiration for theorem-proving AI agents. Spin for a theorem; bring your own proof."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+theorem = "theorem_catalog.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["theorem_catalog*"]
+
+[tool.setuptools.package-data]
+theorem_catalog = ["data/subjects.json", "data/theorems/*.json"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.GR.01",
+    "subject": "math.GR",
+    "name": "Lagrange theorem",
+    "statement": "If G is a finite group and H is a subgroup, then |G|=[G:H]|H|. In particular, the order of every element divides the order of G.",
+    "references": [
+      {
+        "title": "Lagrange theorem",
+        "url": "https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.02",
+    "subject": "math.GR",
+    "name": "Cauchy theorem",
+    "statement": "If a prime p divides the order of a finite group G, then G contains an element of order p.",
+    "references": [
+      {
+        "title": "Cauchy theorem",
+        "url": "https://en.wikipedia.org/wiki/Cauchy%27s_theorem_(group_theory)"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.03",
+    "subject": "math.GR",
+    "name": "Sylow theorems",
+    "statement": "Write the order of a finite group G as p^a m, with p prime and p not dividing m. Subgroups of order p^a exist and are all conjugate; every p-subgroup is contained in one, and their number divides m and is congruent to one modulo p.",
+    "references": [
+      {
+        "title": "Sylow theorems",
+        "url": "https://en.wikipedia.org/wiki/Sylow_theorems"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.04",
+    "subject": "math.GR",
+    "name": "Jordan-Holder theorem",
+    "statement": "Any two composition series of a group have the same length and the same simple factor groups up to isomorphism and permutation. A composition series is a finite subnormal series whose successive quotients are simple.",
+    "references": [
+      {
+        "title": "Jordan-Holder theorem",
+        "url": "https://en.wikipedia.org/wiki/Jordan%E2%80%93H%C3%B6lder_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.05",
+    "subject": "math.GR",
+    "name": "First isomorphism theorem",
+    "statement": "For a group homomorphism f:G to H, the kernel is normal in G and the quotient G/ker(f) is naturally isomorphic to the image of f.",
+    "references": [
+      {
+        "title": "First isomorphism theorem",
+        "url": "https://en.wikipedia.org/wiki/Isomorphism_theorems#Groups"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.06",
+    "subject": "math.GR",
+    "name": "Cayley theorem",
+    "statement": "Every group G is isomorphic to a subgroup of the permutation group of its underlying set, via left multiplication. In particular, a group of order n embeds in the symmetric group S_n.",
+    "references": [
+      {
+        "title": "Cayley theorem",
+        "url": "https://en.wikipedia.org/wiki/Cayley%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.07",
+    "subject": "math.GR",
+    "name": "Orbit-stabilizer theorem",
+    "statement": "For a group G acting on a set and an element x, the orbit of x is in bijection with the left cosets of its stabilizer G_x. For finite G this gives |Gx|=|G|/|G_x|.",
+    "references": [
+      {
+        "title": "Orbit-stabilizer theorem",
+        "url": "https://en.wikipedia.org/wiki/Group_action#Orbits_and_stabilizers"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.08",
+    "subject": "math.GR",
+    "name": "Class equation",
+    "statement": "For a finite group G, |G|=|Z(G)| plus the sum of [G:C_G(x)] over one representative of each noncentral conjugacy class. Here Z(G) is the center and C_G(x) is the centralizer of x.",
+    "references": [
+      {
+        "title": "Class equation",
+        "url": "https://en.wikipedia.org/wiki/Conjugacy_class#Class_equation"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.09",
+    "subject": "math.GR",
+    "name": "Burnside orbit-counting lemma",
+    "statement": "If a finite group G acts on a finite set X, the number of orbits equals (1/|G|) times the sum, over g in G, of the number of elements of X fixed by g.",
+    "references": [
+      {
+        "title": "Burnside orbit-counting lemma",
+        "url": "https://en.wikipedia.org/wiki/Burnside%27s_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.10",
+    "subject": "math.GR",
+    "name": "Burnside p^a q^b theorem",
+    "statement": "Every finite group whose order is p^a q^b, with p and q prime and a,b nonnegative integers, is solvable.",
+    "references": [
+      {
+        "title": "Burnside p^a q^b theorem",
+        "url": "https://en.wikipedia.org/wiki/Burnside%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.11",
+    "subject": "math.GR",
+    "name": "Feit-Thompson theorem",
+    "statement": "Every finite group of odd order is solvable.",
+    "references": [
+      {
+        "title": "Feit-Thompson theorem",
+        "url": "https://en.wikipedia.org/wiki/Feit%E2%80%93Thompson_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.12",
+    "subject": "math.GR",
+    "name": "Schur-Zassenhaus theorem",
+    "statement": "If N is a normal subgroup of a finite group G and |N| is relatively prime to [G:N], then N has a complement H: G=NH and N intersect H is trivial. All such complements are conjugate in G.",
+    "references": [
+      {
+        "title": "Schur-Zassenhaus theorem",
+        "url": "https://en.wikipedia.org/wiki/Schur%E2%80%93Zassenhaus_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.13",
+    "subject": "math.GR",
+    "name": "Hall theorem for solvable groups",
+    "statement": "Let G be a finite solvable group and pi a set of primes. G has a Hall pi-subgroup, whose order has only prime divisors in pi and whose index has none; all such subgroups are conjugate, and every pi-subgroup lies in one.",
+    "references": [
+      {
+        "title": "Hall theorem for solvable groups",
+        "url": "https://en.wikipedia.org/wiki/Hall_subgroup"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.14",
+    "subject": "math.GR",
+    "name": "Nielsen-Schreier theorem",
+    "statement": "Every subgroup of a free group is free. If a subgroup has finite index d in a free group of finite rank r, then its rank is 1+d(r-1).",
+    "references": [
+      {
+        "title": "Nielsen-Schreier theorem",
+        "url": "https://en.wikipedia.org/wiki/Nielsen%E2%80%93Schreier_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.15",
+    "subject": "math.GR",
+    "name": "Kurosh subgroup theorem",
+    "statement": "A subgroup of a free product of groups is itself a free product of a free group and subgroups of conjugates of the original factors. The factor subgroups can be chosen using representatives of the appropriate double cosets.",
+    "references": [
+      {
+        "title": "Kurosh subgroup theorem",
+        "url": "https://en.wikipedia.org/wiki/Kurosh_subgroup_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.16",
+    "subject": "math.GR",
+    "name": "Structure theorem for finitely generated abelian groups",
+    "statement": "Every finitely generated abelian group is isomorphic to Z^r direct sum a finite collection of finite cyclic groups. It has a unique invariant-factor description Z^r direct sum Z/d_1Z direct sum ... direct sum Z/d_sZ with 1<d_1 dividing d_2 dividing ... dividing d_s.",
+    "references": [
+      {
+        "title": "Structure theorem for finitely generated abelian groups",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_finitely_generated_abelian_groups"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.17",
+    "subject": "math.GR",
+    "name": "Malcev residual finiteness theorem",
+    "statement": "Every finitely generated subgroup of GL_n(k), for a field k of characteristic zero, is residually finite. Thus each nonidentity element survives in some finite quotient of the subgroup.",
+    "references": [
+      {
+        "title": "Malcev residual finiteness theorem",
+        "url": "https://en.wikipedia.org/wiki/Residual_finiteness#Examples"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.18",
+    "subject": "math.GR",
+    "name": "Tits alternative",
+    "statement": "Every finitely generated subgroup of GL_n(k) over a field k either contains a nonabelian free subgroup or has a solvable subgroup of finite index.",
+    "references": [
+      {
+        "title": "Tits alternative",
+        "url": "https://en.wikipedia.org/wiki/Tits_alternative"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.19",
+    "subject": "math.GR",
+    "name": "Gromov polynomial growth theorem",
+    "statement": "A finitely generated group has polynomial growth if and only if it contains a nilpotent subgroup of finite index. Polynomial growth means that the number of elements expressible by words of length at most n in a finite generating set is bounded by a polynomial in n.",
+    "references": [
+      {
+        "title": "Gromov polynomial growth theorem",
+        "url": "https://en.wikipedia.org/wiki/Gromov%27s_theorem_on_groups_of_polynomial_growth"
+      }
+    ]
+  },
+  {
+    "id": "math.GR.20",
+    "subject": "math.GR",
+    "name": "Schur finiteness theorem",
+    "statement": "If the quotient of a group G by its center is finite, then the commutator subgroup of G is finite.",
+    "references": [
+      {
+        "title": "Schur finiteness theorem",
+        "url": "https://en.wikipedia.org/wiki/Schur%27s_theorem#Group_theory"
+      }
+    ]
+  }
+]

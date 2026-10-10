@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.GT.01",
+    "subject": "math.GT",
+    "name": "Jordan curve theorem",
+    "statement": "A simple closed curve in the plane has a complement with exactly two connected components, one bounded and one unbounded. The curve is the boundary of each component.",
+    "references": [
+      {
+        "title": "Jordan curve theorem",
+        "url": "https://en.wikipedia.org/wiki/Jordan_curve_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.02",
+    "subject": "math.GT",
+    "name": "Jordan–Schoenflies theorem",
+    "statement": "Every simple closed curve in the plane is the image of the unit circle under a homeomorphism of the plane. In particular, its bounded complementary component together with the curve is homeomorphic to a closed disk.",
+    "references": [
+      {
+        "title": "Schoenflies problem",
+        "url": "https://en.wikipedia.org/wiki/Schoenflies_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.03",
+    "subject": "math.GT",
+    "name": "Classification of closed surfaces",
+    "statement": "Every closed connected surface is homeomorphic to a sphere, a connected sum of g tori for a unique g ≥ 1, or a connected sum of k real projective planes for a unique k ≥ 1. The first two types are orientable and the third type is nonorientable.",
+    "references": [
+      {
+        "title": "Classification of surfaces",
+        "url": "https://en.wikipedia.org/wiki/Classification_of_surfaces"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.04",
+    "subject": "math.GT",
+    "name": "Seifert–van Kampen theorem",
+    "statement": "If a space is the union of two path-connected open subsets whose intersection is nonempty and path-connected, its fundamental group is the pushout of their fundamental groups over the fundamental group of their intersection, using a common base point.",
+    "references": [
+      {
+        "title": "Seifert–van Kampen theorem",
+        "url": "https://en.wikipedia.org/wiki/Seifert%E2%80%93van_Kampen_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.05",
+    "subject": "math.GT",
+    "name": "Mayer–Vietoris theorem",
+    "statement": "For a space covered by two open subsets U and V, singular homology fits into a natural long exact sequence relating the homology of U ∩ V, U and V, and U ∪ V. The map out of Hₖ(U ∩ V) is induced by the two inclusions with opposite signs.",
+    "references": [
+      {
+        "title": "Mayer–Vietoris sequence",
+        "url": "https://en.wikipedia.org/wiki/Mayer%E2%80%93Vietoris_sequence"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.06",
+    "subject": "math.GT",
+    "name": "Poincaré duality",
+    "statement": "For a closed connected oriented n-manifold, cap product with its integral fundamental class gives an isomorphism from Hᵏ(M;ℤ) to Hₙ₋ₖ(M;ℤ) for every k.",
+    "references": [
+      {
+        "title": "Poincaré duality",
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_duality"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.07",
+    "subject": "math.GT",
+    "name": "Lefschetz fixed-point theorem",
+    "statement": "A continuous self-map of a compact polyhedron with nonzero Lefschetz number has a fixed point. The Lefschetz number is the alternating sum of the traces induced on rational homology.",
+    "references": [
+      {
+        "title": "Lefschetz fixed-point theorem",
+        "url": "https://en.wikipedia.org/wiki/Lefschetz_fixed-point_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.08",
+    "subject": "math.GT",
+    "name": "Invariance of dimension",
+    "statement": "If nonempty open subsets of Euclidean m-space and Euclidean n-space are homeomorphic, then m = n.",
+    "references": [
+      {
+        "title": "Invariance of domain",
+        "url": "https://en.wikipedia.org/wiki/Invariance_of_domain"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.09",
+    "subject": "math.GT",
+    "name": "Generalized Poincaré theorem",
+    "statement": "Every closed topological n-manifold homotopy equivalent to the n-sphere is homeomorphic to that sphere. This holds in every positive dimension; it does not assert uniqueness of smooth structures.",
+    "references": [
+      {
+        "title": "Generalized Poincaré conjecture",
+        "url": "https://en.wikipedia.org/wiki/Generalized_Poincar%C3%A9_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.10",
+    "subject": "math.GT",
+    "name": "Smooth h-cobordism theorem",
+    "statement": "A compact simply connected smooth h-cobordism of dimension at least six is diffeomorphic to a product with an interval, relative to either specified boundary component. An h-cobordism is a cobordism for which both boundary inclusions are homotopy equivalences.",
+    "references": [
+      {
+        "title": "H-cobordism",
+        "url": "https://en.wikipedia.org/wiki/H-cobordism"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.11",
+    "subject": "math.GT",
+    "name": "Smooth s-cobordism theorem",
+    "statement": "A compact smooth h-cobordism of dimension at least six is diffeomorphic to a product relative to one boundary component if and only if its Whitehead torsion vanishes.",
+    "references": [
+      {
+        "title": "S-cobordism",
+        "url": "https://en.wikipedia.org/wiki/S-cobordism"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.12",
+    "subject": "math.GT",
+    "name": "Geometrization theorem",
+    "statement": "Every closed orientable three-manifold admits a prime decomposition, and each prime factor can be cut along incompressible tori into pieces whose interiors admit complete locally homogeneous geometric structures from Thurston's eight three-dimensional geometries.",
+    "references": [
+      {
+        "title": "Geometrization conjecture",
+        "url": "https://en.wikipedia.org/wiki/Geometrization_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.13",
+    "subject": "math.GT",
+    "name": "Dehn's lemma",
+    "statement": "If a simple closed curve in the boundary of a three-manifold is null-homotopic in the manifold, it bounds a properly embedded disk in that manifold.",
+    "references": [
+      {
+        "title": "Dehn's lemma",
+        "url": "https://en.wikipedia.org/wiki/Dehn%27s_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.14",
+    "subject": "math.GT",
+    "name": "Loop theorem",
+    "statement": "If the fundamental-group homomorphism from a boundary component of a three-manifold to the manifold is not injective, there is a properly embedded disk whose boundary lies in that component and is not null-homotopic in it.",
+    "references": [
+      {
+        "title": "Loop theorem",
+        "url": "https://en.wikipedia.org/wiki/Loop_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.15",
+    "subject": "math.GT",
+    "name": "Sphere theorem",
+    "statement": "If an orientable three-manifold has nonzero second homotopy group, it contains an embedded two-sphere whose map into the manifold represents a nonzero element of that group.",
+    "references": [
+      {
+        "title": "Sphere theorem (3-manifolds)",
+        "url": "https://en.wikipedia.org/wiki/Sphere_theorem_(3-manifolds)"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.16",
+    "subject": "math.GT",
+    "name": "Prime decomposition theorem for three-manifolds",
+    "statement": "Every closed connected orientable three-manifold is a connected sum of finitely many prime three-manifolds. After omitting three-sphere summands, the prime factors are unique up to order and homeomorphism.",
+    "references": [
+      {
+        "title": "Prime decomposition (3-manifold)",
+        "url": "https://en.wikipedia.org/wiki/Prime_decomposition_(3-manifold)"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.17",
+    "subject": "math.GT",
+    "name": "Alexander's braid theorem",
+    "statement": "Every oriented link in the three-sphere is isotopic to the closure of a braid.",
+    "references": [
+      {
+        "title": "Alexander's theorem",
+        "url": "https://en.wikipedia.org/wiki/Alexander%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.18",
+    "subject": "math.GT",
+    "name": "Markov's theorem",
+    "statement": "Two braids have isotopic oriented link closures in the three-sphere if and only if they are related by braid conjugation and positive or negative stabilization or destabilization.",
+    "references": [
+      {
+        "title": "Markov's theorem",
+        "url": "https://en.wikipedia.org/wiki/Markov%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.19",
+    "subject": "math.GT",
+    "name": "Reidemeister theorem",
+    "statement": "Two diagrams represent ambient-isotopic links if and only if a finite sequence of planar isotopies and the three types of Reidemeister moves transforms one diagram into the other.",
+    "references": [
+      {
+        "title": "Reidemeister move",
+        "url": "https://en.wikipedia.org/wiki/Reidemeister_move"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.20",
+    "subject": "math.GT",
+    "name": "Lickorish–Wallace theorem",
+    "statement": "Every closed connected orientable three-manifold can be obtained by integral Dehn surgery on a framed link in the three-sphere.",
+    "references": [
+      {
+        "title": "Lickorish–Wallace theorem",
+        "url": "https://en.wikipedia.org/wiki/Lickorish%E2%80%93Wallace_theorem"
+      }
+    ]
+  }
+]

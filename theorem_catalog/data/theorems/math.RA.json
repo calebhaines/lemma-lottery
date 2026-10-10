@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.RA.01",
+    "subject": "math.RA",
+    "name": "Artin-Wedderburn theorem",
+    "statement": "A semisimple Artinian ring is isomorphic to a finite product of full matrix rings over division rings. Conversely, every such finite product is semisimple Artinian.",
+    "references": [
+      {
+        "title": "Artin-Wedderburn theorem",
+        "url": "https://en.wikipedia.org/wiki/Artin%E2%80%93Wedderburn_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.02",
+    "subject": "math.RA",
+    "name": "Wedderburn little theorem",
+    "statement": "Every finite division ring is commutative and hence is a finite field.",
+    "references": [
+      {
+        "title": "Wedderburn little theorem",
+        "url": "https://en.wikipedia.org/wiki/Wedderburn%27s_little_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.03",
+    "subject": "math.RA",
+    "name": "Jacobson density theorem",
+    "statement": "Let M be a simple left module over a ring R and put D=End_R(M) opposite, so M is a right D-vector space. For any finite D-linearly independent vectors v_1, ..., v_n and any vectors w_1, ..., w_n, some r in R satisfies rv_i=w_i for every i.",
+    "references": [
+      {
+        "title": "Jacobson density theorem",
+        "url": "https://en.wikipedia.org/wiki/Jacobson_density_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.04",
+    "subject": "math.RA",
+    "name": "Hopkins-Levitzki theorem",
+    "statement": "Every left Artinian ring is left Noetherian. The analogous statement holds on the right.",
+    "references": [
+      {
+        "title": "Hopkins-Levitzki theorem",
+        "url": "https://en.wikipedia.org/wiki/Hopkins%E2%80%93Levitzki_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.05",
+    "subject": "math.RA",
+    "name": "Wedderburn-Malcev theorem",
+    "statement": "Let A be a finite-dimensional associative algebra over a perfect field and J its Jacobson radical. There is a semisimple subalgebra S such that A is the direct sum of S and J as vector spaces and S maps isomorphically onto A/J.",
+    "references": [
+      {
+        "title": "Wedderburn-Malcev theorem",
+        "url": "https://en.wikipedia.org/wiki/Wedderburn_principal_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.06",
+    "subject": "math.RA",
+    "name": "Skolem-Noether theorem",
+    "statement": "Every automorphism of a finite-dimensional central simple algebra over a field k that fixes k pointwise is inner: it has the form x maps to uxu^(-1) for an invertible element u of the algebra.",
+    "references": [
+      {
+        "title": "Skolem-Noether theorem",
+        "url": "https://en.wikipedia.org/wiki/Skolem%E2%80%93Noether_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.07",
+    "subject": "math.RA",
+    "name": "Double centralizer theorem for central simple algebras",
+    "statement": "If A is a finite-dimensional central simple k-algebra and B is a central simple k-subalgebra with the same identity, then its centralizer C_A(B) is central simple over k and multiplication gives an isomorphism B tensor_k C_A(B) to A.",
+    "references": [
+      {
+        "title": "Double centralizer theorem for central simple algebras",
+        "url": "https://en.wikipedia.org/wiki/Double_centralizer_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.08",
+    "subject": "math.RA",
+    "name": "Amitsur-Levitzki theorem",
+    "statement": "For every commutative ring R, the matrix ring M_n(R) satisfies the standard polynomial identity of degree 2n: the alternating sum over all permutations of products of 2n matrices is zero.",
+    "references": [
+      {
+        "title": "Amitsur-Levitzki theorem",
+        "url": "https://en.wikipedia.org/wiki/Amitsur%E2%80%93Levitzki_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.09",
+    "subject": "math.RA",
+    "name": "Kaplansky theorem on primitive PI rings",
+    "statement": "A primitive ring satisfying a polynomial identity is a finite-dimensional central simple algebra over its center. In particular, it is a matrix ring over a division ring of finite dimension over its center.",
+    "references": [
+      {
+        "title": "Kaplansky theorem on primitive PI rings",
+        "url": "https://en.wikipedia.org/wiki/Polynomial_identity_ring#Kaplansky%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.10",
+    "subject": "math.RA",
+    "name": "Goldie theorem",
+    "statement": "A semiprime ring satisfying the ascending chain condition on right annihilators and containing no infinite direct sum of nonzero right ideals has a classical right ring of quotients that is semisimple Artinian. These two finiteness conditions define a right Goldie ring.",
+    "references": [
+      {
+        "title": "Goldie theorem",
+        "url": "https://en.wikipedia.org/wiki/Goldie%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.11",
+    "subject": "math.RA",
+    "name": "Ore theorem for domains",
+    "statement": "A domain R in which aR intersects bR nontrivially for every pair of nonzero a,b admits a division ring of right fractions. R embeds in this division ring, and every element has the form ab^(-1) with a in R and nonzero b in R.",
+    "references": [
+      {
+        "title": "Ore theorem for domains",
+        "url": "https://en.wikipedia.org/wiki/Ore_condition"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.12",
+    "subject": "math.RA",
+    "name": "Poincare-Birkhoff-Witt theorem",
+    "statement": "If a Lie algebra g over a field has an ordered basis (x_i), the ordered monomials x_(i_1)...x_(i_r), with i_1 at most ... at most i_r, form a basis of its universal enveloping algebra. Equivalently, the associated graded algebra is the symmetric algebra of g.",
+    "references": [
+      {
+        "title": "Poincare-Birkhoff-Witt theorem",
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Birkhoff%E2%80%93Witt_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.13",
+    "subject": "math.RA",
+    "name": "Maschke theorem",
+    "statement": "For a finite group G and field k whose characteristic does not divide |G|, every k[G]-module is semisimple. Equivalently, every submodule has an invariant complementary submodule.",
+    "references": [
+      {
+        "title": "Maschke theorem",
+        "url": "https://en.wikipedia.org/wiki/Maschke%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.14",
+    "subject": "math.RA",
+    "name": "Hilbert basis theorem",
+    "statement": "If R is a commutative Noetherian ring, then every polynomial ring in finitely many variables over R is Noetherian.",
+    "references": [
+      {
+        "title": "Hilbert basis theorem",
+        "url": "https://en.wikipedia.org/wiki/Hilbert%27s_basis_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.15",
+    "subject": "math.RA",
+    "name": "Chinese remainder theorem for rings",
+    "statement": "For pairwise comaximal two-sided ideals I_1, ..., I_r in a ring R with identity, the canonical map from R/(I_1 intersect ... intersect I_r) to the product of R/I_j is an isomorphism.",
+    "references": [
+      {
+        "title": "Chinese remainder theorem for rings",
+        "url": "https://en.wikipedia.org/wiki/Chinese_remainder_theorem#Generalization_to_arbitrary_rings"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.16",
+    "subject": "math.RA",
+    "name": "Structure theorem for modules over a PID",
+    "statement": "Every finitely generated module over a principal ideal domain R is isomorphic to R^r direct sum R/(d_1) direct sum ... direct sum R/(d_s), where the nonzero nonunits d_i satisfy d_1 dividing ... dividing d_s. The free rank and these invariant factors, up to units, are uniquely determined.",
+    "references": [
+      {
+        "title": "Structure theorem for modules over a PID",
+        "url": "https://en.wikipedia.org/wiki/Structure_theorem_for_finitely_generated_modules_over_a_principal_ideal_domain"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.17",
+    "subject": "math.RA",
+    "name": "Rational canonical form theorem",
+    "statement": "Every square matrix over a field is similar to a block diagonal matrix of companion matrices of monic polynomials f_1 dividing f_2 dividing ... dividing f_s. This list of invariant factors is unique and determines its similarity class.",
+    "references": [
+      {
+        "title": "Rational canonical form theorem",
+        "url": "https://en.wikipedia.org/wiki/Frobenius_normal_form"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.18",
+    "subject": "math.RA",
+    "name": "Jordan canonical form theorem",
+    "statement": "If the characteristic polynomial of a square matrix over a field splits into linear factors, the matrix is similar to a direct sum of Jordan blocks. The blocks are unique up to reordering.",
+    "references": [
+      {
+        "title": "Jordan canonical form theorem",
+        "url": "https://en.wikipedia.org/wiki/Jordan_normal_form"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.19",
+    "subject": "math.RA",
+    "name": "Cayley-Hamilton theorem",
+    "statement": "Every square matrix A over a commutative ring satisfies its characteristic polynomial: if p_A(t)=det(tI-A), then p_A(A)=0.",
+    "references": [
+      {
+        "title": "Cayley-Hamilton theorem",
+        "url": "https://en.wikipedia.org/wiki/Cayley%E2%80%93Hamilton_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.RA.20",
+    "subject": "math.RA",
+    "name": "Krull-Schmidt theorem",
+    "statement": "A module of finite length over any ring is a finite direct sum of indecomposable modules. The isomorphism classes of those summands, with multiplicity, are uniquely determined.",
+    "references": [
+      {
+        "title": "Krull-Schmidt theorem",
+        "url": "https://en.wikipedia.org/wiki/Krull%E2%80%93Schmidt_theorem"
+      }
+    ]
+  }
+]

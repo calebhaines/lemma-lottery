@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.FA.01",
+    "subject": "math.FA",
+    "name": "Hahn–Banach extension theorem",
+    "statement": "A bounded linear functional on a linear subspace of a real or complex normed space extends to a bounded linear functional on the entire space with the same norm.",
+    "references": [
+      {
+        "title": "Hahn–Banach theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.02",
+    "subject": "math.FA",
+    "name": "Uniform boundedness principle",
+    "statement": "Let X be Banach and Y normed. If a family of bounded linear maps X → Y is pointwise bounded, then the operator norms of the family are uniformly bounded.",
+    "references": [
+      {
+        "title": "Uniform boundedness principle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Uniform_boundedness_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.03",
+    "subject": "math.FA",
+    "name": "Open mapping theorem",
+    "statement": "Every surjective bounded linear map between Banach spaces is an open map.",
+    "references": [
+      {
+        "title": "Open mapping theorem (functional analysis) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Open_mapping_theorem_(functional_analysis)"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.04",
+    "subject": "math.FA",
+    "name": "Closed graph theorem",
+    "statement": "A linear map between Banach spaces is bounded if its graph is closed in the product of those spaces.",
+    "references": [
+      {
+        "title": "Closed graph theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Closed_graph_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.05",
+    "subject": "math.FA",
+    "name": "Banach fixed-point theorem",
+    "statement": "A contraction T of a nonempty complete metric space into itself has a unique fixed point. For every starting point, successive iterates of T converge to that fixed point.",
+    "references": [
+      {
+        "title": "Banach fixed-point theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Banach_fixed-point_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.06",
+    "subject": "math.FA",
+    "name": "Riesz representation theorem for Hilbert spaces",
+    "statement": "Every continuous linear functional on a real or complex Hilbert space H has a unique representing vector v, with F(x) = ⟨x,v⟩ when the inner product is linear in its first variable. Moreover, ‖F‖ = ‖v‖.",
+    "references": [
+      {
+        "title": "Riesz representation theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Riesz_representation_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.07",
+    "subject": "math.FA",
+    "name": "Riesz–Markov representation theorem",
+    "statement": "If K is compact Hausdorff, every positive linear functional F on the real space C(K) is integration against a unique finite regular Borel measure μ on K: F(f) = ∫ f dμ.",
+    "references": [
+      {
+        "title": "Riesz–Markov–Kakutani representation theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Riesz%E2%80%93Markov%E2%80%93Kakutani_representation_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.08",
+    "subject": "math.FA",
+    "name": "Baire category theorem",
+    "statement": "In a nonempty complete metric space, the intersection of countably many open dense sets is dense. In particular, the space cannot be a countable union of closed sets with empty interior.",
+    "references": [
+      {
+        "title": "Baire category theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Baire_category_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.09",
+    "subject": "math.FA",
+    "name": "Banach–Alaoglu theorem",
+    "statement": "For a normed space X, the closed unit ball of the continuous dual X* is compact in the weak-* topology, the topology of pointwise convergence on X.",
+    "references": [
+      {
+        "title": "Banach–Alaoglu theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Banach%E2%80%93Alaoglu_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.10",
+    "subject": "math.FA",
+    "name": "Krein–Milman theorem",
+    "statement": "A nonempty compact convex subset of a Hausdorff locally convex topological vector space is the closed convex hull of its extreme points.",
+    "references": [
+      {
+        "title": "Krein–Milman theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.11",
+    "subject": "math.FA",
+    "name": "Eberlein–Šmulian theorem",
+    "statement": "A subset of a Banach space is weakly compact if and only if every sequence in that subset has a weakly convergent subsequence whose limit belongs to the subset.",
+    "references": [
+      {
+        "title": "Eberlein–Šmulian theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Eberlein%E2%80%93%C5%A0mulian_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.12",
+    "subject": "math.FA",
+    "name": "Mazur's lemma",
+    "statement": "If a sequence in a Banach space converges weakly to x, then there are convex combinations of each sufficiently late tail of the sequence that converge to x in norm.",
+    "references": [
+      {
+        "title": "Mazur's lemma — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mazur%27s_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.13",
+    "subject": "math.FA",
+    "name": "Hahn–Banach separation theorem",
+    "statement": "If C is a nonempty closed convex subset of a real normed space and x is outside C, there is a continuous linear functional F such that sup over y in C of F(y) < F(x).",
+    "references": [
+      {
+        "title": "Hahn–Banach theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.14",
+    "subject": "math.FA",
+    "name": "Hellinger–Toeplitz theorem",
+    "statement": "An everywhere-defined linear operator T on a Hilbert space satisfying ⟨Tx,y⟩ = ⟨x,Ty⟩ for all x,y is necessarily bounded.",
+    "references": [
+      {
+        "title": "Hellinger–Toeplitz theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hellinger%E2%80%93Toeplitz_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.15",
+    "subject": "math.FA",
+    "name": "Closed range theorem",
+    "statement": "For a bounded operator T between Hilbert spaces, ran T is closed if and only if ran T* is closed. When these ranges are closed, ran T = (ker T*)⊥ and ran T* = (ker T)⊥.",
+    "references": [
+      {
+        "title": "Closed range theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Closed_range_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.16",
+    "subject": "math.FA",
+    "name": "Lax–Milgram theorem",
+    "statement": "Let H be a real Hilbert space and a a bounded bilinear form with a(v,v) ≥ α‖v‖² for some α > 0. Every continuous linear functional F has a unique u in H satisfying a(u,v) = F(v) for all v in H.",
+    "references": [
+      {
+        "title": "Lax–Milgram theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lax%E2%80%93Milgram_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.17",
+    "subject": "math.FA",
+    "name": "Fredholm alternative for compact operators",
+    "statement": "If K is a compact operator on a Banach space, then I−K is bijective if and only if it is injective. Equivalently, either every equation (I−K)x = y has a unique solution, or Kx = x has a nonzero solution.",
+    "references": [
+      {
+        "title": "Fredholm alternative — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fredholm_alternative"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.18",
+    "subject": "math.FA",
+    "name": "Riesz–Schauder theorem",
+    "statement": "For a compact operator on a complex Banach space, every nonzero spectral value is an isolated eigenvalue with finite algebraic multiplicity. The only possible accumulation point of its nonzero spectral values is zero.",
+    "references": [
+      {
+        "title": "Compact operator — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Compact_operator"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.19",
+    "subject": "math.FA",
+    "name": "Spectral theorem for compact self-adjoint operators",
+    "statement": "A compact self-adjoint operator on a Hilbert space has an orthonormal basis of eigenvectors, including a basis for its kernel. Its eigenvalues are real, each nonzero eigenvalue has finite multiplicity, and any infinite sequence of distinct nonzero eigenvalues tends to zero.",
+    "references": [
+      {
+        "title": "Spectral theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Spectral_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.FA.20",
+    "subject": "math.FA",
+    "name": "Milman–Pettis theorem",
+    "statement": "Every uniformly convex Banach space is reflexive; that is, its canonical embedding into its double dual is surjective.",
+    "references": [
+      {
+        "title": "Milman–Pettis theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Milman%E2%80%93Pettis_theorem"
+      }
+    ]
+  }
+]

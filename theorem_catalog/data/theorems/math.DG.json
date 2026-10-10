@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.DG.01",
+    "subject": "math.DG",
+    "name": "Gauss's theorema egregium",
+    "statement": "The Gaussian curvature of a smooth surface in Euclidean three-space depends only on its induced Riemannian metric. Consequently, local isometries of surfaces preserve Gaussian curvature.",
+    "references": [
+      {
+        "title": "Theorema egregium",
+        "url": "https://en.wikipedia.org/wiki/Theorema_egregium"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.02",
+    "subject": "math.DG",
+    "name": "Gauss–Bonnet theorem",
+    "statement": "For a closed oriented Riemannian surface M, the integral of its Gaussian curvature K against its area measure equals 2πχ(M), where χ(M) is the Euler characteristic.",
+    "references": [
+      {
+        "title": "Gauss–Bonnet theorem",
+        "url": "https://en.wikipedia.org/wiki/Gauss%E2%80%93Bonnet_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.03",
+    "subject": "math.DG",
+    "name": "Chern–Gauss–Bonnet theorem",
+    "statement": "For a closed oriented Riemannian manifold of even dimension, the integral of the Euler form constructed from the curvature of its Levi-Civita connection equals its Euler characteristic.",
+    "references": [
+      {
+        "title": "Chern–Gauss–Bonnet theorem",
+        "url": "https://en.wikipedia.org/wiki/Chern%E2%80%93Gauss%E2%80%93Bonnet_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.04",
+    "subject": "math.DG",
+    "name": "Hopf–Rinow theorem",
+    "statement": "A connected finite-dimensional Riemannian manifold is complete as a metric space if and only if all its geodesics extend for all real times. Under these equivalent conditions, every two points can be joined by a minimizing geodesic and every closed bounded set is compact.",
+    "references": [
+      {
+        "title": "Hopf–Rinow theorem",
+        "url": "https://en.wikipedia.org/wiki/Hopf%E2%80%93Rinow_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.05",
+    "subject": "math.DG",
+    "name": "Cartan–Hadamard theorem",
+    "statement": "On a complete simply connected Riemannian manifold with nonpositive sectional curvature, the exponential map at any point is a diffeomorphism from its tangent space onto the manifold.",
+    "references": [
+      {
+        "title": "Cartan–Hadamard theorem",
+        "url": "https://en.wikipedia.org/wiki/Cartan%E2%80%93Hadamard_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.06",
+    "subject": "math.DG",
+    "name": "Bonnet–Myers theorem",
+    "statement": "If a complete connected n-dimensional Riemannian manifold, n ≥ 2, has Ricci curvature at least (n−1)k times the metric for a constant k > 0, then its diameter is at most π/√k. It is compact and its fundamental group is finite.",
+    "references": [
+      {
+        "title": "Myers's theorem",
+        "url": "https://en.wikipedia.org/wiki/Myers%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.07",
+    "subject": "math.DG",
+    "name": "Bishop–Gromov volume comparison",
+    "statement": "If a complete n-dimensional Riemannian manifold, n ≥ 2, has Ricci curvature at least (n−1)k times the metric, the ratio of the volume of a radius-r ball to that of a radius-r ball in the simply connected constant-curvature-k model is nonincreasing in r. For k > 0, comparison radii are restricted to 0 < r < π/√k.",
+    "references": [
+      {
+        "title": "Bishop–Gromov inequality",
+        "url": "https://en.wikipedia.org/wiki/Bishop%E2%80%93Gromov_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.08",
+    "subject": "math.DG",
+    "name": "Rauch comparison theorem",
+    "statement": "Let unit-speed geodesics in two Riemannian manifolds have normal Jacobi fields J and J̃ vanishing at time zero with equal initial derivative norms. If every sectional curvature along the first geodesic is no larger than every sectional curvature along the second, then |J(t)| ≥ |J̃(t)| up to the first positive conjugate time along the second geodesic.",
+    "references": [
+      {
+        "title": "Rauch comparison theorem",
+        "url": "https://en.wikipedia.org/wiki/Rauch_comparison_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.09",
+    "subject": "math.DG",
+    "name": "Synge's theorem",
+    "statement": "A compact connected even-dimensional orientable Riemannian manifold with strictly positive sectional curvature is simply connected. A compact connected odd-dimensional Riemannian manifold with strictly positive sectional curvature is orientable.",
+    "references": [
+      {
+        "title": "Synge's theorem",
+        "url": "https://en.wikipedia.org/wiki/Synge%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.10",
+    "subject": "math.DG",
+    "name": "Soul theorem",
+    "statement": "Every complete connected noncompact Riemannian manifold with nonnegative sectional curvature contains a compact totally convex, totally geodesic submanifold without boundary, called a soul. The manifold is diffeomorphic to the normal bundle of its soul.",
+    "references": [
+      {
+        "title": "Soul theorem",
+        "url": "https://en.wikipedia.org/wiki/Soul_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.11",
+    "subject": "math.DG",
+    "name": "Nash isometric embedding theorem",
+    "statement": "Every compact smooth Riemannian manifold admits a smooth isometric embedding into some finite-dimensional Euclidean space. The embedding pulls back the Euclidean metric to the prescribed metric.",
+    "references": [
+      {
+        "title": "Nash embedding theorem",
+        "url": "https://en.wikipedia.org/wiki/Nash_embedding_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.12",
+    "subject": "math.DG",
+    "name": "Fundamental theorem of hypersurfaces",
+    "statement": "Let a simply connected smooth n-manifold carry a Riemannian metric g and a symmetric bilinear form h satisfying the Euclidean Gauss and Codazzi equations. There is an isometric immersion into Euclidean (n+1)-space with second fundamental form h, unique up to Euclidean rigid motion after a normal orientation is fixed.",
+    "references": [
+      {
+        "title": "Gauss–Codazzi equations",
+        "url": "https://en.wikipedia.org/wiki/Gauss%E2%80%93Codazzi_equations"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.13",
+    "subject": "math.DG",
+    "name": "Frobenius theorem",
+    "statement": "A smooth constant-rank distribution on a smooth manifold is tangent to a foliation by immersed submanifolds if and only if the Lie bracket of any two smooth vector fields tangent to the distribution is again tangent to it.",
+    "references": [
+      {
+        "title": "Frobenius theorem (differential topology)",
+        "url": "https://en.wikipedia.org/wiki/Frobenius_theorem_(differential_topology)"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.14",
+    "subject": "math.DG",
+    "name": "De Rham decomposition theorem",
+    "statement": "A complete simply connected Riemannian manifold splits isometrically as a product of a Euclidean space and complete simply connected factors with irreducible holonomy. The factors are unique up to order and isometry.",
+    "references": [
+      {
+        "title": "De Rham decomposition theorem",
+        "url": "https://en.wikipedia.org/wiki/De_Rham_decomposition_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.15",
+    "subject": "math.DG",
+    "name": "Hodge theorem",
+    "statement": "On a closed oriented Riemannian manifold, each real de Rham cohomology class has exactly one harmonic differential-form representative. A form is harmonic when it lies in the kernel of the Hodge Laplacian.",
+    "references": [
+      {
+        "title": "Hodge theory",
+        "url": "https://en.wikipedia.org/wiki/Hodge_theory"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.16",
+    "subject": "math.DG",
+    "name": "Bochner vanishing theorem for one-forms",
+    "statement": "On a closed connected Riemannian manifold with nonnegative Ricci curvature, every harmonic one-form is parallel. If the Ricci curvature is positive definite at some point, the first real Betti number is zero.",
+    "references": [
+      {
+        "title": "Bochner's formula",
+        "url": "https://en.wikipedia.org/wiki/Bochner%27s_formula"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.17",
+    "subject": "math.DG",
+    "name": "Fundamental theorem of Riemannian geometry",
+    "statement": "Every smooth Riemannian metric admits exactly one affine connection that is torsion-free and preserves the metric. This connection is the Levi-Civita connection.",
+    "references": [
+      {
+        "title": "Fundamental theorem of Riemannian geometry",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_Riemannian_geometry"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.18",
+    "subject": "math.DG",
+    "name": "Whitehead convexity theorem",
+    "statement": "Every point of a smooth Riemannian manifold has a neighborhood in which any two points are joined by a unique minimizing geodesic that stays inside the neighborhood.",
+    "references": [
+      {
+        "title": "Normal coordinates",
+        "url": "https://en.wikipedia.org/wiki/Normal_coordinates"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.19",
+    "subject": "math.DG",
+    "name": "Differentiable sphere theorem",
+    "statement": "A closed simply connected Riemannian manifold of dimension at least two with strictly pointwise quarter-pinched sectional curvature is diffeomorphic to a sphere. Strict quarter pinching means that at each point all sectional curvatures are positive and the largest is less than four times the smallest.",
+    "references": [
+      {
+        "title": "Sphere theorem",
+        "url": "https://en.wikipedia.org/wiki/Sphere_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DG.20",
+    "subject": "math.DG",
+    "name": "Uniformization theorem",
+    "statement": "Every simply connected Riemann surface is conformally equivalent to exactly one of the Riemann sphere, the complex plane, or the open unit disk.",
+    "references": [
+      {
+        "title": "Uniformization theorem",
+        "url": "https://en.wikipedia.org/wiki/Uniformization_theorem"
+      }
+    ]
+  }
+]

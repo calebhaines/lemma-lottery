@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.MG.01",
+    "subject": "math.MG",
+    "name": "Cartan–Hadamard theorem for CAT(0) spaces",
+    "statement": "The universal cover of a complete connected locally CAT(0) length space, with its lifted length metric, is a CAT(0) space. CAT(0) means that geodesic triangles are no thicker than their Euclidean comparison triangles.",
+    "references": [
+      {
+        "title": "Cartan–Hadamard theorem",
+        "url": "https://en.wikipedia.org/wiki/Cartan%E2%80%93Hadamard_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.02",
+    "subject": "math.MG",
+    "name": "Gromov compactness theorem for metric spaces",
+    "statement": "A family of nonempty compact metric spaces is relatively compact in Gromov–Hausdorff distance if their diameters are uniformly bounded and, for every ε > 0, every space can be covered by at most N(ε) balls of radius ε for a bound independent of the space.",
+    "references": [
+      {
+        "title": "Gromov's compactness theorem",
+        "url": "https://en.wikipedia.org/wiki/Gromov%27s_compactness_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.03",
+    "subject": "math.MG",
+    "name": "Gromov–Hausdorff metric theorem",
+    "statement": "Gromov–Hausdorff distance is a metric on the isometry classes of nonempty compact metric spaces. In particular, two such spaces have distance zero if and only if they are isometric.",
+    "references": [
+      {
+        "title": "Gromov–Hausdorff convergence",
+        "url": "https://en.wikipedia.org/wiki/Gromov%E2%80%93Hausdorff_convergence"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.04",
+    "subject": "math.MG",
+    "name": "Kuratowski embedding theorem",
+    "statement": "Every metric space X embeds isometrically into the Banach space of bounded real-valued functions on X. With a fixed base point x₀, an embedding sends x to the function z ↦ d(x,z) − d(x₀,z).",
+    "references": [
+      {
+        "title": "Kuratowski embedding",
+        "url": "https://en.wikipedia.org/wiki/Kuratowski_embedding"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.05",
+    "subject": "math.MG",
+    "name": "Hopf–Rinow theorem for length spaces",
+    "statement": "Every complete locally compact length space is proper, meaning its closed bounded subsets are compact, and any two points can be joined by a geodesic realizing their distance.",
+    "references": [
+      {
+        "title": "Hopf–Rinow theorem",
+        "url": "https://en.wikipedia.org/wiki/Hopf%E2%80%93Rinow_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.06",
+    "subject": "math.MG",
+    "name": "Arzelà–Ascoli theorem",
+    "statement": "For continuous maps from a compact metric space to a metric space, an equicontinuous family whose values at every point have compact closure has compact closure in the uniform metric.",
+    "references": [
+      {
+        "title": "Arzelà–Ascoli theorem",
+        "url": "https://en.wikipedia.org/wiki/Arzel%C3%A0%E2%80%93Ascoli_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.07",
+    "subject": "math.MG",
+    "name": "Rademacher's theorem",
+    "statement": "Every Lipschitz map from an open subset of Euclidean n-space to Euclidean m-space is differentiable at almost every point with respect to Lebesgue measure.",
+    "references": [
+      {
+        "title": "Rademacher's theorem",
+        "url": "https://en.wikipedia.org/wiki/Rademacher%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.08",
+    "subject": "math.MG",
+    "name": "Kirszbraun extension theorem",
+    "statement": "An L-Lipschitz map from a subset of a real Hilbert space into another real Hilbert space extends to the whole source Hilbert space with the same Lipschitz constant L.",
+    "references": [
+      {
+        "title": "Kirszbraun theorem",
+        "url": "https://en.wikipedia.org/wiki/Kirszbraun_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.09",
+    "subject": "math.MG",
+    "name": "McShane extension theorem",
+    "statement": "Every real-valued L-Lipschitz function f on a nonempty subset A of a metric space extends with the same Lipschitz constant to the whole space. One extension is x ↦ inf over a ∈ A of f(a) + Ld(x,a).",
+    "references": [
+      {
+        "title": "Lipschitz continuity — Extensions",
+        "url": "https://en.wikipedia.org/wiki/Lipschitz_continuity#Extensions"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.10",
+    "subject": "math.MG",
+    "name": "Blaschke selection theorem",
+    "statement": "Every sequence of nonempty compact convex subsets of Euclidean n-space contained in a fixed bounded set has a subsequence converging in Hausdorff distance to a nonempty compact convex set.",
+    "references": [
+      {
+        "title": "Blaschke selection theorem",
+        "url": "https://en.wikipedia.org/wiki/Blaschke_selection_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.11",
+    "subject": "math.MG",
+    "name": "Brunn–Minkowski inequality",
+    "statement": "For nonempty compact subsets A and B of Euclidean n-space, the nth root of the Lebesgue measure of their Minkowski sum A + B is at least the sum of the nth roots of their measures.",
+    "references": [
+      {
+        "title": "Brunn–Minkowski theorem",
+        "url": "https://en.wikipedia.org/wiki/Brunn%E2%80%93Minkowski_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.12",
+    "subject": "math.MG",
+    "name": "Euclidean isoperimetric inequality",
+    "statement": "If E ⊆ Euclidean n-space, n ≥ 2, has finite positive volume and finite perimeter, then its perimeter is at least nωₙ¹⁄ⁿ times its volume to the power (n−1)/n, where ωₙ is the volume of the unit ball. Equality holds exactly for balls, up to sets of measure zero.",
+    "references": [
+      {
+        "title": "Isoperimetric inequality",
+        "url": "https://en.wikipedia.org/wiki/Isoperimetric_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.13",
+    "subject": "math.MG",
+    "name": "Toponogov comparison theorem",
+    "statement": "In a complete Riemannian manifold with sectional curvature at least k, each minimizing geodesic triangle has angles at least those of the triangle with the same side lengths in the simply connected constant-curvature-k surface. For k > 0, require the triangle perimeter to be less than 2π/√k.",
+    "references": [
+      {
+        "title": "Toponogov's theorem",
+        "url": "https://en.wikipedia.org/wiki/Toponogov%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.14",
+    "subject": "math.MG",
+    "name": "Reshetnyak gluing theorem",
+    "statement": "Gluing two complete CAT(0) spaces along isometric nonempty closed convex subsets produces a CAT(0) space with the induced length metric.",
+    "references": [
+      {
+        "title": "CAT(k) space",
+        "url": "https://en.wikipedia.org/wiki/CAT(k)_space"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.15",
+    "subject": "math.MG",
+    "name": "Metric projection theorem for CAT(0) spaces",
+    "statement": "For every nonempty closed convex subset C of a complete CAT(0) space, each point has a unique nearest point in C. The map sending a point to this nearest point is 1-Lipschitz.",
+    "references": [
+      {
+        "title": "CAT(k) space",
+        "url": "https://en.wikipedia.org/wiki/CAT(k)_space"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.16",
+    "subject": "math.MG",
+    "name": "Cartan fixed-point theorem for CAT(0) spaces",
+    "statement": "A group acting by isometries on a complete CAT(0) space has a global fixed point whenever one of its orbits is bounded.",
+    "references": [
+      {
+        "title": "Bruhat–Tits fixed point theorem",
+        "url": "https://en.wikipedia.org/wiki/Bruhat%E2%80%93Tits_fixed_point_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.17",
+    "subject": "math.MG",
+    "name": "Mazur–Ulam theorem",
+    "statement": "Every surjective isometry between real normed vector spaces is affine. If the isometry sends zero to zero, it is real-linear.",
+    "references": [
+      {
+        "title": "Mazur–Ulam theorem",
+        "url": "https://en.wikipedia.org/wiki/Mazur%E2%80%93Ulam_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.18",
+    "subject": "math.MG",
+    "name": "Dvoretzky's theorem",
+    "statement": "For every infinite-dimensional real Banach space, positive integer n, and ε > 0, there is an n-dimensional subspace linearly isomorphic to Euclidean n-space with the product of the operator norms of the isomorphism and its inverse at most 1 + ε.",
+    "references": [
+      {
+        "title": "Dvoretzky's theorem",
+        "url": "https://en.wikipedia.org/wiki/Dvoretzky%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.19",
+    "subject": "math.MG",
+    "name": "John's ellipsoid theorem",
+    "statement": "Every convex body K in Euclidean n-space has a unique maximum-volume inscribed ellipsoid E. If c is the center of E, then K ⊆ c + n(E−c); when K is centrally symmetric, the factor n can be replaced by √n.",
+    "references": [
+      {
+        "title": "John ellipsoid",
+        "url": "https://en.wikipedia.org/wiki/John_ellipsoid"
+      }
+    ]
+  },
+  {
+    "id": "math.MG.20",
+    "subject": "math.MG",
+    "name": "Bishop–Gromov volume comparison",
+    "statement": "For a complete n-dimensional Riemannian manifold, n ≥ 2, with Ricci curvature at least (n−1)k times the metric, the volume ratio between a radius-r ball and its constant-curvature-k model ball is nonincreasing in r. When k > 0, restrict to 0 < r < π/√k.",
+    "references": [
+      {
+        "title": "Bishop–Gromov inequality",
+        "url": "https://en.wikipedia.org/wiki/Bishop%E2%80%93Gromov_inequality"
+      }
+    ]
+  }
+]

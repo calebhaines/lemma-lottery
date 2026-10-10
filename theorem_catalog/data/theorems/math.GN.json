@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.GN.01",
+    "subject": "math.GN",
+    "name": "Tychonoff's theorem",
+    "statement": "An arbitrary product of compact topological spaces is compact in the product topology.",
+    "references": [
+      {
+        "title": "Tychonoff's theorem",
+        "url": "https://en.wikipedia.org/wiki/Tychonoff%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.02",
+    "subject": "math.GN",
+    "name": "Compact-subset theorem for Hausdorff spaces",
+    "statement": "Every compact subset of a Hausdorff space is closed.",
+    "references": [
+      {
+        "title": "Compact space",
+        "url": "https://en.wikipedia.org/wiki/Compact_space"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.03",
+    "subject": "math.GN",
+    "name": "Heine–Borel theorem",
+    "statement": "A subset of finite-dimensional Euclidean space is compact if and only if it is closed and bounded.",
+    "references": [
+      {
+        "title": "Heine–Borel theorem",
+        "url": "https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.04",
+    "subject": "math.GN",
+    "name": "Alexander subbase theorem",
+    "statement": "If a collection of open sets is a subbase for a topology, the space is compact if and only if every cover by members of that subbase has a finite subcover.",
+    "references": [
+      {
+        "title": "Alexander subbase theorem",
+        "url": "https://en.wikipedia.org/wiki/Alexander_subbase_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.05",
+    "subject": "math.GN",
+    "name": "Urysohn's lemma",
+    "statement": "In a normal T₁ space, any two disjoint closed sets can be separated by a continuous function to [0,1] that equals zero on one set and one on the other.",
+    "references": [
+      {
+        "title": "Urysohn's lemma",
+        "url": "https://en.wikipedia.org/wiki/Urysohn%27s_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.06",
+    "subject": "math.GN",
+    "name": "Tietze extension theorem",
+    "statement": "If A is a closed subset of a normal T₁ space X, every continuous real-valued function on A extends to a continuous real-valued function on X. A function with values in a closed interval can be extended with values in the same interval.",
+    "references": [
+      {
+        "title": "Tietze extension theorem",
+        "url": "https://en.wikipedia.org/wiki/Tietze_extension_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.07",
+    "subject": "math.GN",
+    "name": "Urysohn metrization theorem",
+    "statement": "Every regular T₁ space with a countable basis has a metric inducing its topology.",
+    "references": [
+      {
+        "title": "Urysohn metrization theorem",
+        "url": "https://en.wikipedia.org/wiki/Urysohn_metrization_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.08",
+    "subject": "math.GN",
+    "name": "Nagata–Smirnov metrization theorem",
+    "statement": "A topological space is metrizable if and only if it is regular T₁ and has a basis that is a countable union of locally finite families.",
+    "references": [
+      {
+        "title": "Nagata–Smirnov metrization theorem",
+        "url": "https://en.wikipedia.org/wiki/Nagata%E2%80%93Smirnov_metrization_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.09",
+    "subject": "math.GN",
+    "name": "Baire category theorem",
+    "statement": "In a complete metric space, or in a locally compact Hausdorff space, the intersection of countably many dense open sets is dense.",
+    "references": [
+      {
+        "title": "Baire category theorem",
+        "url": "https://en.wikipedia.org/wiki/Baire_category_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.10",
+    "subject": "math.GN",
+    "name": "Stone–Čech compactification theorem",
+    "statement": "Every completely regular Hausdorff space X embeds densely in a compact Hausdorff space βX such that every continuous map from X to a compact Hausdorff space extends uniquely to βX.",
+    "references": [
+      {
+        "title": "Stone–Čech compactification",
+        "url": "https://en.wikipedia.org/wiki/Stone%E2%80%93%C4%8Cech_compactification"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.11",
+    "subject": "math.GN",
+    "name": "One-point compactification theorem",
+    "statement": "A noncompact locally compact Hausdorff space X has a compact Hausdorff compactification obtained by adjoining one point. Neighborhoods of the new point are complements of compact subsets of X, together with that point.",
+    "references": [
+      {
+        "title": "Alexandroff extension",
+        "url": "https://en.wikipedia.org/wiki/Alexandroff_extension"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.12",
+    "subject": "math.GN",
+    "name": "Tube lemma",
+    "statement": "If X is compact and an open subset of X × Y contains X × {y}, then it contains X × V for some open neighborhood V of y in Y.",
+    "references": [
+      {
+        "title": "Tube lemma",
+        "url": "https://en.wikipedia.org/wiki/Tube_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.13",
+    "subject": "math.GN",
+    "name": "Wallace theorem",
+    "statement": "If A ⊆ X and B ⊆ Y are compact and an open subset U of X × Y contains A × B, there are open neighborhoods V of A and W of B with V × W ⊆ U.",
+    "references": [
+      {
+        "title": "Tube lemma",
+        "url": "https://en.wikipedia.org/wiki/Tube_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.14",
+    "subject": "math.GN",
+    "name": "Cantor intersection theorem",
+    "statement": "A nested sequence of nonempty closed subsets of a complete metric space, whose diameters tend to zero, has an intersection consisting of exactly one point.",
+    "references": [
+      {
+        "title": "Cantor's intersection theorem",
+        "url": "https://en.wikipedia.org/wiki/Cantor%27s_intersection_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.15",
+    "subject": "math.GN",
+    "name": "Lebesgue number lemma",
+    "statement": "For every open cover of a compact metric space there is δ > 0 such that every subset of diameter less than δ lies in some member of the cover.",
+    "references": [
+      {
+        "title": "Lebesgue's number lemma",
+        "url": "https://en.wikipedia.org/wiki/Lebesgue%27s_number_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.16",
+    "subject": "math.GN",
+    "name": "Sequential compactness theorem for metric spaces",
+    "statement": "A metric space is compact if and only if every sequence in it has a convergent subsequence with limit in the space.",
+    "references": [
+      {
+        "title": "Sequentially compact space",
+        "url": "https://en.wikipedia.org/wiki/Sequentially_compact_space"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.17",
+    "subject": "math.GN",
+    "name": "Invariance of domain",
+    "statement": "If U is open in Euclidean n-space and f: U → Euclidean n-space is continuous and injective, then f(U) is open and f is a homeomorphism onto its image.",
+    "references": [
+      {
+        "title": "Invariance of domain",
+        "url": "https://en.wikipedia.org/wiki/Invariance_of_domain"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.18",
+    "subject": "math.GN",
+    "name": "Brouwer fixed-point theorem",
+    "statement": "Every continuous self-map of a nonempty compact convex subset of finite-dimensional Euclidean space has a fixed point.",
+    "references": [
+      {
+        "title": "Brouwer fixed-point theorem",
+        "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.19",
+    "subject": "math.GN",
+    "name": "Stone's paracompactness theorem",
+    "statement": "Every metric space is paracompact: every open cover has an open locally finite refinement.",
+    "references": [
+      {
+        "title": "Paracompact space",
+        "url": "https://en.wikipedia.org/wiki/Paracompact_space"
+      }
+    ]
+  },
+  {
+    "id": "math.GN.20",
+    "subject": "math.GN",
+    "name": "Partition of unity theorem",
+    "statement": "Every open cover of a paracompact Hausdorff space admits a subordinate locally finite partition of unity: continuous nonnegative functions with sum one, each supported in a member of the cover.",
+    "references": [
+      {
+        "title": "Partition of unity",
+        "url": "https://en.wikipedia.org/wiki/Partition_of_unity"
+      }
+    ]
+  }
+]

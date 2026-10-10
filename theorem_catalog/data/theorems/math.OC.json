@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.OC.01",
+    "subject": "math.OC",
+    "name": "Weierstrass existence theorem for optimization",
+    "statement": "A lower semicontinuous function f:K → ℝ ∪ {+∞} on a nonempty compact set K attains its infimum. If f is finite at some point, that minimum is finite.",
+    "references": [
+      {
+        "title": "Extreme value theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Extreme_value_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.02",
+    "subject": "math.OC",
+    "name": "Fermat stationary-point theorem",
+    "statement": "If a differentiable real-valued function on an open subset of ℝⁿ has a local minimum or maximum at x*, then ∇f(x*) = 0.",
+    "references": [
+      {
+        "title": "Fermat's theorem (stationary points) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fermat%27s_theorem_(stationary_points)"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.03",
+    "subject": "math.OC",
+    "name": "First-order characterization of convexity",
+    "statement": "A differentiable function f on an open convex subset of ℝⁿ is convex if and only if f(y) ≥ f(x) + ∇f(x)·(y−x) for every x,y in its domain. Consequently, any point with zero gradient is a global minimizer.",
+    "references": [
+      {
+        "title": "Convex function — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Convex_function"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.04",
+    "subject": "math.OC",
+    "name": "Karush–Kuhn–Tucker theorem under Slater’s condition",
+    "statement": "For minimizing differentiable convex f₀ subject to differentiable convex fᵢ ≤ 0 and Ax = b, assume some x satisfies all inequalities strictly and Ax = b. A feasible x* is optimal if and only if there are λᵢ ≥ 0 and ν with ∇f₀(x*) + Σᵢ λᵢ∇fᵢ(x*) + Aᵀν = 0 and λᵢfᵢ(x*) = 0 for every i.",
+    "references": [
+      {
+        "title": "Karush–Kuhn–Tucker conditions — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Karush%E2%80%93Kuhn%E2%80%93Tucker_conditions"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.05",
+    "subject": "math.OC",
+    "name": "Slater strong-duality theorem",
+    "statement": "For a convex program with real-valued convex objective and inequality functions on ℝⁿ and affine equality constraints, assume a strictly feasible point exists. If the primal optimal value is finite, it equals the Lagrangian dual optimal value, and the dual optimum is attained.",
+    "references": [
+      {
+        "title": "Slater's condition — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Slater%27s_condition"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.06",
+    "subject": "math.OC",
+    "name": "Farkas' lemma",
+    "statement": "For a real matrix A and vector b, exactly one of the following holds: Ax = b has a solution with x ≥ 0; or there is y with Aᵀy ≥ 0 and bᵀy < 0.",
+    "references": [
+      {
+        "title": "Farkas' lemma — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Farkas%27_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.07",
+    "subject": "math.OC",
+    "name": "Separating hyperplane theorem",
+    "statement": "Two disjoint nonempty convex subsets of ℝⁿ can be separated by a nonzero linear functional if one is open. More precisely, there are a ≠ 0 and α such that a·x ≤ α ≤ a·y for all x in one set and y in the other.",
+    "references": [
+      {
+        "title": "Hyperplane separation theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hyperplane_separation_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.08",
+    "subject": "math.OC",
+    "name": "Fenchel–Moreau theorem",
+    "statement": "A proper lower semicontinuous convex function f:ℝⁿ → ℝ ∪ {+∞} equals its biconjugate f**, where f*(y) = supₓ(y·x−f(x)).",
+    "references": [
+      {
+        "title": "Fenchel–Moreau theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fenchel%E2%80%93Moreau_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.09",
+    "subject": "math.OC",
+    "name": "Fenchel–Rockafellar duality theorem",
+    "statement": "Let f and g be proper lower semicontinuous convex functions on ℝⁿ and ℝᵐ, and A a linear map. If some x has f(x) finite and g is finite and continuous at Ax, and infₓ[f(x)+g(Ax)] is finite, this infimum equals maxᵧ[−f*(−Aᵀy)−g*(y)].",
+    "references": [
+      {
+        "title": "Fenchel's duality theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fenchel%27s_duality_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.10",
+    "subject": "math.OC",
+    "name": "Sion minimax theorem",
+    "statement": "Let X be a compact convex set and Y a convex set in real locally convex topological vector spaces. If a real-valued function f on X × Y is continuous, convex in x, and concave in y, then minₓ supᵧ f(x,y) = supᵧ minₓ f(x,y).",
+    "references": [
+      {
+        "title": "Sion's minimax theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sion%27s_minimax_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.11",
+    "subject": "math.OC",
+    "name": "Von Neumann minimax theorem",
+    "statement": "For any finite real matrix A, min over probability vectors p of max over probability vectors q of pᵀAq equals max over q of min over p of pᵀAq. Thus every finite two-player zero-sum game has a value in mixed strategies.",
+    "references": [
+      {
+        "title": "Minimax theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Minimax_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.12",
+    "subject": "math.OC",
+    "name": "Lagrange multiplier theorem",
+    "statement": "Suppose f and g₁,…,gₘ are C¹ near a constrained local minimizer x* satisfying gᵢ(x*) = 0. If the gradients ∇gᵢ(x*) are linearly independent, then ∇f(x*) is a linear combination of them.",
+    "references": [
+      {
+        "title": "Lagrange multiplier — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lagrange_multiplier"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.13",
+    "subject": "math.OC",
+    "name": "Pontryagin minimum principle",
+    "statement": "Consider x′ = f(t,x,u), fixed initial state, free terminal state, compact control set, and cost ∫₀ᵀ L(t,x,u) dt + Φ(x(T)), with f,L continuous and C¹ in x and Φ C¹. An optimal state-control pair admits an absolutely continuous costate p satisfying p′ = −∂ₓH, p(T) = ∇Φ(x(T)), and u(t) minimizes H(t,x(t),p(t),u) almost everywhere, where H = L + p·f.",
+    "references": [
+      {
+        "title": "Pontryagin's maximum principle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pontryagin%27s_maximum_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.14",
+    "subject": "math.OC",
+    "name": "Bellman optimality principle",
+    "statement": "For a finite-horizon Markov decision process with finite state and action sets and terminal cost g, define Vₜ(x) as the least expected remaining cost. Then Vᵀ = g and Vₜ(x) = minₐ[cₜ(x,a) + E(Vₜ₊₁(Xₜ₊₁) | Xₜ=x, Aₜ=a)]; choosing an action attaining each minimum gives an optimal policy.",
+    "references": [
+      {
+        "title": "Bellman equation — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bellman_equation"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.15",
+    "subject": "math.OC",
+    "name": "Kalman controllability rank theorem",
+    "statement": "For the continuous-time linear system x′ = Ax + Bu on ℝⁿ, every state can be driven to every other state in any fixed positive time if and only if [B AB ⋯ Aⁿ⁻¹B] has rank n.",
+    "references": [
+      {
+        "title": "Controllability — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Controllability"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.16",
+    "subject": "math.OC",
+    "name": "Kalman observability rank theorem",
+    "statement": "For x′ = Ax and y = Cx on ℝⁿ, the initial state is uniquely determined by the output on any positive time interval if and only if the matrix obtained by stacking C, CA,…,CAⁿ⁻¹ has rank n.",
+    "references": [
+      {
+        "title": "Observability — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Observability"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.17",
+    "subject": "math.OC",
+    "name": "Lyapunov matrix theorem",
+    "statement": "A real matrix A has all eigenvalues with strictly negative real part if and only if, for every symmetric positive-definite Q, the equation AᵀP + PA = −Q has a unique symmetric positive-definite solution P.",
+    "references": [
+      {
+        "title": "Lyapunov equation — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lyapunov_equation"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.18",
+    "subject": "math.OC",
+    "name": "Infinite-horizon linear-quadratic regulator theorem",
+    "statement": "For x′ = Ax + Bu and cost ∫₀∞(xᵀQx + uᵀRu) dt, assume Q ≥ 0, R > 0, (A,B) stabilizable, and (Q¹/²,A) detectable. There is a unique positive-semidefinite stabilizing solution P of AᵀP + PA − PBR⁻¹BᵀP + Q = 0; the feedback u = −R⁻¹BᵀPx is optimal and the value is x₀ᵀPx₀.",
+    "references": [
+      {
+        "title": "Linear–quadratic regulator — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Linear%E2%80%93quadratic_regulator"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.19",
+    "subject": "math.OC",
+    "name": "LaSalle invariance principle",
+    "statement": "Let K be a compact positively invariant set for a C¹ autonomous ODE and V a C¹ function with derivative along the flow at most zero on K. Every trajectory starting in K approaches the largest invariant subset of {x in K : V̇(x) = 0}.",
+    "references": [
+      {
+        "title": "LaSalle's invariance principle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/LaSalle%27s_invariance_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.OC.20",
+    "subject": "math.OC",
+    "name": "Gradient descent convergence theorem",
+    "statement": "If f:ℝⁿ → ℝ is convex with L-Lipschitz gradient, L > 0, and has a minimizer x*, then xₖ₊₁ = xₖ−∇f(xₖ)/L satisfies f(xₖ)−f(x*) ≤ L‖x₀−x*‖²/(2k) for every k ≥ 1.",
+    "references": [
+      {
+        "title": "Gradient descent — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gradient_descent"
+      }
+    ]
+  }
+]

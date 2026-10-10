@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.GM.01",
+    "subject": "math.GM",
+    "name": "Pythagorean theorem",
+    "statement": "In a Euclidean right triangle with perpendicular side lengths a and b and hypotenuse length c, a²+b²=c².",
+    "references": [
+      {
+        "title": "Pythagorean theorem",
+        "url": "https://en.wikipedia.org/wiki/Pythagorean_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.02",
+    "subject": "math.GM",
+    "name": "Fundamental theorem of arithmetic",
+    "statement": "Every integer greater than 1 can be written as a product of primes, and this factorization is unique up to the order of the factors.",
+    "references": [
+      {
+        "title": "Fundamental theorem of arithmetic",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.03",
+    "subject": "math.GM",
+    "name": "Euclid’s theorem on primes",
+    "statement": "There are infinitely many prime numbers.",
+    "references": [
+      {
+        "title": "Euclid’s theorem on primes",
+        "url": "https://en.wikipedia.org/wiki/Euclid's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.04",
+    "subject": "math.GM",
+    "name": "Irrationality of √2",
+    "statement": "There are no integers p and q with q ≠ 0 such that (p/q)²=2; hence √2 is irrational.",
+    "references": [
+      {
+        "title": "Irrationality of √2",
+        "url": "https://en.wikipedia.org/wiki/Square_root_of_2"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.05",
+    "subject": "math.GM",
+    "name": "Binomial theorem",
+    "statement": "For every nonnegative integer n and real or complex numbers x and y, (x+y)ⁿ = Σ from k=0 to n of binom(n,k)x^(n−k)yᵏ.",
+    "references": [
+      {
+        "title": "Binomial theorem",
+        "url": "https://en.wikipedia.org/wiki/Binomial_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.06",
+    "subject": "math.GM",
+    "name": "Geometric series theorem",
+    "statement": "For a real or complex number r with |r|<1, the infinite series Σ from k=0 to infinity of rᵏ converges to 1/(1−r).",
+    "references": [
+      {
+        "title": "Geometric series theorem",
+        "url": "https://en.wikipedia.org/wiki/Geometric_series"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.07",
+    "subject": "math.GM",
+    "name": "Intermediate value theorem",
+    "statement": "If f is a continuous real-valued function on [a,b], then every value between f(a) and f(b) equals f(c) for some c in [a,b].",
+    "references": [
+      {
+        "title": "Intermediate value theorem",
+        "url": "https://en.wikipedia.org/wiki/Intermediate_value_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.08",
+    "subject": "math.GM",
+    "name": "Mean value theorem",
+    "statement": "If a<b and a real-valued function f is continuous on [a,b] and differentiable on (a,b), then some c in (a,b) satisfies f′(c)=(f(b)−f(a))/(b−a).",
+    "references": [
+      {
+        "title": "Mean value theorem",
+        "url": "https://en.wikipedia.org/wiki/Mean_value_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.09",
+    "subject": "math.GM",
+    "name": "Fundamental theorem of calculus",
+    "statement": "If f is continuous on [a,b], then F(x)=∫ from a to x of f(t)dt is differentiable on (a,b) with F′(x)=f(x). If G is continuous on [a,b], differentiable on (a,b), and satisfies G′=f there, then ∫ from a to b of f(x)dx=G(b)−G(a).",
+    "references": [
+      {
+        "title": "Fundamental theorem of calculus",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.10",
+    "subject": "math.GM",
+    "name": "Bolzano–Weierstrass theorem",
+    "statement": "Every bounded sequence in Euclidean space ℝⁿ has a convergent subsequence.",
+    "references": [
+      {
+        "title": "Bolzano–Weierstrass theorem",
+        "url": "https://en.wikipedia.org/wiki/Bolzano%E2%80%93Weierstrass_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.11",
+    "subject": "math.GM",
+    "name": "Heine–Borel theorem",
+    "statement": "A subset of Euclidean space ℝⁿ is compact if and only if it is closed and bounded.",
+    "references": [
+      {
+        "title": "Heine–Borel theorem",
+        "url": "https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.12",
+    "subject": "math.GM",
+    "name": "Cauchy–Schwarz inequality",
+    "statement": "For vectors x and y in a real or complex inner product space, |⟨x,y⟩|² ≤ ⟨x,x⟩⟨y,y⟩. Equality holds if and only if x and y are linearly dependent.",
+    "references": [
+      {
+        "title": "Cauchy–Schwarz inequality",
+        "url": "https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.13",
+    "subject": "math.GM",
+    "name": "Arithmetic–geometric mean inequality",
+    "statement": "For nonnegative real numbers x₁,…,xₙ with n ≥ 1, (x₁+⋯+xₙ)/n ≥ (x₁⋯xₙ)^(1/n). Equality holds if and only if all the numbers are equal.",
+    "references": [
+      {
+        "title": "Arithmetic–geometric mean inequality",
+        "url": "https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.14",
+    "subject": "math.GM",
+    "name": "Cantor’s uncountability theorem",
+    "statement": "The real numbers cannot be listed in a sequence indexed by the positive integers; in particular, the interval [0,1] is uncountable.",
+    "references": [
+      {
+        "title": "Cantor’s uncountability theorem",
+        "url": "https://en.wikipedia.org/wiki/Cantor's_diagonal_argument"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.15",
+    "subject": "math.GM",
+    "name": "Cantor–Schröder–Bernstein theorem",
+    "statement": "If there is an injective map from a set A to a set B and an injective map from B to A, then there is a bijection between A and B.",
+    "references": [
+      {
+        "title": "Cantor–Schröder–Bernstein theorem",
+        "url": "https://en.wikipedia.org/wiki/Schr%C3%B6der%E2%80%93Bernstein_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.16",
+    "subject": "math.GM",
+    "name": "Fermat’s little theorem",
+    "statement": "If p is prime and a is an integer, then aᵖ ≡ a modulo p. If p does not divide a, this is equivalent to a^(p−1) ≡ 1 modulo p.",
+    "references": [
+      {
+        "title": "Fermat’s little theorem",
+        "url": "https://en.wikipedia.org/wiki/Fermat's_little_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.17",
+    "subject": "math.GM",
+    "name": "Euler’s theorem in number theory",
+    "statement": "If n is a positive integer and the integer a is relatively prime to n, then a^φ(n) ≡ 1 modulo n, where φ(n) is the number of integers in {1,…,n} relatively prime to n.",
+    "references": [
+      {
+        "title": "Euler’s theorem in number theory",
+        "url": "https://en.wikipedia.org/wiki/Euler's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.18",
+    "subject": "math.GM",
+    "name": "Fundamental theorem of algebra",
+    "statement": "Every nonconstant polynomial with complex coefficients has a complex root. Consequently, a polynomial of degree n ≥ 1 factors over the complex numbers into n linear factors, counted with multiplicity.",
+    "references": [
+      {
+        "title": "Fundamental theorem of algebra",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.19",
+    "subject": "math.GM",
+    "name": "Rank–nullity theorem",
+    "statement": "If V is a finite-dimensional vector space and T:V→W is linear, then dim(V)=dim(ker T)+dim(im T).",
+    "references": [
+      {
+        "title": "Rank–nullity theorem",
+        "url": "https://en.wikipedia.org/wiki/Rank%E2%80%93nullity_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.20",
+    "subject": "math.GM",
+    "name": "Euler’s polyhedron formula",
+    "statement": "For every convex three-dimensional polyhedron, its numbers V of vertices, E of edges, and F of faces satisfy V−E+F=2.",
+    "references": [
+      {
+        "title": "Euler’s polyhedron formula",
+        "url": "https://en.wikipedia.org/wiki/Euler_characteristic"
+      }
+    ]
+  }
+]

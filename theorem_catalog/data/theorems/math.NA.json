@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.NA.01",
+    "subject": "math.NA",
+    "name": "Lax equivalence theorem",
+    "statement": "For a well-posed linear initial-value problem, a consistent linear finite-difference approximation is convergent on each bounded time interval if and only if it is stable. Here stability means a mesh-independent bound on the discrete solution operators, in the norms used to define convergence.",
+    "references": [
+      {
+        "title": "Lax equivalence theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lax_equivalence_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.02",
+    "subject": "math.NA",
+    "name": "Céa's lemma",
+    "statement": "Let a be a bounded coercive bilinear form on a real Hilbert space, with continuity constant M and coercivity constant α > 0. If u solves a(u,v) = F(v) and uₕ is its Galerkin solution in a finite-dimensional subspace Vₕ, then ‖u−uₕ‖ ≤ (M/α) inf over vₕ in Vₕ of ‖u−vₕ‖.",
+    "references": [
+      {
+        "title": "Céa's lemma — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/C%C3%A9a%27s_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.03",
+    "subject": "math.NA",
+    "name": "Bramble–Hilbert lemma",
+    "statement": "Let Ω be a bounded Lipschitz domain star-shaped with respect to a ball, h its diameter, m ≥ 1, and 1 ≤ p ≤ ∞. For every u in Wᵐ,ᵖ(Ω), there is a polynomial P of degree at most m−1 such that |u−P|Wᵏ,ᵖ ≤ C hᵐ⁻ᵏ |u|Wᵐ,ᵖ for 0 ≤ k ≤ m, using the Lᵖ norm when k = 0; C depends on m, p, dimension, and the domain shape.",
+    "references": [
+      {
+        "title": "Bramble–Hilbert lemma — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bramble%E2%80%93Hilbert_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.04",
+    "subject": "math.NA",
+    "name": "Dahlquist equivalence theorem",
+    "statement": "A linear multistep method for sufficiently smooth ODEs with locally Lipschitz right-hand side is convergent, with convergent starting values, if and only if it is consistent and zero-stable. Zero-stability means all roots of its first characteristic polynomial have modulus at most one and those of modulus one are simple.",
+    "references": [
+      {
+        "title": "Linear multistep method — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Linear_multistep_method"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.05",
+    "subject": "math.NA",
+    "name": "Dahlquist first barrier theorem",
+    "statement": "A zero-stable k-step linear multistep method has order at most k+1 when k is odd and at most k+2 when k is even. An explicit zero-stable k-step method has order at most k.",
+    "references": [
+      {
+        "title": "Linear multistep method — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Linear_multistep_method"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.06",
+    "subject": "math.NA",
+    "name": "Dahlquist second barrier theorem",
+    "statement": "No explicit linear multistep method is A-stable, and an A-stable linear multistep method has order at most two. A-stability means its stability region contains the entire open left half-plane.",
+    "references": [
+      {
+        "title": "Linear multistep method — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Linear_multistep_method"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.07",
+    "subject": "math.NA",
+    "name": "Polynomial interpolation error theorem",
+    "statement": "Let Pₙ interpolate f at n+1 distinct nodes x₀,…,xₙ in a real interval and suppose f is Cⁿ⁺¹ there. For any x distinct from the nodes in that interval, f(x)−Pₙ(x) = f⁽ⁿ⁺¹⁾(ξ)∏ⱼ₌₀ⁿ(x−xⱼ)/(n+1)! for some ξ in the smallest interval containing x and all the nodes; at the nodes the error is zero.",
+    "references": [
+      {
+        "title": "Polynomial interpolation — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Polynomial_interpolation"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.08",
+    "subject": "math.NA",
+    "name": "Gaussian quadrature exactness theorem",
+    "statement": "For an integrable weight w positive almost everywhere on [a,b], the n-point Gaussian quadrature rule uses the n zeros of the degree-n orthogonal polynomial and positive weights. It integrates every polynomial of degree at most 2n−1 exactly, and no n-node rule for this weight can be exact for all polynomials of degree 2n.",
+    "references": [
+      {
+        "title": "Gaussian quadrature — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gaussian_quadrature"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.09",
+    "subject": "math.NA",
+    "name": "Euler–Maclaurin summation theorem",
+    "statement": "For integers a < b, p ≥ 1, and f in C²ᵖ([a,b]), Σₖ₌ₐᵇ f(k) equals ∫ₐᵇ f(x) dx + (f(a)+f(b))/2 + Σᵣ₌₁ᵖ B₂ᵣ[f⁽²ʳ⁻¹⁾(b)−f⁽²ʳ⁻¹⁾(a)]/(2r)! + R. Here B₂ᵣ are Bernoulli numbers and |R| ≤ 2ζ(2p)(2π)⁻²ᵖ ∫ₐᵇ |f⁽²ᵖ⁾(x)| dx.",
+    "references": [
+      {
+        "title": "Euler–Maclaurin formula — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Euler%E2%80%93Maclaurin_formula"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.10",
+    "subject": "math.NA",
+    "name": "Local quadratic convergence of Newton’s method",
+    "statement": "Let F be C² near x* in ℝⁿ, with F(x*) = 0 and invertible Jacobian F′(x*). For all sufficiently close starting points, Newton iterates xₖ₊₁ = xₖ−F′(xₖ)⁻¹F(xₖ) are well-defined and satisfy ‖xₖ₊₁−x*‖ ≤ C‖xₖ−x*‖².",
+    "references": [
+      {
+        "title": "Newton's method — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Newton%27s_method"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.11",
+    "subject": "math.NA",
+    "name": "Newton–Kantorovich theorem",
+    "statement": "Let F be C¹ on a convex domain in ℝⁿ, with invertible F′(x₀), η = ‖F′(x₀)⁻¹F(x₀)‖ > 0, and ‖F′(x₀)⁻¹(F′(x)−F′(y))‖ ≤ L‖x−y‖ there for L > 0. If Lη < 1/2 and the closed ball of radius r = (1−√(1−2Lη))/L about x₀ lies in the domain, Newton iteration from x₀ stays in this ball and converges quadratically to a zero of F.",
+    "references": [
+      {
+        "title": "Kantorovich theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kantorovich_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.12",
+    "subject": "math.NA",
+    "name": "Banach fixed-point theorem",
+    "statement": "If T maps a nonempty complete metric space into itself and d(Tx,Ty) ≤ qd(x,y) with 0 ≤ q < 1, then it has a unique fixed point x*. Its iterates satisfy d(Tᵏx₀,x*) ≤ qᵏd(x₀,x*).",
+    "references": [
+      {
+        "title": "Banach fixed-point theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Banach_fixed-point_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.13",
+    "subject": "math.NA",
+    "name": "Conjugate gradient convergence theorem",
+    "statement": "For a real symmetric positive-definite matrix A, conjugate gradients in exact arithmetic satisfy ‖xₖ−x*‖A ≤ 2[(√κ−1)/(√κ+1)]ᵏ‖x₀−x*‖A, where x* solves Ax = b and κ = λmax(A)/λmin(A). The method terminates in at most the matrix dimension many iterations.",
+    "references": [
+      {
+        "title": "Conjugate gradient method — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Conjugate_gradient_method"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.14",
+    "subject": "math.NA",
+    "name": "GMRES residual minimization theorem",
+    "statement": "For a matrix A and initial residual r₀ = b−Ax₀, the kth exact-arithmetic GMRES approximation minimizes ‖b−Ax‖₂ over x₀ + span{r₀,Ar₀,…,Aᵏ⁻¹r₀}. Consequently, the minimal residual norms are nonincreasing.",
+    "references": [
+      {
+        "title": "Generalized minimal residual method — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Generalized_minimal_residual_method"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.15",
+    "subject": "math.NA",
+    "name": "Eckart–Young–Mirsky theorem",
+    "statement": "If A has singular values σ₁ ≥ σ₂ ≥ ⋯ and Aₖ is its rank-k truncated singular value decomposition, Aₖ minimizes ‖A−B‖₂ and ‖A−B‖F among matrices of rank at most k. The minimum errors are σₖ₊₁ and (Σⱼ>ₖ σⱼ²)¹/², respectively, with missing singular values taken as zero.",
+    "references": [
+      {
+        "title": "Low-rank approximation — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Low-rank_approximation"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.16",
+    "subject": "math.NA",
+    "name": "Gershgorin circle theorem",
+    "statement": "Every eigenvalue of a complex matrix A lies in at least one disk centered at aᵢᵢ with radius Σⱼ≠ᵢ |aᵢⱼ|.",
+    "references": [
+      {
+        "title": "Gershgorin circle theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gershgorin_circle_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.17",
+    "subject": "math.NA",
+    "name": "Bauer–Fike theorem",
+    "statement": "If A = VΛV⁻¹ is diagonalizable, every eigenvalue μ of A+E satisfies min over λ in the spectrum of A of |μ−λ| ≤ ‖V‖₂‖V⁻¹‖₂‖E‖₂.",
+    "references": [
+      {
+        "title": "Bauer–Fike theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bauer%E2%80%93Fike_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.18",
+    "subject": "math.NA",
+    "name": "Weyl eigenvalue perturbation inequality",
+    "statement": "If A and E are Hermitian matrices and their eigenvalues are ordered increasingly, then |λⱼ(A+E)−λⱼ(A)| ≤ ‖E‖₂ for every j.",
+    "references": [
+      {
+        "title": "Weyl's inequality — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Weyl%27s_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.19",
+    "subject": "math.NA",
+    "name": "Courant–Fischer min–max theorem",
+    "statement": "For an n-by-n Hermitian matrix A with λ₁ ≤ ⋯ ≤ λₙ, λₖ equals the minimum over all k-dimensional subspaces S of the maximum of x*Ax/(x*x) over nonzero x in S.",
+    "references": [
+      {
+        "title": "Min-max theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Min-max_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NA.20",
+    "subject": "math.NA",
+    "name": "Strang first lemma",
+    "statement": "Let a be bounded on a real Hilbert space with constant M, let u solve a(u,v) = F(v), and let aₕ be coercive on a finite-dimensional subspace Vₕ with constant αₕ > 0 and aₕ(uₕ,w) = Fₕ(w). For any v in Vₕ, ‖u−uₕ‖ is at most (1+M/αₕ)‖u−v‖ + αₕ⁻¹ sup over nonzero w in Vₕ of |a(v,w)−aₕ(v,w)|/‖w‖ + αₕ⁻¹ sup over nonzero w in Vₕ of |F(w)−Fₕ(w)|/‖w‖.",
+    "references": [
+      {
+        "title": "Ern and Guermond: Theory and Practice of Finite Elements",
+        "url": "https://link.springer.com/book/10.1007/978-1-4757-4355-5"
+      }
+    ]
+  }
+]

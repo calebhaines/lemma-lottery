@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.NT.01",
+    "subject": "math.NT",
+    "name": "Euclid’s theorem on primes",
+    "statement": "There are infinitely many prime numbers.",
+    "references": [
+      {
+        "title": "Euclid’s theorem on primes",
+        "url": "https://en.wikipedia.org/wiki/Euclid's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.02",
+    "subject": "math.NT",
+    "name": "Fundamental theorem of arithmetic",
+    "statement": "Every integer greater than 1 has a prime factorization that is unique up to the order of the prime factors.",
+    "references": [
+      {
+        "title": "Fundamental theorem of arithmetic",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.03",
+    "subject": "math.NT",
+    "name": "Bézout’s identity",
+    "statement": "For integers a and b not both zero, there exist integers x and y such that ax+by=gcd(a,b). Every integer linear combination of a and b is divisible by gcd(a,b).",
+    "references": [
+      {
+        "title": "Bézout’s identity",
+        "url": "https://en.wikipedia.org/wiki/B%C3%A9zout's_identity"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.04",
+    "subject": "math.NT",
+    "name": "Chinese remainder theorem",
+    "statement": "For pairwise relatively prime positive integers m₁,…,mᵣ and any integers a₁,…,aᵣ, there exists an integer x satisfying x ≡ aᵢ modulo mᵢ for every i. The solution is unique modulo m₁⋯mᵣ.",
+    "references": [
+      {
+        "title": "Chinese remainder theorem",
+        "url": "https://en.wikipedia.org/wiki/Chinese_remainder_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.05",
+    "subject": "math.NT",
+    "name": "Fermat’s little theorem",
+    "statement": "If p is prime and a is an integer not divisible by p, then a^(p−1) ≡ 1 modulo p. For every integer a, aᵖ ≡ a modulo p.",
+    "references": [
+      {
+        "title": "Fermat’s little theorem",
+        "url": "https://en.wikipedia.org/wiki/Fermat's_little_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.06",
+    "subject": "math.NT",
+    "name": "Euler’s theorem",
+    "statement": "If n is a positive integer and gcd(a,n)=1, then a^φ(n) ≡ 1 modulo n, where φ(n) is Euler’s totient function.",
+    "references": [
+      {
+        "title": "Euler’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Euler's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.07",
+    "subject": "math.NT",
+    "name": "Wilson’s theorem",
+    "statement": "An integer p>1 is prime if and only if (p−1)! ≡ −1 modulo p.",
+    "references": [
+      {
+        "title": "Wilson’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Wilson's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.08",
+    "subject": "math.NT",
+    "name": "Quadratic reciprocity",
+    "statement": "For distinct odd primes p and q, the Legendre symbols satisfy (p/q)(q/p)=(−1)^((p−1)(q−1)/4). The Legendre symbol (a/p) is 1 if a is a nonzero square modulo p, −1 if it is a nonsquare, and 0 if p divides a.",
+    "references": [
+      {
+        "title": "Quadratic reciprocity",
+        "url": "https://en.wikipedia.org/wiki/Quadratic_reciprocity"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.09",
+    "subject": "math.NT",
+    "name": "Dirichlet’s theorem on arithmetic progressions",
+    "statement": "If a and d are relatively prime positive integers, then the arithmetic progression a,a+d,a+2d,… contains infinitely many primes.",
+    "references": [
+      {
+        "title": "Dirichlet’s theorem on arithmetic progressions",
+        "url": "https://en.wikipedia.org/wiki/Dirichlet's_theorem_on_arithmetic_progressions"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.10",
+    "subject": "math.NT",
+    "name": "Prime number theorem",
+    "statement": "Let π(x) denote the number of primes at most x. Then π(x)/(x/log x) tends to 1 as x tends to infinity, where log denotes the natural logarithm.",
+    "references": [
+      {
+        "title": "Prime number theorem",
+        "url": "https://en.wikipedia.org/wiki/Prime_number_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.11",
+    "subject": "math.NT",
+    "name": "Bertrand’s postulate",
+    "statement": "For every integer n>1, there exists a prime p with n<p<2n.",
+    "references": [
+      {
+        "title": "Bertrand’s postulate",
+        "url": "https://en.wikipedia.org/wiki/Bertrand's_postulate"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.12",
+    "subject": "math.NT",
+    "name": "Lagrange’s four-square theorem",
+    "statement": "Every nonnegative integer can be written as a sum of four integer squares.",
+    "references": [
+      {
+        "title": "Lagrange’s four-square theorem",
+        "url": "https://en.wikipedia.org/wiki/Lagrange's_four-square_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.13",
+    "subject": "math.NT",
+    "name": "Sum of two squares theorem",
+    "statement": "A positive integer n is a sum of two integer squares if and only if every prime congruent to 3 modulo 4 occurs to an even exponent in the prime factorization of n.",
+    "references": [
+      {
+        "title": "Sum of two squares theorem",
+        "url": "https://en.wikipedia.org/wiki/Sum_of_two_squares_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.14",
+    "subject": "math.NT",
+    "name": "Pell equation theorem",
+    "statement": "For every positive integer D that is not a perfect square, x²−Dy²=1 has a solution in positive integers. If (x₁,y₁) is the solution with smallest x₁>1, all positive solutions are given by xₖ+yₖ√D=(x₁+y₁√D)ᵏ for integers k≥1.",
+    "references": [
+      {
+        "title": "Pell equation theorem",
+        "url": "https://en.wikipedia.org/wiki/Pell's_equation"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.15",
+    "subject": "math.NT",
+    "name": "Minkowski’s convex body theorem",
+    "statement": "If Λ is a full-rank lattice in ℝⁿ and C is a convex set symmetric about the origin whose n-dimensional volume exceeds 2ⁿ times the volume of a fundamental cell of Λ, then C contains a nonzero lattice point.",
+    "references": [
+      {
+        "title": "Minkowski’s convex body theorem",
+        "url": "https://en.wikipedia.org/wiki/Minkowski's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.16",
+    "subject": "math.NT",
+    "name": "Liouville’s approximation theorem",
+    "statement": "If α is a real algebraic number of degree d≥2 over the rationals, there is a constant C>0 such that |α−p/q| ≥ C/qᵈ for all integers p and positive integers q.",
+    "references": [
+      {
+        "title": "Liouville number: Liouville’s approximation theorem",
+        "url": "https://en.wikipedia.org/wiki/Liouville_number"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.17",
+    "subject": "math.NT",
+    "name": "Roth’s theorem",
+    "statement": "If α is a real algebraic irrational number, then for every ε>0 there are only finitely many relatively prime integers p,q with q>0 satisfying |α−p/q|<1/q^(2+ε).",
+    "references": [
+      {
+        "title": "Roth’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Roth's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.18",
+    "subject": "math.NT",
+    "name": "Hasse’s theorem on elliptic curves",
+    "statement": "If E is an elliptic curve over a finite field with q elements, then |#E(𝔽_q)−(q+1)| ≤ 2√q, where the count includes the point at infinity.",
+    "references": [
+      {
+        "title": "Hasse’s theorem on elliptic curves",
+        "url": "https://en.wikipedia.org/wiki/Hasse's_theorem_on_elliptic_curves"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.19",
+    "subject": "math.NT",
+    "name": "Fermat’s last theorem",
+    "statement": "For every integer n>2, there are no positive integers a,b,c satisfying aⁿ+bⁿ=cⁿ.",
+    "references": [
+      {
+        "title": "Fermat’s last theorem",
+        "url": "https://en.wikipedia.org/wiki/Fermat's_Last_Theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.20",
+    "subject": "math.NT",
+    "name": "Hensel’s lemma for simple roots",
+    "statement": "Let p be prime and f a polynomial with coefficients in the p-adic integers ℤ_p. If a∈ℤ_p satisfies f(a) ≡ 0 modulo p and f′(a) is not divisible by p, then there is a unique b∈ℤ_p with b ≡ a modulo p and f(b)=0.",
+    "references": [
+      {
+        "title": "Hensel’s lemma for simple roots",
+        "url": "https://en.wikipedia.org/wiki/Hensel's_lemma"
+      }
+    ]
+  }
+]

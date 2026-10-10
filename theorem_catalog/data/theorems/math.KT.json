@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.KT.01",
+    "subject": "math.KT",
+    "name": "Complex Bott periodicity",
+    "statement": "For a based finite CW complex X, reduced complex topological K-theory satisfies a natural isomorphism K_tilde^0(Sigma^2 X) isomorphic to K_tilde^0(X). Equivalently, complex K-theory is periodic with period two.",
+    "references": [
+      {
+        "title": "Complex Bott periodicity",
+        "url": "https://en.wikipedia.org/wiki/Bott_periodicity_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.02",
+    "subject": "math.KT",
+    "name": "Real Bott periodicity",
+    "statement": "For a based finite CW complex X, reduced real topological K-theory satisfies a natural isomorphism KO_tilde^0(Sigma^8 X) isomorphic to KO_tilde^0(X). Equivalently, real K-theory is periodic with period eight.",
+    "references": [
+      {
+        "title": "Real Bott periodicity",
+        "url": "https://en.wikipedia.org/wiki/Bott_periodicity_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.03",
+    "subject": "math.KT",
+    "name": "Serre-Swan theorem",
+    "statement": "For a compact Hausdorff space X, taking continuous sections gives an equivalence between complex vector bundles on X and finitely generated projective modules over the ring C(X) of complex-valued continuous functions.",
+    "references": [
+      {
+        "title": "Serre-Swan theorem",
+        "url": "https://en.wikipedia.org/wiki/Serre%E2%80%93Swan_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.04",
+    "subject": "math.KT",
+    "name": "Homotopy invariance of topological K-theory",
+    "statement": "Homotopic maps between finite CW complexes induce the same homomorphisms on complex topological K-groups. In particular, a homotopy equivalence induces isomorphisms on K^0 and K^1.",
+    "references": [
+      {
+        "title": "Homotopy invariance of topological K-theory",
+        "url": "https://en.wikipedia.org/wiki/Topological_K-theory"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.05",
+    "subject": "math.KT",
+    "name": "Exact sequence of a pair in topological K-theory",
+    "statement": "For a finite CW complex X and a subcomplex A, relative complex K-theory has a natural long exact sequence relating K^j(X,A), K^j(X), and K^j(A). Bott periodicity turns this into a cyclic six-term exact sequence.",
+    "references": [
+      {
+        "title": "Exact sequence of a pair in topological K-theory",
+        "url": "https://en.wikipedia.org/wiki/Topological_K-theory#Properties"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.06",
+    "subject": "math.KT",
+    "name": "Kunneth theorem for complex K-theory",
+    "statement": "If X and Y are finite CW complexes and the Z/2-graded group K^*(X) is free abelian, the external product identifies K^*(X times Y) with K^*(X) tensor_Z K^*(Y), with degrees added modulo two.",
+    "references": [
+      {
+        "title": "Kunneth theorem for complex K-theory",
+        "url": "https://en.wikipedia.org/wiki/K%C3%BCnneth_theorem#K-theory"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.07",
+    "subject": "math.KT",
+    "name": "Rational Chern character isomorphism",
+    "statement": "For a finite CW complex X, the Chern character induces isomorphisms K^0(X) tensor Q to the direct sum of H^(2j)(X;Q), and K^1(X) tensor Q to the direct sum of H^(2j+1)(X;Q).",
+    "references": [
+      {
+        "title": "Rational Chern character isomorphism",
+        "url": "https://en.wikipedia.org/wiki/Chern_character"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.08",
+    "subject": "math.KT",
+    "name": "Thom isomorphism in complex K-theory",
+    "statement": "For a complex vector bundle E over a compact finite CW complex X, multiplication by the K-theory Thom class gives an isomorphism from K^*(X) to compactly supported K^*(E). Equivalently, the target is the reduced K-theory of the Thom space of E.",
+    "references": [
+      {
+        "title": "Thom isomorphism in complex K-theory",
+        "url": "https://en.wikipedia.org/wiki/Thom_isomorphism"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.09",
+    "subject": "math.KT",
+    "name": "Atiyah-Hirzebruch spectral sequence",
+    "statement": "For a finite CW complex X, complex K-theory has a spectral sequence with E_2^(p,q)=H^p(X;K^q(point)) converging to K^(p+q)(X), with the filtration coming from the skeleta of X.",
+    "references": [
+      {
+        "title": "Atiyah-Hirzebruch spectral sequence",
+        "url": "https://en.wikipedia.org/wiki/Atiyah%E2%80%93Hirzebruch_spectral_sequence"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.10",
+    "subject": "math.KT",
+    "name": "Atiyah-Singer index theorem",
+    "statement": "For an elliptic differential operator between complex vector bundles on a compact smooth manifold without boundary, the analytic index, the dimension of its kernel minus that of its cokernel, equals the topological index of its symbol class in compactly supported K-theory of the cotangent bundle.",
+    "references": [
+      {
+        "title": "Atiyah-Singer index theorem",
+        "url": "https://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.11",
+    "subject": "math.KT",
+    "name": "Grothendieck-Riemann-Roch theorem",
+    "statement": "For a proper morphism f:X to Y of smooth projective varieties and a in K_0(X), ch(f_!a) td(T_Y)=f_*(ch(a) td(T_X)) in the rational Chow ring. The pushforward f_! is defined by the alternating sum of higher direct images.",
+    "references": [
+      {
+        "title": "Grothendieck-Riemann-Roch theorem",
+        "url": "https://en.wikipedia.org/wiki/Grothendieck%E2%80%93Riemann%E2%80%93Roch_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.12",
+    "subject": "math.KT",
+    "name": "Quillen additivity theorem",
+    "statement": "If exact functors F_prime, F, and F_double_prime between exact categories form a natural short exact sequence, then the map on algebraic K_i induced by F is the sum of the maps induced by F_prime and F_double_prime, for every i at least zero.",
+    "references": [
+      {
+        "title": "Quillen additivity theorem",
+        "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory#Higher_K-theory"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.13",
+    "subject": "math.KT",
+    "name": "Quillen devissage theorem",
+    "statement": "Let A be a small abelian category and B a full abelian subcategory closed under subobjects and quotients taken in A. If every object of A has a finite filtration with successive quotients in B, then inclusion induces isomorphisms K_i(B) to K_i(A) for every i at least zero.",
+    "references": [
+      {
+        "title": "Quillen devissage theorem",
+        "url": "https://en.wikipedia.org/wiki/D%C3%A9vissage"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.14",
+    "subject": "math.KT",
+    "name": "Quillen localization theorem",
+    "statement": "Let X be a Noetherian scheme, Z a closed subscheme, and U its open complement. Algebraic G-theory, defined using coherent sheaves, has a natural long exact localization sequence ... to G_i(Z) to G_i(X) to G_i(U) to G_(i-1)(Z) to ..., ending in G_0(X) to G_0(U) to 0.",
+    "references": [
+      {
+        "title": "Quillen localization theorem",
+        "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory#Localization"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.15",
+    "subject": "math.KT",
+    "name": "Homotopy invariance of algebraic K-theory",
+    "statement": "For a commutative regular Noetherian ring R, the inclusion R into R[t] induces an isomorphism K_i(R) to K_i(R[t]) for every i at least zero.",
+    "references": [
+      {
+        "title": "Homotopy invariance of algebraic K-theory",
+        "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory#Homotopy_invariance"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.16",
+    "subject": "math.KT",
+    "name": "Fundamental theorem of algebraic K-theory for regular rings",
+    "statement": "For a commutative regular Noetherian ring R and i at least one, K_i(R[t,t^(-1)]) is naturally isomorphic to K_i(R) direct sum K_(i-1)(R). In degree zero, K_0(R[t,t^(-1)]) is isomorphic to K_0(R).",
+    "references": [
+      {
+        "title": "Fundamental theorem of algebraic K-theory for regular rings",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebraic_K-theory"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.17",
+    "subject": "math.KT",
+    "name": "Morita invariance of algebraic K-theory",
+    "statement": "An equivalence between the categories of finitely generated projective modules over two rings induces isomorphisms of their algebraic K_i for all i at least zero. In particular, K_i(M_n(R)) is isomorphic to K_i(R) for every positive integer n.",
+    "references": [
+      {
+        "title": "Morita invariance of algebraic K-theory",
+        "url": "https://en.wikipedia.org/wiki/Morita_equivalence#Properties"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.18",
+    "subject": "math.KT",
+    "name": "Resolution theorem for regular rings",
+    "statement": "For a commutative regular Noetherian ring R, inclusion of finitely generated projective modules into finitely generated modules induces isomorphisms K_i(R) to G_i(R) for every i at least zero. Every finitely generated R-module has a finite projective resolution.",
+    "references": [
+      {
+        "title": "Resolution theorem for regular rings",
+        "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory#Resolution_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.19",
+    "subject": "math.KT",
+    "name": "Matsumoto theorem",
+    "statement": "For a field F, K_2(F) is generated by symbols {a,b} with a,b in F nonzero, subject to bilinearity in both multiplicative arguments and the Steinberg relation {a,1-a}=0 for a different from zero and one.",
+    "references": [
+      {
+        "title": "Matsumoto theorem",
+        "url": "https://en.wikipedia.org/wiki/Matsumoto%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.20",
+    "subject": "math.KT",
+    "name": "Quillen computation for finite fields",
+    "statement": "For the finite field F_q, K_0(F_q) is Z; for every i at least one, K_(2i)(F_q)=0 and K_(2i-1)(F_q) is cyclic of order q^i-1.",
+    "references": [
+      {
+        "title": "Quillen computation for finite fields",
+        "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory#Finite_fields"
+      }
+    ]
+  }
+]

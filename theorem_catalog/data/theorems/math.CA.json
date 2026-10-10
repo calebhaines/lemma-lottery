@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.CA.01",
+    "subject": "math.CA",
+    "name": "Bolzano–Weierstrass theorem",
+    "statement": "Every bounded sequence in ℝⁿ has a convergent subsequence.",
+    "references": [
+      {
+        "title": "Bolzano–Weierstrass theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bolzano%E2%80%93Weierstrass_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.02",
+    "subject": "math.CA",
+    "name": "Heine–Borel theorem",
+    "statement": "A subset of ℝⁿ is compact if and only if it is closed and bounded.",
+    "references": [
+      {
+        "title": "Heine–Borel theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Heine%E2%80%93Borel_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.03",
+    "subject": "math.CA",
+    "name": "Extreme value theorem",
+    "statement": "A continuous real-valued function on a nonempty compact space attains both its maximum and its minimum.",
+    "references": [
+      {
+        "title": "Extreme value theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Extreme_value_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.04",
+    "subject": "math.CA",
+    "name": "Intermediate value theorem",
+    "statement": "If f is continuous on [a,b], every real number between f(a) and f(b) equals f(c) for some c in [a,b].",
+    "references": [
+      {
+        "title": "Intermediate value theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Intermediate_value_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.05",
+    "subject": "math.CA",
+    "name": "Mean value theorem",
+    "statement": "If f is continuous on [a,b] and differentiable on (a,b), where a < b, there is c in (a,b) such that f′(c) = (f(b)−f(a))/(b−a).",
+    "references": [
+      {
+        "title": "Mean value theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mean_value_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.06",
+    "subject": "math.CA",
+    "name": "Taylor's theorem with Lagrange remainder",
+    "statement": "If f is Cⁿ⁺¹ on an interval containing a and x, then f(x) = Σₖ₌₀ⁿ f⁽ᵏ⁾(a)(x−a)ᵏ/k! + f⁽ⁿ⁺¹⁾(ξ)(x−a)ⁿ⁺¹/(n+1)! for some ξ between a and x.",
+    "references": [
+      {
+        "title": "Taylor's theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Taylor%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.07",
+    "subject": "math.CA",
+    "name": "Fundamental theorem of calculus",
+    "statement": "For continuous f on [a,b], the function F(x) = ∫ₐˣ f(t) dt is differentiable in (a,b) with F′ = f. If G is C¹ on [a,b], then ∫ₐᵇ G′(t) dt = G(b)−G(a).",
+    "references": [
+      {
+        "title": "Fundamental theorem of calculus — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.08",
+    "subject": "math.CA",
+    "name": "Dominated convergence theorem",
+    "statement": "If measurable functions fₖ converge almost everywhere to f and |fₖ| ≤ g for an integrable g, then f is integrable and ∫|fₖ−f| tends to zero. In particular, ∫fₖ tends to ∫f.",
+    "references": [
+      {
+        "title": "Dominated convergence theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dominated_convergence_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.09",
+    "subject": "math.CA",
+    "name": "Monotone convergence theorem",
+    "statement": "If 0 ≤ f₁ ≤ f₂ ≤ ⋯ are measurable and fₖ increases pointwise to f, then ∫f = limₖ ∫fₖ, allowing the value +∞.",
+    "references": [
+      {
+        "title": "Monotone convergence theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Monotone_convergence_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.10",
+    "subject": "math.CA",
+    "name": "Fubini's theorem",
+    "statement": "For σ-finite measure spaces X and Y, an integrable function on X × Y has integrable sections almost everywhere, and its integral equals either order of iterated integration.",
+    "references": [
+      {
+        "title": "Fubini's theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fubini%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.11",
+    "subject": "math.CA",
+    "name": "Tonelli's theorem",
+    "statement": "For σ-finite measure spaces X and Y and a nonnegative measurable function f on their product, its product integral equals either iterated integral, with +∞ allowed.",
+    "references": [
+      {
+        "title": "Fubini's theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fubini%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.12",
+    "subject": "math.CA",
+    "name": "Lebesgue differentiation theorem",
+    "statement": "If f is locally integrable on ℝⁿ, then for almost every x, the average of |f(y)−f(x)| over Bᵣ(x) tends to zero as r decreases to zero.",
+    "references": [
+      {
+        "title": "Lebesgue differentiation theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lebesgue_differentiation_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.13",
+    "subject": "math.CA",
+    "name": "Arzelà–Ascoli theorem",
+    "statement": "For a compact metric space K, a subset of C(K) is relatively compact in the uniform norm if and only if it is equicontinuous and uniformly bounded.",
+    "references": [
+      {
+        "title": "Arzelà–Ascoli theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Arzel%C3%A0%E2%80%93Ascoli_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.14",
+    "subject": "math.CA",
+    "name": "Weierstrass approximation theorem",
+    "statement": "Every continuous real-valued function on a closed bounded interval can be approximated uniformly by real polynomials.",
+    "references": [
+      {
+        "title": "Stone–Weierstrass theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stone%E2%80%93Weierstrass_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.15",
+    "subject": "math.CA",
+    "name": "Picard–Lindelöf theorem",
+    "statement": "If f(t,x) is continuous near (t₀,x₀) and locally Lipschitz in x there, uniformly for nearby t, the initial-value problem x′ = f(t,x), x(t₀) = x₀ has a unique local C¹ solution.",
+    "references": [
+      {
+        "title": "Picard–Lindelöf theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Picard%E2%80%93Lindel%C3%B6f_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.16",
+    "subject": "math.CA",
+    "name": "Peano existence theorem",
+    "statement": "If f(t,x) is continuous in a neighborhood of (t₀,x₀) in ℝ × ℝⁿ, the initial-value problem x′ = f(t,x), x(t₀) = x₀ has at least one local C¹ solution.",
+    "references": [
+      {
+        "title": "Peano existence theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Peano_existence_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.17",
+    "subject": "math.CA",
+    "name": "Grönwall's inequality",
+    "statement": "If u and b are nonnegative continuous functions on [a,T] and u(t) ≤ A + ∫ₐᵗ b(s)u(s) ds for A ≥ 0, then u(t) ≤ A exp(∫ₐᵗ b(s) ds).",
+    "references": [
+      {
+        "title": "Grönwall's inequality — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gr%C3%B6nwall%27s_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.18",
+    "subject": "math.CA",
+    "name": "Sturm comparison theorem",
+    "statement": "Let q₁ and q₂ be continuous on [a,b] with q₂ > q₁. If a and b are consecutive zeros of a nonzero solution of y″ + q₁y = 0, every nonzero solution of z″ + q₂z = 0 has a zero in (a,b).",
+    "references": [
+      {
+        "title": "Sturm comparison theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sturm_comparison_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.19",
+    "subject": "math.CA",
+    "name": "Poincaré–Bendixson theorem",
+    "statement": "For a C¹ autonomous vector field on an open subset of ℝ², suppose a forward trajectory stays in a compact subset of that open set. If its ω-limit set contains no equilibrium, that ω-limit set is a periodic orbit.",
+    "references": [
+      {
+        "title": "Poincaré–Bendixson theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Bendixson_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CA.20",
+    "subject": "math.CA",
+    "name": "Fourier inversion theorem",
+    "statement": "If f is in L¹(ℝⁿ) and its Fourier transform f̂(ξ) = ∫ f(x)e⁻²πⁱˣ·ξ dx is also in L¹, then f(x) = ∫ f̂(ξ)e²πⁱˣ·ξ dξ almost everywhere. The identity also holds at every point where f is continuous.",
+    "references": [
+      {
+        "title": "Fourier inversion theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fourier_inversion_theorem"
+      }
+    ]
+  }
+]

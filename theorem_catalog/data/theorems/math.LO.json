@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.LO.01",
+    "subject": "math.LO",
+    "name": "Soundness theorem for first-order logic",
+    "statement": "For classical first-order logic with its standard natural-deduction rules, if a sentence φ is formally derivable from a set Γ of sentences, then every structure satisfying Γ also satisfies φ. In symbols, Γ ⊢ φ implies Γ ⊨ φ.",
+    "references": [
+      {
+        "title": "Soundness",
+        "url": "https://en.wikipedia.org/wiki/Soundness"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.02",
+    "subject": "math.LO",
+    "name": "Gödel completeness theorem",
+    "statement": "For classical first-order logic, if every structure satisfying a set Γ of sentences also satisfies a sentence φ, then φ has a formal proof from Γ. Equivalently, every syntactically consistent first-order theory has a model.",
+    "references": [
+      {
+        "title": "Gödel's completeness theorem",
+        "url": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_completeness_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.03",
+    "subject": "math.LO",
+    "name": "Compactness theorem",
+    "statement": "A set of first-order sentences has a model if and only if each of its finite subsets has a model. The theorem applies to arbitrary first-order languages and arbitrary sets of sentences.",
+    "references": [
+      {
+        "title": "Compactness theorem",
+        "url": "https://en.wikipedia.org/wiki/Compactness_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.04",
+    "subject": "math.LO",
+    "name": "Downward Löwenheim–Skolem theorem",
+    "statement": "If M is a structure in a first-order language L and A is a subset of its domain, then M has an elementary substructure containing A with cardinality at most max(|A|, |L|, ℵ₀). In particular, a theory in a countable language that has an infinite model has a countably infinite model.",
+    "references": [
+      {
+        "title": "Löwenheim–Skolem theorem",
+        "url": "https://en.wikipedia.org/wiki/L%C3%B6wenheim%E2%80%93Skolem_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.05",
+    "subject": "math.LO",
+    "name": "Upward Löwenheim–Skolem theorem",
+    "statement": "If a first-order theory in a language L has an infinite model, then it has a model of every infinite cardinality κ ≥ |L|. Consequently, first-order theories with infinite models cannot specify a unique infinite cardinality for their models.",
+    "references": [
+      {
+        "title": "Löwenheim–Skolem theorem",
+        "url": "https://en.wikipedia.org/wiki/L%C3%B6wenheim%E2%80%93Skolem_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.06",
+    "subject": "math.LO",
+    "name": "Gödel–Rosser first incompleteness theorem",
+    "statement": "Every consistent, computably enumerable first-order theory in the language of arithmetic that extends Robinson arithmetic Q is incomplete. There is an arithmetic sentence φ for which neither φ nor its negation is provable in the theory.",
+    "references": [
+      {
+        "title": "Gödel's incompleteness theorems",
+        "url": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.07",
+    "subject": "math.LO",
+    "name": "Gödel second incompleteness theorem",
+    "statement": "Let T be a consistent, computably enumerable theory extending first-order Peano arithmetic. For the usual arithmetized provability predicate for T, the theory T cannot prove its own consistency statement Con(T), which asserts that no T-proof of a contradiction exists.",
+    "references": [
+      {
+        "title": "Gödel's incompleteness theorems",
+        "url": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.08",
+    "subject": "math.LO",
+    "name": "Church’s undecidability theorem",
+    "statement": "There is no algorithm that, given an arbitrary first-order sentence, always halts and decides whether that sentence is true in every structure. Thus the validity problem for unrestricted classical first-order logic is undecidable.",
+    "references": [
+      {
+        "title": "Entscheidungsproblem",
+        "url": "https://en.wikipedia.org/wiki/Entscheidungsproblem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.09",
+    "subject": "math.LO",
+    "name": "Undecidability of the halting problem",
+    "statement": "There is no algorithm that, given a description of an arbitrary Turing machine and an input, always halts and correctly decides whether that machine halts on that input. This holds even though halting computations can be detected by simulation when they occur.",
+    "references": [
+      {
+        "title": "Halting problem",
+        "url": "https://en.wikipedia.org/wiki/Halting_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.10",
+    "subject": "math.LO",
+    "name": "Tarski undefinability theorem",
+    "statement": "The set of Gödel numbers of first-order arithmetic sentences true in the standard natural numbers is not definable by any first-order formula in the language of arithmetic. In particular, arithmetic has no internal formula that correctly expresses truth for all of its own sentences.",
+    "references": [
+      {
+        "title": "Tarski's undefinability theorem",
+        "url": "https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.11",
+    "subject": "math.LO",
+    "name": "Craig interpolation theorem",
+    "statement": "If first-order sentences φ and ψ satisfy φ ⊨ ψ, then there is a first-order sentence θ such that φ ⊨ θ and θ ⊨ ψ. Every nonlogical symbol occurring in θ occurs in both φ and ψ.",
+    "references": [
+      {
+        "title": "Craig interpolation",
+        "url": "https://en.wikipedia.org/wiki/Craig_interpolation"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.12",
+    "subject": "math.LO",
+    "name": "Beth definability theorem",
+    "statement": "Let T be a first-order theory in a language L expanded by a relation symbol R. If any two models of T with the same L-reduct interpret R identically, then an L-formula φ exists such that T entails ∀x̄ (R(x̄) ↔ φ(x̄)).",
+    "references": [
+      {
+        "title": "Beth definability",
+        "url": "https://en.wikipedia.org/wiki/Beth_definability"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.13",
+    "subject": "math.LO",
+    "name": "Robinson joint consistency theorem",
+    "statement": "Let L₁ and L₂ be first-order languages with intersection L₀, and let T₀ be a complete consistent L₀-theory. If T₁ and T₂ are consistent theories in L₁ and L₂ respectively, both containing T₀, then T₁ ∪ T₂ is consistent.",
+    "references": [
+      {
+        "title": "Robinson's joint consistency theorem",
+        "url": "https://en.wikipedia.org/wiki/Robinson%27s_joint_consistency_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.14",
+    "subject": "math.LO",
+    "name": "Gentzen cut-elimination theorem",
+    "statement": "Every sequent derivable in Gentzen’s classical first-order sequent calculus LK has a derivation containing no applications of the cut rule. The corresponding result also holds for his intuitionistic calculus LJ.",
+    "references": [
+      {
+        "title": "Cut-elimination theorem",
+        "url": "https://en.wikipedia.org/wiki/Cut-elimination_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.15",
+    "subject": "math.LO",
+    "name": "Herbrand theorem",
+    "statement": "Let ∃x̄ φ(x̄) be an existential sentence of first-order logic without equality, with φ quantifier-free and with at least one constant symbol available in the language. This sentence is valid if and only if some finite disjunction φ(t̄₁) ∨ ⋯ ∨ φ(t̄ₘ) of ground-term instances is a propositional tautology, treating ground atomic formulas as propositional variables.",
+    "references": [
+      {
+        "title": "Herbrand's theorem",
+        "url": "https://en.wikipedia.org/wiki/Herbrand%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.16",
+    "subject": "math.LO",
+    "name": "Rice’s theorem",
+    "statement": "Every nontrivial property of the partial functions computed by Turing machines is undecidable from a machine’s description. Here the property must depend only on the computed partial function, and nontrivial means that some partial computable functions have the property and some do not.",
+    "references": [
+      {
+        "title": "Rice's theorem",
+        "url": "https://en.wikipedia.org/wiki/Rice%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.17",
+    "subject": "math.LO",
+    "name": "Post’s theorem",
+    "statement": "For every integer n ≥ 1, a subset of the natural numbers belongs to the arithmetical class Σ⁰ₙ exactly when it is computably enumerable relative to the (n − 1)-st Turing jump of the empty set. It belongs to Δ⁰ₙ exactly when it is computable relative to that same oracle, with the zeroth jump equal to the empty set.",
+    "references": [
+      {
+        "title": "Post's theorem",
+        "url": "https://en.wikipedia.org/wiki/Post%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.18",
+    "subject": "math.LO",
+    "name": "Cantor’s theorem",
+    "statement": "For every set A, there is no surjective function from A onto its power set P(A). Since a ↦ {a} is an injection from A into P(A), the power set has strictly greater cardinality than A.",
+    "references": [
+      {
+        "title": "Cantor's theorem",
+        "url": "https://en.wikipedia.org/wiki/Cantor%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.19",
+    "subject": "math.LO",
+    "name": "Gödel’s constructible-universe theorem",
+    "statement": "Within ZF set theory, the class L of constructible sets is an inner model satisfying ZFC and the generalized continuum hypothesis. Consequently, if ZF is consistent, then ZFC together with the generalized continuum hypothesis is consistent.",
+    "references": [
+      {
+        "title": "Constructible universe",
+        "url": "https://en.wikipedia.org/wiki/Constructible_universe"
+      }
+    ]
+  },
+  {
+    "id": "math.LO.20",
+    "subject": "math.LO",
+    "name": "Cohen’s independence theorem for the continuum hypothesis",
+    "statement": "If ZFC is consistent, then both ZFC plus the continuum hypothesis and ZFC plus its negation are consistent. Hence, assuming ZFC is consistent, neither the continuum hypothesis nor its negation can be proved from ZFC; the relative consistency of its negation is obtained by forcing.",
+    "references": [
+      {
+        "title": "Continuum hypothesis: independence from ZFC",
+        "url": "https://en.wikipedia.org/wiki/Continuum_hypothesis#Independence_from_ZFC"
+      }
+    ]
+  }
+]

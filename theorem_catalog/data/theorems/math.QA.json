@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.QA.01",
+    "subject": "math.QA",
+    "name": "Poincaré–Birkhoff–Witt theorem",
+    "statement": "For a Lie algebra over a field of characteristic zero with an ordered basis, the nondecreasing ordered monomials in that basis form a vector-space basis of its universal enveloping algebra. Equivalently, the associated graded algebra is its symmetric algebra.",
+    "references": [
+      {
+        "title": "Poincaré–Birkhoff–Witt theorem",
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Birkhoff%E2%80%93Witt_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.02",
+    "subject": "math.QA",
+    "name": "Milnor–Moore theorem",
+    "statement": "A connected nonnegatively graded cocommutative Hopf algebra over a field of characteristic zero is isomorphic to the universal enveloping algebra of its graded Lie algebra of primitive elements, via the natural map. Connected means its degree-zero part is the ground field.",
+    "references": [
+      {
+        "title": "Milnor–Moore theorem",
+        "url": "https://en.wikipedia.org/wiki/Milnor%E2%80%93Moore_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.03",
+    "subject": "math.QA",
+    "name": "Cartier–Kostant–Milnor–Moore theorem",
+    "statement": "Over an algebraically closed field of characteristic zero, every cocommutative Hopf algebra is the smash product of the universal enveloping algebra of its primitive elements with the group algebra of its group-like elements. The action in the smash product is conjugation.",
+    "references": [
+      {
+        "title": "Hopf algebra",
+        "url": "https://en.wikipedia.org/wiki/Hopf_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.04",
+    "subject": "math.QA",
+    "name": "Fundamental theorem of Hopf modules",
+    "statement": "If M is a right module and right comodule over a Hopf algebra H with compatible action and coaction, the natural map Mᶜᵒᴴ ⊗ H → M given by m ⊗ h ↦ mh is an isomorphism of Hopf modules. Here Mᶜᵒᴴ consists of elements whose coaction is m ⊗ 1.",
+    "references": [
+      {
+        "title": "Hopf algebra",
+        "url": "https://en.wikipedia.org/wiki/Hopf_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.05",
+    "subject": "math.QA",
+    "name": "Finite-dimensional Hopf integral theorem",
+    "statement": "Every finite-dimensional Hopf algebra over a field has a one-dimensional space of left integrals and a one-dimensional space of right integrals, and its antipode is bijective. A left integral is an element Λ satisfying hΛ = ε(h)Λ for every h.",
+    "references": [
+      {
+        "title": "Hopf algebra",
+        "url": "https://en.wikipedia.org/wiki/Hopf_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.06",
+    "subject": "math.QA",
+    "name": "Larson–Radford theorem",
+    "statement": "For a finite-dimensional Hopf algebra over a field of characteristic zero, semisimplicity as an algebra, cosemisimplicity as a coalgebra, and the identity S² = id for its antipode S are equivalent.",
+    "references": [
+      {
+        "title": "Hopf algebra",
+        "url": "https://en.wikipedia.org/wiki/Hopf_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.07",
+    "subject": "math.QA",
+    "name": "Maschke theorem for Hopf algebras",
+    "statement": "A finite-dimensional Hopf algebra H is semisimple as an algebra if and only if it has a left integral Λ with ε(Λ) ≠ 0, where ε is the counit.",
+    "references": [
+      {
+        "title": "Hopf algebra",
+        "url": "https://en.wikipedia.org/wiki/Hopf_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.08",
+    "subject": "math.QA",
+    "name": "Nichols–Zoeller freeness theorem",
+    "statement": "A finite-dimensional Hopf algebra is free as both a left and a right module over each of its Hopf subalgebras. Consequently, the dimension of every Hopf subalgebra divides the dimension of the whole algebra.",
+    "references": [
+      {
+        "title": "Hopf algebra",
+        "url": "https://en.wikipedia.org/wiki/Hopf_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.09",
+    "subject": "math.QA",
+    "name": "Drinfeld double theorem",
+    "statement": "For a finite-dimensional Hopf algebra H, its Drinfeld double D(H) is a quasitriangular Hopf algebra of dimension (dim H)². Its universal R-matrix gives a braiding on its finite-dimensional representations.",
+    "references": [
+      {
+        "title": "Quasitriangular Hopf algebra",
+        "url": "https://en.wikipedia.org/wiki/Quasitriangular_Hopf_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.10",
+    "subject": "math.QA",
+    "name": "Quantum Yang–Baxter theorem",
+    "statement": "The universal R-matrix of any quasitriangular Hopf algebra satisfies R₁₂R₁₃R₂₃ = R₂₃R₁₃R₁₂ in the triple tensor product. Its action followed by the tensor flip gives representations of braid groups on tensor powers of each representation.",
+    "references": [
+      {
+        "title": "Quasitriangular Hopf algebra",
+        "url": "https://en.wikipedia.org/wiki/Quasitriangular_Hopf_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.11",
+    "subject": "math.QA",
+    "name": "Drinfeld twist theorem",
+    "statement": "If F is an invertible normalized element of H ⊗ H satisfying (F ⊗ 1)(Δ ⊗ id)(F) = (1 ⊗ F)(id ⊗ Δ)(F), then Δᶠ(h) = FΔ(h)F⁻¹, with a correspondingly modified antipode, defines another Hopf algebra structure on H. A universal R-matrix becomes Rᶠ = F₂₁RF⁻¹.",
+    "references": [
+      {
+        "title": "Quasitriangular Hopf algebra",
+        "url": "https://en.wikipedia.org/wiki/Quasitriangular_Hopf_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.12",
+    "subject": "math.QA",
+    "name": "Quantum-group triangular decomposition theorem",
+    "statement": "For the Drinfeld–Jimbo quantum enveloping algebra Uq(g) of a finite-dimensional complex semisimple Lie algebra at a nonzero complex parameter q that is not a root of unity, multiplication is a vector-space isomorphism Uq⁻(g) ⊗ Uq⁰(g) ⊗ Uq⁺(g) → Uq(g). The three factors are generated by the negative-root, Cartan, and positive-root generators, respectively.",
+    "references": [
+      {
+        "title": "Quantum group",
+        "url": "https://en.wikipedia.org/wiki/Quantum_group"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.13",
+    "subject": "math.QA",
+    "name": "Neutral Tannakian reconstruction theorem",
+    "statement": "A rigid abelian symmetric tensor category over a characteristic-zero field k with an exact faithful k-linear tensor functor to finite-dimensional k-vector spaces is equivalent, through that functor, to the finite-dimensional representations of its affine group scheme of tensor automorphisms. Assume the endomorphism ring of the tensor unit is k.",
+    "references": [
+      {
+        "title": "Tannakian formalism",
+        "url": "https://en.wikipedia.org/wiki/Tannakian_formalism"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.14",
+    "subject": "math.QA",
+    "name": "Mac Lane coherence theorem",
+    "statement": "In a monoidal category, every diagram made solely from associativity and unit isomorphisms and their inverses, tensor products, and compositions commutes whenever the source and target tensor expressions agree.",
+    "references": [
+      {
+        "title": "Coherence theorem",
+        "url": "https://en.wikipedia.org/wiki/Coherence_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.15",
+    "subject": "math.QA",
+    "name": "Braided monoidal coherence theorem",
+    "statement": "In a braided monoidal category, two morphisms built solely from associativity, unit, and braiding isomorphisms are equal whenever their braid diagrams are isotopic with endpoints fixed. Thus braid relations suffice to control these canonical structural morphisms.",
+    "references": [
+      {
+        "title": "Braided monoidal category",
+        "url": "https://en.wikipedia.org/wiki/Braided_monoidal_category"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.16",
+    "subject": "math.QA",
+    "name": "Reshetikhin–Turaev ribbon invariance theorem",
+    "statement": "In a ribbon category, evaluating a framed oriented link whose components are labeled by objects, with dual labels for reversed orientations, gives an endomorphism of the tensor unit invariant under framed isotopy.",
+    "references": [
+      {
+        "title": "Reshetikhin–Turaev invariant",
+        "url": "https://en.wikipedia.org/wiki/Reshetikhin%E2%80%93Turaev_invariant"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.17",
+    "subject": "math.QA",
+    "name": "Verlinde formula",
+    "statement": "In a modular tensor category over the complex numbers, fusion multiplicities satisfy Nᵢⱼᵏ = ∑ₗ SᵢₗSⱼₗ(S⁻¹)ₗₖ/S₀ₗ. Here Nᵢⱼᵏ is the dimension of Hom(Xₖ, Xᵢ ⊗ Xⱼ), S is the modular S-matrix, and index zero labels the tensor unit.",
+    "references": [
+      {
+        "title": "Verlinde formula",
+        "url": "https://en.wikipedia.org/wiki/Verlinde_formula"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.18",
+    "subject": "math.QA",
+    "name": "Vafa's theorem on twists",
+    "statement": "In a modular tensor category over the complex numbers, the twist on each simple object is multiplication by a root of unity. Consequently, the diagonal matrix of these twists has finite order.",
+    "references": [
+      {
+        "title": "Modular tensor category",
+        "url": "https://en.wikipedia.org/wiki/Modular_tensor_category"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.19",
+    "subject": "math.QA",
+    "name": "Etingof–Kazhdan quantization theorem",
+    "statement": "Every Lie bialgebra over a field of characteristic zero admits a quantization: a topologically free Hopf algebra over k[[h]] reducing modulo h to its universal enveloping algebra, with first-order skew coproduct recovering the given Lie cobracket.",
+    "references": [
+      {
+        "title": "Quantization of Lie bialgebras, I — Pavel Etingof and David Kazhdan",
+        "url": "https://arxiv.org/abs/q-alg/9506005"
+      }
+    ]
+  },
+  {
+    "id": "math.QA.20",
+    "subject": "math.QA",
+    "name": "Kontsevich deformation quantization theorem",
+    "statement": "Every smooth Poisson manifold admits an associative formal star product f ⋆ g = fg + (h/2){f,g} + O(h²) on its smooth functions, with each coefficient a bidifferential operator. The bracket is the prescribed Poisson bracket.",
+    "references": [
+      {
+        "title": "Deformation quantization of Poisson manifolds — Maxim Kontsevich",
+        "url": "https://arxiv.org/abs/q-alg/9709040"
+      }
+    ]
+  }
+]

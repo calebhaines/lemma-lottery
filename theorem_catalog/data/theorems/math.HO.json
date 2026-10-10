@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.HO.01",
+    "subject": "math.HO",
+    "name": "Pythagorean theorem",
+    "statement": "In a Euclidean right triangle, the square of the hypotenuse length equals the sum of the squares of the other two side lengths.",
+    "references": [
+      {
+        "title": "Pythagorean theorem",
+        "url": "https://en.wikipedia.org/wiki/Pythagorean_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.02",
+    "subject": "math.HO",
+    "name": "Euclid’s theorem on primes",
+    "statement": "There are infinitely many prime numbers.",
+    "references": [
+      {
+        "title": "Euclid’s theorem on primes",
+        "url": "https://en.wikipedia.org/wiki/Euclid's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.03",
+    "subject": "math.HO",
+    "name": "Euclidean algorithm theorem",
+    "statement": "Repeatedly replacing a pair of positive integers (a,b), with a ≥ b, by (b,a mod b), stopping when the second entry becomes zero, terminates. The last nonzero entry is the greatest common divisor of the original integers.",
+    "references": [
+      {
+        "title": "Euclidean algorithm theorem",
+        "url": "https://en.wikipedia.org/wiki/Euclidean_algorithm"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.04",
+    "subject": "math.HO",
+    "name": "Archimedes’ quadrature of the parabola",
+    "statement": "The area of a parabolic segment bounded by a chord and a parabola is four-thirds the area of the inscribed triangle whose base is the chord and whose third vertex has a tangent parallel to that chord.",
+    "references": [
+      {
+        "title": "Archimedes’ quadrature of the parabola",
+        "url": "https://en.wikipedia.org/wiki/Quadrature_of_the_Parabola"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.05",
+    "subject": "math.HO",
+    "name": "Newton’s generalized binomial theorem",
+    "statement": "For a complex number α and |z|<1, (1+z)^α = Σ from k=0 to infinity of binom(α,k)zᵏ, where binom(α,k)=α(α−1)⋯(α−k+1)/k! and binom(α,0)=1. The power is defined using the analytic logarithm of 1+z that is zero at z=0.",
+    "references": [
+      {
+        "title": "Newton’s generalized binomial theorem",
+        "url": "https://en.wikipedia.org/wiki/Binomial_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.06",
+    "subject": "math.HO",
+    "name": "Euler’s Basel theorem",
+    "statement": "The sum of the reciprocals of the squares of the positive integers is π²/6: Σ from n=1 to infinity of 1/n²=π²/6.",
+    "references": [
+      {
+        "title": "Euler’s Basel theorem",
+        "url": "https://en.wikipedia.org/wiki/Basel_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.07",
+    "subject": "math.HO",
+    "name": "Euler’s formula for complex exponentials",
+    "statement": "For every real number x, e^(ix)=cos(x)+i sin(x), where i²=−1. In particular, e^(iπ)+1=0.",
+    "references": [
+      {
+        "title": "Euler’s formula for complex exponentials",
+        "url": "https://en.wikipedia.org/wiki/Euler's_formula"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.08",
+    "subject": "math.HO",
+    "name": "Euler’s theorem on trails",
+    "statement": "A finite undirected graph with at least one edge has a trail traversing each edge exactly once if and only if all its non-isolated vertices belong to one connected component and it has either zero or two vertices of odd degree. Such a trail is closed if and only if every vertex has even degree.",
+    "references": [
+      {
+        "title": "Euler’s theorem on trails",
+        "url": "https://en.wikipedia.org/wiki/Eulerian_path"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.09",
+    "subject": "math.HO",
+    "name": "Lagrange’s four-square theorem",
+    "statement": "Every nonnegative integer is a sum of four squares of integers, allowing zero squares.",
+    "references": [
+      {
+        "title": "Lagrange’s four-square theorem",
+        "url": "https://en.wikipedia.org/wiki/Lagrange's_four-square_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.10",
+    "subject": "math.HO",
+    "name": "Fundamental theorem of algebra",
+    "statement": "Every polynomial of positive degree with complex coefficients has a complex root, and hence factors completely into linear factors over the complex numbers.",
+    "references": [
+      {
+        "title": "Fundamental theorem of algebra",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.11",
+    "subject": "math.HO",
+    "name": "Abel–Ruffini theorem",
+    "statement": "There is no formula using finitely many arithmetic operations and extraction of radicals that solves the general polynomial equation of degree five or higher from its coefficients. Some particular equations of these degrees are nevertheless solvable by radicals.",
+    "references": [
+      {
+        "title": "Abel–Ruffini theorem",
+        "url": "https://en.wikipedia.org/wiki/Abel%E2%80%93Ruffini_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.12",
+    "subject": "math.HO",
+    "name": "Galois’ solvability theorem",
+    "statement": "A polynomial over a field of characteristic zero is solvable by radicals if and only if the Galois group of its splitting field over that field is a solvable group.",
+    "references": [
+      {
+        "title": "Galois’ solvability theorem",
+        "url": "https://en.wikipedia.org/wiki/Galois_theory"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.13",
+    "subject": "math.HO",
+    "name": "Cantor’s uncountability theorem",
+    "statement": "There is no bijection between the positive integers and the real numbers; already the real interval [0,1] is uncountable.",
+    "references": [
+      {
+        "title": "Cantor’s uncountability theorem",
+        "url": "https://en.wikipedia.org/wiki/Cantor's_diagonal_argument"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.14",
+    "subject": "math.HO",
+    "name": "Jordan curve theorem",
+    "statement": "Every simple closed curve in the plane separates the plane into exactly two connected components, one bounded and one unbounded, and the curve is the boundary of both components.",
+    "references": [
+      {
+        "title": "Jordan curve theorem",
+        "url": "https://en.wikipedia.org/wiki/Jordan_curve_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.15",
+    "subject": "math.HO",
+    "name": "Gödel’s first incompleteness theorem",
+    "statement": "Every consistent, computably axiomatized first-order theory that contains Robinson arithmetic has a sentence that the theory can neither prove nor refute. Here refuting a sentence means proving its negation.",
+    "references": [
+      {
+        "title": "Gödel’s first incompleteness theorem",
+        "url": "https://en.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.16",
+    "subject": "math.HO",
+    "name": "Undecidability of the halting problem",
+    "statement": "No algorithm can correctly determine, for every program and every input, whether that program eventually halts on that input.",
+    "references": [
+      {
+        "title": "Undecidability of the halting problem",
+        "url": "https://en.wikipedia.org/wiki/Halting_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.17",
+    "subject": "math.HO",
+    "name": "Fermat’s last theorem",
+    "statement": "For every integer n>2, there are no positive integers a,b,c satisfying aⁿ+bⁿ=cⁿ.",
+    "references": [
+      {
+        "title": "Fermat’s last theorem",
+        "url": "https://en.wikipedia.org/wiki/Fermat's_Last_Theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.18",
+    "subject": "math.HO",
+    "name": "Four-color theorem",
+    "statement": "Every finite planar graph without loops admits a vertex coloring with at most four colors in which the endpoints of every edge have different colors.",
+    "references": [
+      {
+        "title": "Four-color theorem",
+        "url": "https://en.wikipedia.org/wiki/Four_color_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.19",
+    "subject": "math.HO",
+    "name": "Feuerbach’s theorem",
+    "statement": "For every nondegenerate Euclidean triangle, its nine-point circle is tangent internally to its incircle and externally to each of its three excircles, with coincidence of the incircle and nine-point circle in the equilateral case.",
+    "references": [
+      {
+        "title": "Feuerbach’s theorem",
+        "url": "https://en.wikipedia.org/wiki/Feuerbach's_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.20",
+    "subject": "math.HO",
+    "name": "Morley’s trisector theorem",
+    "statement": "In any nondegenerate Euclidean triangle, the three intersections of adjacent internal angle trisectors, one near each side, form an equilateral triangle.",
+    "references": [
+      {
+        "title": "Morley’s trisector theorem",
+        "url": "https://en.wikipedia.org/wiki/Morley's_trisector_theorem"
+      }
+    ]
+  }
+]

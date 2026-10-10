@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.AG.01",
+    "subject": "math.AG",
+    "name": "Hilbert Nullstellensatz",
+    "statement": "Over an algebraically closed field k, the ideal of the common zero set of an ideal I in k[x_1, ..., x_n] is the radical of I. Thus radical ideals correspond to affine algebraic subsets of k^n.",
+    "references": [
+      {
+        "title": "Hilbert Nullstellensatz",
+        "url": "https://en.wikipedia.org/wiki/Hilbert%27s_Nullstellensatz"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.02",
+    "subject": "math.AG",
+    "name": "Noether normalization lemma",
+    "statement": "Let k be a field and A a nonzero finitely generated commutative k-algebra of Krull dimension d. There is a polynomial subalgebra k[y_1, ..., y_d] over which A is a finite module; geometrically, every affine variety admits a finite morphism to affine space of the same dimension.",
+    "references": [
+      {
+        "title": "Noether normalization lemma",
+        "url": "https://en.wikipedia.org/wiki/Noether_normalization_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.03",
+    "subject": "math.AG",
+    "name": "Chevalley constructibility theorem",
+    "statement": "The image of a constructible subset under a morphism of finite type between Noetherian schemes is constructible.",
+    "references": [
+      {
+        "title": "Chevalley constructibility theorem",
+        "url": "https://en.wikipedia.org/wiki/Chevalley%27s_theorem_on_constructible_sets"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.04",
+    "subject": "math.AG",
+    "name": "Dimension-of-fibers theorem",
+    "statement": "Let f:X to Y be a dominant morphism of integral varieties over an algebraically closed field. There is a nonempty open subset U of Y such that each fiber over a closed point of U has dimension dim(X)-dim(Y).",
+    "references": [
+      {
+        "title": "Dimension-of-fibers theorem",
+        "url": "https://en.wikipedia.org/wiki/Fiber_(mathematics)#Dimension_of_fibers"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.05",
+    "subject": "math.AG",
+    "name": "Generic smoothness theorem",
+    "statement": "Let f:X to Y be a dominant morphism between smooth varieties over an algebraically closed field of characteristic zero. There is a nonempty open subset U of Y such that the restriction f^(-1)(U) to U is smooth.",
+    "references": [
+      {
+        "title": "Generic smoothness theorem",
+        "url": "https://en.wikipedia.org/wiki/Generic_smoothness"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.06",
+    "subject": "math.AG",
+    "name": "Zariski main theorem",
+    "statement": "A separated quasi-finite morphism of finite type between Noetherian schemes factors as an open immersion followed by a finite morphism.",
+    "references": [
+      {
+        "title": "Zariski main theorem",
+        "url": "https://en.wikipedia.org/wiki/Zariski%27s_main_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.07",
+    "subject": "math.AG",
+    "name": "Valuative criterion for properness",
+    "statement": "A separated morphism f:X to Y of finite type is proper if and only if every commutative diagram from the spectrum of a valuation ring R to Y and its fraction field to X admits a lift Spec(R) to X. Separatedness makes the lift unique.",
+    "references": [
+      {
+        "title": "Valuative criterion for properness",
+        "url": "https://en.wikipedia.org/wiki/Valuative_criterion"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.08",
+    "subject": "math.AG",
+    "name": "Riemann-Roch theorem for curves",
+    "statement": "For a smooth projective connected curve C over an algebraically closed field, a divisor D, and a canonical divisor K, one has l(D)-l(K-D)=deg(D)+1-g, where g is the genus and l(D)=dim H^0(C,O(D)).",
+    "references": [
+      {
+        "title": "Riemann-Roch theorem for curves",
+        "url": "https://en.wikipedia.org/wiki/Riemann%E2%80%93Roch_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.09",
+    "subject": "math.AG",
+    "name": "Serre duality",
+    "statement": "Let X be a smooth projective variety of dimension n over a field k and E a vector bundle on X. There is a natural perfect pairing between H^i(X,E) and H^(n-i)(X,E_dual tensor omega_X), where omega_X is the canonical line bundle.",
+    "references": [
+      {
+        "title": "Serre duality",
+        "url": "https://en.wikipedia.org/wiki/Serre_duality"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.10",
+    "subject": "math.AG",
+    "name": "Serre vanishing theorem",
+    "statement": "If X is projective over a Noetherian ring, L is an ample line bundle, and F is a coherent sheaf on X, then H^i(X,F tensor L^m)=0 for every i greater than zero and every sufficiently large m.",
+    "references": [
+      {
+        "title": "Serre vanishing theorem",
+        "url": "https://en.wikipedia.org/wiki/Serre%27s_vanishing_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.11",
+    "subject": "math.AG",
+    "name": "Finiteness of coherent cohomology",
+    "statement": "If X is a proper scheme of finite type over a field k and F is a coherent sheaf on X, then every H^i(X,F) is a finite-dimensional k-vector space.",
+    "references": [
+      {
+        "title": "Finiteness of coherent cohomology",
+        "url": "https://en.wikipedia.org/wiki/Coherent_sheaf#Coherent_sheaf_cohomology"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.12",
+    "subject": "math.AG",
+    "name": "Hilbert polynomial theorem",
+    "statement": "For a projective scheme X over a field with a fixed very ample line bundle O_X(1), and a coherent sheaf F, the Euler characteristic of F tensor O_X(m) is a polynomial in m. If F is nonzero, its degree is the dimension of the support of F.",
+    "references": [
+      {
+        "title": "Hilbert polynomial theorem",
+        "url": "https://en.wikipedia.org/wiki/Hilbert_polynomial"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.13",
+    "subject": "math.AG",
+    "name": "Bezout theorem for plane curves",
+    "statement": "If two projective plane curves of degrees d and e over an algebraically closed field have no common component, the sum of their intersection multiplicities over all intersection points is de.",
+    "references": [
+      {
+        "title": "Bezout theorem for plane curves",
+        "url": "https://en.wikipedia.org/wiki/B%C3%A9zout%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.14",
+    "subject": "math.AG",
+    "name": "Bertini smoothness theorem",
+    "statement": "For a smooth quasi-projective variety embedded in projective space over an algebraically closed field of characteristic zero, a general hyperplane section is smooth. Here general means that the hyperplane lies in a suitable nonempty Zariski open subset of the dual projective space.",
+    "references": [
+      {
+        "title": "Bertini smoothness theorem",
+        "url": "https://en.wikipedia.org/wiki/Bertini%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.15",
+    "subject": "math.AG",
+    "name": "Hironaka resolution of singularities",
+    "statement": "Every integral variety over a field of characteristic zero admits a proper birational morphism from a smooth variety that is an isomorphism over the original smooth locus.",
+    "references": [
+      {
+        "title": "Hironaka resolution of singularities",
+        "url": "https://en.wikipedia.org/wiki/Resolution_of_singularities"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.16",
+    "subject": "math.AG",
+    "name": "Zariski connectedness theorem",
+    "statement": "If f:X to Y is a proper birational morphism of integral Noetherian schemes and Y is normal, then every fiber of f is connected.",
+    "references": [
+      {
+        "title": "Zariski connectedness theorem",
+        "url": "https://en.wikipedia.org/wiki/Zariski%27s_connectedness_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.17",
+    "subject": "math.AG",
+    "name": "Grothendieck-Riemann-Roch theorem",
+    "statement": "For a proper morphism f:X to Y between smooth projective varieties and a class a in K_0(X), ch(f_!a) times td(T_Y) equals f_*(ch(a) times td(T_X)) in the rational Chow ring of Y. Here f_! is the alternating sum of higher direct images.",
+    "references": [
+      {
+        "title": "Grothendieck-Riemann-Roch theorem",
+        "url": "https://en.wikipedia.org/wiki/Grothendieck%E2%80%93Riemann%E2%80%93Roch_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.18",
+    "subject": "math.AG",
+    "name": "Castelnuovo contraction theorem",
+    "statement": "On a smooth projective surface over an algebraically closed field, a smooth rational curve of self-intersection minus one can be contracted to a smooth point. The resulting surface is smooth and projective, and the original surface is its blow-up at that point.",
+    "references": [
+      {
+        "title": "Castelnuovo contraction theorem",
+        "url": "https://en.wikipedia.org/wiki/Castelnuovo%27s_contraction_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.19",
+    "subject": "math.AG",
+    "name": "Riemann existence theorem",
+    "statement": "For a smooth complex algebraic variety X, analytification gives an equivalence between finite etale covers of X and finite topological covering spaces of its associated complex analytic space.",
+    "references": [
+      {
+        "title": "Riemann existence theorem",
+        "url": "https://en.wikipedia.org/wiki/Riemann_existence_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.20",
+    "subject": "math.AG",
+    "name": "Hasse-Weil bound for curves",
+    "statement": "If C is a smooth projective geometrically connected curve of genus g over the finite field with q elements, then the absolute value of the number of its rational points minus (q+1) is at most 2g times the square root of q.",
+    "references": [
+      {
+        "title": "Hasse-Weil bound for curves",
+        "url": "https://en.wikipedia.org/wiki/Weil_conjectures"
+      }
+    ]
+  }
+]

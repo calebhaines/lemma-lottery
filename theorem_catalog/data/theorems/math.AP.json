@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.AP.01",
+    "subject": "math.AP",
+    "name": "Cauchy–Kovalevskaya theorem",
+    "statement": "For a PDE system solved for the highest derivative normal to an initial hypersurface, analytic coefficients and analytic initial data on a noncharacteristic analytic hypersurface give a unique local analytic solution.",
+    "references": [
+      {
+        "title": "Cauchy–Kovalevskaya theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cauchy%E2%80%93Kovalevskaya_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.02",
+    "subject": "math.AP",
+    "name": "Holmgren uniqueness theorem",
+    "statement": "For a linear PDE with real-analytic coefficients, a distributional solution that vanishes on one side of a noncharacteristic analytic hypersurface vanishes in a neighborhood of that hypersurface. Consequently, noncharacteristic Cauchy data determine at most one local solution.",
+    "references": [
+      {
+        "title": "Holmgren's uniqueness theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Holmgren%27s_uniqueness_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.03",
+    "subject": "math.AP",
+    "name": "Lax–Milgram theorem",
+    "statement": "Let H be a real Hilbert space and a a bounded bilinear form satisfying a(v,v) ≥ α‖v‖² for some α > 0. For every continuous linear functional F on H, there is a unique u in H such that a(u,v) = F(v) for every v in H.",
+    "references": [
+      {
+        "title": "Lax–Milgram theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lax%E2%80%93Milgram_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.04",
+    "subject": "math.AP",
+    "name": "Sobolev embedding theorem",
+    "statement": "If 1 ≤ p < n and p* = np/(n−p), every u in W¹,p(ℝⁿ) lies in Lᵖ*(ℝⁿ), with ‖u‖ₚ* ≤ C‖∇u‖ₚ. The constant depends only on n and p.",
+    "references": [
+      {
+        "title": "Sobolev inequality — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sobolev_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.05",
+    "subject": "math.AP",
+    "name": "Rellich–Kondrachov compactness theorem",
+    "statement": "On a bounded Lipschitz domain Ω in ℝⁿ, n ≥ 2, the embedding W¹,p(Ω) into Lᑫ(Ω) is compact whenever 1 ≤ p < n and 1 ≤ q < np/(n−p). Thus every bounded sequence in W¹,p(Ω) has a subsequence converging in Lᑫ(Ω).",
+    "references": [
+      {
+        "title": "Rellich–Kondrachov theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rellich%E2%80%93Kondrachov_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.06",
+    "subject": "math.AP",
+    "name": "Poincaré inequality",
+    "statement": "For a bounded Lipschitz domain Ω and 1 ≤ p < ∞, there is a constant C such that ‖u‖ₗᵖ(Ω) ≤ C‖∇u‖ₗᵖ(Ω) for every u in W₀¹,p(Ω).",
+    "references": [
+      {
+        "title": "Poincaré inequality — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.07",
+    "subject": "math.AP",
+    "name": "Weyl's lemma",
+    "statement": "If u is locally integrable on an open subset of ℝⁿ and Δu = 0 in the distributional sense, then u agrees almost everywhere with a smooth harmonic function.",
+    "references": [
+      {
+        "title": "Weyl's lemma (Laplace equation) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Weyl%27s_lemma_(Laplace_equation)"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.08",
+    "subject": "math.AP",
+    "name": "Weak maximum principle",
+    "statement": "If Ω is a bounded domain and u belongs to C²(Ω) ∩ C(Ω̄) with Δu ≥ 0 in Ω, then max over Ω̄ of u equals max over ∂Ω of u.",
+    "references": [
+      {
+        "title": "Maximum principle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Maximum_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.09",
+    "subject": "math.AP",
+    "name": "Strong maximum principle",
+    "statement": "If Ω is connected, u belongs to C²(Ω), and Δu ≥ 0, then an interior point at which u attains its maximum forces u to be constant on Ω.",
+    "references": [
+      {
+        "title": "Maximum principle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Maximum_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.10",
+    "subject": "math.AP",
+    "name": "Hopf boundary point lemma",
+    "statement": "Suppose Ω is connected, its boundary is C¹ near x₀, and Ω has an interior tangent ball at x₀. Let u belong to C²(Ω) ∩ C¹(Ω̄), with Δu ≥ 0. If u is nonconstant and attains its maximum over Ω̄ at x₀, its outward normal derivative at x₀ is strictly positive.",
+    "references": [
+      {
+        "title": "Hopf lemma — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hopf_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.11",
+    "subject": "math.AP",
+    "name": "Harnack inequality",
+    "statement": "For each n there is Cₙ such that any nonnegative harmonic function on a ball B₂ᵣ satisfies sup over Bᵣ of u ≤ Cₙ inf over Bᵣ of u. Both balls have the same center.",
+    "references": [
+      {
+        "title": "Harnack's inequality — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Harnack%27s_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.12",
+    "subject": "math.AP",
+    "name": "De Giorgi–Nash–Moser regularity theorem",
+    "statement": "Let A(x) be a bounded measurable real matrix field with λ|ξ|² ≤ ξᵀA(x)ξ and |A(x)ξ| ≤ Λ|ξ| for fixed 0 < λ ≤ Λ. Every weak H¹ local solution of div(A∇u) = 0 is locally Hölder continuous, with exponent and interior estimates depending only on dimension and ellipticity bounds.",
+    "references": [
+      {
+        "title": "Hilbert's nineteenth problem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hilbert%27s_nineteenth_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.13",
+    "subject": "math.AP",
+    "name": "Interior Schauder estimate",
+    "statement": "For 0 < α < 1, let Lu = aᵢⱼ∂ᵢⱼu + bᵢ∂ᵢu + cu be uniformly elliptic on Ω, with coefficients and f in C⁰,α(Ω). If u is a C²,α solution of Lu = f and Ω′ is compactly contained in Ω, then ‖u‖C²,α(Ω′) ≤ C(‖u‖C⁰(Ω) + ‖f‖C⁰,α(Ω)), with C depending on the domains, α, ellipticity, and coefficient norms.",
+    "references": [
+      {
+        "title": "Schauder estimates — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Schauder_estimates"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.14",
+    "subject": "math.AP",
+    "name": "Calderón–Zygmund elliptic estimate",
+    "statement": "For 1 < p < ∞ and u in C∞ with compact support in ℝⁿ, ‖D²u‖ₗᵖ ≤ Cₙ,ₚ‖Δu‖ₗᵖ. Here D²u denotes the full Hessian.",
+    "references": [
+      {
+        "title": "Calderón–Zygmund theory — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Calder%C3%B3n%E2%80%93Zygmund_theory"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.15",
+    "subject": "math.AP",
+    "name": "Aubin–Lions compactness lemma",
+    "statement": "Let X₀, X, X₁ be Banach spaces, with X₀ compactly embedded in X and X continuously embedded in X₁. For 1 ≤ p < ∞ and 1 < q ≤ ∞, a family bounded in Lᵖ(0,T;X₀) whose distributional time derivatives are bounded in Lᑫ(0,T;X₁) is relatively compact in Lᵖ(0,T;X).",
+    "references": [
+      {
+        "title": "Aubin–Lions lemma — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aubin%E2%80%93Lions_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.16",
+    "subject": "math.AP",
+    "name": "Leray–Hopf existence theorem",
+    "statement": "For n = 2 or 3 and divergence-free initial velocity u₀ in L²(ℝⁿ), the unforced incompressible Navier–Stokes equations with positive viscosity have a global weak solution u in L∞(0,∞;L²) ∩ L²loc([0,∞);H¹), with ∇u in L²(0,∞;L²). It attains u₀ as its initial value and satisfies the energy inequality.",
+    "references": [
+      {
+        "title": "Navier–Stokes existence and smoothness — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.17",
+    "subject": "math.AP",
+    "name": "Kružkov existence and uniqueness theorem",
+    "statement": "For F in C¹(ℝ;ℝⁿ) and u₀ in L∞(ℝⁿ), the scalar conservation law ∂ₜu + div F(u) = 0 has a unique bounded Kružkov entropy solution with initial data u₀. Two such solutions satisfy ‖u(t)−v(t)‖₁ ≤ ‖u₀−v₀‖₁ whenever the initial difference is integrable.",
+    "references": [
+      {
+        "title": "Conservation law — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Conservation_law"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.18",
+    "subject": "math.AP",
+    "name": "Homogeneous Schrödinger Strichartz estimate",
+    "statement": "For d ≥ 1, let q,r ≥ 2 satisfy 2/q + d/r = d/2, excluding (q,r,d) = (2,∞,2). The free Schrödinger evolution satisfies ‖eⁱᵗΔf‖Lᑫ(ℝ;Lʳ(ℝᵈ)) ≤ C‖f‖₂ for every f in L²(ℝᵈ).",
+    "references": [
+      {
+        "title": "Strichartz estimate — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Strichartz_estimate"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.19",
+    "subject": "math.AP",
+    "name": "Heat kernel solution theorem",
+    "statement": "For u₀ in L²(ℝⁿ), convolution with Gₜ(x) = (4πt)⁻ⁿ/² exp(−|x|²/(4t)) gives the unique solution of ∂ₜu = Δu in C([0,∞);L²) that is smooth for t > 0. This solution converges to u₀ in L² as t decreases to zero.",
+    "references": [
+      {
+        "title": "Heat kernel — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Heat_kernel"
+      }
+    ]
+  },
+  {
+    "id": "math.AP.20",
+    "subject": "math.AP",
+    "name": "Finite propagation speed for the wave equation",
+    "statement": "If smooth initial displacement and velocity are supported in the ball of radius R centered at x₀, the classical solution of ∂ₜ²u − c²Δu = 0 on ℝⁿ, with c > 0, is supported in the ball of radius R+c|t| centered at x₀ at time t. Hence disturbances propagate no faster than c.",
+    "references": [
+      {
+        "title": "Wave equation — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wave_equation"
+      }
+    ]
+  }
+]

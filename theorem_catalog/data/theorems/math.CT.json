@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.CT.01",
+    "subject": "math.CT",
+    "name": "Yoneda lemma",
+    "statement": "For a locally small category C, a functor F:C to Set, and an object A, natural transformations from Hom_C(A,-) to F are naturally in bijection with F(A). A transformation is determined by its value on the identity of A.",
+    "references": [
+      {
+        "title": "Yoneda lemma",
+        "url": "https://en.wikipedia.org/wiki/Yoneda_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.02",
+    "subject": "math.CT",
+    "name": "Co-Yoneda lemma",
+    "statement": "For a small category C and a covariant functor F:C to Set, the coend of Hom_C(A,X) times F(A), over A in C, is naturally isomorphic to F(X). The coend identifies pairs according to the action of morphisms in C.",
+    "references": [
+      {
+        "title": "Co-Yoneda lemma",
+        "url": "https://en.wikipedia.org/wiki/Yoneda_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.03",
+    "subject": "math.CT",
+    "name": "Freyd general adjoint functor theorem",
+    "statement": "Let C be complete and locally small, D locally small, and U:C to D a functor preserving all small limits. Then U has a left adjoint if, for each object d of D, there is a set of arrows d to U(c_i) through one of which every arrow d to U(c) factors via U of a morphism c_i to c.",
+    "references": [
+      {
+        "title": "Freyd general adjoint functor theorem",
+        "url": "https://en.wikipedia.org/wiki/Adjoint_functors#General_adjoint_functor_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.04",
+    "subject": "math.CT",
+    "name": "Special adjoint functor theorem",
+    "statement": "Let C be a complete, locally small, well-powered category with a set of cogenerators, and let D be locally small. A functor U:C to D that preserves all small limits has a left adjoint.",
+    "references": [
+      {
+        "title": "Special adjoint functor theorem",
+        "url": "https://en.wikipedia.org/wiki/Adjoint_functors#Special_adjoint_functor_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.05",
+    "subject": "math.CT",
+    "name": "Beck monadicity theorem",
+    "statement": "A functor U:D to C with a left adjoint is monadic if it reflects isomorphisms and D has coequalizers of all parallel pairs whose images under U admit split coequalizers, with U preserving those coequalizers. Conversely, every monadic functor satisfies these conditions.",
+    "references": [
+      {
+        "title": "Beck monadicity theorem",
+        "url": "https://en.wikipedia.org/wiki/Beck%27s_monadicity_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.06",
+    "subject": "math.CT",
+    "name": "Uniqueness of adjoints",
+    "statement": "Any two left adjoints to the same functor are naturally isomorphic, and the isomorphism compatible with the two adjunctions is unique. The dual statement holds for right adjoints.",
+    "references": [
+      {
+        "title": "Uniqueness of adjoints",
+        "url": "https://en.wikipedia.org/wiki/Adjoint_functors#Uniqueness"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.07",
+    "subject": "math.CT",
+    "name": "Adjoints preserve limits and colimits",
+    "statement": "A left adjoint preserves every colimit that exists in its domain, and a right adjoint preserves every limit that exists in its domain.",
+    "references": [
+      {
+        "title": "Adjoints preserve limits and colimits",
+        "url": "https://en.wikipedia.org/wiki/Adjoint_functors#Continuity"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.08",
+    "subject": "math.CT",
+    "name": "Pointwise limits and colimits in functor categories",
+    "statement": "If C is small and D has limits or colimits of a fixed small diagram shape J, then the functor category Fun(C,D) has them as well. Evaluating at any object of C computes those limits or colimits in D.",
+    "references": [
+      {
+        "title": "Pointwise limits and colimits in functor categories",
+        "url": "https://en.wikipedia.org/wiki/Functor_category"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.09",
+    "subject": "math.CT",
+    "name": "Criterion for equivalence of categories",
+    "statement": "A functor F:C to D is an equivalence of categories if and only if it is fully faithful and essentially surjective, meaning every object of D is isomorphic to an object F(c).",
+    "references": [
+      {
+        "title": "Criterion for equivalence of categories",
+        "url": "https://en.wikipedia.org/wiki/Equivalence_of_categories"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.10",
+    "subject": "math.CT",
+    "name": "Mac Lane coherence theorem",
+    "statement": "Every diagram built from the associativity and unit isomorphisms of a monoidal category commutes whenever its source and target are the same formal tensor expressions. Consequently, reparenthesizing a tensor product gives a uniquely determined canonical isomorphism.",
+    "references": [
+      {
+        "title": "Mac Lane coherence theorem",
+        "url": "https://en.wikipedia.org/wiki/Coherence_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.11",
+    "subject": "math.CT",
+    "name": "Strictification of monoidal categories",
+    "statement": "Every monoidal category is equivalent, by a strong monoidal equivalence, to a strict monoidal category in which associativity and the unit laws hold as equalities.",
+    "references": [
+      {
+        "title": "Strictification of monoidal categories",
+        "url": "https://en.wikipedia.org/wiki/Monoidal_category#Strict_monoidal_categories"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.12",
+    "subject": "math.CT",
+    "name": "Pointwise Kan extension theorem",
+    "statement": "Let C be small, D locally small, E cocomplete, F:C to E, and K:C to D. The left Kan extension of F along K exists, and its value at d is the colimit of F(c) over pairs (c, K(c) to d) in the comma category (K down d).",
+    "references": [
+      {
+        "title": "Pointwise Kan extension theorem",
+        "url": "https://en.wikipedia.org/wiki/Kan_extension"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.13",
+    "subject": "math.CT",
+    "name": "Natural transformations as an end",
+    "statement": "For functors F,G:C to D with C small and D locally small, the set of natural transformations from F to G is naturally the end over c of Hom_D(F(c),G(c)). The end conditions are exactly the naturality equations.",
+    "references": [
+      {
+        "title": "Natural transformations as an end",
+        "url": "https://en.wikipedia.org/wiki/End_(category_theory)"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.14",
+    "subject": "math.CT",
+    "name": "Fubini theorem for limits",
+    "statement": "If C and D are small categories and E is complete, then the limit of a functor C times D to E is canonically isomorphic to either iterated limit, first over C and then D or in the opposite order. The dual statement holds for colimits in a cocomplete category.",
+    "references": [
+      {
+        "title": "Fubini theorem for limits",
+        "url": "https://en.wikipedia.org/wiki/Limit_(category_theory)#Commutativity_of_limits"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.15",
+    "subject": "math.CT",
+    "name": "Grothendieck construction theorem",
+    "statement": "For a small category B, the Grothendieck construction gives a 2-equivalence between pseudofunctors from B opposite to Cat and categories fibered over B with cartesian functors. Choosing cartesian lifts recovers the pseudofunctor from a fibration.",
+    "references": [
+      {
+        "title": "Grothendieck construction theorem",
+        "url": "https://en.wikipedia.org/wiki/Grothendieck_construction"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.16",
+    "subject": "math.CT",
+    "name": "Freyd-Mitchell embedding theorem",
+    "statement": "Every small abelian category admits a fully faithful exact functor into the category of left modules over some ring. Exact sequences and their algebraic relations can therefore be studied inside a module category.",
+    "references": [
+      {
+        "title": "Freyd-Mitchell embedding theorem",
+        "url": "https://en.wikipedia.org/wiki/Mitchell%27s_embedding_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.17",
+    "subject": "math.CT",
+    "name": "Eilenberg-Watts theorem",
+    "statement": "An additive right-exact functor from left R-modules to left S-modules that preserves arbitrary direct sums is naturally isomorphic to B tensor_R -, where B is an S-R bimodule. One can take B to be the image of R, with its right R-action induced by right multiplications on R.",
+    "references": [
+      {
+        "title": "Eilenberg-Watts theorem",
+        "url": "https://en.wikipedia.org/wiki/Eilenberg%E2%80%93Watts_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.18",
+    "subject": "math.CT",
+    "name": "Gabriel-Popescu theorem",
+    "statement": "Every Grothendieck abelian category is equivalent to the quotient of a module category by a localizing Serre subcategory. Equivalently, it admits a fully faithful right adjoint embedding into a module category whose left adjoint is exact.",
+    "references": [
+      {
+        "title": "Gabriel-Popescu theorem",
+        "url": "https://en.wikipedia.org/wiki/Gabriel%E2%80%93Popescu_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.19",
+    "subject": "math.CT",
+    "name": "Presheaf topos theorem",
+    "statement": "For every small category C, the category of functors from C opposite to Set is a Grothendieck topos. In particular, it has all small limits and colimits, exponentials, and a subobject classifier.",
+    "references": [
+      {
+        "title": "Presheaf topos theorem",
+        "url": "https://en.wikipedia.org/wiki/Topos#Grothendieck_topos_(topos_in_geometry)"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.20",
+    "subject": "math.CT",
+    "name": "Lambek lemma",
+    "statement": "If an endofunctor F has an initial algebra a:F(A) to A, then a is an isomorphism. Dually, the structure map of a terminal F-coalgebra is an isomorphism.",
+    "references": [
+      {
+        "title": "Lambek lemma",
+        "url": "https://en.wikipedia.org/wiki/Initial_algebra#Lambek%27s_lemma"
+      }
+    ]
+  }
+]

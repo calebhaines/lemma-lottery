@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.CV.01",
+    "subject": "math.CV",
+    "name": "Cauchy integral theorem",
+    "statement": "If f is holomorphic on a simply connected open subset Ω of ℂ, then its integral along every closed piecewise C¹ curve in Ω is zero.",
+    "references": [
+      {
+        "title": "Cauchy's integral theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cauchy%27s_integral_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.02",
+    "subject": "math.CV",
+    "name": "Cauchy integral formula",
+    "statement": "If f is holomorphic on a neighborhood of a closed disk and z lies inside its positively oriented boundary γ, then f(z) = (1/(2πi)) ∮γ f(ζ)/(ζ−z) dζ.",
+    "references": [
+      {
+        "title": "Cauchy's integral formula — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.03",
+    "subject": "math.CV",
+    "name": "Cauchy derivative estimates",
+    "statement": "If f is holomorphic on a neighborhood of the closed disk |z−a| ≤ R and |f| ≤ M there, then |f⁽ⁿ⁾(a)| ≤ n!M/Rⁿ for every nonnegative integer n.",
+    "references": [
+      {
+        "title": "Cauchy estimates — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cauchy_estimates"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.04",
+    "subject": "math.CV",
+    "name": "Liouville's theorem",
+    "statement": "Every bounded entire function on ℂ is constant.",
+    "references": [
+      {
+        "title": "Liouville's theorem (complex analysis) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Liouville%27s_theorem_(complex_analysis)"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.05",
+    "subject": "math.CV",
+    "name": "Fundamental theorem of algebra",
+    "statement": "Every nonconstant polynomial with complex coefficients has a complex root. Consequently, a polynomial of degree n has exactly n complex roots counted with multiplicity.",
+    "references": [
+      {
+        "title": "Fundamental theorem of algebra — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.06",
+    "subject": "math.CV",
+    "name": "Identity theorem",
+    "statement": "If two holomorphic functions on a connected open set agree on a set with an accumulation point inside that open set, they agree everywhere on it.",
+    "references": [
+      {
+        "title": "Identity theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Identity_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.07",
+    "subject": "math.CV",
+    "name": "Maximum modulus principle",
+    "statement": "A nonconstant holomorphic function on a connected open set cannot attain a local maximum of its modulus at an interior point.",
+    "references": [
+      {
+        "title": "Maximum modulus principle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Maximum_modulus_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.08",
+    "subject": "math.CV",
+    "name": "Open mapping theorem for holomorphic functions",
+    "statement": "Every nonconstant holomorphic function on a connected open subset of ℂ maps open subsets to open subsets of ℂ.",
+    "references": [
+      {
+        "title": "Open mapping theorem (complex analysis) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Open_mapping_theorem_(complex_analysis)"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.09",
+    "subject": "math.CV",
+    "name": "Schwarz's lemma",
+    "statement": "If f is holomorphic on the unit disk, |f(z)| ≤ 1, and f(0) = 0, then |f(z)| ≤ |z| and |f′(0)| ≤ 1. Equality at a nonzero point, or |f′(0)| = 1, forces f(z) = eⁱᶿz for a real θ.",
+    "references": [
+      {
+        "title": "Schwarz lemma — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Schwarz_lemma"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.10",
+    "subject": "math.CV",
+    "name": "Rouché's theorem",
+    "statement": "Let f and g be holomorphic on a neighborhood of the closure of a bounded Jordan domain with piecewise smooth boundary. If |g| < |f| on the boundary, f and f+g have the same number of zeros in the domain, counted with multiplicity.",
+    "references": [
+      {
+        "title": "Rouché's theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rouch%C3%A9%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.11",
+    "subject": "math.CV",
+    "name": "Argument principle",
+    "statement": "If f is meromorphic near the closure of a bounded Jordan domain with piecewise smooth positively oriented boundary γ, with no zeros or poles on γ, then (1/(2πi)) ∮γ f′/f = N−P. Here N and P count the zeros and poles inside, with multiplicity.",
+    "references": [
+      {
+        "title": "Argument principle — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Argument_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.12",
+    "subject": "math.CV",
+    "name": "Residue theorem",
+    "statement": "If f is meromorphic near the closure of a bounded Jordan domain with piecewise smooth positively oriented boundary γ and has no poles on γ, then ∮γ f(z) dz = 2πi times the sum of its residues at the poles inside.",
+    "references": [
+      {
+        "title": "Residue theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Residue_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.13",
+    "subject": "math.CV",
+    "name": "Morera's theorem",
+    "statement": "If f is continuous on an open set Ω and its integral around the boundary of every triangle whose filled interior lies in Ω is zero, then f is holomorphic on Ω.",
+    "references": [
+      {
+        "title": "Morera's theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Morera%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.14",
+    "subject": "math.CV",
+    "name": "Weierstrass convergence theorem",
+    "statement": "A sequence of holomorphic functions on Ω that converges uniformly on every compact subset has a holomorphic limit. Its derivatives of every order converge uniformly on compact subsets to the corresponding derivatives of that limit.",
+    "references": [
+      {
+        "title": "Weierstrass theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Weierstrass_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.15",
+    "subject": "math.CV",
+    "name": "Hurwitz's theorem",
+    "statement": "If zero-free holomorphic functions on a connected open set converge uniformly on compact subsets to f, then f is either zero-free or identically zero.",
+    "references": [
+      {
+        "title": "Hurwitz's theorem (complex analysis) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hurwitz%27s_theorem_(complex_analysis)"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.16",
+    "subject": "math.CV",
+    "name": "Montel's theorem",
+    "statement": "Every locally uniformly bounded family of holomorphic functions on an open subset of ℂ is a normal family: every sequence has a subsequence converging uniformly on compact subsets to a holomorphic function.",
+    "references": [
+      {
+        "title": "Montel's theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Montel%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.17",
+    "subject": "math.CV",
+    "name": "Riemann mapping theorem",
+    "statement": "Every nonempty simply connected open subset of ℂ other than ℂ itself is biholomorphically equivalent to the unit disk.",
+    "references": [
+      {
+        "title": "Riemann mapping theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Riemann_mapping_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.18",
+    "subject": "math.CV",
+    "name": "Mittag–Leffler theorem",
+    "statement": "For a closed discrete subset of an open set Ω ⊆ ℂ, with no accumulation point in Ω, and a prescribed finite principal part at each point, there is a meromorphic function on Ω with exactly those principal parts and no other poles.",
+    "references": [
+      {
+        "title": "Mittag-Leffler's theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mittag-Leffler%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.19",
+    "subject": "math.CV",
+    "name": "Weierstrass factorization theorem",
+    "statement": "Every nonzero entire function can be written as zᵐeᵍ⁽ᶻ⁾ times a convergent canonical product over its nonzero zeros, counted with multiplicity, where g is entire. The factors have the form Eₚ(w) = (1−w) exp(w + ⋯ + wᵖ/p), with E₀(w) = 1−w and suitable nonnegative integers p.",
+    "references": [
+      {
+        "title": "Weierstrass factorization theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Weierstrass_factorization_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.20",
+    "subject": "math.CV",
+    "name": "Great Picard theorem",
+    "statement": "Near an isolated essential singularity, a holomorphic function takes every complex value, with at most one exception, infinitely often in every punctured neighborhood.",
+    "references": [
+      {
+        "title": "Picard theorem — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Picard_theorem"
+      }
+    ]
+  }
+]

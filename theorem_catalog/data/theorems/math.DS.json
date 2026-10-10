@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.DS.01",
+    "subject": "math.DS",
+    "name": "Picard–Lindelöf theorem",
+    "statement": "For an ordinary differential equation x′ = f(t,x), continuity of f and local Lipschitz continuity in x imply local existence and uniqueness of a solution through each initial condition.",
+    "references": [
+      {
+        "title": "Picard–Lindelöf theorem",
+        "url": "https://en.wikipedia.org/wiki/Picard%E2%80%93Lindel%C3%B6f_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.02",
+    "subject": "math.DS",
+    "name": "Peano existence theorem",
+    "statement": "If f(t,x) is continuous on a neighborhood of an initial point in finite-dimensional Euclidean space, the equation x′ = f(t,x) has a solution on some time interval through that point. Uniqueness is not asserted.",
+    "references": [
+      {
+        "title": "Peano existence theorem",
+        "url": "https://en.wikipedia.org/wiki/Peano_existence_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.03",
+    "subject": "math.DS",
+    "name": "Grönwall's inequality",
+    "statement": "If a nonnegative continuous function u on [0,T] satisfies u(t) ≤ a + ∫₀ᵗ b(s)u(s) ds with a ≥ 0 and continuous b ≥ 0, then u(t) ≤ a exp(∫₀ᵗ b(s) ds).",
+    "references": [
+      {
+        "title": "Grönwall's inequality",
+        "url": "https://en.wikipedia.org/wiki/Gr%C3%B6nwall%27s_inequality"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.04",
+    "subject": "math.DS",
+    "name": "Flow-box theorem",
+    "statement": "Near any point at which a smooth vector field is nonzero, there are local coordinates in which the vector field is the constant first coordinate vector field. In these coordinates its trajectories are straight coordinate lines.",
+    "references": [
+      {
+        "title": "Vector field — Flow",
+        "url": "https://en.wikipedia.org/wiki/Vector_field#Flow"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.05",
+    "subject": "math.DS",
+    "name": "Hartman–Grobman theorem",
+    "statement": "Near a hyperbolic equilibrium of a continuously differentiable autonomous vector field, the nonlinear flow is locally topologically conjugate to the flow of its linearization. Hyperbolicity means that no eigenvalue of the linearization has zero real part.",
+    "references": [
+      {
+        "title": "Hartman–Grobman theorem",
+        "url": "https://en.wikipedia.org/wiki/Hartman%E2%80%93Grobman_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.06",
+    "subject": "math.DS",
+    "name": "Stable manifold theorem",
+    "statement": "At a hyperbolic equilibrium of a Cʳ vector field, r ≥ 1, there are Cʳ local stable and unstable invariant manifolds tangent to the stable and unstable eigenspaces of the linearization. Points on these manifolds converge to the equilibrium in forward and backward time, respectively.",
+    "references": [
+      {
+        "title": "Stable manifold theorem",
+        "url": "https://en.wikipedia.org/wiki/Stable_manifold_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.07",
+    "subject": "math.DS",
+    "name": "Center manifold theorem",
+    "statement": "Near an equilibrium of a Cʳ finite-dimensional vector field, with finite integer r ≥ 1, there is a local Cʳ invariant center manifold tangent to the generalized eigenspace whose eigenvalues have zero real part. The center manifold need not be unique.",
+    "references": [
+      {
+        "title": "Center manifold",
+        "url": "https://en.wikipedia.org/wiki/Center_manifold"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.08",
+    "subject": "math.DS",
+    "name": "Lyapunov stability theorem",
+    "statement": "If an equilibrium of a continuously differentiable autonomous system has a continuously differentiable function V that is positive away from the equilibrium, zero at it, and nonincreasing along trajectories in a neighborhood, the equilibrium is stable. If the derivative of V along trajectories is strictly negative away from the equilibrium, it is asymptotically stable.",
+    "references": [
+      {
+        "title": "Lyapunov function",
+        "url": "https://en.wikipedia.org/wiki/Lyapunov_function"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.09",
+    "subject": "math.DS",
+    "name": "LaSalle invariance principle",
+    "statement": "Let a locally Lipschitz autonomous system have a compact positively invariant set K and a continuously differentiable function V with derivative along the flow at most zero on K. Every trajectory starting in K approaches the largest invariant subset of the set where that derivative is zero.",
+    "references": [
+      {
+        "title": "LaSalle's invariance principle",
+        "url": "https://en.wikipedia.org/wiki/LaSalle%27s_invariance_principle"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.10",
+    "subject": "math.DS",
+    "name": "Poincaré–Bendixson theorem",
+    "statement": "For a continuously differentiable vector field on the plane, a nonempty compact omega-limit set containing no equilibrium is a periodic orbit.",
+    "references": [
+      {
+        "title": "Poincaré–Bendixson theorem",
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Bendixson_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.11",
+    "subject": "math.DS",
+    "name": "Hopf bifurcation theorem",
+    "statement": "Suppose a smooth one-parameter family of vector fields has an equilibrium whose linearization has exactly one simple pair of purely imaginary eigenvalues, with all other eigenvalues off the imaginary axis. If the pair crosses the imaginary axis with nonzero speed and the first Lyapunov coefficient is nonzero, a branch of small periodic orbits bifurcates from the equilibrium.",
+    "references": [
+      {
+        "title": "Hopf bifurcation",
+        "url": "https://en.wikipedia.org/wiki/Hopf_bifurcation"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.12",
+    "subject": "math.DS",
+    "name": "Liouville's theorem for Hamiltonian flows",
+    "statement": "The flow of a smooth Hamiltonian on a 2n-dimensional symplectic manifold preserves its symplectic form and hence its volume form ωⁿ/n!, wherever the flow is defined.",
+    "references": [
+      {
+        "title": "Liouville's theorem (Hamiltonian)",
+        "url": "https://en.wikipedia.org/wiki/Liouville%27s_theorem_(Hamiltonian)"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.13",
+    "subject": "math.DS",
+    "name": "Poincaré recurrence theorem",
+    "statement": "If a transformation preserves a finite measure, then for every measurable set A, almost every point of A returns to A infinitely many times under positive iterates.",
+    "references": [
+      {
+        "title": "Poincaré recurrence theorem",
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_recurrence_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.14",
+    "subject": "math.DS",
+    "name": "Birkhoff ergodic theorem",
+    "statement": "For a measure-preserving transformation of a probability space and an integrable function f, the time averages of f converge almost everywhere to an invariant integrable function. If the transformation is ergodic, the limit equals the space average ∫f almost everywhere.",
+    "references": [
+      {
+        "title": "Ergodic theory — Birkhoff ergodic theorem",
+        "url": "https://en.wikipedia.org/wiki/Ergodic_theory#Birkhoff_ergodic_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.15",
+    "subject": "math.DS",
+    "name": "Von Neumann mean ergodic theorem",
+    "statement": "For a unitary operator U on a Hilbert space, the averages (I + U + ⋯ + Uⁿ⁻¹)/n converge strongly to the orthogonal projection onto the subspace fixed by U.",
+    "references": [
+      {
+        "title": "Ergodic theory — Mean ergodic theorem",
+        "url": "https://en.wikipedia.org/wiki/Ergodic_theory#Mean_ergodic_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.16",
+    "subject": "math.DS",
+    "name": "Krylov–Bogolyubov theorem",
+    "statement": "Every continuous self-map of a nonempty compact metric space preserves at least one Borel probability measure.",
+    "references": [
+      {
+        "title": "Krylov–Bogolyubov theorem",
+        "url": "https://en.wikipedia.org/wiki/Krylov%E2%80%93Bogolyubov_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.17",
+    "subject": "math.DS",
+    "name": "Oseledets multiplicative ergodic theorem",
+    "statement": "Let an invertible ergodic probability-preserving transformation carry a measurable invertible finite-dimensional matrix cocycle with integrable log⁺ norms of both the matrix and its inverse. Almost everywhere, the vector space has an invariant splitting into subspaces on which the exponential growth rates are well-defined constant Lyapunov exponents.",
+    "references": [
+      {
+        "title": "Oseledets theorem",
+        "url": "https://en.wikipedia.org/wiki/Oseledets_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.18",
+    "subject": "math.DS",
+    "name": "Pesin entropy formula",
+    "statement": "For a C¹⁺ᵅ diffeomorphism, α > 0, of a closed Riemannian manifold preserving a probability measure absolutely continuous with respect to volume, the measure-theoretic entropy equals the integral of the sum of the positive Lyapunov exponents, counted with multiplicity.",
+    "references": [
+      {
+        "title": "Pesin Entropy Formula",
+        "url": "https://en.wikipedia.org/wiki/Pesin_Entropy_Formula"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.19",
+    "subject": "math.DS",
+    "name": "Sharkovsky's theorem: period-three consequence",
+    "statement": "If a continuous self-map of a real interval has a point of least period three, it has a point of every positive integer least period.",
+    "references": [
+      {
+        "title": "Sharkovsky's theorem",
+        "url": "https://en.wikipedia.org/wiki/Sharkovsky%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.DS.20",
+    "subject": "math.DS",
+    "name": "Hyperbolic shadowing lemma",
+    "statement": "For a compact hyperbolic invariant set of a C¹ diffeomorphism of a compact manifold, every sufficiently accurate bi-infinite pseudo-orbit in the set is uniformly approximated by a true orbit. If the hyperbolic set is locally maximal, the shadowing orbit can be chosen inside it.",
+    "references": [
+      {
+        "title": "Shadowing lemma",
+        "url": "https://en.wikipedia.org/wiki/Shadowing_lemma"
+      }
+    ]
+  }
+]

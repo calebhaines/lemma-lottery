@@ -1,0 +1,242 @@
+[
+  {
+    "id": "math.SG.01",
+    "subject": "math.SG",
+    "name": "Darboux's theorem",
+    "statement": "Near every point of a 2n-dimensional symplectic manifold there are local coordinates (q₁,…,qₙ,p₁,…,pₙ) in which the symplectic form equals ∑ᵢ dqᵢ ∧ dpᵢ.",
+    "references": [
+      {
+        "title": "Darboux's theorem",
+        "url": "https://en.wikipedia.org/wiki/Darboux%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.02",
+    "subject": "math.SG",
+    "name": "Moser stability theorem",
+    "statement": "For a smooth family ωₜ of symplectic forms on a closed manifold whose de Rham cohomology class is independent of t ∈ [0,1], there is a smooth isotopy φₜ beginning at the identity with φₜ*ωₜ = ω₀.",
+    "references": [
+      {
+        "title": "Moser's trick",
+        "url": "https://en.wikipedia.org/wiki/Moser%27s_trick"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.03",
+    "subject": "math.SG",
+    "name": "Weinstein Lagrangian neighborhood theorem",
+    "statement": "A neighborhood of a closed embedded Lagrangian submanifold L in a symplectic manifold is symplectomorphic to a neighborhood of the zero section in the cotangent bundle T*L with its canonical symplectic form. The symplectomorphism restricts to the identity on L.",
+    "references": [
+      {
+        "title": "Weinstein's tubular neighbourhood theorem",
+        "url": "https://en.wikipedia.org/wiki/Weinstein%27s_tubular_neighbourhood_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.04",
+    "subject": "math.SG",
+    "name": "Symplectic neighborhood theorem",
+    "statement": "For compact symplectic submanifolds in symplectic manifolds, a symplectomorphism of the submanifolds together with an isomorphism of their symplectic normal bundles extends to a symplectomorphism between neighborhoods.",
+    "references": [
+      {
+        "title": "Symplectic manifold",
+        "url": "https://en.wikipedia.org/wiki/Symplectic_manifold"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.05",
+    "subject": "math.SG",
+    "name": "Marsden–Weinstein reduction theorem",
+    "statement": "If a Lie group acts in a Hamiltonian way with equivariant moment map μ, zero is a regular value of μ, and the group action on μ⁻¹(0) is free and proper, then μ⁻¹(0)/G is a smooth symplectic manifold. Its symplectic form pulls back to the restriction of the original form.",
+    "references": [
+      {
+        "title": "Symplectic reduction",
+        "url": "https://en.wikipedia.org/wiki/Symplectic_reduction"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.06",
+    "subject": "math.SG",
+    "name": "Liouville–Arnold theorem",
+    "statement": "On a 2n-dimensional symplectic manifold, a compact connected common regular level of n independent pairwise Poisson-commuting smooth functions is an n-torus. A neighborhood admits action-angle coordinates in which the commuting Hamiltonian flows are linear in the angle variables.",
+    "references": [
+      {
+        "title": "Liouville–Arnold theorem",
+        "url": "https://en.wikipedia.org/wiki/Liouville%E2%80%93Arnold_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.07",
+    "subject": "math.SG",
+    "name": "Atiyah–Guillemin–Sternberg convexity theorem",
+    "statement": "For a Hamiltonian torus action on a compact connected symplectic manifold, the image of the moment map is a convex polytope equal to the convex hull of the images of the fixed points.",
+    "references": [
+      {
+        "title": "Lectures on Symplectic Geometry — Ana Cannas da Silva, Theorem 27.1",
+        "url": "https://people.math.ethz.ch/~acannas/Papers/lsg.pdf"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.08",
+    "subject": "math.SG",
+    "name": "Delzant's classification theorem",
+    "statement": "Compact connected 2n-dimensional symplectic manifolds with an effective Hamiltonian n-torus action are classified, up to equivariant symplectomorphism, by their moment polytopes up to translation. These polytopes are simple, rational, and smooth: primitive integral edge directions at each vertex form a lattice basis; translating the moment map translates the polytope.",
+    "references": [
+      {
+        "title": "Delzant's theorem",
+        "url": "https://en.wikipedia.org/wiki/Delzant%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.09",
+    "subject": "math.SG",
+    "name": "Duistermaat–Heckman theorem",
+    "statement": "For an effective Hamiltonian torus action on a compact connected symplectic manifold, the pushforward of symplectic volume by the moment map has a density that is polynomial on each connected chamber of regular values.",
+    "references": [
+      {
+        "title": "Duistermaat–Heckman theorem",
+        "url": "https://en.wikipedia.org/wiki/Duistermaat%E2%80%93Heckman_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.10",
+    "subject": "math.SG",
+    "name": "Gromov non-squeezing theorem",
+    "statement": "For n ≥ 2, a standard symplectic open ball of radius r in Euclidean 2n-space embeds symplectically into the cylinder B²(R) × Euclidean (2n−2)-space if and only if r ≤ R.",
+    "references": [
+      {
+        "title": "Non-squeezing theorem",
+        "url": "https://en.wikipedia.org/wiki/Non-squeezing_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.11",
+    "subject": "math.SG",
+    "name": "Gromov compactness theorem for holomorphic curves",
+    "statement": "For a closed symplectic manifold with a fixed compatible almost complex structure, a sequence of stable pseudoholomorphic maps with fixed genus, number of marked points, and homology class has a subsequence converging, after reparametrization in the Gromov topology, to a stable nodal pseudoholomorphic map. The limit includes sphere bubbles that account for concentrated energy.",
+    "references": [
+      {
+        "title": "Gromov compactness theorem",
+        "url": "https://en.wikipedia.org/wiki/Gromov_compactness_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.12",
+    "subject": "math.SG",
+    "name": "Arnold fixed-point theorem in the aspherical case",
+    "statement": "Let a closed symplectic manifold satisfy ω|π₂ = 0 and c₁|π₂ = 0. Every Hamiltonian diffeomorphism with nondegenerate fixed points has at least the sum of the Betti numbers of the manifold with coefficients in ℤ/2ℤ many fixed points.",
+    "references": [
+      {
+        "title": "Arnold conjecture",
+        "url": "https://en.wikipedia.org/wiki/Arnold_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.13",
+    "subject": "math.SG",
+    "name": "Cotangent-bundle Lagrangian intersection theorem",
+    "statement": "For a closed manifold Q, any Hamiltonian image of the zero section of T*Q that intersects the zero section transversely has at least the sum of the ℤ/2ℤ Betti numbers of Q many intersection points. The Hamiltonian isotopy may be taken compactly supported.",
+    "references": [
+      {
+        "title": "Lagrangian intersection Floer homology",
+        "url": "https://en.wikipedia.org/wiki/Lagrangian_intersection_Floer_homology"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.14",
+    "subject": "math.SG",
+    "name": "Gromov's exact Lagrangian obstruction",
+    "statement": "Standard symplectic Euclidean 2n-space contains no closed embedded Lagrangian submanifold on which the standard Liouville one-form is exact.",
+    "references": [
+      {
+        "title": "Lagrangian submanifold",
+        "url": "https://en.wikipedia.org/wiki/Lagrangian_submanifold"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.15",
+    "subject": "math.SG",
+    "name": "Weinstein conjecture in dimension three",
+    "statement": "The Reeb vector field of every contact form on a closed oriented three-manifold has a periodic orbit. The Reeb vector field R is characterized by α(R) = 1 and dα(R,·) = 0.",
+    "references": [
+      {
+        "title": "Weinstein conjecture",
+        "url": "https://en.wikipedia.org/wiki/Weinstein_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.16",
+    "subject": "math.SG",
+    "name": "Gray stability theorem",
+    "statement": "A smooth one-parameter family of cooriented contact structures on a closed manifold is carried to the initial contact structure by a smooth isotopy beginning at the identity.",
+    "references": [
+      {
+        "title": "Contact geometry",
+        "url": "https://en.wikipedia.org/wiki/Contact_geometry"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.17",
+    "subject": "math.SG",
+    "name": "Boothby–Wang theorem",
+    "statement": "If a closed symplectic manifold has integral symplectic cohomology class, there is a principal circle bundle over it with a connection one-form α satisfying dα = π*ω. The form α is a contact form, and its Reeb flow follows the circle fibers, with the circle normalized as ℝ/ℤ.",
+    "references": [
+      {
+        "title": "Contact geometry",
+        "url": "https://en.wikipedia.org/wiki/Contact_geometry"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.18",
+    "subject": "math.SG",
+    "name": "Hofer nondegeneracy theorem",
+    "statement": "On a closed connected symplectic manifold, the infimum over Hamiltonians generating a Hamiltonian diffeomorphism of ∫₀¹(max Hₜ − min Hₜ)dt is strictly positive for every nonidentity diffeomorphism. Together with this length construction it defines Hofer's metric.",
+    "references": [
+      {
+        "title": "Lectures on Groups of Symplectomorphisms — Dusa McDuff, Section 1.1",
+        "url": "https://arxiv.org/abs/math/0201032"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.19",
+    "subject": "math.SG",
+    "name": "Flux exact-sequence theorem",
+    "statement": "For a closed connected symplectic manifold, the flux homomorphism induces an isomorphism from the identity component of the symplectomorphism group modulo its Hamiltonian subgroup to H¹(M;ℝ)/Γ, where Γ is the flux group of loops of symplectomorphisms.",
+    "references": [
+      {
+        "title": "Lectures on Groups of Symplectomorphisms — Dusa McDuff, Section 1.1",
+        "url": "https://arxiv.org/abs/math/0201032"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.20",
+    "subject": "math.SG",
+    "name": "Banyaga simplicity theorem",
+    "statement": "For a closed connected symplectic manifold of positive dimension, the group of Hamiltonian diffeomorphisms is a simple group: its only normal subgroups are the trivial subgroup and the entire group.",
+    "references": [
+      {
+        "title": "Lectures on Groups of Symplectomorphisms — Dusa McDuff, Section 1.1",
+        "url": "https://arxiv.org/abs/math/0201032"
+      }
+    ]
+  }
+]
