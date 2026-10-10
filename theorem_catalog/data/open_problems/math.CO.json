@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.CO.open.01",
+    "subject": "math.CO",
+    "name": "Hadwiger conjecture",
+    "statement": "For every integer k≥1, every finite simple graph with chromatic number at least k contains the complete graph K_k as a minor. A minor is obtained by deleting vertices or edges and contracting edges.",
+    "importance": "A central proposed link between graph coloring and graph minors.",
+    "status": "open",
+    "status_note": "The general conjecture remains open; the cases k≤6 are proved.",
+    "references": [
+      {
+        "title": "Hadwiger conjecture",
+        "url": "https://en.wikipedia.org/wiki/Hadwiger_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.open.02",
+    "subject": "math.CO",
+    "name": "Erdős–Hajnal conjecture",
+    "statement": "For every fixed finite graph H, there is ε(H)>0 such that every n-vertex graph with no induced copy of H has either a clique or an independent set of size at least n^ε(H).",
+    "importance": "Predicts unexpectedly strong structure in graphs excluding an induced subgraph.",
+    "status": "open",
+    "status_note": "Many forbidden graphs are understood, but the assertion for arbitrary H remains open.",
+    "references": [
+      {
+        "title": "Erdős–Hajnal conjecture",
+        "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Hajnal_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.open.03",
+    "subject": "math.CO",
+    "name": "Graceful tree conjecture",
+    "statement": "Every finite tree with m edges admits a bijective labeling of its vertices by 0,…,m such that the absolute differences of labels across its edges are exactly 1,…,m.",
+    "importance": "A foundational graph-labeling conjecture with links to graph decompositions.",
+    "status": "open",
+    "status_note": "Many families of trees and large finite ranges have been verified; arbitrary trees remain unresolved.",
+    "references": [
+      {
+        "title": "Graceful tree conjecture",
+        "url": "https://en.wikipedia.org/wiki/Graceful_labeling"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.open.04",
+    "subject": "math.CO",
+    "name": "Lovász Hamiltonian-path conjecture",
+    "statement": "Every finite connected vertex-transitive graph has a Hamiltonian path, a path visiting every vertex exactly once. Vertex-transitive means that graph automorphisms can send any vertex to any other.",
+    "importance": "A central question about whether symmetry forces spanning paths in graphs.",
+    "status": "open",
+    "status_note": "Many Cayley-graph and other symmetric families are understood; the general Hamiltonian-path assertion remains open.",
+    "references": [
+      {
+        "title": "Lovász Conjecture — Wolfram MathWorld",
+        "url": "https://mathworld.wolfram.com/LovaszConjecture.html"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.open.05",
+    "subject": "math.CO",
+    "name": "Tutte five-flow conjecture",
+    "statement": "Every finite bridgeless graph has a nowhere-zero 5-flow: orient its edges and assign each a nonzero integer of absolute value less than 5 so that total incoming and outgoing values agree at each vertex.",
+    "importance": "One of the central unsolved flow problems in graph theory.",
+    "status": "open",
+    "status_note": "Every bridgeless graph has a nowhere-zero 6-flow; replacing 6 by 5 remains open in general.",
+    "references": [
+      {
+        "title": "Tutte five-flow conjecture",
+        "url": "https://en.wikipedia.org/wiki/Nowhere-zero_flow"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.open.06",
+    "subject": "math.CO",
+    "name": "Berge–Fulkerson conjecture",
+    "statement": "Every finite bridgeless cubic graph has six perfect matchings, allowing repetition, such that each edge belongs to exactly two of the matchings.",
+    "importance": "A sharp structural conjecture linking perfect matchings, edge coloring, and cycle covers.",
+    "status": "open",
+    "status_note": "Cubic means every vertex has degree three; the bridgeless hypothesis is essential.",
+    "references": [
+      {
+        "title": "On Fulkerson conjecture",
+        "url": "https://arxiv.org/abs/0906.1086"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.open.07",
+    "subject": "math.CO",
+    "name": "Ryser conjecture on Latin transversals",
+    "statement": "Every Latin square of odd order n has a transversal: n cells with one in each row and column, containing each symbol exactly once.",
+    "importance": "A major matching problem underlying Latin squares and combinatorial designs.",
+    "status": "open",
+    "status_note": "Results on near-transversals and special classes do not resolve the full odd-order assertion.",
+    "references": [
+      {
+        "title": "Ryser conjecture on Latin transversals",
+        "url": "https://en.wikipedia.org/wiki/Transversal_(combinatorics)"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.open.08",
+    "subject": "math.CO",
+    "name": "Union-closed sets conjecture",
+    "statement": "For every finite family of finite sets that is closed under unions and contains a nonempty set, some element occurs in at least half the sets in the family.",
+    "importance": "A deceptively elementary extremal-set problem with broad influence.",
+    "status": "open",
+    "status_note": "Recent constant-fraction lower bounds do not reach the required one-half bound in general.",
+    "references": [
+      {
+        "title": "Union-closed sets conjecture",
+        "url": "https://en.wikipedia.org/wiki/Union-closed_sets_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.open.09",
+    "subject": "math.CO",
+    "name": "Caccetta–Häggkvist conjecture",
+    "statement": "Every finite simple directed graph on n vertices with minimum out-degree at least r≥1 contains a directed cycle of length at most ceil(n/r).",
+    "importance": "A basic proposed relationship between local directed degree and short cycles.",
+    "status": "open",
+    "status_note": "The general conjecture is open, including important cases demanding a directed triangle.",
+    "references": [
+      {
+        "title": "A Summary of Problems and Results related to the Caccetta–Häggkvist Conjecture",
+        "url": "https://arxiv.org/abs/math/0605646"
+      }
+    ]
+  },
+  {
+    "id": "math.CO.open.10",
+    "subject": "math.CO",
+    "name": "Graph reconstruction conjecture",
+    "statement": "Every finite simple graph on at least three vertices is determined up to isomorphism by the multiset of unlabeled graphs obtained by deleting one vertex at a time.",
+    "importance": "Asks whether all local vertex-deletion views determine a graph globally.",
+    "status": "open",
+    "status_note": "The restriction to at least three vertices is necessary; numerous graph classes are reconstructible.",
+    "references": [
+      {
+        "title": "Graph reconstruction conjecture",
+        "url": "https://en.wikipedia.org/wiki/Reconstruction_conjecture"
+      }
+    ]
+  }
+]

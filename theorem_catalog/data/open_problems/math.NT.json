@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.NT.open.01",
+    "subject": "math.NT",
+    "name": "Riemann hypothesis",
+    "statement": "Every nontrivial zero of the analytically continued Riemann zeta function ζ(s) has real part 1/2.",
+    "importance": "Controls the finest expected error bounds in the distribution of prime numbers.",
+    "status": "open",
+    "status_note": "Computations and partial zero-density results do not establish the assertion for every nontrivial zero.",
+    "references": [
+      {
+        "title": "Clay Mathematics Institute: Riemann Hypothesis",
+        "url": "https://www.claymath.org/millennium/riemann-hypothesis/"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.open.02",
+    "subject": "math.NT",
+    "name": "Birch and Swinnerton-Dyer conjecture",
+    "statement": "For every elliptic curve E over Q, the order of vanishing of its L-function L(E,s) at s=1 equals the rank of the finitely generated group E(Q).",
+    "importance": "Relates analytic behavior to the arithmetic abundance of rational points.",
+    "status": "open",
+    "status_note": "Important analytic-rank-zero and rank-one cases are known; the rank equality for arbitrary elliptic curves remains open.",
+    "references": [
+      {
+        "title": "Clay Mathematics Institute: Birch and Swinnerton-Dyer Conjecture",
+        "url": "https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.open.03",
+    "subject": "math.NT",
+    "name": "Twin prime conjecture",
+    "statement": "There are infinitely many primes p for which p+2 is also prime.",
+    "importance": "The simplest fixed-gap prediction for the distribution of primes.",
+    "status": "open",
+    "status_note": "Bounded gaps between primes are proved, but an infinitely recurring gap of exactly 2 is not.",
+    "references": [
+      {
+        "title": "Twin prime conjecture",
+        "url": "https://en.wikipedia.org/wiki/Twin_prime"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.open.04",
+    "subject": "math.NT",
+    "name": "Strong Goldbach conjecture",
+    "statement": "Every even integer greater than 2 is the sum of two prime numbers, with repetition allowed.",
+    "importance": "A foundational additive-prime problem whose elementary statement has resisted centuries of work.",
+    "status": "open",
+    "status_note": "The three-prime weak Goldbach theorem is proved; the two-prime assertion remains open.",
+    "references": [
+      {
+        "title": "Strong Goldbach conjecture",
+        "url": "https://en.wikipedia.org/wiki/Goldbach%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.open.05",
+    "subject": "math.NT",
+    "name": "Schanuel conjecture",
+    "statement": "For complex numbers z₁,…,z_n linearly independent over Q, the field Q(z₁,…,z_n,e^z₁,…,e^z_n) has transcendence degree at least n over Q.",
+    "importance": "Would unify major algebraic-independence predictions in transcendental number theory.",
+    "status": "open",
+    "status_note": "This is a conjecture about the usual complex exponential function; related results for special arguments do not prove it.",
+    "references": [
+      {
+        "title": "Schanuel conjecture",
+        "url": "https://en.wikipedia.org/wiki/Schanuel%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.open.06",
+    "subject": "math.NT",
+    "name": "Lehmer’s Mahler-measure problem",
+    "statement": "Is there a constant c>1 such that every nonzero algebraic integer α that is not a root of unity has Mahler measure at least c? For its monic minimal polynomial with roots α_i, the measure is ∏_i max(1,|α_i|).",
+    "importance": "Asks for a universal gap in the arithmetic complexity of algebraic numbers.",
+    "status": "open",
+    "status_note": "Bounds depending on the degree are known; a degree-independent gap above 1 remains open.",
+    "references": [
+      {
+        "title": "Lehmer’s Mahler-measure problem",
+        "url": "https://en.wikipedia.org/wiki/Lehmer%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.open.07",
+    "subject": "math.NT",
+    "name": "Lang–Trotter conjecture",
+    "statement": "For a non-CM elliptic curve E over Q and a fixed integer r, the number of good primes p≤x with p+1−#E(F_p)=r is asymptotic to C(E,r)√x/log x when the predicted constant C(E,r)>0.",
+    "importance": "Predicts fine statistics of Frobenius traces beyond broad equidistribution theorems.",
+    "status": "open",
+    "status_note": "The non-CM and positive-constant hypotheses exclude different asymptotics and arithmetic obstructions.",
+    "references": [
+      {
+        "title": "Lang–Trotter conjecture",
+        "url": "https://en.wikipedia.org/wiki/Lang%E2%80%93Trotter_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.open.08",
+    "subject": "math.NT",
+    "name": "Littlewood conjecture",
+    "statement": "For every pair of real numbers α,β, liminf as n→∞ of n·||nα||·||nβ|| equals 0, where ||x|| is the distance from x to the nearest integer.",
+    "importance": "A central simultaneous Diophantine-approximation problem with links to dynamics.",
+    "status": "open",
+    "status_note": "The conjecture is known for many pairs; strong bounds on the exceptional set do not show it is empty.",
+    "references": [
+      {
+        "title": "Littlewood conjecture",
+        "url": "https://en.wikipedia.org/wiki/Littlewood_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.open.09",
+    "subject": "math.NT",
+    "name": "Bunyakovsky conjecture",
+    "statement": "Every irreducible polynomial f∈Z[x] of positive degree with positive leading coefficient and no prime dividing f(n) for every integer n takes positive prime values at infinitely many positive integers.",
+    "importance": "Extends prime values in arithmetic progressions to nonlinear polynomials.",
+    "status": "open",
+    "status_note": "Degree one follows from Dirichlet’s theorem; no general theorem covers degree two, including n²+1.",
+    "references": [
+      {
+        "title": "Bunyakovsky conjecture",
+        "url": "https://en.wikipedia.org/wiki/Bunyakovsky_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.NT.open.10",
+    "subject": "math.NT",
+    "name": "Generalized Ramanujan–Petersson conjecture",
+    "statement": "Every unitary cuspidal automorphic representation of GL_n over a number field is tempered at every unramified finite place; equivalently, its normalized unramified Satake parameters all have absolute value 1.",
+    "importance": "A central size bound for automorphic forms that drives analytic-number-theory estimates.",
+    "status": "open",
+    "status_note": "Major special cases are proved, including holomorphic modular forms; general Maass forms and higher-rank representations remain unresolved.",
+    "references": [
+      {
+        "title": "Generalized Ramanujan–Petersson conjecture",
+        "url": "https://en.wikipedia.org/wiki/Ramanujan%E2%80%93Petersson_conjecture"
+      }
+    ]
+  }
+]

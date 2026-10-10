@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.GT.open.01",
+    "subject": "math.GT",
+    "name": "Smooth four-dimensional Poincaré conjecture",
+    "statement": "Is every closed smooth four-manifold homotopy equivalent to S^4 diffeomorphic to the standard S^4?",
+    "importance": "It asks whether the simplest topological four-manifold can carry an exotic smooth structure.",
+    "status": "open",
+    "status_note": "The topological four-dimensional Poincaré theorem is proved; the smooth question in dimension four remains open.",
+    "references": [
+      {
+        "title": "Smooth Poincaré conjecture",
+        "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture#The_smooth_Poincar%C3%A9_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.open.02",
+    "subject": "math.GT",
+    "name": "Smooth four-dimensional Schoenflies conjecture",
+    "statement": "Does every smooth embedding S^3 into S^4 separate S^4 into two manifolds each diffeomorphic to the standard four-ball?",
+    "importance": "It controls the relation between embedded spheres, smooth balls, and exotic four-dimensional topology.",
+    "status": "open",
+    "status_note": "The locally flat topological version and the smooth versions outside the exceptional four-dimensional case are known.",
+    "references": [
+      {
+        "title": "Schoenflies problem",
+        "url": "https://en.wikipedia.org/wiki/Schoenflies_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.open.03",
+    "subject": "math.GT",
+    "name": "Exotic smooth structures on the complex projective plane",
+    "statement": "Does the topological manifold CP^2 admit a smooth structure not diffeomorphic to its standard complex smooth structure?",
+    "importance": "CP^2 is a basic test case for the limits of smooth four-manifold classification.",
+    "status": "open",
+    "status_note": "Exotic structures are known on many blowups and on manifolds with larger intersection forms; their existence on CP^2 itself is unresolved.",
+    "references": [
+      {
+        "title": "4-Manifolds and Kirby Calculus",
+        "url": "https://doi.org/10.1090/gsm/020"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.open.04",
+    "subject": "math.GT",
+    "name": "Andrews–Curtis conjecture",
+    "statement": "Can every balanced finite presentation of the trivial group be transformed to the standard trivial presentation using Nielsen moves on relators and conjugation of individual relators?",
+    "importance": "It connects group presentations to handle cancellation and smooth four-dimensional topology.",
+    "status": "open",
+    "status_note": "Several candidate counterexamples remain unverified; variants allowing stabilization are separate questions.",
+    "references": [
+      {
+        "title": "Andrews–Curtis conjecture",
+        "url": "https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.open.05",
+    "subject": "math.GT",
+    "name": "Slice–ribbon conjecture",
+    "statement": "Is every knot in S^3 that bounds a smoothly embedded disk in B^4 a ribbon knot?",
+    "importance": "It would give a three-dimensional description of a fundamental four-dimensional knot property.",
+    "status": "open",
+    "status_note": "This is the smooth statement; topologically slice knots are not all ribbon. Known special classes and proposed counterexamples do not settle the general smooth question.",
+    "references": [
+      {
+        "title": "Slice–ribbon conjecture",
+        "url": "https://en.wikipedia.org/wiki/Slice-ribbon_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.open.06",
+    "subject": "math.GT",
+    "name": "Cabling conjecture",
+    "statement": "If Dehn surgery on a nontrivial knot in S^3 yields a reducible three-manifold, must the knot be a torus knot or a cable knot (including a cable of the unknot), with surgery at the corresponding cabling slope?",
+    "importance": "It predicts exactly how reducible manifolds can arise through knot surgery.",
+    "status": "open",
+    "status_note": "The question concerns surgery on knots in S^3; many families, including satellite subcases, are understood.",
+    "references": [
+      {
+        "title": "Cabling conjecture",
+        "url": "https://en.wikipedia.org/wiki/Cabling_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.open.07",
+    "subject": "math.GT",
+    "name": "Purely cosmetic surgery conjecture",
+    "statement": "For a nontrivial knot in S^3, can surgeries along two distinct slopes ever produce orientation-preservingly homeomorphic three-manifolds?",
+    "importance": "It asks how much a filled three-manifold remembers the slope used to construct it.",
+    "status": "open",
+    "status_note": "Orientation-reversing cosmetic surgeries can occur and are excluded; strong restrictions on possible orientation-preserving pairs are known.",
+    "references": [
+      {
+        "title": "The purely cosmetic surgery conjecture is true for the Kinoshita-Terasaka and Conway knot families",
+        "url": "https://arxiv.org/abs/2009.00522"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.open.08",
+    "subject": "math.GT",
+    "name": "Generalized Property R conjecture",
+    "statement": "If zero-framed surgery on an n-component link in S^3 gives the connected sum of n copies of S^1 × S^2, can the framed link be changed by handle slides to the zero-framed n-component unlink?",
+    "importance": "It links surgery descriptions of three-manifolds with handle decompositions of four-manifolds.",
+    "status": "open",
+    "status_note": "The one-component case is Gabai’s Property R theorem; the general question for n at least two is open.",
+    "references": [
+      {
+        "title": "Fibered knots and Property 2R, II",
+        "url": "https://arxiv.org/abs/0908.2795"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.open.09",
+    "subject": "math.GT",
+    "name": "Berge conjecture on lens-space surgeries",
+    "statement": "Is every knot in S^3 admitting a nontrivial Dehn surgery to a lens space a doubly primitive knot in Berge’s families?",
+    "importance": "It seeks a complete classification of one of the most constrained exceptional surgeries.",
+    "status": "open",
+    "status_note": "The corresponding classification of which lens spaces arise is known in substantial form; classifying all surgery knots remains open.",
+    "references": [
+      {
+        "title": "Berge conjecture",
+        "url": "https://en.wikipedia.org/wiki/Berge_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GT.open.10",
+    "subject": "math.GT",
+    "name": "Volume conjecture for hyperbolic knots",
+    "statement": "For every hyperbolic knot K in S^3, does lim as N tends to infinity of (2π/N) log |J_N(K; exp(2πi/N))| equal the hyperbolic volume of S^3 minus K, with J_N normalized to be 1 on the unknot?",
+    "importance": "It predicts that quantum knot invariants recover classical hyperbolic geometry.",
+    "status": "open",
+    "status_note": "The limit is proved for particular knots, including the figure-eight knot, but not for all hyperbolic knots.",
+    "references": [
+      {
+        "title": "Volume conjecture",
+        "url": "https://en.wikipedia.org/wiki/Volume_conjecture"
+      }
+    ]
+  }
+]

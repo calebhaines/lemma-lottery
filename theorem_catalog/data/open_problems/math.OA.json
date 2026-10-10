@@ -1,0 +1,160 @@
+[
+  {
+    "id": "math.OA.open.01",
+    "subject": "math.OA",
+    "name": "Kadison’s similarity problem",
+    "statement": "For every unital C*-algebra A, is every bounded unital algebra homomorphism π:A→B(H) similar, by an invertible operator on H, to a *-homomorphism?",
+    "importance": "It asks whether bounded algebra representations automatically respect the Hilbert-space structure after a change of coordinates.",
+    "status": "open",
+    "status_note": "Nuclear algebras and several other classes have affirmative results; arbitrary C*-algebras remain open.",
+    "references": [
+      {
+        "title": "Pisier, Similarity Problems and Completely Bounded Maps",
+        "url": "https://doi.org/10.1007/978-3-662-21537-1"
+      }
+    ]
+  },
+  {
+    "id": "math.OA.open.02",
+    "subject": "math.OA",
+    "name": "Universal coefficient theorem problem",
+    "statement": "Does every separable nuclear C*-algebra satisfy the Rosenberg–Schochet universal coefficient theorem relating KK-theory to homomorphisms and Ext of its K-groups?",
+    "importance": "A positive answer would remove a major structural hypothesis from the classification of nuclear C*-algebras.",
+    "status": "open",
+    "status_note": "The UCT is known for the bootstrap class and many concrete algebras; separable nuclearity alone is the unresolved scope.",
+    "references": [
+      {
+        "title": "The UCT problem for nuclear C*-algebras",
+        "url": "https://doi.org/10.1216/rmj.2022.52.817"
+      }
+    ]
+  },
+  {
+    "id": "math.OA.open.03",
+    "subject": "math.OA",
+    "name": "Blackadar–Kirchberg quasidiagonality problem",
+    "statement": "Is every separable unital nuclear stably finite C*-algebra quasidiagonal?",
+    "importance": "It asks whether all such algebras admit finite-dimensional operator approximations and underlies classification by finite models.",
+    "status": "open",
+    "status_note": "Major positive results assume the UCT or additional trace hypotheses. Arbitrary separable nuclear stably finite algebras are the open scope.",
+    "references": [
+      {
+        "title": "Tikuisis, White and Winter, Quasidiagonality of nuclear C*-algebras",
+        "url": "https://arxiv.org/abs/1509.08318"
+      }
+    ]
+  },
+  {
+    "id": "math.OA.open.04",
+    "subject": "math.OA",
+    "name": "Free group factor isomorphism problem",
+    "statement": "Are the group von Neumann algebras L(F₂) and L(F₃) isomorphic as von Neumann algebras?",
+    "importance": "It tests whether free-group rank survives passage from groups to their operator algebras.",
+    "status": "open",
+    "status_note": "The free group factors are fundamental examples of nonamenable II₁ factors; available invariants do not decide this isomorphism question.",
+    "references": [
+      {
+        "title": "Dykema, Interpolated free group factors",
+        "url": "https://arxiv.org/abs/funct-an/9211012"
+      }
+    ]
+  },
+  {
+    "id": "math.OA.open.05",
+    "subject": "math.OA",
+    "name": "Single-generator problem for II₁ factors",
+    "statement": "Is every II₁ factor with separable predual generated as a von Neumann algebra by one operator, equivalently by two self-adjoint operators?",
+    "importance": "It asks how much operator data is needed to describe an arbitrary finite factor.",
+    "status": "open",
+    "status_note": "Many classes are singly generated, but separable predual alone is not known to suffice.",
+    "references": [
+      {
+        "title": "Shen, Singly Generated II₁ Factors",
+        "url": "https://arxiv.org/abs/math/0511327"
+      },
+      {
+        "title": "Popa, Tight decomposition of factors and the single generation problem",
+        "url": "https://arxiv.org/abs/1910.14653"
+      }
+    ]
+  },
+  {
+    "id": "math.OA.open.06",
+    "subject": "math.OA",
+    "name": "Dixmier’s unitarizability problem",
+    "statement": "If every uniformly bounded representation of a discrete group G on a Hilbert space is similar to a unitary representation, must G be amenable?",
+    "importance": "It seeks an operator-theoretic characterization of group amenability.",
+    "status": "open",
+    "status_note": "Amenable groups are unitarizable, and many nonamenable groups are known not to be; the converse for all discrete groups remains open.",
+    "references": [
+      {
+        "title": "Pisier, Are Unitarizable Groups Amenable?",
+        "url": "https://doi.org/10.1007/3-7643-7447-0_8"
+      }
+    ]
+  },
+  {
+    "id": "math.OA.open.07",
+    "subject": "math.OA",
+    "name": "Kaplansky’s zero-divisor conjecture over ℂ",
+    "statement": "For every torsion-free discrete group G, is the complex group algebra ℂ[G] free of nonzero zero divisors?",
+    "importance": "It asks whether torsion-free group structure prevents algebraic cancellation in finitely supported convolution operators.",
+    "status": "open",
+    "status_note": "The conjecture is known for many group classes. Counterexamples to the separate unit conjecture do not disprove this zero-divisor assertion.",
+    "references": [
+      {
+        "title": "Kaplansky’s conjectures",
+        "url": "https://en.wikipedia.org/wiki/Kaplansky%27s_conjectures"
+      }
+    ]
+  },
+  {
+    "id": "math.OA.open.08",
+    "subject": "math.OA",
+    "name": "Strict comparison implies Jiang–Su stability",
+    "statement": "For every infinite-dimensional simple separable unital nuclear stably finite C*-algebra A, does strict comparison of positive elements by traces imply A ≅ A⊗Z, where Z is the Jiang–Su algebra?",
+    "importance": "This is the remaining structural implication connecting order, regularity, and classification in the Toms–Winter program.",
+    "status": "open",
+    "status_note": "Many additional hypotheses give the implication. The statement does not assert that the already established equivalence with finite nuclear dimension is unresolved.",
+    "references": [
+      {
+        "title": "Castillejos, Evington, Tikuisis and White, Uniform property Gamma",
+        "url": "https://arxiv.org/abs/1912.04207"
+      }
+    ]
+  },
+  {
+    "id": "math.OA.open.09",
+    "subject": "math.OA",
+    "name": "Single-commutator problem in finite factors",
+    "statement": "For every II₁ factor M with normalized trace τ and every x∈M with τ(x)=0, do there exist a,b∈M such that x=ab−ba?",
+    "importance": "It asks whether the trace is the only obstruction to expressing an operator as one commutator.",
+    "status": "open",
+    "status_note": "Trace-zero elements are sums of finitely many commutators, and single-commutator results cover special cases; the general one-commutator problem is open.",
+    "references": [
+      {
+        "title": "Dykema and Skripka, On single commutators in II₁-factors",
+        "url": "https://doi.org/10.1090/S0002-9939-2011-10953-5"
+      }
+    ]
+  },
+  {
+    "id": "math.OA.open.10",
+    "subject": "math.OA",
+    "name": "Naimark’s problem in ZFC",
+    "statement": "Does ZFC alone prove the existence of a C*-algebra having exactly one irreducible representation up to unitary equivalence but not isomorphic to compact operators on any Hilbert space?",
+    "importance": "It probes how much set-theoretic dependence is inherent in the structure of nonseparable operator algebras.",
+    "status": "open",
+    "status_note": "No separable counterexample exists. The diamond principle gives nonseparable counterexamples; whether the unrestricted existence assertion follows from ZFC remains open.",
+    "references": [
+      {
+        "title": "Akemann and Weaver, Consistency of a counterexample to Naimark’s problem",
+        "url": "https://arxiv.org/abs/math/0312135"
+      },
+      {
+        "title": "Banach space theoretical construction of (primitive) spectra of C*-algebras and the Naimark problem revisited",
+        "url": "https://arxiv.org/abs/2504.05551"
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.CV.open.01",
+    "subject": "math.CV",
+    "name": "Two-dimensional Jacobian conjecture",
+    "statement": "If F:ℂ²→ℂ² is a polynomial map whose Jacobian determinant is a nonzero constant, must F have a polynomial inverse?",
+    "importance": "It is a fundamental proposed bridge between local holomorphic invertibility and global algebraic invertibility.",
+    "status": "open",
+    "status_note": "The entry restricts to dimension two; results and recent claims in other dimensions do not resolve this case.",
+    "references": [
+      {
+        "title": "Jacobian conjecture",
+        "url": "https://en.wikipedia.org/wiki/Jacobian_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.open.02",
+    "subject": "math.CV",
+    "name": "Brennan’s conjecture",
+    "statement": "For every simply connected proper plane domain Ω and conformal bijection φ:Ω→D, is ∫_Ω |φ′(z)|^p dA(z) finite for every 4/3<p<4?",
+    "importance": "It predicts sharp integrability of conformal-map derivatives and links complex analysis with Sobolev theory.",
+    "status": "open",
+    "status_note": "The endpoint exponents are excluded, and only portions of the full exponent interval and special domain classes are known.",
+    "references": [
+      {
+        "title": "Gol’dshtein and Ukhlov, Sobolev homeomorphisms and Brennan’s conjecture",
+        "url": "https://arxiv.org/abs/1309.1940"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.open.03",
+    "subject": "math.CV",
+    "name": "Greene–Krantz conjecture",
+    "statement": "For a bounded domain Ω⊂ℂⁿ with C∞ boundary, must every boundary orbit accumulation point of its holomorphic automorphism group be of finite D’Angelo type?",
+    "importance": "It is central to classifying domains with large automorphism groups through boundary geometry.",
+    "status": "open",
+    "status_note": "There are proofs for important special classes, including convex situations; the general smooth-domain statement is unresolved.",
+    "references": [
+      {
+        "title": "The Greene–Krantz Conjecture in Dimension Two",
+        "url": "https://arxiv.org/abs/1307.5350"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.open.04",
+    "subject": "math.CV",
+    "name": "Ramadanov conjecture in higher dimension",
+    "statement": "For a bounded strictly pseudoconvex C∞ domain Ω⊂ℂⁿ with n≥3, if the logarithmic coefficient in the Fefferman expansion of its Bergman kernel vanishes to infinite order at the boundary, must that boundary be locally CR equivalent to the sphere?",
+    "importance": "It asks whether an analytic feature of the Bergman kernel determines spherical boundary geometry.",
+    "status": "open",
+    "status_note": "The dimension-two case is known; this entry concerns the unresolved higher-dimensional implication, not the resolved Cheng conjecture.",
+    "references": [
+      {
+        "title": "Engliš and Zhang, Ramadanov conjecture and line bundles over compact Hermitian symmetric spaces",
+        "url": "https://arxiv.org/abs/0810.5256"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.open.05",
+    "subject": "math.CV",
+    "name": "Proper embeddings of open Riemann surfaces into ℂ²",
+    "statement": "Does every connected open Riemann surface admit a proper holomorphic embedding into ℂ²?",
+    "importance": "It is the sharp embedding-dimension problem for one-dimensional Stein manifolds.",
+    "status": "open",
+    "status_note": "Proper embeddings into ℂ³ and many ℂ² special cases are known; the universal ℂ² assertion remains open.",
+    "references": [
+      {
+        "title": "Forstnerič and Wold, Bordered Riemann surfaces in ℂ²",
+        "url": "https://arxiv.org/abs/0708.2887"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.open.06",
+    "subject": "math.CV",
+    "name": "Exact Bloch constant",
+    "statement": "Determine the largest universal B such that every holomorphic f on D with f′(0)=1 has a subdomain on which f is injective and whose image is a Euclidean disk of radius B.",
+    "importance": "This is a basic sharp constant governing the size of schlicht disks inside holomorphic images.",
+    "status": "open",
+    "status_note": "Positive lower and upper bounds are known; the conjectured extremal value has not been proved.",
+    "references": [
+      {
+        "title": "Bloch’s theorem and Bloch’s constant",
+        "url": "https://en.wikipedia.org/wiki/Bloch%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.open.07",
+    "subject": "math.CV",
+    "name": "Exact Landau constant",
+    "statement": "Determine the largest universal L such that, for every holomorphic f on D with f′(0)=1, the image f(D) contains a Euclidean disk of radius L.",
+    "importance": "It is a classical extremal problem on how much geometric size is forced by one derivative value.",
+    "status": "open",
+    "status_note": "Unlike the Bloch constant, the preimage need not be a domain of injectivity. The exact optimal constant remains unknown.",
+    "references": [
+      {
+        "title": "Bloch’s theorem — discussion of Bloch and Landau constants",
+        "url": "https://en.wikipedia.org/wiki/Bloch%27s_theorem"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.open.08",
+    "subject": "math.CV",
+    "name": "Four exponentials conjecture",
+    "statement": "If x₁,x₂ are complex numbers linearly independent over ℚ and y₁,y₂ are complex numbers linearly independent over ℚ, must at least one of exp(xᵢyⱼ), 1≤i,j≤2, be transcendental?",
+    "importance": "It is a central proposed restriction on algebraic relations among complex exponential values.",
+    "status": "open",
+    "status_note": "The six exponentials theorem proves the analogous assertion for a 2-by-3 array; the 2-by-2 case remains open.",
+    "references": [
+      {
+        "title": "Four exponentials conjecture",
+        "url": "https://en.wikipedia.org/wiki/Four_exponentials_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.open.09",
+    "subject": "math.CV",
+    "name": "Universal integral-means spectrum",
+    "statement": "Determine, for every real p, the exact supremum over bounded univalent functions f on D of limsup_{r→1⁻} log(∫₀^{2π}|f′(re^{it})|^p dt)/log(1/(1−r)).",
+    "importance": "The spectrum measures the most extreme boundary distortion allowed by conformal maps and includes major derivative-integrability questions.",
+    "status": "open",
+    "status_note": "Sharp values in some exponent ranges and many bounds are known; the full spectrum for bounded univalent maps is not determined.",
+    "references": [
+      {
+        "title": "Complex exponential integral means spectra of univalent functions and the Brennan conjecture",
+        "url": "https://arxiv.org/abs/2512.09330"
+      }
+    ]
+  },
+  {
+    "id": "math.CV.open.10",
+    "subject": "math.CV",
+    "name": "Schanuel’s conjecture",
+    "statement": "If z₁,…,z_n∈ℂ are linearly independent over ℚ, is the transcendence degree over ℚ of ℚ(z₁,…,z_n,e^{z₁},…,e^{z_n}) at least n?",
+    "importance": "It would organize a vast range of open questions about algebraic relations among complex exponentials.",
+    "status": "open",
+    "status_note": "Several classical transcendence theorems cover special settings, but the general assertion remains unproved.",
+    "references": [
+      {
+        "title": "Schanuel’s conjecture",
+        "url": "https://en.wikipedia.org/wiki/Schanuel%27s_conjecture"
+      }
+    ]
+  }
+]

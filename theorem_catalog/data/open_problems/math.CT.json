@@ -1,0 +1,164 @@
+[
+  {
+    "id": "math.CT.open.01",
+    "subject": "math.CT",
+    "name": "Pivotal structure conjecture for fusion categories",
+    "statement": "Does every fusion category over C admit a pivotal structure, that is, a monoidal natural isomorphism from the identity functor to the double-dual functor?",
+    "importance": "Would give a uniform duality and trace formalism for all finite semisimple tensor categories.",
+    "status": "open",
+    "status_note": "Known for pseudo-unitary categories and many other classes; arbitrary fusion categories are not assumed to be pseudo-unitary.",
+    "references": [
+      {
+        "title": "Etingof, Nikshych and Ostrik, On fusion categories",
+        "url": "https://arxiv.org/abs/math/0203060"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.open.02",
+    "subject": "math.CT",
+    "name": "Rank finiteness for fusion categories",
+    "statement": "For every positive integer r, are there only finitely many equivalence classes of fusion categories over C with exactly r isomorphism classes of simple objects?",
+    "importance": "Would reduce classification at each rank to a finite problem.",
+    "status": "open",
+    "status_note": "Rank finiteness is proved for modular categories. The entry asks about all fusion categories, a broader class.",
+    "references": [
+      {
+        "title": "Bruillard, Ng, Rowell and Wang, Rank-finiteness for modular categories",
+        "url": "https://arxiv.org/abs/1310.7050"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.open.03",
+    "subject": "math.CT",
+    "name": "Categorical Frobenius divisibility conjecture",
+    "statement": "For a fusion category C over C and a simple object X, must FPdim(C)/FPdim(X) be an algebraic integer?",
+    "importance": "Extends Frobenius divisibility of group representation degrees to arbitrary fusion categories.",
+    "status": "open",
+    "status_note": "Known for weakly group-theoretical categories and several other families; the unrestricted fusion-category statement is open.",
+    "references": [
+      {
+        "title": "Etingof, Nikshych and Ostrik, Weakly group-theoretical and solvable fusion categories",
+        "url": "https://arxiv.org/abs/0809.3031"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.open.04",
+    "subject": "math.CT",
+    "name": "Weakly integral fusion categories conjecture",
+    "statement": "Is every fusion category over C with integer Frobenius–Perron dimension weakly group-theoretical, meaning Morita equivalent to a category obtained by successive finite-group extensions from Vec?",
+    "importance": "Would give a structural classification of a large class of tensor categories using finite groups.",
+    "status": "open",
+    "status_note": "The weakly group-theoretical class includes all known weakly integral examples; this does not claim that all such categories are group-theoretical.",
+    "references": [
+      {
+        "title": "Etingof, Nikshych and Ostrik, Weakly group-theoretical and solvable fusion categories",
+        "url": "https://arxiv.org/abs/0809.3031"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.open.05",
+    "subject": "math.CT",
+    "name": "Property F conjecture for braided fusion categories",
+    "statement": "If a braided fusion category C over C is weakly integral, must every braid-group representation on Hom(Y,X^{⊗n}), obtained from its braiding, have finite image for all objects X,Y and n≥1?",
+    "importance": "Links arithmetic properties of tensor categories to finiteness of quantum braid representations.",
+    "status": "open",
+    "status_note": "Known for weakly group-theoretical braided categories and many explicit families. The question includes weakly integral categories beyond those cases.",
+    "references": [
+      {
+        "title": "Naidu and Rowell, A finiteness property for braided fusion categories",
+        "url": "https://arxiv.org/abs/0903.4157"
+      },
+      {
+        "title": "Li and Ruan, Generalized property F for weakly group-theoretical modular fusion categories",
+        "url": "https://arxiv.org/abs/2610.05177"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.open.06",
+    "subject": "math.CT",
+    "name": "Vertex-operator-algebra realization of unitary modular categories",
+    "statement": "Is every unitary modular tensor category braided equivalent to the representation category of a unitary rational C_2-cofinite vertex operator algebra of CFT type?",
+    "importance": "Would realize all algebraic anyon models as chiral conformal field theories.",
+    "status": "open",
+    "status_note": "Many lattice, affine, and other examples are realized; arbitrary unitary modular categories are still outside a general realization theorem.",
+    "references": [
+      {
+        "title": "Wang and Wang, In and around Abelian anyon models",
+        "url": "https://arxiv.org/abs/2004.12048"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.open.07",
+    "subject": "math.CT",
+    "name": "Conformal-net realization of unitary modular categories",
+    "statement": "Is every unitary modular tensor category braided equivalent to the category of finite-index representations of some completely rational local conformal net?",
+    "importance": "Connects tensor-category classification with analytic constructions of quantum field theory.",
+    "status": "open",
+    "status_note": "Established for several important families; the general conformal-net realization problem remains open.",
+    "references": [
+      {
+        "title": "Bischoff, Conformal Net Realizability of Tambara–Yamagami Categories and Generalized Metaplectic Modular Categories",
+        "url": "https://arxiv.org/abs/1803.04949"
+      },
+      {
+        "title": "Wang and Wang, In and around Abelian anyon models",
+        "url": "https://arxiv.org/abs/2004.12048"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.open.08",
+    "subject": "math.CT",
+    "name": "Grothendieck homotopy hypothesis for coherator groupoids",
+    "statement": "For a Grothendieck coherator, does the associated category of weak infinity-groupoids, localized at its homotopy-group equivalences, present the homotopy theory of spaces?",
+    "importance": "Would validate Grothendieck’s algebraic globular description of arbitrary homotopy types.",
+    "status": "open",
+    "status_note": "The homotopy hypothesis is proved for many other models of weak groupoids. This entry specifically concerns Grothendieck coherator groupoids.",
+    "references": [
+      {
+        "title": "Algebraic coherators, controlled theories, and Grothendieck realizations",
+        "url": "https://arxiv.org/abs/2607.28540"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.open.09",
+    "subject": "math.CT",
+    "name": "General weak-unit semistrictification conjecture",
+    "statement": "Can all homotopy types be modeled by non-unital strict infinity-categories in which every horizontal, vertical, and whiskering composition is defined and compatible, with weak units and weak inverses, as in Henry’s general version of Simpson’s conjecture?",
+    "importance": "Asks how much coherence can be made strict without losing the homotopy information of spaces.",
+    "status": "open",
+    "status_note": "Henry’s regular version is proved, and later regular semistrict models are known. The more restrictive general version with all strict composition operations is the question here.",
+    "references": [
+      {
+        "title": "Henry, Regular polygraphs and the Simpson conjecture",
+        "url": "https://arxiv.org/abs/1807.02627"
+      },
+      {
+        "title": "Chanavat and Hadzihasanovic, Semi-strictification of (infinity,n)-categories",
+        "url": "https://arxiv.org/abs/2507.00146"
+      }
+    ]
+  },
+  {
+    "id": "math.CT.open.10",
+    "subject": "math.CT",
+    "name": "Freyd generating hypothesis",
+    "statement": "In the stable homotopy category, must a map between finite spectra be zero if it induces zero on all stable homotopy groups?",
+    "importance": "Asks whether a basic homological functor faithfully detects morphisms in a central triangulated category.",
+    "status": "open",
+    "status_note": "This is the original finite-spectra hypothesis; some analogues in derived or representation categories are false or have different answers.",
+    "references": [
+      {
+        "title": "Devinatz, The generating hypothesis revisited",
+        "url": "https://doi.org/10.1090/fic/019/06"
+      }
+    ]
+  }
+]

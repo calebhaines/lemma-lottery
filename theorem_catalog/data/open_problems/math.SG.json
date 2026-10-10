@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.SG.open.01",
+    "subject": "math.SG",
+    "name": "Weinstein conjecture in higher dimensions",
+    "statement": "Does every Reeb vector field on every closed cooriented contact manifold of dimension at least five have a periodic orbit?",
+    "importance": "It predicts the existence of closed trajectories for a broad class of constrained Hamiltonian systems.",
+    "status": "open",
+    "status_note": "The three-dimensional case is proved, as are many higher-dimensional cases with extra hypotheses; the general higher-dimensional statement remains open.",
+    "references": [
+      {
+        "title": "Weinstein conjecture",
+        "url": "https://en.wikipedia.org/wiki/Weinstein_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.open.02",
+    "subject": "math.SG",
+    "name": "Nearby Lagrangian conjecture",
+    "statement": "For every closed connected smooth manifold Q, is every closed exact Lagrangian submanifold of T*Q Hamiltonian isotopic to the zero section?",
+    "importance": "It asks whether cotangent bundles contain any genuinely different closed exact Lagrangian geometry.",
+    "status": "open",
+    "status_note": "Exactness refers to the restriction of the canonical Liouville form. Strong homotopy-equivalence results are known but do not establish Hamiltonian isotopy in general.",
+    "references": [
+      {
+        "title": "Simple Homotopy Equivalence of Nearby Lagrangians",
+        "url": "https://arxiv.org/abs/1603.05431"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.open.03",
+    "subject": "math.SG",
+    "name": "Arnold chord conjecture in higher dimensions",
+    "statement": "For every contact form on a closed contact manifold of dimension at least five and every closed Legendrian submanifold L, does the Reeb flow have a nonconstant finite-time trajectory with both endpoints on L?",
+    "importance": "It is a fundamental intersection and recurrence question for Legendrian submanifolds.",
+    "status": "open",
+    "status_note": "The three-dimensional case is proved. Endpoints are allowed to coincide: demanding distinct endpoints is a stronger assertion with counterexamples.",
+    "references": [
+      {
+        "title": "Proof of the Arnold chord conjecture in three dimensions II",
+        "url": "https://arxiv.org/abs/1111.3324"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.open.04",
+    "subject": "math.SG",
+    "name": "Symplectic isotopy conjecture for plane curves",
+    "statement": "Is every smooth connected embedded symplectic surface in (CP^2, ω_FS) symplectically isotopic to a smooth complex algebraic curve?",
+    "importance": "It asks whether symplectic geometry allows new smooth plane-curve types beyond algebraic geometry.",
+    "status": "open",
+    "status_note": "The assertion is proved through degree 17; unrestricted higher-degree smooth curves remain open. Singular-curve variants have different answers.",
+    "references": [
+      {
+        "title": "A new approach to the symplectic isotopy problem",
+        "url": "https://arxiv.org/abs/1709.02544"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.open.05",
+    "subject": "math.SG",
+    "name": "Uniqueness of symplectic forms on higher projective spaces",
+    "statement": "For n at least three, is every symplectic form on CP^n cohomologous to the Fubini–Study form carried to that form by a diffeomorphism?",
+    "importance": "It tests whether a basic algebraic manifold admits any exotic symplectic geometry.",
+    "status": "open",
+    "status_note": "Uniqueness is known for CP^2 after normalization; the corresponding higher-dimensional classification is unresolved.",
+    "references": [
+      {
+        "title": "Uniqueness of Symplectic Structures",
+        "url": "https://arxiv.org/abs/1211.2940"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.open.06",
+    "subject": "math.SG",
+    "name": "Homotopy type of higher projective-space symplectomorphism groups",
+    "statement": "Determine the homotopy type of Symp(CP^n, ω_FS) for n at least three; in particular, is the inclusion PU(n+1) into this group a homotopy equivalence?",
+    "importance": "It seeks to compare the full nonlinear symmetry group with the classical projective unitary symmetries.",
+    "status": "open",
+    "status_note": "The analogous statement for CP^2 follows from Gromov’s work; the higher-dimensional problem remains open.",
+    "references": [
+      {
+        "title": "Uniqueness of Symplectic Structures",
+        "url": "https://arxiv.org/abs/1211.2940"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.open.07",
+    "subject": "math.SG",
+    "name": "Unboundedness of Hofer’s metric",
+    "statement": "Does the group Ham(M, ω) have infinite diameter in Hofer’s metric for every closed connected positive-dimensional symplectic manifold (M, ω)?",
+    "importance": "It asks whether Hamiltonian transformations always exhibit arbitrarily large symplectic energy cost.",
+    "status": "open",
+    "status_note": "Unboundedness is known for many manifolds; the unrestricted assertion for all closed symplectic manifolds remains open.",
+    "references": [
+      {
+        "title": "The Geometry of the Group of Symplectic Diffeomorphism",
+        "url": "https://doi.org/10.1007/978-3-0348-8299-6"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.open.08",
+    "subject": "math.SG",
+    "name": "C^0 flux conjecture",
+    "statement": "Is Ham(M, ω) closed inside the identity component Symp_0(M, ω) in the C^0 topology for every closed symplectic manifold?",
+    "importance": "It asks whether the Hamiltonian condition survives uniform limits that remain smooth symplectomorphisms.",
+    "status": "open",
+    "status_note": "C^1 closedness follows from the proved flux conjecture; C^0 closedness is known in various cases but remains open in general.",
+    "references": [
+      {
+        "title": "Towards the C^0 flux conjecture",
+        "url": "https://arxiv.org/abs/1309.1325"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.open.09",
+    "subject": "math.SG",
+    "name": "Closed-characteristic multiplicity conjecture",
+    "statement": "Does every smooth compact hypersurface in R^(2n) that is strictly star-shaped with respect to the origin carry at least n geometrically distinct simple closed characteristics, for every n at least three?",
+    "importance": "It predicts the minimum number of periodic trajectories forced by the geometry of a Hamiltonian energy surface.",
+    "status": "open",
+    "status_note": "Recent results establish this bound for dynamically convex Reeb flows. The unrestricted star-shaped case, without convexity or nondegeneracy assumptions, remains open.",
+    "references": [
+      {
+        "title": "Closed Orbits of Dynamically Convex Reeb Flows: Towards the HZ- and Multiplicity Conjectures",
+        "url": "https://arxiv.org/abs/2410.13093"
+      }
+    ]
+  },
+  {
+    "id": "math.SG.open.10",
+    "subject": "math.SG",
+    "name": "Smooth local middle-dimensional non-squeezing",
+    "statement": "For a smooth symplectic embedding φ defined near a point x in R^(2n) and orthogonal projection P onto a complex linear subspace of real dimension 2k, with 1 less than k less than n, must vol_(2k)(Pφ(B(x,r))) be at least the volume of B^(2k)(r) for all sufficiently small positive r?",
+    "importance": "It asks whether local symplectic rigidity controls projections in dimensions between two and the full ambient dimension.",
+    "status": "open",
+    "status_note": "The local assertion is proved for real-analytic embeddings; unrestricted global middle-dimensional non-squeezing is false. The smooth local version remains open.",
+    "references": [
+      {
+        "title": "Local middle dimensional symplectic non-squeezing in the analytic setting",
+        "url": "https://arxiv.org/abs/1508.04015"
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "selection_policy": "10 curated important unresolved problems per arXiv mathematics subject. Importance is editorial judgment, not an official ranking or a claim of universal consensus. Each entry states a concrete question, explains its significance, and records qualifications or partial progress with references. General Mathematics emphasizes accessible problems; History and Overview emphasizes historically influential problems. Cross-subject overlap is intentional: there are 320 category-specific entries, not necessarily 320 distinct mathematical questions. Statements are educational summaries rather than formal specifications. Open status reflects an editorial review of the cited literature and may change as research advances.",
+  "status_reviewed_on": "2026-10-10",
+  "subject_notes": {
+    "math.GM": "Broadly accessible important open questions; this arXiv category has no single specialist research-problem syllabus.",
+    "math.HO": "Historically influential questions that remain unresolved, chosen for this category's historical and expository scope."
+  }
+}

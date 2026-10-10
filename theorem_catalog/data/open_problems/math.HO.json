@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.HO.open.01",
+    "subject": "math.HO",
+    "name": "Strong Goldbach conjecture",
+    "statement": "Every even integer greater than 2 is the sum of two prime numbers, with repetition allowed.",
+    "importance": "A foundational additive-prime problem whose elementary statement has resisted centuries of work.",
+    "status": "open",
+    "status_note": "The three-prime weak Goldbach theorem is proved; the two-prime assertion remains open.",
+    "references": [
+      {
+        "title": "Strong Goldbach conjecture",
+        "url": "https://en.wikipedia.org/wiki/Goldbach%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.open.02",
+    "subject": "math.HO",
+    "name": "Riemann hypothesis",
+    "statement": "Every nontrivial zero of the analytically continued Riemann zeta function ζ(s) has real part 1/2.",
+    "importance": "Controls the finest expected error bounds in the distribution of prime numbers.",
+    "status": "open",
+    "status_note": "Computations and partial zero-density results do not establish the assertion for every nontrivial zero.",
+    "references": [
+      {
+        "title": "Clay Mathematics Institute: Riemann Hypothesis",
+        "url": "https://www.claymath.org/millennium/riemann-hypothesis/"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.open.03",
+    "subject": "math.HO",
+    "name": "Twin prime conjecture",
+    "statement": "There are infinitely many primes p for which p+2 is also prime.",
+    "importance": "The simplest fixed-gap prediction for the distribution of primes.",
+    "status": "open",
+    "status_note": "Bounded gaps between primes are proved, but an infinitely recurring gap of exactly 2 is not.",
+    "references": [
+      {
+        "title": "Twin prime conjecture",
+        "url": "https://en.wikipedia.org/wiki/Twin_prime"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.open.04",
+    "subject": "math.HO",
+    "name": "Legendre conjecture",
+    "statement": "For every positive integer n, there is a prime strictly between n² and (n+1)².",
+    "importance": "One of the classical prime-distribution problems dating to the eighteenth century.",
+    "status": "open",
+    "status_note": "Current prime-gap estimates do not ensure a prime in every interval between consecutive squares.",
+    "references": [
+      {
+        "title": "Legendre conjecture",
+        "url": "https://en.wikipedia.org/wiki/Legendre%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.open.05",
+    "subject": "math.HO",
+    "name": "Odd perfect number problem",
+    "statement": "Does there exist an odd positive integer equal to the sum of its positive proper divisors? Equivalently, can an odd integer n satisfy σ(n)=2n?",
+    "importance": "Extends the ancient study of perfect numbers beyond the understood even case.",
+    "status": "open",
+    "status_note": "No example is known; large lower bounds and strong restrictions do not rule out all odd candidates.",
+    "references": [
+      {
+        "title": "Odd perfect number problem",
+        "url": "https://en.wikipedia.org/wiki/Odd_perfect_number"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.open.06",
+    "subject": "math.HO",
+    "name": "Perfect cuboid problem",
+    "statement": "Do positive integers a,b,c exist for which a²+b², a²+c², b²+c², and a²+b²+c² are all perfect squares?",
+    "importance": "A classical Diophantine problem with a concrete geometric interpretation.",
+    "status": "open",
+    "status_note": "Integer boxes with all three face diagonals integral exist; requiring the space diagonal too remains unresolved.",
+    "references": [
+      {
+        "title": "Perfect cuboid problem",
+        "url": "https://en.wikipedia.org/wiki/Euler_brick"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.open.07",
+    "subject": "math.HO",
+    "name": "Collatz conjecture",
+    "statement": "Starting from any positive integer, repeatedly divide an even value by 2 and replace an odd value n by 3n+1. The resulting sequence eventually reaches 1.",
+    "importance": "An accessible iteration problem exposing the limits of current arithmetic-dynamical methods.",
+    "status": "open",
+    "status_note": "Almost-all and extensive computational results do not establish the assertion for every starting integer.",
+    "references": [
+      {
+        "title": "Collatz conjecture",
+        "url": "https://en.wikipedia.org/wiki/Collatz_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.open.08",
+    "subject": "math.HO",
+    "name": "Hilbert’s sixteenth problem: uniform limit-cycle bound",
+    "statement": "For each positive integer d, is there a finite number H(d) that bounds the number of isolated periodic orbits of every real planar polynomial differential system dx/dt=P(x,y), dy/dt=Q(x,y) with deg P,deg Q≤d?",
+    "importance": "The unresolved second part of Hilbert’s 1900 problem links algebra and dynamical systems.",
+    "status": "open",
+    "status_note": "Each fixed polynomial system has finitely many limit cycles; a bound uniform over degree-d systems remains open, even for d=2.",
+    "references": [
+      {
+        "title": "Hilbert’s sixteenth problem: uniform limit-cycle bound",
+        "url": "https://en.wikipedia.org/wiki/Hilbert%27s_sixteenth_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.open.09",
+    "subject": "math.HO",
+    "name": "Hilbert’s twelfth problem",
+    "statement": "Find an explicit analytic construction of generators of the maximal abelian extension of an arbitrary number field, generalizing roots of unity over Q and complex multiplication for imaginary quadratic fields.",
+    "importance": "Hilbert’s version of Kronecker’s Jugendtraum asks for an explicit form of class field theory.",
+    "status": "open",
+    "status_note": "Class field theory gives an abstract description; the requested explicit construction is incomplete for general fields.",
+    "references": [
+      {
+        "title": "Hilbert’s twelfth problem",
+        "url": "https://en.wikipedia.org/wiki/Hilbert%27s_twelfth_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.HO.open.10",
+    "subject": "math.HO",
+    "name": "Two-dimensional Jacobian conjecture",
+    "statement": "Is every polynomial map F:C²→C² whose Jacobian determinant is a nonzero constant invertible with a polynomial inverse?",
+    "importance": "The two-variable case of Keller’s 1939 problem remains a central historical question in polynomial algebra.",
+    "status": "open",
+    "status_note": "This entry concerns dimension two specifically; results or counterexample claims in higher dimensions do not settle this case.",
+    "references": [
+      {
+        "title": "Jacobian conjecture",
+        "url": "https://en.wikipedia.org/wiki/Jacobian_conjecture"
+      }
+    ]
+  }
+]

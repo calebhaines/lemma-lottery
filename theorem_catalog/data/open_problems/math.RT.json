@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.RT.open.01",
+    "subject": "math.RT",
+    "name": "Broué abelian defect-group conjecture",
+    "statement": "Let B be a block of a finite group algebra k[G], where k is algebraically closed of characteristic p, and let its defect group D be abelian. Is B derived equivalent to its Brauer-correspondent block of k[N_G(D)]?",
+    "importance": "Predicts that the module theory of an abelian-defect block is determined by a local subgroup.",
+    "status": "open",
+    "status_note": "Known for many defect groups and families of groups; the arbitrary abelian-defect case remains open.",
+    "references": [
+      {
+        "title": "Rickard, The Abelian defect group conjecture",
+        "url": "https://doi.org/10.4171/dms/1-2/11"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.open.02",
+    "subject": "math.RT",
+    "name": "Blockwise Alperin weight conjecture",
+    "statement": "For every p-block B of a finite group G, is the number of irreducible Brauer characters in B equal to the number of G-conjugacy classes of B-weights, pairs (Q,φ) with Q a p-subgroup and φ a defect-zero irreducible character of N_G(Q)/Q whose associated block induces to B?",
+    "importance": "Would count modular simple modules entirely through local subgroup data.",
+    "status": "open",
+    "status_note": "Proved for many classes, including recent inductive cases for types B and C and sporadic groups; the general blockwise statement remains open.",
+    "references": [
+      {
+        "title": "On the inductive blockwise Alperin weight condition for type B and type C",
+        "url": "https://arxiv.org/abs/2609.24774"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.open.03",
+    "subject": "math.RT",
+    "name": "Alperin–McKay conjecture",
+    "statement": "For every p-block B of a finite group G with defect group D and Brauer-correspondent block b in N_G(D), are the numbers of height-zero ordinary irreducible characters in B and b equal?",
+    "importance": "Predicts a local description of the lowest-defect ordinary characters in every block.",
+    "status": "open",
+    "status_note": "The ordinary McKay conjecture is distinct; this blockwise height-zero conjecture is open in general.",
+    "references": [
+      {
+        "title": "A Reduction Theorem for the Alperin–McKay–Navarro Conjecture",
+        "url": "https://arxiv.org/abs/2609.33507"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.open.04",
+    "subject": "math.RT",
+    "name": "Alperin–McKay–Navarro conjecture",
+    "statement": "For every p-block B with defect group D and its Brauer correspondent b in N_G(D), is there a bijection between their height-zero ordinary irreducible characters equivariant for the stabilizer (H_p)_B of B in the Navarro Galois subgroup H_p, whose automorphisms act as a common power of p on roots of unity of order coprime to p?",
+    "importance": "Refines local character counting by requiring compatibility with arithmetic Galois symmetries.",
+    "status": "open",
+    "status_note": "A reduction to inductive conditions is known; the full arbitrary-group Galois-equivariant bijection remains conjectural.",
+    "references": [
+      {
+        "title": "A Reduction Theorem for the Alperin–McKay–Navarro Conjecture",
+        "url": "https://arxiv.org/abs/2609.33507"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.open.05",
+    "subject": "math.RT",
+    "name": "Donovan conjecture",
+    "statement": "For a fixed finite p-group D and an algebraically closed field k of characteristic p, are there only finitely many Morita-equivalence classes of blocks of k[G], as G ranges over finite groups, having defect group isomorphic to D?",
+    "importance": "Would make the classification of modular blocks with fixed local structure a finite task.",
+    "status": "open",
+    "status_note": "Known for several families of defect groups; no general fixed-defect-group finiteness theorem is known.",
+    "references": [
+      {
+        "title": "Donovan’s conjecture and extensions by the centralizer of a defect group",
+        "url": "https://arxiv.org/abs/2006.11173"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.open.06",
+    "subject": "math.RT",
+    "name": "Brauer’s k(B) conjecture",
+    "statement": "If B is a p-block of a finite group with defect group D, is the number k(B) of ordinary irreducible characters in B at most |D|?",
+    "importance": "Predicts a universal size bound on a block from its local defect group.",
+    "status": "open",
+    "status_note": "Established in many cases, including numerous small or abelian defect groups; the unrestricted conjecture remains open.",
+    "references": [
+      {
+        "title": "Sambale, Cartan matrices and Brauer’s k(B)-Conjecture V",
+        "url": "https://arxiv.org/abs/1911.10710"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.open.07",
+    "subject": "math.RT",
+    "name": "Foulkes conjecture",
+    "statement": "For all integers 1≤a≤b and finite-dimensional complex vector spaces V, does Sym^a(Sym^b V) embed as a GL(V)-representation into Sym^b(Sym^a V)?",
+    "importance": "Would impose a fundamental positivity ordering on plethysm multiplicities.",
+    "status": "open",
+    "status_note": "Many small parameters and asymptotic cases are known. The conjecture asks for some equivariant embedding, not injectivity of a particular natural Foulkes–Howe map.",
+    "references": [
+      {
+        "title": "On the generalised Foulkes conjecture for SL_2(C) under divisibility conditions",
+        "url": "https://arxiv.org/abs/2507.06220"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.open.08",
+    "subject": "math.RT",
+    "name": "Positive combinatorial computation of Kronecker coefficients",
+    "statement": "Are Kronecker coefficients g(λ,μ,ν) counting functions in #P when the three partitions of n are given in unary, equivalently counts of polynomial-length combinatorial witnesses with polynomial-time membership tests?",
+    "importance": "Would provide a positive computational interpretation of symmetric-group tensor-product multiplicities.",
+    "status": "open",
+    "status_note": "General coefficients are known to have alternating-sum descriptions; membership in GapP does not establish the requested #P counting interpretation.",
+    "references": [
+      {
+        "title": "Kronecker coefficient",
+        "url": "https://en.wikipedia.org/wiki/Kronecker_coefficient"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.open.09",
+    "subject": "math.RT",
+    "name": "Full local Langlands correspondence for split E8",
+    "statement": "Can the full local Langlands correspondence, including L-packets indexed by enhanced Weil–Deligne parameters and the expected character identities, be constructed and proved for the split group E8 over every p-adic field?",
+    "importance": "Would extend a central classification of local representations to a major exceptional reductive group.",
+    "status": "open",
+    "status_note": "General constructions of semisimplified parameters do not give all packet and character-identity properties demanded by the full correspondence.",
+    "references": [
+      {
+        "title": "Local Langlands correspondence",
+        "url": "https://en.wikipedia.org/wiki/Local_Langlands_correspondence"
+      }
+    ]
+  },
+  {
+    "id": "math.RT.open.10",
+    "subject": "math.RT",
+    "name": "Langlands functorial transfer to general linear groups",
+    "statement": "For a connected reductive group G over a number field, a cuspidal automorphic representation π of G, and an algebraic L-homomorphism r:^LG → ^LGL_N, does an automorphic representation of GL_N exist whose unramified local parameters equal r applied to those of π at almost every place?",
+    "importance": "Would organize global automorphic representations through their L-group representations.",
+    "status": "open",
+    "status_note": "Many transfers are established, but arbitrary G and r remain open. The transfer is not required to be cuspidal.",
+    "references": [
+      {
+        "title": "Langlands program, functoriality",
+        "url": "https://en.wikipedia.org/wiki/Langlands_program"
+      }
+    ]
+  }
+]

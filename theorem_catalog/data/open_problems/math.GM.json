@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.GM.open.01",
+    "subject": "math.GM",
+    "name": "Riemann hypothesis",
+    "statement": "Every nontrivial zero of the analytically continued Riemann zeta function ζ(s) has real part 1/2.",
+    "importance": "Controls the finest expected error bounds in the distribution of prime numbers.",
+    "status": "open",
+    "status_note": "Computations and partial zero-density results do not establish the assertion for every nontrivial zero.",
+    "references": [
+      {
+        "title": "Clay Mathematics Institute: Riemann Hypothesis",
+        "url": "https://www.claymath.org/millennium/riemann-hypothesis/"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.open.02",
+    "subject": "math.GM",
+    "name": "P versus NP",
+    "statement": "Is every decision problem whose yes-instances have certificates checkable in polynomial time also solvable by a deterministic polynomial-time algorithm? Equivalently, is P=NP?",
+    "importance": "A foundational question about the power of efficient computation.",
+    "status": "open",
+    "status_note": "NP-completeness and restricted-model lower bounds do not separate P from NP.",
+    "references": [
+      {
+        "title": "Clay Mathematics Institute: P vs NP",
+        "url": "https://www.claymath.org/millennium/p-vs-np/"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.open.03",
+    "subject": "math.GM",
+    "name": "Collatz conjecture",
+    "statement": "Starting from any positive integer, repeatedly divide an even value by 2 and replace an odd value n by 3n+1. The resulting sequence eventually reaches 1.",
+    "importance": "An accessible iteration problem exposing the limits of current arithmetic-dynamical methods.",
+    "status": "open",
+    "status_note": "Almost-all and extensive computational results do not establish the assertion for every starting integer.",
+    "references": [
+      {
+        "title": "Collatz conjecture",
+        "url": "https://en.wikipedia.org/wiki/Collatz_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.open.04",
+    "subject": "math.GM",
+    "name": "Strong Goldbach conjecture",
+    "statement": "Every even integer greater than 2 is the sum of two prime numbers, with repetition allowed.",
+    "importance": "A foundational additive-prime problem whose elementary statement has resisted centuries of work.",
+    "status": "open",
+    "status_note": "The three-prime weak Goldbach theorem is proved; the two-prime assertion remains open.",
+    "references": [
+      {
+        "title": "Strong Goldbach conjecture",
+        "url": "https://en.wikipedia.org/wiki/Goldbach%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.open.05",
+    "subject": "math.GM",
+    "name": "Twin prime conjecture",
+    "statement": "There are infinitely many primes p for which p+2 is also prime.",
+    "importance": "The simplest fixed-gap prediction for the distribution of primes.",
+    "status": "open",
+    "status_note": "Bounded gaps between primes are proved, but an infinitely recurring gap of exactly 2 is not.",
+    "references": [
+      {
+        "title": "Twin prime conjecture",
+        "url": "https://en.wikipedia.org/wiki/Twin_prime"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.open.06",
+    "subject": "math.GM",
+    "name": "Odd perfect number problem",
+    "statement": "Does there exist an odd positive integer equal to the sum of its positive proper divisors? Equivalently, can an odd integer n satisfy σ(n)=2n?",
+    "importance": "Extends the ancient study of perfect numbers beyond the understood even case.",
+    "status": "open",
+    "status_note": "No example is known; large lower bounds and strong restrictions do not rule out all odd candidates.",
+    "references": [
+      {
+        "title": "Odd perfect number problem",
+        "url": "https://en.wikipedia.org/wiki/Odd_perfect_number"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.open.07",
+    "subject": "math.GM",
+    "name": "Perfect cuboid problem",
+    "statement": "Do positive integers a,b,c exist for which a²+b², a²+c², b²+c², and a²+b²+c² are all perfect squares?",
+    "importance": "A classical Diophantine problem with a concrete geometric interpretation.",
+    "status": "open",
+    "status_note": "Integer boxes with all three face diagonals integral exist; requiring the space diagonal too remains unresolved.",
+    "references": [
+      {
+        "title": "Perfect cuboid problem",
+        "url": "https://en.wikipedia.org/wiki/Euler_brick"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.open.08",
+    "subject": "math.GM",
+    "name": "Lonely runner conjecture",
+    "statement": "For k+1 runners starting together at one point and moving at distinct constant speeds around a unit-length circular track, does each runner at some time have circular distance at least 1/(k+1) from every other runner?",
+    "importance": "Connects an elementary motion puzzle to Diophantine approximation and discrete geometry.",
+    "status": "open",
+    "status_note": "The conjecture is proved for several small values of k; arbitrary numbers of runners remain open.",
+    "references": [
+      {
+        "title": "Lonely runner conjecture",
+        "url": "https://en.wikipedia.org/wiki/Lonely_runner_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.open.09",
+    "subject": "math.GM",
+    "name": "Hadwiger–Nelson problem",
+    "statement": "What is the minimum number of colors needed to color every point of the Euclidean plane so that points at distance exactly 1 always receive different colors?",
+    "importance": "A basic accessible question linking geometry and infinite graph coloring.",
+    "status": "open",
+    "status_note": "The chromatic number of the plane is known to be at least 5 and at most 7; its exact value is open.",
+    "references": [
+      {
+        "title": "Hadwiger–Nelson problem",
+        "url": "https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem"
+      }
+    ]
+  },
+  {
+    "id": "math.GM.open.10",
+    "subject": "math.GM",
+    "name": "Erdős–Straus conjecture",
+    "statement": "For every integer n≥2, do positive integers x,y,z exist such that 4/n=1/x+1/y+1/z? The denominators need not be distinct.",
+    "importance": "A classic Egyptian-fraction question combining elementary arithmetic and Diophantine equations.",
+    "status": "open",
+    "status_note": "Many congruence classes and extensive finite ranges are verified; no proof covers every n.",
+    "references": [
+      {
+        "title": "Erdős–Straus conjecture",
+        "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Straus_conjecture"
+      }
+    ]
+  }
+]

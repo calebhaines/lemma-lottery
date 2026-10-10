@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.KT.open.01",
+    "subject": "math.KT",
+    "name": "K-theoretic Farrell–Jones conjecture",
+    "statement": "For every discrete group G and additive G-category A, is the equivariant algebraic K-theory assembly map from the classifying space for virtually cyclic subgroups to K_*(A ⋊ G) an isomorphism in every degree?",
+    "importance": "Would compute group-ring K-theory from the virtually cyclic subgroups of a group.",
+    "status": "open",
+    "status_note": "Proved for many major classes of groups, including hyperbolic and CAT(0) groups; arbitrary groups remain open.",
+    "references": [
+      {
+        "title": "Farrell–Jones conjecture",
+        "url": "https://en.wikipedia.org/wiki/Farrell%E2%80%93Jones_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.open.02",
+    "subject": "math.KT",
+    "name": "L-theoretic Farrell–Jones conjecture",
+    "statement": "For every discrete group G and additive G-category with involution A, is the assembly map for nonconnective L-theory from the family of virtually cyclic subgroups to L_*^{⟨−infinity⟩}(A ⋊ G) an isomorphism?",
+    "importance": "Would organize the surgery obstructions that govern manifold classification.",
+    "status": "open",
+    "status_note": "The coefficient and involution formulation is explicit; many group classes are known, but the arbitrary-group conjecture is open.",
+    "references": [
+      {
+        "title": "Farrell–Jones conjecture",
+        "url": "https://en.wikipedia.org/wiki/Farrell%E2%80%93Jones_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.open.03",
+    "subject": "math.KT",
+    "name": "Baum–Connes conjecture without coefficients",
+    "statement": "For every countable discrete group G, is the assembly map K_*^G(E_G) → K_*(C_r^*(G)) an isomorphism, where E_G is the classifying space for proper G-actions?",
+    "importance": "Relates topological equivariant K-homology to the analytic K-theory of group C*-algebras.",
+    "status": "open",
+    "status_note": "This entry uses trivial coefficients. The stronger conjecture with arbitrary coefficients has counterexamples.",
+    "references": [
+      {
+        "title": "Baum–Connes conjecture",
+        "url": "https://en.wikipedia.org/wiki/Baum%E2%80%93Connes_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.open.04",
+    "subject": "math.KT",
+    "name": "Novikov higher-signature conjecture",
+    "statement": "For every discrete group G, are the rational higher signatures of closed oriented smooth manifolds equipped with maps to BG invariant under orientation-preserving homotopy equivalences?",
+    "importance": "Would establish homotopy invariance of important characteristic numbers involving the fundamental group.",
+    "status": "open",
+    "status_note": "Known for many groups, including those for which suitable assembly maps are rationally injective; the universal statement is open.",
+    "references": [
+      {
+        "title": "Novikov conjecture",
+        "url": "https://en.wikipedia.org/wiki/Novikov_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.open.05",
+    "subject": "math.KT",
+    "name": "Bass trace conjecture over integral group rings",
+    "statement": "For every group G and finitely generated projective Z[G]-module P, is its Hattori–Stallings trace supported only on the conjugacy class of the identity?",
+    "importance": "Would constrain projective group-ring modules through their universal trace.",
+    "status": "open",
+    "status_note": "This is the integral-group-ring trace formulation, not a general rational K-theory finite-generation conjecture bearing the same name.",
+    "references": [
+      {
+        "title": "Bass conjecture",
+        "url": "https://en.wikipedia.org/wiki/Bass_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.open.06",
+    "subject": "math.KT",
+    "name": "Lück determinant conjecture",
+    "statement": "For every discrete group G, does every matrix over Z[G] have regular Fuglede–Kadison determinant at least one in the group von Neumann algebra?",
+    "importance": "Provides the analytic control needed for approximation results and L²-torsion invariants.",
+    "status": "open",
+    "status_note": "The regular determinant ignores the kernel. The conjecture is known for sofic groups but remains open for arbitrary groups.",
+    "references": [
+      {
+        "title": "Lück, The Approximation Conjecture and the Determinant Conjecture",
+        "url": "https://doi.org/10.1007/978-3-662-04687-6_14"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.open.07",
+    "subject": "math.KT",
+    "name": "Integral Gersten injectivity in ramified mixed characteristic",
+    "statement": "If A is a ramified regular local domain of mixed characteristic with fraction field F, is K_i(A) → K_i(F) injective for every i≥0?",
+    "importance": "Would extend localization and cycle computations in algebraic K-theory to difficult mixed-characteristic singular arithmetic settings.",
+    "status": "open",
+    "status_note": "The question has integral coefficients. Reported finite-coefficient counterexamples do not disprove the integral Gersten conjecture.",
+    "references": [
+      {
+        "title": "Feld, Finite-coefficient Gersten injectivity fails in ramified mixed characteristic",
+        "url": "https://arxiv.org/abs/2608.05005"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.open.08",
+    "subject": "math.KT",
+    "name": "Parshin conjecture",
+    "statement": "For every smooth projective variety X over a finite field, is K_i(X) ⊗ Q zero for every i>0?",
+    "importance": "Predicts the rational higher K-theory of proper varieties over finite fields.",
+    "status": "open",
+    "status_note": "Known for curves and some special varieties; the general higher-dimensional statement remains open.",
+    "references": [
+      {
+        "title": "Parshin’s conjecture",
+        "url": "https://en.wikipedia.org/wiki/Parshin%27s_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.open.09",
+    "subject": "math.KT",
+    "name": "Beilinson conjecture over finite fields",
+    "statement": "For every smooth projective variety over a finite field, do rational equivalence and numerical equivalence of algebraic cycles coincide after tensoring with Q?",
+    "importance": "Would identify cycle groups with their numerical realizations and simplify the structure of motives.",
+    "status": "open",
+    "status_note": "The finite-field and rational-coefficient hypotheses are essential; the unrestricted conjecture is open.",
+    "references": [
+      {
+        "title": "Kahn, A sheaf-theoretic reformulation of the Tate conjecture",
+        "url": "https://arxiv.org/abs/math/9801017"
+      }
+    ]
+  },
+  {
+    "id": "math.KT.open.10",
+    "subject": "math.KT",
+    "name": "Beilinson–Soulé vanishing conjecture for fields",
+    "statement": "For every field F and integer q>0, does the rational motivic cohomology H^p(Spec F,Q(q)) vanish for every p≤0?",
+    "importance": "Would provide the vanishing needed to construct categories of mixed Tate motives uniformly over fields.",
+    "status": "open",
+    "status_note": "Known for important classes of fields; the all-fields statement remains open. This is motivic cohomology, not a vanishing claim for all algebraic K-groups.",
+    "references": [
+      {
+        "title": "Kimura, On a relation of a conjecture of Goncharov to the co-Lie algebra of Bloch–Kriz mixed Tate motives",
+        "url": "https://arxiv.org/abs/2604.17671"
+      }
+    ]
+  }
+]

@@ -22,7 +22,9 @@ jobs:
       - name: Test
         run: python -m unittest discover -s tests -v
       - name: Validate the catalog
-        run: python theorem.py validate
+        run: |
+          python theorem.py validate
+          python theorem.py validate --kind problem
       - name: Build the single-file app
         run: python scripts/build_zipapp.py
       - name: Smoke-test the standalone app
@@ -31,6 +33,9 @@ jobs:
           python -S "$GITHUB_WORKSPACE/lemma-lottery.pyz" validate
           python -S "$GITHUB_WORKSPACE/lemma-lottery.pyz" random
           python -S "$GITHUB_WORKSPACE/lemma-lottery.pyz" random --subject math.NT
+          python -S "$GITHUB_WORKSPACE/lemma-lottery.pyz" validate --kind problem
+          python -S "$GITHUB_WORKSPACE/lemma-lottery.pyz" random --kind problem
+          python -S "$GITHUB_WORKSPACE/lemma-lottery.pyz" random --kind problem --subject math.NT
       - name: Upload the single-file app
         uses: actions/upload-artifact@v4
         with:

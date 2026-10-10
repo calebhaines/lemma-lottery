@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.AC.open.01",
+    "subject": "math.AC",
+    "name": "Zariski–Lipman conjecture",
+    "statement": "If X is a normal variety over a field of characteristic zero and its tangent sheaf Der(O_X) is locally free, must X be smooth?",
+    "importance": "Tests whether a fundamental infinitesimal invariant detects all algebraic singularities.",
+    "status": "open",
+    "status_note": "Known for several classes of singularities, including log canonical varieties; the unrestricted normal characteristic-zero case remains open.",
+    "references": [
+      {
+        "title": "Bongiorno, Regular Leaves of Singular Foliations",
+        "url": "https://arxiv.org/abs/2510.20760"
+      }
+    ]
+  },
+  {
+    "id": "math.AC.open.02",
+    "subject": "math.AC",
+    "name": "Auslander–Reiten conjecture for commutative local rings",
+    "statement": "For a commutative Noetherian local ring R and a finitely generated R-module M, does Ext_R^i(M,M ⊕ R)=0 for every i>0 imply that M is free?",
+    "importance": "Connects vanishing of self-extensions with projectivity and the structure of local rings.",
+    "status": "open",
+    "status_note": "Many complete-intersection and other special cases are known; no assumption here restricts R to those cases.",
+    "references": [
+      {
+        "title": "Lyle, On the totally acyclic condition and the Auslander–Reiten Conjecture",
+        "url": "https://arxiv.org/abs/2610.00022"
+      }
+    ]
+  },
+  {
+    "id": "math.AC.open.03",
+    "subject": "math.AC",
+    "name": "Huneke–Wiegand problem for complete-intersection domains",
+    "statement": "Let R be a one-dimensional Noetherian local complete-intersection domain and M a nonzero finitely generated torsion-free R-module. If M ⊗_R Hom_R(M,R) is torsion-free, must M be free?",
+    "importance": "Asks whether tensor products detect nontrivial modules over complete intersections.",
+    "status": "open",
+    "status_note": "The hypersurface case is proved. This entry asks about higher codimension complete intersections; the broader Gorenstein conjecture has a reported 2026 counterexample.",
+    "references": [
+      {
+        "title": "Celikbas, Le, Matsui and Sadeghi, Remarks on a conjecture of Huneke and Wiegand and the vanishing of (co)homology",
+        "url": "https://arxiv.org/abs/2202.04792"
+      },
+      {
+        "title": "A Counterexample to the Huneke–Wiegand Conjecture (general Gorenstein version)",
+        "url": "https://arxiv.org/abs/2609.07615"
+      }
+    ]
+  },
+  {
+    "id": "math.AC.open.04",
+    "subject": "math.AC",
+    "name": "Lech multiplicity conjecture",
+    "statement": "For every flat local homomorphism (R,m) → (S,n) of Noetherian local rings, is the Hilbert–Samuel multiplicity inequality e_m(R) ≤ e_n(S) valid?",
+    "importance": "Would give a basic numerical monotonicity law for flat families of singularities.",
+    "status": "open",
+    "status_note": "Proved in low dimensions and for several graded situations; the general high-dimensional case remains open.",
+    "references": [
+      {
+        "title": "Ma, Lim Ulrich sequences and Lech’s conjecture",
+        "url": "https://arxiv.org/abs/2005.02338"
+      }
+    ]
+  },
+  {
+    "id": "math.AC.open.05",
+    "subject": "math.AC",
+    "name": "Buchsbaum–Eisenbud–Horrocks Betti-number conjecture",
+    "statement": "If R is a regular local ring of dimension d and M is a nonzero finite-length R-module, does the minimal free resolution satisfy β_i^R(M) ≥ binomial(d,i) for every 0 ≤ i ≤ d?",
+    "importance": "Predicts the smallest possible individual syzygy sizes for modules supported at a point.",
+    "status": "open",
+    "status_note": "The total-rank bound is known in broad settings; that does not establish these separate bounds on every Betti number. This is the module version, not a false extension to arbitrary complexes.",
+    "references": [
+      {
+        "title": "VandeBogert and Walker, The Total Rank Conjecture in Characteristic Two",
+        "url": "https://arxiv.org/abs/2305.09771"
+      }
+    ]
+  },
+  {
+    "id": "math.AC.open.06",
+    "subject": "math.AC",
+    "name": "Eisenbud–Green–Harris conjecture",
+    "statement": "Let I ⊂ k[x_1,...,x_n] be homogeneous and contain a regular sequence of degrees a_1 ≤ ... ≤ a_n. Must there be a homogeneous ideal J containing x_1^{a_1},...,x_n^{a_n} with the same Hilbert function as I?",
+    "importance": "Would extend Macaulay’s Hilbert-function theory to ideals containing a prescribed complete intersection.",
+    "status": "open",
+    "status_note": "Known for a number of degree sequences and small-variable cases; the arbitrary degree-sequence statement is open.",
+    "references": [
+      {
+        "title": "Caviglia, De Stefani and Sbarra, The Eisenbud–Green–Harris Conjecture",
+        "url": "https://arxiv.org/abs/2106.14759"
+      }
+    ]
+  },
+  {
+    "id": "math.AC.open.07",
+    "subject": "math.AC",
+    "name": "Eisenbud–Goto bound for smooth varieties",
+    "statement": "For a smooth irreducible nondegenerate projective variety X ⊂ P^r over an algebraically closed field of characteristic zero, is reg(I_X) ≤ deg(X) − codim(X) + 1?",
+    "importance": "Would sharply control defining equations and syzygies using elementary geometric data.",
+    "status": "open",
+    "status_note": "The original conjecture for arbitrary varieties is false. Only the smooth characteristic-zero restriction is asked here; curves and many smooth special cases are known.",
+    "references": [
+      {
+        "title": "Kwak and Park, A bound for Castelnuovo–Mumford regularity by double point divisors",
+        "url": "https://arxiv.org/abs/1406.7404"
+      }
+    ]
+  },
+  {
+    "id": "math.AC.open.08",
+    "subject": "math.AC",
+    "name": "Small Cohen–Macaulay module conjecture in positive characteristic",
+    "statement": "Does every complete Noetherian local domain R of characteristic p>0 admit a nonzero finitely generated R-module M with depth_R(M)=dim(R)?",
+    "importance": "Seeks finite modules that remove the homological defects of arbitrary local singularities.",
+    "status": "open",
+    "status_note": "Big Cohen–Macaulay modules and algebras are known, but their existence does not supply a finite module. This entry does not assert the false graded characteristic-zero refinement.",
+    "references": [
+      {
+        "title": "Shimomoto and Tavanfar, Remarks on the Small Cohen–Macaulay conjecture and new instances of maximal Cohen–Macaulay modules",
+        "url": "https://arxiv.org/abs/2203.10368"
+      }
+    ]
+  },
+  {
+    "id": "math.AC.open.09",
+    "subject": "math.AC",
+    "name": "Harbourne–Huneke containment for arbitrary point sets",
+    "statement": "For the radical homogeneous ideal I of any nonempty finite set of points in P^N over an algebraically closed field of characteristic zero, with irrelevant ideal m, is I^{(Nr)} ⊆ m^{r(N−1)} I^r for every integer r≥1?",
+    "importance": "Would strengthen the central comparison between symbolic and ordinary powers of point ideals.",
+    "status": "open",
+    "status_note": "Recent results establish the containment for general point configurations; this question includes all finite configurations, not only general ones.",
+    "references": [
+      {
+        "title": "Malara, From Demailly’s Inequality to Harbourne–Huneke Containments for General Points",
+        "url": "https://arxiv.org/abs/2610.08335"
+      }
+    ]
+  },
+  {
+    "id": "math.AC.open.10",
+    "subject": "math.AC",
+    "name": "Nagata conjecture for nonsquare numbers of points",
+    "statement": "Let r≥10 be nonsquare and let p_1,...,p_r be very general points of P^2_C. Must every nonzero homogeneous polynomial vanishing to order at least m at each p_i have degree d ≥ m√r?",
+    "importance": "Gives a fundamental lower bound for fat-point interpolation and asymptotic symbolic-power growth.",
+    "status": "open",
+    "status_note": "Nagata proved the square-number case. The stated nonsquare cases remain open; very general positions are essential.",
+    "references": [
+      {
+        "title": "Nagata’s conjecture on curves",
+        "url": "https://en.wikipedia.org/wiki/Nagata%27s_conjecture_on_curves"
+      }
+    ]
+  }
+]

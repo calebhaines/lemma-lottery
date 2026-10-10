@@ -1,0 +1,156 @@
+[
+  {
+    "id": "math.AG.open.01",
+    "subject": "math.AG",
+    "name": "Hodge conjecture",
+    "statement": "For every smooth projective complex variety X, is each rational cohomology class of type (p,p) a rational linear combination of classes of codimension-p algebraic cycles?",
+    "importance": "Would identify exactly which cohomology classes arise from algebraic subvarieties.",
+    "status": "open",
+    "status_note": "The rational formulation remains open in general; the corresponding integral statement is false.",
+    "references": [
+      {
+        "title": "Clay Mathematics Institute, Hodge Conjecture",
+        "url": "https://www.claymath.org/millennium/hodge-conjecture/"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.open.02",
+    "subject": "math.AG",
+    "name": "Tate conjecture for cycles over finite fields",
+    "statement": "For a smooth projective variety X over a finite field and a prime ℓ different from its characteristic, do algebraic codimension-r cycles span the Frobenius-invariant subspace of H_et^{2r}(X_bar,Q_ℓ(r))?",
+    "importance": "Links algebraic cycles to arithmetic symmetries and zeta functions.",
+    "status": "open",
+    "status_note": "Many divisor and special-variety cases are proved; arbitrary varieties and codimensions are open.",
+    "references": [
+      {
+        "title": "Tate conjecture",
+        "url": "https://en.wikipedia.org/wiki/Tate_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.open.03",
+    "subject": "math.AG",
+    "name": "Lefschetz standard conjecture",
+    "statement": "For every smooth projective variety X and a Weil cohomology theory, is the inverse of each hard-Lefschetz isomorphism induced by an algebraic correspondence?",
+    "importance": "Would make the Lefschetz decomposition algebraic and underpin the theory of pure motives.",
+    "status": "open",
+    "status_note": "Known for many varieties, including abelian varieties; the unrestricted algebraic-correspondence statement is open.",
+    "references": [
+      {
+        "title": "Standard conjectures on algebraic cycles",
+        "url": "https://en.wikipedia.org/wiki/Standard_conjectures_on_algebraic_cycles"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.open.04",
+    "subject": "math.AG",
+    "name": "Hodge standard conjecture",
+    "statement": "For every smooth projective variety X of dimension n over an arbitrary field, a fixed Weil cohomology theory, and an ample class L, is the pairing (a,b) ↦ (−1)^r deg(a·b·L^{n−2r}) positive definite on rational primitive algebraic cohomology classes of codimension r≤n/2?",
+    "importance": "Would provide the positivity needed for a semisimple and well-behaved theory of motives.",
+    "status": "open",
+    "status_note": "The characteristic-zero complex case follows from Hodge theory; the conjecture over fields of positive characteristic remains open in general.",
+    "references": [
+      {
+        "title": "Standard conjectures on algebraic cycles",
+        "url": "https://en.wikipedia.org/wiki/Standard_conjectures_on_algebraic_cycles"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.open.05",
+    "subject": "math.AG",
+    "name": "Abundance conjecture",
+    "statement": "If (X,Δ) is a projective klt pair over a field of characteristic zero with Δ a Q-divisor and K_X+Δ nef, must K_X+Δ be semiample?",
+    "importance": "Would complete the passage from minimal models to canonical fibrations.",
+    "status": "open",
+    "status_note": "Established in low dimensions and important special cases; arbitrary dimension is open.",
+    "references": [
+      {
+        "title": "Abundance conjecture",
+        "url": "https://en.wikipedia.org/wiki/Abundance_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.open.06",
+    "subject": "math.AG",
+    "name": "Termination of flips",
+    "statement": "For a projective klt pair (X,Δ) in characteristic zero, must every sequence of (K_X+Δ)-flips terminate?",
+    "importance": "Would guarantee that the birational minimal-model procedure eventually finishes.",
+    "status": "open",
+    "status_note": "Termination is known under additional hypotheses and in low dimensions; unrestricted sequences in arbitrary dimension remain open.",
+    "references": [
+      {
+        "title": "Flip (algebraic geometry)",
+        "url": "https://en.wikipedia.org/wiki/Flip_(algebraic_geometry)"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.open.07",
+    "subject": "math.AG",
+    "name": "Nagata conjecture",
+    "statement": "For r≥10 nonsquare very general points of P^2_C, must every plane curve of degree d having multiplicity at least m at all points satisfy d ≥ m√r?",
+    "importance": "Determines expected asymptotic positivity on blowups of the projective plane.",
+    "status": "open",
+    "status_note": "Square values of r are proved; nonsquare values remain open. Special configurations need not obey this bound.",
+    "references": [
+      {
+        "title": "Nagata’s conjecture on curves",
+        "url": "https://en.wikipedia.org/wiki/Nagata%27s_conjecture_on_curves"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.open.08",
+    "subject": "math.AG",
+    "name": "Jacobian conjecture in dimension two",
+    "statement": "Over a characteristic-zero field k, is every polynomial map F:k^2 → k^2 whose Jacobian determinant is a nonzero constant a polynomial automorphism?",
+    "importance": "Asks whether an infinitesimal invertibility condition forces global polynomial invertibility.",
+    "status": "open",
+    "status_note": "The two-dimensional characteristic-zero problem remains open. Reported 2026 counterexamples in dimensions greater than two rule out listing the former all-dimensional conjecture as open.",
+    "references": [
+      {
+        "title": "Jacobian conjecture",
+        "url": "https://en.wikipedia.org/wiki/Jacobian_conjecture"
+      },
+      {
+        "title": "Counterexamples to the Jacobian conjecture in dimensions greater than two",
+        "url": "https://arxiv.org/abs/2608.00222"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.open.09",
+    "subject": "math.AG",
+    "name": "Grothendieck section conjecture",
+    "statement": "For a smooth projective geometrically connected curve X of genus at least two over a number field k, is the map from X(k) to conjugacy classes of continuous sections of π_1(X) → Gal(k_bar/k) bijective?",
+    "importance": "Would recover rational points from the arithmetic fundamental group.",
+    "status": "open",
+    "status_note": "The curve and number-field hypotheses are essential; the full bijection remains open.",
+    "references": [
+      {
+        "title": "Section conjecture",
+        "url": "https://en.wikipedia.org/wiki/Section_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.AG.open.10",
+    "subject": "math.AG",
+    "name": "Zariski cancellation for affine three-space in characteristic zero",
+    "statement": "If A is a finitely generated commutative integral C-algebra and A[t] is isomorphic to C[x_1,x_2,x_3,x_4], must A be isomorphic to C[x_1,x_2,x_3]?",
+    "importance": "Asks whether an affine factor can be uniquely recovered after adjoining one coordinate.",
+    "status": "open",
+    "status_note": "Cancellation is known in lower dimension and fails in positive characteristic; the characteristic-zero three-space case remains open.",
+    "references": [
+      {
+        "title": "Gupta, A survey on Zariski cancellation problem",
+        "url": "https://doi.org/10.1007/s13226-015-0154-3"
+      }
+    ]
+  }
+]

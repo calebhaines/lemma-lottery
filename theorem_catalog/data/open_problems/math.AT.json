@@ -1,0 +1,152 @@
+[
+  {
+    "id": "math.AT.open.01",
+    "subject": "math.AT",
+    "name": "Freyd’s generating hypothesis",
+    "statement": "Must a map between finite spectra that induces zero on every stable homotopy group be null-homotopic?",
+    "importance": "It asks whether homotopy groups faithfully detect maps in the finite stable homotopy category.",
+    "status": "open",
+    "status_note": "Analogues in other triangulated categories have different answers; the original finite-spectra problem is unresolved.",
+    "references": [
+      {
+        "title": "Large self-injective rings and the generating hypothesis",
+        "url": "https://arxiv.org/abs/1206.0137"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.open.02",
+    "subject": "math.AT",
+    "name": "Weak chromatic splitting conjecture",
+    "statement": "For every prime p and height n at least one, does the canonical map L_(n−1)S_p to L_(n−1)L_K(n)S_p admit a retraction, where L_(n−1) is E(n−1)-localization and L_K(n) is Morava K(n)-localization?",
+    "importance": "It describes how successive chromatic layers of the stable homotopy category fit together.",
+    "status": "open",
+    "status_note": "This is the weak splitting assertion; stronger explicit decompositions have counterexamples, and the telescope conjecture is false.",
+    "references": [
+      {
+        "title": "A short introduction to the telescope and chromatic splitting conjectures",
+        "url": "https://arxiv.org/abs/1902.05046"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.open.03",
+    "subject": "math.AT",
+    "name": "Moore’s rational-ellipticity exponent conjecture",
+    "statement": "For a simply connected finite CW complex X with finite-dimensional rational homotopy, does each prime p admit an exponent e such that p^e annihilates all p-primary torsion in π_*(X)?",
+    "importance": "It would relate rational homotopy complexity to uniform bounds on integral torsion.",
+    "status": "open",
+    "status_note": "The implication stated here is the rationally elliptic direction; exponent results for spheres and selected spaces do not establish the general case.",
+    "references": [
+      {
+        "title": "Moore’s Conjecture for Polyhedral Products",
+        "url": "https://arxiv.org/abs/1701.07720"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.open.04",
+    "subject": "math.AT",
+    "name": "Hilali conjecture",
+    "statement": "For a simply connected rationally elliptic finite CW complex X, is the total dimension of π_*(X) tensor Q at most the total dimension of H^*(X; Q)?",
+    "importance": "It proposes a basic quantitative link between rational homotopy and cohomology.",
+    "status": "open",
+    "status_note": "Rationally elliptic means both total rational homotopy and total rational cohomology are finite-dimensional; many restricted classes are known.",
+    "references": [
+      {
+        "title": "Hilali conjecture and complex algebraic varieties",
+        "url": "https://arxiv.org/abs/2407.06548"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.open.05",
+    "subject": "math.AT",
+    "name": "Halperin’s fibration conjecture",
+    "statement": "If F is a simply connected rationally elliptic finite CW complex with positive Euler characteristic, must the rational Serre spectral sequence of every fibration F → E → B with simply connected base collapse at E_2?",
+    "importance": "It would rigidly control the cohomology of fibrations with positively elliptic fibers.",
+    "status": "open",
+    "status_note": "The positive Euler characteristic and rational ellipticity hypotheses are essential; the general case remains open.",
+    "references": [
+      {
+        "title": "Halperin’s conjecture in formal dimensions up to 20",
+        "url": "https://arxiv.org/abs/2104.04086"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.open.06",
+    "subject": "math.AT",
+    "name": "Toral rank conjecture",
+    "statement": "If the r-dimensional torus acts almost freely on a finite CW complex X, must the sum of the rational Betti numbers of X be at least 2^r?",
+    "importance": "It connects the size of a continuous symmetry group to the minimum topology of the space it acts on.",
+    "status": "open",
+    "status_note": "Almost free means all stabilizers are finite; numerous special cases are proved but the general topological assertion is open.",
+    "references": [
+      {
+        "title": "The Toral Rank Conjecture and variants of equivariant formality",
+        "url": "https://arxiv.org/abs/1910.04746"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.open.07",
+    "subject": "math.AT",
+    "name": "Carlsson’s free-action rank conjecture",
+    "statement": "If (Z/pZ)^r acts freely and cellularly on a finite CW complex X, must the sum of the dimensions of H^i(X; F_p) be at least 2^r?",
+    "importance": "It is a central obstruction to free finite-group actions on small complexes.",
+    "status": "open",
+    "status_note": "This is the topological free-action conjecture; counterexamples to some purely algebraic rank analogues do not resolve this formulation.",
+    "references": [
+      {
+        "title": "Small Cover and Halperin-Carlsson Conjecture",
+        "url": "https://arxiv.org/abs/1003.5740"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.open.08",
+    "subject": "math.AT",
+    "name": "Whitehead’s asphericity conjecture",
+    "statement": "Is every connected subcomplex of an aspherical two-dimensional CW complex itself aspherical?",
+    "importance": "It would strongly constrain how higher homotopy can arise inside low-dimensional complexes.",
+    "status": "open",
+    "status_note": "Aspherical means all homotopy groups in degrees at least two vanish; special classes of two-complexes are understood.",
+    "references": [
+      {
+        "title": "Whitehead conjecture",
+        "url": "https://en.wikipedia.org/wiki/Whitehead_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.open.09",
+    "subject": "math.AT",
+    "name": "Novikov conjecture",
+    "statement": "Are the rational higher signatures of every closed oriented smooth manifold invariant under orientation-preserving homotopy equivalences, when defined using its classifying map to the classifying space of its fundamental group?",
+    "importance": "It connects characteristic classes, manifold topology, and large-scale properties of groups.",
+    "status": "open",
+    "status_note": "The conjecture is known for many classes of groups, but remains unresolved for arbitrary fundamental groups.",
+    "references": [
+      {
+        "title": "Novikov conjecture",
+        "url": "https://en.wikipedia.org/wiki/Novikov_conjecture"
+      }
+    ]
+  },
+  {
+    "id": "math.AT.open.10",
+    "subject": "math.AT",
+    "name": "Curtis conjecture",
+    "statement": "Is the positive-degree image of the mod-2 stable Hurewicz homomorphism π_*^s to H_*(Q_0S^0; F_2) generated only by the images of Hopf-invariant-one and Kervaire-invariant-one elements?",
+    "importance": "It predicts exactly which stable homotopy classes can be detected in the homology of the infinite loop space of the sphere.",
+    "status": "open",
+    "status_note": "The existence problem for the dimension-126 Kervaire class has been resolved; that result does not settle this Hurewicz-image conjecture.",
+    "references": [
+      {
+        "title": "The weak conjecture on spherical classes",
+        "url": "https://doi.org/10.1007/PL00004750"
+      }
+    ]
+  }
+]
